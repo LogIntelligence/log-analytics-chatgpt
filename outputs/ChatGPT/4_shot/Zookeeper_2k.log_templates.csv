@@ -1,0 +1,69 @@
+,EventTemplate,Occurrences
+0,Notification time out: {timeout},37
+1,Received connection request {ip_address},299
+2,Send worker leaving thread,262
+3,Interrupted while waiting for message on queue,314
+4,"Connection broken for id {id}, my id = {my_id}, error =",45
+5,"Connection broken for id {id}, my id = {my_id}, error = {error}",246
+6,Interrupting SendWorker,266
+7,Closed socket connection for client {ip_address} which had sessionid {session_id},37
+8,caught end of stream exception,37
+9,Client attempting to renew session {session_id} at {ip_address},2
+10,Client attempting to establish new session at {ip_address}:{port},38
+11,Established session {session_id} with negotiated timeout {timeout} for client {ip_address},31
+12,Accepted socket connection from {ip_address},16
+13,Accepted socket connection from {ip_address}:{port},32
+14,Unexpected Exception:,1
+15,Established session {session_id} with negotiated timeout {timeout} for client {client_address},19
+16,Client attempting to establish new session at {ip_address},3
+17,Closed socket connection for client {client_address} which had sessionid {session_id},7
+18,Connection request from old client {client_address}; will be dropped if server is in r-o mode,1
+19,Connection request from old client {ip_address}; will be dropped if server is in r-o mode,38
+20,Server environment:user.dir={directory},1
+21,Cannot open channel to {channel} at election address {ip_address},86
+22,Processed session termination for sessionid: {session_id},47
+23,"Expiring session {session_id}, timeout of {timeout}ms exceeded",40
+24,******* GOODBYE {ip_address}:{port} ********,18
+25,LOOKING,4
+26,My election bind port: {ip_address}:{port},1
+27,"Have smaller server identifier, so dropping the connection: {connection_info}",1
+28,FOLLOWING,2
+29,"New election. My id = {id}, proposed zxid={zxid}",1
+30,Server environment:host.name={hostname},1
+31,FOLLOWING - LEADER ELECTION TOOK - {time},1
+32,"Notification: {leader} (n.leader), {zxid} (n.zxid), {round} (n.round), {state} (n.state), {sid} (n.sid), {peerEPoch} (n.peerEPoch), {my_state} (my state)",3
+33,FOLLOWING - LEADER ELECTION TOOK - {time_taken},1
+34,autopurge.snapRetainCount set to {count},1
+35,Server environment:java.vendor={vendor},2
+36,Revalidating client: 0x14f05578bd80018,1
+37,Client attempting to renew session {session_id} at {ip_address}:{port},1
+38,"Server environment:zookeeper.version={version}, built on {date}",1
+39,Server environment:user.name={username},2
+40,Revalidating client: 0x14f05578bd80013,1
+41,Server environment:os.name={os_name},2
+42,Closed socket connection for client {ip_address} (no session established for client),4
+43,Exception causing close of session {session_id} due to {exception},3
+44,"Notification: {leader} (n.leader), {zxid} (n.zxid), {round} (n.round), {state} (n.state), {sid} (n.sid), {peer_epoch} (n.peerEPoch), {my_state} (my state)",3
+45,tickTime set to {tick_time},1
+46,Unexpected exception causing shutdown while sock still open,12
+47,******* GOODBYE {ip_address} ********,1
+48,Got user-level KeeperException when processing sessionid:{session_id} type:{type} cxid:{cxid} zxid:{zxid} txntype:{txntype} reqpath:{reqpath} Error Path:{error_path} Error:KeeperErrorCode = {error_code} for {node_path},1
+49,"Notification: {leader} (n.leader), {zxid} (n.zxid), {round} (n.round), {state} (n.state), {sid} (n.sid), {peerEpoch} (n.peerEPoch), {myState} (my state)",4
+50,Starting quorum peer,1
+51,Snapshotting: {id} to {path},1
+52,autopurge.purgeInterval set to {interval},3
+53,Snapshotting: {snapshot_id} to {snapshot_path},1
+54,Follower sid: {sid} : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@{server},1
+55,Revalidating client: 0x{client_id},1
+56,maxSessionTimeout set to {-1},1
+57,Server environment:java.class.path={classpath},1
+58,Have quorum of supporters; starting up and setting last processed zxid: 0x{zxid},1
+59,shutdown of request processor complete,1
+60,First is 0x0,1
+61,"Notification: {notification_number} (n.leader), {zxid} (n.zxid), {round_number} (n.round), {state} (n.state), {sid} (n.sid), {peer_epoch} (n.peerEPoch), {my_state} (my state)",1
+62,"Notification: {notification} (n.leader), {zxid} (n.zxid), {round} (n.round), {state} (n.state), {sid} (n.sid), {peer_epoch} (n.peerEPoch), {my_state} (my state)",1
+63,Reading snapshot {snapshot_path},1
+64,Sending DIFF,1
+65,Getting a snapshot from leader,2
+66,minSessionTimeout set to {timeout},2
+67,Server environment:java.home={java_home},1

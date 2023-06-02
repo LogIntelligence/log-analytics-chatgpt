@@ -1,0 +1,111 @@
+,EventTemplate,Occurrences
+0,connection from <*> () at <*>,617
+1,authentication failure; logname= <*> uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*> user=<*>,372
+2,connection from <*> (<*>) at <*>,292
+3,session closed for user <*>,123
+4,session opened for user <*> by (uid=<*>),122
+5,authentication failure; logname= <*> uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*>,118
+6,check pass; user <*>,117
+7,ALERT exited abnormally with [<*>],43
+8,Authentication failed from <*> (<*>): <*>,23
+9,Kerberos authentication failed,22
+10,notify <*> contains no <*>,16
+11,<*> startup succeeded,12
+12,<*>.,7
+13,<*> shutdown succeeded,6
+14,removing device node '<*>',4
+15,creating device node '<*>',4
+16,getpeername (<*>): <*>,4
+17,BIOS-e820: <*> - <*> (reserved),3
+18,"ANONYMOUS FTP LOGIN FROM <*>, (<*>)",2
+19,warning: can't get client address: <*>,2
+20,BIOS-e820: <*> - <*> (usable),2
+21,User <*> timed out after <*> seconds at <*>,1
+22,Received SNMP packet(s) from <*>,1
+23,<*> authentication failed,1
+24,*** info [<*>(<*>)]:,1
+25,imps2: Auto-detected intellimouse PS/2,1
+26,session opened for user <*> by LOGIN(uid=<*>),1
+27,<*> LOGIN ON <*>,1
+28,Couldn't authenticate user,1
+29,"klogd <*>, log source = <*> started.",1
+30,Linux version <*> (<*>@<*>) (gcc version <*>) #<*> <*>,1
+31,BIOS-provided physical RAM map:,1
+32,<*> HIGHMEM available.,1
+33,<*> LOWMEM available.,1
+34,zapping <*> mappings.,1
+35,On node <*> totalpages: <*>,1
+36,"DMA zone: <*> pages, LIFO batch:<*>",1
+37,"Normal zone: <*> pages, LIFO batch:<*>",1
+38,"HighMem zone: <*> pages, LIFO batch:<*>",1
+39,DMI <*> present.,1
+40,ACPI disabled because your bios is from <*> and too old,1
+41,You can enable it with <*>,1
+42,Built <*> zonelists,1
+43,Kernel command line: <*> <*>=<*> rhgb quiet,1
+44,mapped <*>/<*> trampoline to <*>.,1
+45,Initializing CPU#<*>,1
+46,"CPU <*> irqstacks, hard=<*> soft=<*>",1
+47,PID hash table entries: <*> (order <*>: <*> bytes),1
+48,Detected <*> MHz processor.,1
+49,Version <*> Starting,1
+50,Using <*> for <*>,1
+51,rpc.statd <*> succeeded,1
+52,Console: colour <*>+ <*>,1
+53,"Memory: <*> available (<*> kernel code, <*> reserved, <*> data, <*> init, <*> highmem)",1
+54,Calibrating delay loop... <*> BogoMIPS,1
+55,Security Scaffold <*> initialized,1
+56,SELinux: <*>.,1
+57,SELinux: Starting in <*> mode,1
+58,"There is already a <*> initialized, <*> failed.",1
+59,Failure registering capabilities with the <*>,1
+60,selinux_register_security: Registering <*> module capability,1
+61,Capability <*> initialized,1
+62,rpc.idmapd <*> succeeded,1
+63,"Dentry cache hash table entries: <*> (order: <*>, <*> bytes)",1
+64,"Inode-cache hash table entries: <*> (order: <*>, <*> bytes)",1
+65,"Mount-cache hash table entries: <*> (order: <*>, <*> bytes)",1
+66,"CPU: L1 I cache: <*>, L1 D cache: <*>",1
+67,CPU: L2 cache: <*>,1
+68,Intel machine check architecture supported.,1
+69,Intel machine check reporting enabled on CPU#<*>,1
+70,CPU: <*> <*> (stepping <*>),1
+71,Enabling fast FPU save and restore... <*>.,1
+72,Enabling unmasked SIMD FPU exception support... <*>.,1
+73,Checking '<*>' instruction... <*>.,1
+74,Initializing random number generator: <*>,1
+75,<*> conformance testing by <*>,1
+76,NET: Registered protocol family <*>,1
+77,"PCI: PCI BIOS revision <*> entry at <*>, last bus=<*>",1
+78,PCI: Using configuration type <*>,1
+79,mtrr: <*> (<*>),1
+80,ACPI: Subsystem revision <*>,1
+81,ACPI: Interpreter <*>.,1
+82,Linux Plug and Play Support <*> (c) <*>,1
+83,Starting <*>: <*>,1
+84,usbcore: registered new driver usbfs,1
+85,usbcore: registered new driver hub,1
+86,ACPI: <*> tables contain no <*> IRQ routing entries,1
+87,PCI: Invalid ACPI-PCI IRQ routing table,1
+88,PCI: Probing <*> hardware,1
+89,PCI: Probing PCI hardware (bus <*>),1
+90,Transparent bridge - <*>,1
+91,PCI: Using IRQ router <*> [<*>/<*>] at <*>,1
+92,apm: BIOS version <*> Flags <*> (Driver version <*>),1
+93,audit: initializing netlink socket (<*>),1
+94,kernel.core_uses_pid = <*>,1
+95,HCI daemon ver <*> started,1
+96,audit(<*>): initialized,1
+97,Setting network parameters: <*>,1
+98,sdpd <*> started,1
+99,"Total HugeTLB memory allocated, <*>",1
+100,Bringing up <*> interface: <*>,1
+101,VFS: Disk quotas <*>,1
+102,"Dquot-cache hash table entries: <*> (order <*>, <*> bytes)",1
+103,SELinux: Registering <*> hooks,1
+104,Initializing <*>,1
+105,pci_hotplug: PCI Hot Plug <*>: <*>,1
+106,isapnp: Scanning for PnP cards...,1
+107,isapnp: <*>,1
+108,Real Time Clock Driver <*>,1
+109,Linux <*> interface <*> (c) <*>,1

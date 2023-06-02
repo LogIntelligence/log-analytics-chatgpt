@@ -1,0 +1,33 @@
+,EventTemplate,Occurrences
+0,{host} open through proxy {proxy_server} HTTPS,821
+1,"{host} close, {sent_size} bytes sent, {received_size} bytes received, lifetime {lifetime}",294
+2,"{host} close, {sent_size} sent, {received_size} received, lifetime {lifetime}",635
+3,{ip_address} open through proxy {host} SOCKS5,2
+4,{host} error : A connection request was canceled before the completion.,31
+5,{host} error : Could not connect through proxy {proxy_server} - Proxy closed the connection unexpectedly.,2
+6,"{host} close, {sent_size} bytes sent, {received_size} received, lifetime {lifetime}",5
+7,"{ip_address}:{port} close, {sent_size} sent, {received_size} received, lifetime {lifetime}",3
+8,{ip_address}:{port} open through proxy {proxy_server} {protocol},8
+9,{host}:{port} open through proxy {proxy_server} {protocol},113
+10,"{host} error : Could not connect through proxy {proxy_server} - Proxy server cannot establish a connection with the target, status code {code}",14
+11,"{ip_address}:{port} close, {sent_size} bytes sent, {received_size} bytes received, lifetime {lifetime}",3
+12,"{ip_address}:443 close, {sent_size} bytes sent, {received_size} bytes received, lifetime {lifetime}",1
+13,{ip_address}:{port} error : Could not connect through proxy {proxy_server} - Proxy closed the connection unexpectedly.,1
+14,"{ip_address}:{port} error : Could not connect through proxy {proxy_server} - Proxy server cannot establish a connection with the target, status code {code}",3
+15,"{host} close, {sent_size} bytes sent, {received_size} bytes ({received_size_kb} KB) received, lifetime {lifetime}",3
+16,"{host}:443 close, {sent_size} sent, {received_size} received, lifetime {lifetime}",3
+17,github.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,3
+18,live.github.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,2
+19,www.ieeeconfpublishing.org:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,1
+20,{ip_address}:{port} error : Could not connect to proxy {proxy_server} - Could not resolve {proxy_server} error {error_code},4
+21,{host} error : Could not connect to proxy {proxy_server} - Could not resolve {proxy_server} error {code},12
+22,{host}:80 error : Could not connect to proxy {proxy_server} - Could not resolve {proxy_server} error {code},1
+23,{host} error : Could not connect to proxy {proxy_server} - Could not resolve {proxy_server} error {error_code},1
+24,{host}:{port} error : Could not connect to proxy {proxy_server} - Could not resolve {proxy_server} error {error_code},2
+25,protocol,1
+26,clientservices.googleapis.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,2
+27,{host} error : Could not connect to proxy {proxy_server} - connection attempt failed with error {error_code},16
+28,{host}:{port} error : Could not connect to proxy {proxy_server} - connection attempt failed with error {error_code},10
+29,www.youtube.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,1
+30,f-log-extension.grammarly.io:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,1
+31,drive.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS,1

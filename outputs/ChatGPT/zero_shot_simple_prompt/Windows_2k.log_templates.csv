@@ -1,0 +1,174 @@
+,EventTemplate,Occurrences,Type
+0,Session: {session_id} initialized by client {client_name}.,609,True
+1,"Read out cached package applicability for package: {PackageID}, ApplicableState: {ApplicableState}, CurrentState:{CurrentState}",363,True
+2,Warning: {message},276,True
+3,Failed to get next element [HRESULT = {HRESULT}],224,True
+4,Expecting attribute name [HRESULT = <HRESULT_CODE> - CBS_E_MANIFEST_INVALID_ITEM],147,True
+5,Expecting attribute name [HRESULT = {HRESULT}],75,True
+6,"Read out cached package applicability for package: Package_for_KB{KBNumber}~{Architecture}~~{Version}, ApplicableState: {ApplicableState}, CurrentState:{CurrentState}",22,True
+7,Failed to internally open package. [HRESULT = {HRESULT}],18,True
+8,"Read out cached package applicability for package: {Package Name}~{Package Architecture}~~{Package Version}, ApplicableState: {Applicable State}, CurrentState:{Current State}",8,True
+9,"Read out cached package applicability for package: Package_for_KB{PackageID}~{Architecture}~~{Version}, ApplicableState: {ApplicableState}, CurrentState:{CurrentState}",6,True
+10,"Read out cached package applicability for package: {Package Name}, ApplicableState: {Applicable State}, CurrentState: {Current State}",6,True
+12,"Loading offline registry hive: {0}, into registry key '{1}' from path '{2}'.",4,True
+11,{Log level}: {Log message},4,True
+13,<timestamp> <log level> <function name> (<dll name> version <version number>) called (stack <stack trace>),3,True
+14,{Action} processing thread terminated {Status},3,True
+15,CSI perf trace:,3,True
+16,"Creating NT transaction (seq %d), objectname [%d]""%s""",3,True
+68,"Read out cached package applicability for package: Package_for_KB2864202~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+75,Loaded Servicing Stack v{version} with Core: {core_path},2,True
+74,"Read out cached package applicability for package: Package_for_KB947821~31bf3856ad364e35~amd64~~6.1.34.0, ApplicableState: {ApplicableState}, CurrentState:{CurrentState}",2,True
+73,"Read out cached package applicability for package: Package_for_KB2690533~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+72,"Read out cached package applicability for package: Package_for_KB2843630~31bf3856ad364e35~amd64~~6.1.3.1, ApplicableState: {}, CurrentState:{}",2,True
+71,"Read out cached package applicability for package: Package_for_KB2809900~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+70,"Read out cached package applicability for package: Package_for_KB3020393~31bf3856ad364e35~amd64~~6.1.1.2, ApplicableState: {ApplicableState}, CurrentState:{CurrentState}",2,True
+69,"Read out cached package applicability for package: Package_for_KB2972211~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+60,"Read out cached package applicability for package: Package_for_KB{KB number}~{architecture}~~{version}, ApplicableState: {applicable state}, CurrentState:{current state}",2,True
+67,"Read out cached package applicability for package: Package_for_KB3135983~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+66,"Read out cached package applicability for package: Package_for_KB3139940~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: %d, CurrentState:%d",2,True
+65,"Read out cached package applicability for package: Package_for_KB2570947~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+64,"Read out cached package applicability for package: Package_for_KB2601626~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+63,"Read out cached package applicability for package: Package_for_KB2512715~31bf3856ad364e35~amd64~~6.1.1.1, ApplicableState: {}, CurrentState:{}",2,True
+62,"Read out cached package applicability for package: Package_for_KB3021917~31bf3856ad364e35~amd64~~6.1.1.3, ApplicableState: {}, CurrentState:{}",2,True
+61,"Read out cached package applicability for package: Package_for_KB3013531~31bf3856ad364e35~amd64~~6.1.2.0, ApplicableState: {}, CurrentState:{}",2,True
+77,"Read out cached package applicability for package: Package_for_KB2818604~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {ApplicableState}, CurrentState:{CurrentState}",2,True
+59,"Read out cached package applicability for package: Package_for_KB2772930~31bf3856ad364e35~amd64~~6.1.1.1, ApplicableState: {}, CurrentState:{}",2,True
+76,"Read out cached package applicability for package: Package_for_KB3076949~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+85,"Read out cached package applicability for package: Package_for_KB2632503~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+78,"Read out cached package applicability for package: Package_for_KB2813430~31bf3856ad364e35~amd64~~6.1.1.4, ApplicableState: {}, CurrentState:{}",2,True
+89,{ID}@{DATE} {MESSAGE} - {STATUS},2,True
+96,"Read out cached package applicability for package: Package_for_KB982018~31bf3856ad364e35~amd64~~6.1.3.2, ApplicableState: {}, CurrentState:{}",2,True
+95,Failed to create backup log cab. [HRESULT = <HRESULT_CODE> - <ERROR_DESCRIPTION>],2,True
+94,"Read out cached package applicability for package: Package_for_KB2928120~31bf3856ad364e35~amd64~~6.1.1.2, ApplicableState: {}, CurrentState:{}",2,True
+93,"Read out cached package applicability for package: Package_for_KB2835174~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+92,Unloading offline registry hive: {GUID}GLOBALROOT/Device/HarddiskVolumeShadowCopy{number}/Windows/System32/config/{registry key},2,True
+91,"Read out cached package applicability for package: Package_for_KB2799926~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+90,"Read out cached package applicability for package: Package_for_KB2973112~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+88,"Read out cached package applicability for package: Package_for_KB2992611~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+79,"Read out cached package applicability for package: Package_for_KB2621440~31bf3856ad364e35~amd64~~6.1.1.5, ApplicableState: {}, CurrentState:{}",2,True
+87,"Read out cached package applicability for package: Package_for_KB2761217~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+86,"Read out cached package applicability for package: Package_for_KB3033889~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+57,"Read out cached package applicability for package: Package_for_KB3184122~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+84,"Read out cached package applicability for package: Package_for_KB2544893~31bf3856ad364e35~amd64~~6.1.1.1, ApplicableState: %d, CurrentState:%d",2,True
+83,"Read out cached package applicability for package: Package_for_KB3092627~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+82,"Read out cached package applicability for package: Package_for_KB3139914~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+80,"Read out cached package applicability for package: Package_for_KB2937610~31bf3856ad364e35~amd64~~6.1.1.3, ApplicableState: {}, CurrentState:{}",2,True
+58,"Read out cached package applicability for package: Package_for_KB2621146~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+81,"Read out cached package applicability for package: Package_for_KB2853587~31bf3856ad364e35~amd64~~6.1.1.2, ApplicableState: {}, CurrentState:{}",2,True
+56,SQM: Initializing online with Windows opt-in: {0},2,True
+35,"Read out cached package applicability for package: Package_for_KB3138910~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+33,"SQM: Queued {number} file(s) for upload with pattern: {file_path}, flags: {flags}",2,True
+32,"Read out cached package applicability for package: Package_for_KB3055642~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+31,"Read out cached package applicability for package: Package_for_KB2978742~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+30,"Read out cached package applicability for package: Package_for_KB3185319~31bf3856ad364e35~amd64~~11.2.1.0, ApplicableState: {}, CurrentState:{}",2,True
+29,"Read out cached package applicability for package: Package_for_KB3127220~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+28,Expecting attribute name [HRESULT = %HRESULT%],2,True
+27,{Service} service starts successfully.,2,True
+26,"Read out cached package applicability for package: Package_for_KB3092601~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+25,{LogType}: {Message},2,True
+24,"No startup processing required, TrustedInstaller service was not set as autostart, or else a reboot is still pending.",2,True
+23,"Read out cached package applicability for package: Package_for_KB2607047~31bf3856ad364e35~amd64~~6.1.1.1, ApplicableState: {}, CurrentState:{}",2,True
+22,SQM: Warning: Failed to upload all unsent reports. [HRESULT = %HRESULT%],2,True
+21,SQM: Failed to start standard sample upload. [HRESULT = %HRESULT%],2,True
+19,"Created NT transaction (seq %d) result %s, handle @%s",2,True
+18,"Read out cached package applicability for package: Package_for_KB2809215~31bf3856ad364e35~amd64~~6.1.1.1, ApplicableState: {ApplicableState}, CurrentState:{CurrentState}",2,True
+17,<timestamp> <log_level> <function_name> (<additional_info>),2,True
+55,SQM: Requesting upload of all unsent reports.,2,True
+34,SQM: Cleaning up report files older than 10 days.,2,True
+20,"SQM: Failed to start upload with file pattern: %s, flags: %s [HRESULT = %s]",2,True
+36,"Read out cached package applicability for package: Package_for_KB3093513~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+46,"Read out cached package applicability for package: Package_for_KB3059317~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+54,"Read out cached package applicability for package: Package_for_KB2563227~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+37,"Read out cached package applicability for package: Package_for_KB3108670~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+53,"Read out cached package applicability for package: Package_for_KB{PackageID}~, ApplicableState: {ApplicableState}, CurrentState:{CurrentState}",2,True
+51,"Read out cached package applicability for package: Package_for_KB2991963~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+50,"NonStart: {status}, {reason}.",2,True
+49,"Read out cached package applicability for package: Package_for_KB2840631~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+48,Starting the TrustedInstaller main loop.,2,True
+47,"Read out cached package applicability for package: Package_for_KB2479943~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+52,"Read out cached package applicability for package: Package_for_KB2574819~31bf3856ad364e35~amd64~~6.1.2.0, ApplicableState: {}, CurrentState:{}",2,True
+45,"Read out cached package applicability for package: Package_for_KB3184471~31bf3856ad364e35~amd64~~6.1.1.1, ApplicableState: {}, CurrentState:{}",2,True
+39,"Read out cached package applicability for package: Package_for_KB2620704~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+43,"Read out cached package applicability for package: Package_for_KB2547666~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+42,"Read out cached package applicability for package: Package_for_KB3075220~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+38,"Read out cached package applicability for package: {Package Name}, ApplicableState: {Applicable State}, CurrentState:{Current State}",2,True
+41,"Read out cached package applicability for package: Package_for_KB2716513~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+40,"Read out cached package applicability for package: Package_for_KB3146963~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+44,"Read out cached package applicability for package: Package_for_KB3078667~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",2,True
+144,"Read out cached package applicability for package: Package_for_KB3011780~31bf3856ad364e35~amd64~~6.1.1.5, ApplicableState: {}, CurrentState:{}",1,True
+143,Unloading offline registry hive: {GUID}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SYSTEM,1,True
+142,Unloading offline registry hive: {GUID}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/system32/smi/store/Machine/schema.dat,1,True
+141,Unloading offline registry hive: {GUID}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Users/default/ntuser.dat,1,True
+140,Unloading offline registry hive: {<registry_hive_id>}<registry_hive_path>,1,True
+139,Unloading offline registry hive: {GUID}GLOBALROOT/Device/HarddiskVolumeShadowCopy{number}/Windows/System32/config/SECURITY,1,True
+136,{Action} {Description}.,1,True
+138,Unloading offline registry hive: {GUID}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/DEFAULT,1,True
+137,{timestamp} {module} {message},1,True
+135,"Read out cached package applicability for package: Package_for_KB3138901~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",1,True
+134,"Read out cached package applicability for package: Package_for_KB3142024~31bf3856ad364e35~amd64~~6.1.1.1, ApplicableState: {}, CurrentState:{}",1,True
+133,"Disabling manifest caching, because the image is not writeable.",1,True
+146,Scavenge: Begin CSI Store,1,True
+132,Offline image is: {status},1,True
+145,CSI Store {store_id} ({store_address}) initialized,1,True
+155,"Read out cached package applicability for package: Package_for_KB2604115~31bf3856ad364e35~amd64~~6.1.1.3, ApplicableState: {}, CurrentState:{}",1,True
+147,"Read out cached package applicability for package: Package_for_KB3156017~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",1,True
+148,"Read out cached package applicability for package: Package_for_KB2871997~31bf3856ad364e35~amd64~~6.1.2.5, ApplicableState: {}, CurrentState:{}",1,True
+149,"Read out cached package applicability for package: Package_for_KB2919469~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",1,True
+150,"Read out cached package applicability for package: Package_for_KB2929733~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",1,True
+151,"Read out cached package applicability for package: Package_for_KB2800095~31bf3856ad364e35~amd64~~6.1.2.0, ApplicableState: {}, CurrentState:{}",1,True
+152,"Read out cached package applicability for package: Package_for_KB3037574~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",1,True
+153,"Read out cached package applicability for package: Package_for_KB3110329~31bf3856ad364e35~amd64~~6.1.1.1, ApplicableState: {}, CurrentState:{}",1,True
+154,"Read out cached package applicability for package: Package_for_KB3122648~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",1,True
+156,"Read out cached package applicability for package: Package_for_KB3035017~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",1,True
+157,"Read out cached package applicability for package: Package_for_KB3123479~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",1,True
+158,"Read out cached package applicability for package: Package_for_KB3161949~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",1,True
+159,"Read out cached package applicability for package: Package_for_KB3185911~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",1,True
+160,"Loading offline registry hive: {file_name}, into registry key '{registry_key}' from path '{file_path}'.",1,True
+161,"Loading offline registry hive: {hive_name}, into registry key '{registry_key}' from path '{path}'.",1,True
+130,Reboot mark refs incremented to: {},1,True
+131,"Read out cached package applicability for package: Package_for_KB2685813~31bf3856ad364e35~amd64~~6.1.1.11, ApplicableState: {}, CurrentState:{}",1,True
+110,"Read out cached package applicability for package: Package_for_KB2931356~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",1,True
+129,"Read out cached package applicability for package: Package_for_KB3109094~31bf3856ad364e35~amd64~~6.1.1.1, ApplicableState: {}, CurrentState:{}",1,True
+112,"{Action} {Description}. 
+
+In this case, the log template would be: {Action} {Description}. And the log message would be: Ending TrustedInstaller finalization.",1,True
+97,"Read out cached package applicability for package: Package_for_KB2823180~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",1,True
+98,"Read out cached package applicability for package: Package_for_RollupFix~31bf3856ad364e35~amd64~~7601.23545.1.4, ApplicableState: {ApplicableState}, CurrentState:{CurrentState}",1,True
+99,"Read out cached package applicability for package: Package_for_KB3138378~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",1,True
+100,"Read out cached package applicability for package: Package_for_KB3054476~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",1,True
+101,"Read out cached package applicability for package: Package_for_KB3060716~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",1,True
+102,"Loading offline registry hive: %s, into registry key '%s' from path '%s'.",1,True
+103,"Read out cached package applicability for package: Package_for_KB3019978~31bf3856ad364e35~amd64~~6.1.1.2, ApplicableState: {ApplicableState}, CurrentState:{CurrentState}",1,True
+104,2021-10-01 10:30:00 CSI Store initialized,1,True
+105,"Read out cached package applicability for package: Package_for_KB3177186~31bf3856ad364e35~amd64~~6.1.1.1, ApplicableState: {}, CurrentState:{}",1,True
+106,"Read out cached package applicability for package: Package_for_KB3109103~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",1,True
+107,"Read out cached package applicability for package: Package_for_KB3046269~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",1,True
+108,"Read out cached package applicability for package: Package_for_KB2972100~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",1,True
+109,Performing {number} operations; {number} are not lock/unlock and follow:,1,True
+111,"CSI Transaction @0x47e9e0 initialized for deployment engine {d16d444c-56d8-11d5-882d-0080c847b195} with flags 00000002 and client id [10]""TI6.0_0:0/""",1,True
+113,Scavenge: {},1,True
+128,Starting TrustedInstaller finalization.,1,True
+114,"Store coherency cookie matches last scavenge cookie, skipping scavenge.",1,True
+115,{timestamp} {class}::{method} calling {interface}::{action} - coldpatching={coldpatching} applyflags={applyflags},1,True
+116,"Created NT transaction (seq {seq}) result {result}, handle @{handle}",1,True
+117,"Scavenge: Completed, disposition: {}",1,True
+118,<sequence number>@<date/time>: CSI Transaction @<memory address> destroyed,1,True
+119,Reboot mark refs: {},1,True
+120,N/A (This is a standalone log message and does not contain a template),1,True
+121,Starting TrustedInstaller initialization.,1,True
+122,{timestamp} {log_level} {function_name} ({dll_name} version {dll_version}) called (stack {stack_trace}),1,True
+123,{timestamp} {log_level} {function_name} ({file_name} version {version_number}) called (stack {stack_trace}),1,True
+124,<timestamp> <function_name> (<dll_name> version <version_number>) called (stack @<memory_address> ...),1,True
+125,"{Action} {Description}. 
+
+In this case, the log template would be:
+
+{Action} {Description}. 
+
+And the log message would be an instance of this template:
+
+Ending TrustedInstaller initialization.",1,True
+126,"Read out cached package applicability for package: Package_for_KB3108664~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",1,True
+127,"Loading offline registry hive: schema.dat, into registry key '{key}' from path '{path}'.",1,True
+162,"Read out cached package applicability for package: Package_for_KB2552343~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: {}, CurrentState:{}",1,True

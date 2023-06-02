@@ -1,0 +1,81 @@
+,EventTemplate,Occurrences,Type
+0,Received disconnect from %s: %s: %s [preauth],358,True
+1,Failed password for %user% from %ip% port %port% %protocol%,202,True
+2,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost= [IP_ADDRESS]  user=[USERNAME],197,True
+3,Failed password for {user} from {ip} port {port} {protocol},152,True
+4,pam_unix(sshd:auth): check pass; user unknown,135,True
+5,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=<>  user=<>,135,True
+6,input_userauth_request: invalid user {} [preauth],112,True
+7,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=,110,True
+8,reverse mapping checking getaddrinfo for {} [{}] failed - POSSIBLE BREAK-IN ATTEMPT!,83,True
+9,Invalid user {} from {},66,True
+10,Failed password for invalid user {username} from {ip_address} port {port} {protocol},60,True
+11,Invalid user {username} from {ip_address},41,True
+12,Received disconnect from %h: %d: %s [preauth],40,True
+13,Failed password for invalid user %s from %s port %d ssh2,37,True
+14,error: Received disconnect from {IP}: {error_code}: {error_message}. [{auth_type}],27,True
+15,error: Received disconnect from {IP}: {code}: {message}. [{auth}],18,True
+16,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost= [IP_ADDRESS]  user=root,17,True
+17,Failed password for invalid user %s from %s port %d %s,16,True
+18,Received disconnect from %h: %e [preauth],15,True
+19,Connection closed by [IP address] [preauth],14,True
+20,Did not receive identification string from {IP address},10,True
+21,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost= <*> user=root,9,True
+22,Failed password for invalid user {username} from {ip_address} port {port} ssh2,9,True
+26,Connection closed by %IP% [%AUTH%],7,True
+27,Failed password for invalid user {} from {} port {} ssh2,7,True
+23,PAM service({}) ignoring max retries; {} > {},7,True
+25,Failed password for <user> from <ip_address> port <port_number> <protocol>,7,True
+24,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=123.235.32.19  user=root,7,True
+28,Failed password for <user> from <ip> port <port> <protocol>,6,True
+29,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=<>  user=root,6,True
+30,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost= {}  user=root,5,True
+31,PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=,4,True
+32,Connection closed by {}.,4,True
+33,Failed password for <user> from <ip_address> port <port> <protocol>,4,True
+34,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=<IP_ADDRESS>  user=<USERNAME>,4,True
+35,Failed password for <username> from <IP address> port <port number> ssh2,4,True
+38,Disconnecting: Too many authentication failures for {user} [{auth_type}],3,True
+36,Connection closed by {} [preauth],3,True
+37,Failed none for invalid user {} from {} port {} ssh2,3,True
+53,reverse mapping checking getaddrinfo for {hostname} [{ip_address}] failed - POSSIBLE BREAK-IN ATTEMPT!,2,True
+47,Invalid user {} from {}.,2,True
+52,Failed password for invalid user {username} from {source_ip} port {port} {protocol},2,True
+51,Received disconnect from %IP%: %INT%: Closed due to user request. [%DATA%],2,True
+50,PAM {number} more authentication failures; logname= uid={uid} euid={euid} tty={tty} ruser={ruser} rhost={rhost},2,True
+49,Connection closed by %IP% [%DATA%],2,True
+48,Failed password for ftp from %s port %d ssh2,2,True
+40,Connection closed by {}. [{}],2,True
+46,Invalid user {user} from {ip_address},2,True
+44,PAM {number} more authentication failures; logname= uid={uid} euid={euid} tty={tty} ruser={ruser} rhost={rhost} user={user},2,True
+43,Received disconnect from %host%: %code%: %message% [preauth],2,True
+42,Received disconnect from %s: %s: %s,2,True
+41,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost= {IP_ADDRESS}  user={USERNAME},2,True
+39,error: Received disconnect from <IP address>: <error code>: <error message>,2,True
+45,Failed password for invalid user {user} from {ip} port {port} {protocol},2,True
+73,Invalid user boot from {},1,True
+69,pam_unix(sshd:session): session closed for user {},1,True
+70,Failed password for ftp from <IP_ADDRESS> port <PORT> ssh2,1,True
+71,Failed password for invalid user {username} from {ip_address} port {port_number} ssh2,1,True
+72,Accepted password for {user} from {ip} port {port} ssh2,1,True
+76,pam_unix(sshd:session): session opened for user {} by (uid={}),1,True
+74,Connection closed by [IP address] [reason],1,True
+75,{log_level}: {error_message},1,True
+67,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=*.dynamic-dsl-ip.*  user=*,1,True
+77,Failed password for {username} from {ip_address} port {port} {protocol},1,True
+78,Failed password for invalid user <username> from <ip_address> port <port_number> ssh2,1,True
+68,Failed password for <username> from <ip_address> port <port_number> <protocol>,1,True
+63,Failed password for root from %s port %d ssh2,1,True
+66,Received disconnect from {IP}: {code}: {reason},1,True
+65,Failed password for sshd from %s port %d ssh2,1,True
+64,Failed password for <username> from <IP address> port <port number> <protocol>,1,True
+62,Failed none for invalid user {username} from {ip_address} port {port} ssh2,1,True
+61,input_userauth_request: invalid user  %s [preauth],1,True
+60,Invalid user {user_id} from {ip_address},1,True
+59,PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=,1,True
+58,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost= %{IP}  user=%{USERNAME},1,True
+57,Received disconnect from %host%: %code%: %message% [%auth%],1,True
+56,PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=IP_ADDRESS,1,True
+55,Connection closed by {} [{}],1,True
+54,message repeated <number> times: [ Failed password for <user> from <ip> port <port> <protocol>],1,True
+79,Failed password for sshd from %s port %d %s,1,True

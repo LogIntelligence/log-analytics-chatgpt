@@ -1,0 +1,39 @@
+,EventTemplate,Occurrences
+0,Received disconnect from <*>: <*>: Bye Bye [preauth],413
+1,pam_unix(sshd:auth): authentication failure; logname=<*> uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*> user=<*>,380
+2,Failed password for <*> from <*> port <*> <*>,375
+3,pam_unix(sshd:auth): check pass; user <*>,135
+4,Failed password for invalid user <*> from <*> port <*> ssh2,123
+5,input_userauth_request: invalid user <*> [preauth],113
+6,Invalid user <*> from <*>,112
+7,pam_unix(sshd:auth): authentication failure; logname=<*> uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*>,110
+8,reverse mapping checking getaddrinfo for <*> [<*>] failed - POSSIBLE BREAK-IN ATTEMPT!,85
+9,error: Received disconnect from <*>: <*>: <*>. [<*>],44
+10,Connection closed by <*> [preauth],34
+11,Failed password for invalid user <*> from <*> port <*> <*>,12
+12,Did not receive identification string from <*>,10
+13,PAM service(<*>) ignoring max retries; <*> > <*>,7
+14,PAM <*> more authentication failures; logname= <*> uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*>,5
+15,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*> user=<*>,4
+16,Disconnecting: Too many authentication failures for <*> [preauth],3
+17,Failed <*> for <*> user <*> from <*> port <*> <*>,3
+18,Failed password for ftp from <*> port <*> ssh2,3
+19,Received disconnect from <*>: <*>: Closed due to <*>. [preauth],3
+20,Failed password for <*> from <*> port <*> ssh2,3
+21,message repeated <*> times: [ Failed password for <*> from <*> port <*> <*>],2
+22,PAM <*> more authentication failures; logname= <*> uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*> user=<*>,2
+23,error: Received disconnect from <*>: <*>: <*>,2
+24,PAM <*> more authentication failure; logname=<*> uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*>,2
+25,Failed password for sshd from <*> port <*> ssh2,2
+26,Received disconnect from <*>: <*>: Closed due to <*>. [<*>],2
+27,Received disconnect from <*>: <*>: <*>. [preauth],1
+28,Failed none for invalid user <*> from <*> port <*> ssh2,1
+29,PAM <*> more authentication failures; logname=<*> uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*>,1
+30,Received disconnect from <*>: <*>. [<*>],1
+31,error: Received disconnect from <*>: <*>: No more user authentication methods available. [preauth],1
+32,Accepted password for <*> from <*> port <*> ssh2,1
+33,pam_unix(sshd:session): session opened for user <*> by (uid=<*>),1
+34,Received disconnect from <*>: <*>: disconnected by user,1
+35,pam_unix(sshd:session): session closed for user <*>,1
+36,Invalid user boot from <*>,1
+37,fatal: Write failed: <*> [preauth],1

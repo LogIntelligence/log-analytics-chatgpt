@@ -1,0 +1,114 @@
+,EventTemplate,Occurrences
+0,authentication failure; logname= {logname} uid={uid} euid={euid} tty={tty} ruser={ruser} rhost={rhost},118
+1,check pass; user {status},117
+2,authentication failure; logname= {logname} uid={uid} euid={euid} tty={tty} ruser={ruser} rhost={rhost} user={user},372
+3,session opened for user {username} by (uid={uid}),46
+4,session closed for user {username},123
+5,ALERT exited abnormally with [{var}],43
+6,session opened for user {user} by (uid={uid}),76
+7,connection from {IP} ({hostname}) at {date},276
+8,User {username} timed out after {timeout} seconds at {date},1
+9,{} shutdown succeeded,6
+10,{} startup succeeded,12
+11,{}.,7
+12,connection from {IP} () at {date},347
+13,Received SNMP packet(s) from {ip_address},1
+14,connection from {ip_address} () at {date_time},270
+15,Authentication failed from {IP} ({IP}): {reason},23
+16,Kerberos authentication failed,22
+17,{} authentication failed,1
+18,connection from {IP} ({hostname}) at {time},16
+19,*** info [{filename}({line_number})]:,1
+20,imps2: Auto-detected intellimouse PS/2,1
+21,session opened for user {user} by LOGIN(uid={uid}),1
+22,ROOT LOGIN ON {terminal},1
+23,removing device node '{device_node}',4
+24,creating device node '{device_node}',4
+25,Couldn't authenticate user,1
+26,"ANONYMOUS FTP LOGIN FROM {IP_ADDRESS}, ({USERNAME})",2
+27,notify {section} contains no {record_type},16
+28,getpeername ({process}): {message},4
+29,warning: can't get client address: {reason},2
+30,"klogd {version}, log source = {source} started.",1
+31,Linux version {version} ({user}@{host}) (gcc version {gcc_version}) #{number} {date},1
+32,BIOS-provided physical RAM map:,1
+33,BIOS-e820: {start_address} - {end_address} (usable),2
+34,BIOS-e820: {start_address} - {end_address} (reserved),3
+35,{size} HIGHMEM available.,1
+36,{size} LOWMEM available.,1
+37,zapping {adjective} mappings.,1
+38,On node {node_number} totalpages: {total_pages},1
+39,"DMA zone: {int} pages, LIFO batch:{int}",1
+40,"Normal zone: {pages} pages, LIFO batch:{batch}",1
+41,"HighMem zone: {int} pages, LIFO batch:{int}",1
+42,DMI {version} present.,1
+43,ACPI disabled because your bios is from {year} and too old,1
+44,You can enable it with {option},1
+45,Built {number} zonelists,1
+46,Kernel command line: {var1} root={var2} rhgb quiet,1
+47,mapped {size}/{total_size} trampoline to {address}.,1
+48,Initializing CPU#{},1
+49,"CPU {cpu_number} irqstacks, hard={hard_address} soft={soft_address}",1
+50,PID hash table entries: {entries} (order {order}: {bytes} bytes),1
+51,Detected {frequency} MHz processor.,1
+52,Version {version} Starting,1
+53,Using {tool} for {task},1
+54,rpc.statd {action} succeeded,1
+55,Console: colour {color}+ {resolution},1
+56,"Memory: {available} available ({kernel_code} kernel code, {reserved} reserved, {data} data, {init} init, {highmem} highmem)",1
+57,Calibrating delay loop... {bogomips} BogoMIPS,1
+58,Security Scaffold v{version} initialized,1
+59,SELinux: {message}.,1
+60,SELinux: Starting in {mode} mode,1
+61,"There is already a {variable} initialized, {variable} failed.",1
+62,Failure registering capabilities with the {kernel},1
+63,selinux_register_security: Registering {string} module capability,1
+64,Capability {CAPABILITY} initialized,1
+65,rpc.idmapd {process} succeeded,1
+66,"Dentry cache hash table entries: {entries} (order: {order}, {bytes} bytes)",1
+67,"Inode-cache hash table entries: {entries} (order: {order}, {bytes} bytes)",1
+68,"Mount-cache hash table entries: {entries} (order: {order}, {bytes} bytes)",1
+69,"CPU: L1 I cache: {I_cache}, L1 D cache: {D_cache}",1
+70,CPU: L2 cache: {cache_size},1
+71,Intel machine check architecture supported.,1
+72,Intel machine check reporting enabled on CPU#{},1
+73,CPU: {brand} {model} (stepping {step}),1
+74,Enabling fast FPU save and restore... {status}.,1
+75,Enabling unmasked SIMD FPU exception support... {status}.,1
+76,Checking '{instruction}' instruction... {status}.,1
+77,Initializing random number generator: {status},1
+78,{} conformance testing by {},1
+79,NET: Registered protocol family {number},1
+80,"PCI: PCI BIOS revision {revision} entry at {entry}, last bus={bus}",1
+81,PCI: Using configuration type {type},1
+82,mtrr: v{version} ({date}),1
+83,ACPI: Subsystem revision {revision},1
+84,ACPI: Interpreter {status}.,1
+85,Linux Plug and Play Support v{version} (c) {author},1
+86,Starting {service}: {status},1
+87,usbcore: registered new driver usbfs,1
+88,usbcore: registered new driver hub,1
+89,ACPI: {var1} tables contain no {var2} IRQ routing entries,1
+90,PCI: Invalid ACPI-PCI IRQ routing table,1
+91,PCI: Probing {hardware_type} hardware,1
+92,PCI: Probing PCI hardware (bus {bus}),1
+93,Transparent bridge - {device},1
+94,PCI: Using IRQ router {router} [{vendor}/{device}] at {location},1
+95,apm: BIOS version {version} Flags {flags} (Driver version {driver_version}),1
+96,audit: initializing netlink socket ({status}),1
+97,kernel.core_uses_pid = {value},1
+98,HCI daemon ver {version} started,1
+99,audit({timestamp}:{value}): initialized,1
+100,Setting network parameters: {status},1
+101,sdpd v{version} started,1
+102,"Total HugeTLB memory allocated, {number}",1
+103,Bringing up {interface_type} interface: {status},1
+104,VFS: Disk quotas {variable},1
+105,"Dquot-cache hash table entries: {entries} (order {order}, {bytes} bytes)",1
+106,SELinux: Registering {variable} hooks,1
+107,Initializing {API},1
+108,pci_hotplug: PCI Hot Plug {string}: {float},1
+109,isapnp: Scanning for PnP cards...,1
+110,isapnp: {message},1
+111,Real Time Clock Driver v{version},1
+112,Linux {interface} interface v{version} (c) {author},1

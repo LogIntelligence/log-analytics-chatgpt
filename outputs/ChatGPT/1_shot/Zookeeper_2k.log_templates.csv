@@ -1,0 +1,65 @@
+,EventTemplate,Occurrences
+0,Notification time out: {timeout},37
+1,Received connection request /{ip}:{port},299
+2,Send worker leaving thread,262
+3,Interrupted while waiting for message on queue,314
+4,"Connection broken for id {id}, my id = {my_id}, error =",289
+5,Interrupting SendWorker,266
+6,Closed socket connection for client /{ip_address}:{port} which had sessionid {session_id},36
+7,caught end of stream exception,37
+8,Client attempting to renew session {session_id} at {ip_address}:{port},2
+9,Closed socket connection for client /{ip}:{port} which had sessionid {sessionid},8
+10,Client attempting to establish new session at /{ip}:{port},39
+11,Established session {session_id} with negotiated timeout {timeout} for client {client_address},50
+12,Accepted socket connection from /{ip}:{port},46
+13,Unexpected Exception:,1
+14,Accepted socket connection from /{ip_address}:{port},2
+15,Connection request from old client /{ip_address}:{port}; will be dropped if server is in r-o mode,34
+16,Server environment:user.dir=/,1
+17,Cannot open channel to {channel} at election address {address},86
+18,Processed session termination for sessionid: {sessionid},47
+19,"Expiring session {sessionId}, timeout of {timeout}ms exceeded",36
+20,Connection request from old client /{ip}:{port}; will be dropped if server is in r-o mode,5
+21,******* GOODBYE /{ip}:{port} ********,19
+22,LOOKING,4
+23,My election bind port: {ip}/{port},1
+24,"Have smaller server identifier, so dropping the connection: ({}, {})",1
+25,FOLLOWING,2
+26,"New election. My id = {id}, proposed zxid={zxid}",1
+27,Server environment:host.name={hostname},1
+28,FOLLOWING - LEADER ELECTION TOOK - {time},2
+29,"Notification: {int} (n.leader), {hex} (n.zxid), {hex} (n.round), {string} (n.state), {int} (n.sid), {hex} (n.peerEPoch), {string} (my state)",2
+30,autopurge.snapRetainCount set to {value},1
+31,Server environment:java.vendor=Oracle Corporation,2
+32,Revalidating client: {client_id},3
+33,"Server environment:zookeeper.version={version}, built on {date}",1
+34,Server environment:user.name=zookeeper,2
+35,Server environment:os.name=Linux,2
+36,Closed socket connection for client /{client_ip}:{client_port} (no session established for client),4
+37,Exception causing close of session {sessionId} due to {exception},1
+38,"Notification: {int} (n.leader), {hex} (n.zxid), {int} (n.round), {string} (n.state), {int} (n.sid), {hex} (n.peerEPoch), {string} (my state)",5
+39,tickTime set to {tickTime},1
+40,"Connection broken for id {id}, my id = {my_id}, error = {error}",2
+41,Unexpected exception causing shutdown while sock still open,12
+42,Got user-level KeeperException when processing sessionid:{sessionid} type:{type} cxid:{cxid} zxid:{zxid} txntype:{txntype} reqpath:{reqpath} Error Path:{error_path} Error:KeeperErrorCode = {error_code} for {error_node},1
+43,"Expiring session {session_id}, timeout of {timeout}ms exceeded",4
+44,Starting quorum peer,1
+45,Snapshotting: {hex_value} to {file_path},2
+46,Client attempting to establish new session at /{ip_address}:{port},2
+47,autopurge.purgeInterval set to 0,3
+48,Follower sid: 3 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@33557fe4,1
+49,maxSessionTimeout set to -1,1
+50,Client attempting to renew session {session_id} at {ip}:{port},1
+51,Server environment:java.class.path={classpath},1
+52,Have quorum of supporters; starting up and setting last processed zxid: 0xb00000000,1
+53,shutdown of request processor complete,1
+54,Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running,2
+55,First is 0x0,1
+56,"Notification: {num} (n.leader), {zxid} (n.zxid), {round} (n.round), {state} (n.state), {sid} (n.sid), {peerEpoch} (n.peerEPoch), {myState} (my state)",2
+57,Reading snapshot /var/lib/zookeeper/version-2/snapshot.b00000084,1
+58,Sending DIFF,1
+59,Getting a snapshot from leader,2
+60,"Notification: {num1} (n.leader), {hex1} (n.zxid), {hex2} (n.round), {state1} (n.state), {num2} (n.sid), {hex3} (n.peerEPoch), {state2} (my state)",2
+61,"Notification: {int} (n.leader), {hex} (n.zxid), {hex} (n.round), FOLLOWING (n.state), {int} (n.sid), {hex} (n.peerEPoch), FOLLOWING (my state)",1
+62,minSessionTimeout set to -1,2
+63,Server environment:java.home={java_home},1

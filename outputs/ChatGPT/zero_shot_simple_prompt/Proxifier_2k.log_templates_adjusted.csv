@@ -1,0 +1,59 @@
+,EventTemplate,Occurrences
+0,<*>: <*> open through proxy <*> <*>,461
+1,<*> open through proxy <*> <*>,402
+2,"<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",190
+3,"<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",120
+4,<*> <*> : <*>,81
+5,"<*>: <*> <*>, <*> bytes sent, <*> bytes received, lifetime <*>",66
+6,"<*> <*>, <*> bytes sent, <*> bytes received, lifetime <*>",65
+7,"<*> <*>, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>",53
+8,"<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",52
+9,"<*>: <*>, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",47
+10,<*>: <*> open through proxy <*>: <*> <*>,44
+11,"<*>: <*>, <*> bytes sent, <*> bytes received, lifetime <*>",42
+12,"<*> <*>, <*> bytes sent, <*> bytes (<*>) received, lifetime <*>",37
+13,"<*> <*>, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",34
+14,"<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>",33
+15,<*> <*> through proxy <*> <*>,33
+16,"<*>: <*>, <*> bytes sent, <*> bytes received, lifetime <*> sec>",32
+17,"<*> <*>, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",28
+18,"<*>: <*>, <*> bytes (<*>), <*> bytes received, lifetime <*>",21
+19,"<*>: <*>, <*> bytes sent, <*> bytes (<*>) received, lifetime <*>",15
+20,"<*> close, <*> bytes sent, <*> bytes received, lifetime <*> sec}",15
+21,"<*> close, <*> bytes sent, <*> bytes received, lifetime <*> sec>",14
+22,"<*> close, <*> bytes sent, <*> bytes (<*>) received, lifetime <*>",11
+23,"<*>: <*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",10
+24,"<*> <*>, <*> bytes (<*>), <*> bytes received, lifetime <*>",9
+25,<*> <*> : <*> - <*>,8
+26,"<*>: <*>, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",7
+27,"<*>: <*>, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*> sec>",6
+28,"<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*> sec>",6
+29,<*>: <*> open through proxy <*>: <*>,5
+30,"<*> <*>, <*> bytes (<*> KB) sent, <*> bytes (<*> MB) received, lifetime <*>",4
+31,"<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> MB) received, lifetime <*>",4
+32,<*>: <*> <*> through proxy <*> <*>,4
+33,<*>: <*> through proxy <*>: <*> <*>,4
+34,<*> <*> <*> : <*>,4
+35,"<*>: <*> <*>, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",3
+36,<*>.client-channel.google.com:<*> error : Could not connect to proxy proxy.cse.cuhk.edu.hk:<*> - connection attempt failed with error <*>,3
+37,"<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*> sec>",2
+38,"<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*> sec>",2
+39,"<*>: <*> <*>, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*> sec>",2
+40,"<*>: <*>, <*> sent, <*> received, lifetime <*>",2
+41,<*>: <*> through proxy <*>: <*>,2
+42,"<*> close, <*> bytes sent, <*> bytes (<*>) received, lifetime <*> sec>",2
+43,"<*> <*>, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*> sec>",1
+44,"<*>: <*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+45,"<*>: <*>, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>",1
+46,"<*>: <*> <*>, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+47,"<*> <*>, <*> bytes (<*>), <*> bytes received, lifetime <*> sec>",1
+48,"<*>: <*> <*>, <*> bytes (<*> KB) sent, <*> bytes (<*> MB) received, lifetime <*>",1
+49,"<*> <*>, <*> bytes sent, <*> bytes received, lifetime <*> sec>",1
+50,"capi.grammarly.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+51,"upload.<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+52,"<*> close, <*> sent, <*> received, lifetime <*>",1
+53,"notifications.google.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+54,"notifications.google.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+55,<*> : <*>,1
+56,"<*> <*>, <bytes sent> bytes sent, <bytes received> bytes received, lifetime <*>",1
+57,<*> open through proxy <*> HTTPS,1

@@ -1,0 +1,469 @@
+,EventTemplate,Occurrences,Type
+0,<component>: <message>,167,True
+1,Cocoa scripting error for '{code}': {message},70,True
+2,dnssd_clientstub ConnectToServer: connect()-> No of tries: {},44,True
+3,Thermal pressure state: {} Memory pressure state: {},39,True
+4,Location icon should now be in state '{state}',37,True
+5,<Class>::<Method> <Message>,35,True
+6,ARPT: %.6f: AirPort_Brcm43xx::platformWoWEnable: WWEN[%s],26,True
+7,send_datagram_available_ping: pid {} failed to act on a ping it dequeued before timing out.,26,True
+8,<function_name> Exiting <function_name>,22,True
+12,AppleCamIn::systemWakeCall - messageType = <Description>,21,True
+11,IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = %s port = %d unplug = %d,21,True
+9,Sandbox: {process_name}({process_id}) {action}({result}) {resource_type} {resource_path},21,True
+10,{time} : {message},21,True
+13,AppleCamIn::systemWakeCall - messageType = <Value>,20,True
+14,button report: {},20,True
+15,"CCFile::captureLog Received Capture notice id: {id}, reason = {reason}",20,True
+16,"CCFile::captureLogRun Skipping current file Dir file [DATE]-[FILENAME], Current File [DATE]-[FILENAME]",20,True
+17,<component>::<event>,20,True
+18,-[<Class/Method> <Action>] <Message>,19,True
+19,<Component>::<Action> - <Status> - took <Time>,19,True
+22,{class}::{method},17,True
+21,-[NetworkAnalyticsEngine _writeJournalRecord:fromCellFingerprint:key:atLOI:ofKind:lqm:isFaulty:] {message},17,True
+20,FA||Url||taskID[] dealloc,17,True
+23,__[THREAD]-[CLASS METHOD]_block_invoke [MESSAGE],16,True
+28,IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = %d port = %d unplug = %d,15,True
+30,en0: BSSID changed to {},15,True
+29,<Component>::<Action> - <Description>,15,True
+31,Received Capture Event,15,True
+27,ARPT: %.6f: AirPort_Brcm43xx::%s: %s,15,True
+26,Previous sleep cause: {},15,True
+25,<component>::<function>,15,True
+24,{action} successfully changed NAT64 ifstate from {old_state} to {new_state},15,True
+33,{interface}: channel changed to {channel},14,True
+34,-[UABestAppSuggestionManager notifyBestAppChanged:type:options:bundleIdentifier:activityType:dynamicIdentifier:when:confidence:deviceName:deviceIdentifier:deviceType:] (null) UASuggestedActionType=%d (%@)/(%@) opts=%@ when=%@ confidence=%d from=(%@)/(%@) (%@ #%d),14,True
+32,KeychainGetICDPStatus: keychain: {},14,True
+35,-[<class> <method>] <message>,13,True
+36,<function_name> <line_number> failed: <error_code> - <error_message>,13,True
+37,dnssd_clientstub ConnectToServer: connect() failed path:%s Socket:%d Err:%d Errno:%d %s,13,True
+38,Error returned from iconservicesagent: {},13,True
+39,"NETWORK: requery, {}, {}, {}, {}, {}, items, fQueryRetries, {}, fLastRetryTimestamp, {}.",12,True
+47,"SOSAccountThisDeviceCanSyncWithCircle sync with device failure: Error Domain=com.apple.security.sos.error Code=1035 ""{error message}"" UserInfo={NSDescription={error message}}",11,True
+44,<Module> -- <Message>,11,True
+46,RTC: PowerByCalendarDate setting ignored,11,True
+45,{class}::{method}() {message},11,True
+43,Captive: CNPluginHandler {interface}: {status},11,True
+42,ARPT: %.6f: wl0: MDNS: IPV6 Addr: %s,11,True
+41,ARPT: %.6f: AirPort_Brcm43xx::syncPowerState: WWEN[%s],11,True
+40,[timestamp] [module] [message] at [file] line [line number],11,True
+48,jemmytest,10,True
+49,[timestamp] <<<< [module] >>>> [message],10,True
+50,"USBMSC Identifier (non-unique): %s %s %s %s, %s",10,True
+51,{}({}) {} {},10,True
+55,ASL Sender Statistics,9,True
+56,ARPT: %.6f: AirPort_Brcm43xx::powerChange: %s,9,True
+53,AppleCamIn::systemWakeCall - messageType = <Message>,9,True
+54,<class>::<function> <message>,9,True
+52,ARPT: %f: wl0: MDNS: IPV6 Addr: %s,9,True
+63,############################## _getSysMsgList,8,True
+69,"ARPT: %.6f: %s: setup_keepalive: Seq: %u, Ack: %u, Win size: %u",8,True
+68,"Path not allowed in target domain: type = pid, path = {path}, error = {error}, origin = {origin}",8,True
+66,ARPT: %f: ARPT: Wake Reason: %s,8,True
+65,<application>(<process_id>) <action> <resource>,8,True
+64,Sandbox: {process} deny({result}) {action} {path},8,True
+67,ARPT: %.6f: framerdy 0x%x bmccmd %d framecnt %d,8,True
+62,Unrecognized attribute value: t:{attribute_value},8,True
+60,in6_unlink_ifa: IPv6 address %s has no prefix,8,True
+57,[HID] [ATC] AppleDeviceManagementHIDEventService::processWakeReason Wake reason: Host (0x01),8,True
+59,KeychainGetICDPStatus: status: {},8,True
+58,"ARPT: %.6f: %s: setup_keepalive: Local port: %d, Remote port: %d",8,True
+61,{interface}::{class}::{action} {details},8,True
+74,AirPort: Link Up on {interface},7,True
+76,"PM response took {} ms ({}, {})",7,True
+75,<class>::<method> <message>,7,True
+77,{application}({process_id}) {action} {resource},7,True
+73,"setting hostname to ""{hostname}""",7,True
+72,AirPort: Link Down on awdl0. Reason {} ({}).,7,True
+71,"Setting BTCoex Config: enable_2G:{}, profile_2g:{}, enable_5G:{}, profile_5G:{}",7,True
+70,"ARPT: %.6f: IOPMPowerSource Information: onSleep,  SleepType: %s,  'ExternalConnected': %s, 'TimeRemaining': %d,",7,True
+85,<<<< Boss >>>> figPlaybackBossPrerollCompleted: unexpected preroll-complete notification,6,True
+84,ARPT: %.6f: %s: MDNS: IPV6 Addr: %s,6,True
+83,wlc_dump_aggfifo,6,True
+82,messageType = 0xE0000340,6,True
+81,"ARPT: %.6f: %s: MDNS: %d SRV Recs, %d TXT Recs",6,True
+80,"ARPT: %.6f: %s: setup_keepalive: interval %d, retry_interval %d, retry_count %d",6,True
+79,ARPT: %.6f: %s: %s,6,True
+78,QQ({}) deny mach-lookup com.apple.networking.captivenetworksupport,6,True
+91,en0: 802.11d country code set to '{country_code}'.,5,True
+96,[<module_name>] [<log_message>],5,True
+94,<component>::<function> - <message>,5,True
+93,[itemasync_SetProperty] signalled err=-12785 (kFigBaseObjectError_Invalidated) (invalidated) at /Library/Caches/com.apple.xbs/Sources/CoreMedia/CoreMedia-1731.15.207/Prototypes/Player/FigPlayer_Async.c line 2306,5,True
+92,<timestamp> : <message>,5,True
+95,"SecOSStatusWith error:[{error_code}] Error Domain=NSOSStatusErrorDomain Code={error_code} ""{error_description}"" ({error_type}: {error_message}) UserInfo={{NSDescription={error_description}}}",5,True
+90,"RTC: Maintenance {date_time}, sleep {date_time}",5,True
+88,<IMMacNotificationCenterManager: %@>:    NC Disabled: %@,5,True
+86,Wake reason: {reason},5,True
+87,<Module>: <Message>,5,True
+89,"<interface>: channel changed to <channel>,<offset>",5,True
+108,mDNS_RegisterInterface: Frequent transitions for interface {interface_name} ({interface_address}),4,True
+118,[timestamp] [process name][process ID/thread ID] [log level] [log message],4,True
+117,"ARPT: %.6f: %s: %s: Updated seq/ack/win from UserClient Seq %u, Ack %u, Win size %u",4,True
+116,"ARPT: %.6f: IOPMPowerSource Information: onSleep, SleepType: %s, 'ExternalConnected': %s, 'TimeRemaining': %d,",4,True
+115,TBT W (2): 0x0040 [x],4,True
+114,"ARPT: %.6f: %s: wl_update_tcpkeep_seq: Original Seq: %u, Ack: %u, Win size: %u",4,True
+113,[{timestamp}:{log_level}:{source_file}({line_number})] {log_message},4,True
+111,ARPT: %f: AQM agg results %x len hi/lo: %x %x BAbitmap(%d-%d) %d %d %d %d,4,True
+110,"{Action} response took {Time} ms ({Code}, {Source})",4,True
+109,<Component>::<Action> - <Parameter1> = <Value1> <Parameter2> = <Value2>,4,True
+112,{module_name} {line_number} {function_name} {error_code},4,True
+107,{module_name} {line_number} {function_name} error {error_code},4,True
+102,<process_name>[<process_id>] <log_message>,4,True
+106,"pages {}, wire {}, act {}, inact {}, cleaned {} spec {}, zf {}, throt {}, compr {}, xpmapped {}",4,True
+98,Captive: CNPluginHandler en0: Evaluating,4,True
+99,AirPort: Link Up on {},4,True
+101,"Path not allowed in target domain: type = pid, path = {PATH} error = {ERROR_CODE}: {ERROR_MESSAGE}, origin = {ORIGIN}",4,True
+100,Saw change in network reachability (isReachable={}),4,True
+103,"NETWORK: requery, {}, {}, {}, {}, {}, items, fQueryRetries, {}, fLastRetryTimestamp, {}",4,True
+104,"NETWORK: no response from server, reachability, {}, queryRetries, {}",4,True
+105,[timestamp] [process_name][process_id/thread_id] [log_level] [message],4,True
+97,ASSERTION FAILED: {variable} -[{class} {method}] line: {line number},4,True
+142,{Action} manager is not {Status} on,3,True
+136,"ARPT: %.6f: %s: wl_update_tcpkeep_seq: Updated seq/ack/win from UserClient Seq %u, Ack %u, Win size %u",3,True
+137,"Path not allowed in target domain: type = pid, path = {path} error = {error}: {error_message}, origin = {origin}",3,True
+138,[<timestamp>] <<<< Boss >>>> figPlaybackBossPrerollCompleted: <message>,3,True
+139,[<log_source>] [<log_message>],3,True
+140,ARPT: %.9f: AirPort_Brcm43xx::powerChange: %s,3,True
+147,__[MODULE][FUNCTION]_block_invoke [INVOCATION] - [MESSAGE] [EXTRA INFO]__,3,True
+143,<function_name> <error_code> failed: <error_message>,3,True
+144,[timestamp] <<<< module >>>> message,3,True
+145,Sandbox: QQ( ) deny( ) mach-lookup com.apple.networking.captivenetworksupport,3,True
+146,"Service ""{service_name}"" tried to hijack endpoint ""{endpoint_name}"" from owner: {owner_name}",3,True
+148,"CCLogTap::profileRemoved, Owner: {}, Name: {}",3,True
+134,CGXDisplayDidWakeNotification [{}]: posting kCGSDisplayDidWake,3,True
+135,<function_name> <line_number> <error_message>,3,True
+141,mDNS_DeregisterInterface: Frequent transitions for interface {interface_name} ({interface_address}),3,True
+133,ARPT: %.6f: AQM agg params 0xfc0 maxlen hi/lo 0x0 0xffff minlen 0x0 adjlen 0x0,3,True
+125,Captive: [CNInfoNetworkActive:1748] en0: SSID '{SSID}' making interface primary (cache indicates network not captive),3,True
+132,<Component>::<Action> - <Status> - took <Time> milliseconds,3,True
+119,ARPT: %.6f: wl0: setup_keepalive: Remote IP: %s,3,True
+120,"polled file major {}, minor {}, blocksize {}, pollers {}",3,True
+122,ARPT: {timestamp}: ARPT: Wake Reason: {reason},3,True
+123,sigio_handler: sigio_handler_active != 1,3,True
+124,<IMMacNotificationCenterManager: %p>:   DND Enabled: %s,3,True
+121,<<<< CRABS >>>> crabsFlumeHostAvailable: [{}] Byte flume reports host available again.,3,True
+126,ARPT: %f: AQM agg params %x maxlen hi/lo %x %x minlen %x adjlen %x,3,True
+127,[BluetoothHIDDeviceController] {},3,True
+128,<Component>::<Action> - <Details>,3,True
+129,[HID] [MT] AppleMultitouchDevice::willTerminate entered,3,True
+130,"IOPMrootDomain: idle cancel, state {}",3,True
+131,network changed: v4(en0+:<IP address>) v6(en0:<IPv6 address>) DNS! Proxy SMB,3,True
+203,"ARPT: %.6f: %s: Roamed or switched channel, reason #%d, bssid %s, last RSSI %d",2,True
+211,<<<< CRABS >>>> crabsFlumeHostUnavailable: [0x7f961cf08cf0] Byte flume reports host unavailable.,2,True
+210,"ARPT: {timestamp}: {interface}: MDNS: {num_srv_recs} SRV Recs, {num_txt_recs} TXT Recs",2,True
+209,{module}_machine_init {action},2,True
+208,"hibernate_machine_init pagesDone {} sum2 {}, time: {} ms, disk(0x20000) {} Mb/s, comp bytes: {} time: {} ms {} Mb/s, crypt bytes: {} time: {} ms {} Mb/s",2,True
+207,hibernate image path: {},2,True
+206,[CardDAVPlugin-ERROR] -getPrincipalInfo:[_controller supportsRequestCompressionAtURL:{URL}] {Error},2,True
+205,Unable to start NetBIOS name service:,2,True
+204,"USBMSC Identifier (non-unique): %s %s %s %s, %d",2,True
+196,"CCFile::copyFile fileName is [TIMESTAMP]-io80211Family-002.pcapng, source path:/var/log/CoreCapture/com.apple.iokit.IO80211Family/IO80211AWDLPeerManager//[TIMESTAMP]-io80211Family-002.pcapng, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.iokit.IO80211Family/[TIMESTAMP]=AssocFail:sts:2_rsn:0/IO80211AWDLPeerManager//[TIMESTAMP]-io80211Family-002.pcapng",2,True
+202,"CCDataTap::profileRemoved, Owner: %s, Name: %s",2,True
+201,doSaveChannels@286: Will write to: /Library/Logs/CrashReporter/CoreCapture/IOReporters/[DATE_TIME] - AuthFail:sts:5_rsn:0.xml,2,True
+200,Unrecognized XSSimpleTypeDefinition: {},2,True
+199,"ARPT: %.9f: IOPMPowerSource Information: onSleep,  SleepType: %s,  'ExternalConnected': %s, 'TimeRemaining': %d,",2,True
+198,network changed: v6(en0-:{ipv6_address}) DNS- Proxy-,2,True
+197,{class}::set{function} Registered for notification callback.,2,True
+213,{Action} exit,2,True
+195,Session {session_id} destroyed,2,True
+194,Starting AirDrop server for user {} on wake,2,True
+212,assertion failed: {version}: {module} + {offset} [{uuid}]: {address},2,True
+221,ARPT: %.6f: %s: setup_keepalive: Remote IP: %s,2,True
+214,{interface}::{class}::{message},2,True
+226,ARPT: %.6f: AQM agg results %x len hi/lo: %x %x BAbitmap(%d-%d) %d %d %d %d,2,True
+192,<component>::<function> - retries = <number>,2,True
+233,ARPT: %.6f: wl0: MDNS: IPV4 Addr: %s,2,True
+232,"DB Error: 1 ""no such table: {table_name}""",2,True
+231,IOHibernatePollerOpen(#),2,True
+230,[timestamp] [application name/process ID] [log level] [log message],2,True
+229,AirPort: Link Down on en0. Reason {reason_code} ({reason_description}).,2,True
+228,"CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : {error message}",2,True
+227,{application}({process_id}) {action} {target},2,True
+225,Wake reason: {WakeReason} ({Source}),2,True
+215,"doSaveChannels@286: Will write to: /Library/Logs/CrashReporter/CoreCapture/IOReporters/[YYYY-MM-DD_HH,mm,ss.mmmmmm] - AuthFail:sts:5_rsn:0.xml",2,True
+224,"ARPT: %.6f: IOPMPowerSource Information: onWake,  SleepType: %s Sleep,  'ExternalConnected': %s, 'TimeRemaining': %d,",2,True
+223,BuildActDeviceEntry enter,2,True
+222,"Page bounds {{}, {}}",2,True
+220,__[THREAD]-[CLASS METHOD]_block_invoke [INVOCATION] - [MESSAGE] [EXTRA INFO],2,True
+219,__[THREAD]-[CLASS METHOD]_block_invoke [UNIQUE IDENTIFIER] - [MESSAGE] [EXTRA INFO],2,True
+218,<module_name> <error_code> failed: <error_message>,2,True
+217,[BluetoothHIDDeviceController]ERROR: {message},2,True
+216,[IOBluetoothFamily][ProcessBluetoothTransportShowsUpActionWL] -- calling IOBluetoothFamily's registerService() -- %s -- %s -- %s,2,True
+193,<LOG LEVEL>: <LOG MESSAGE>,2,True
+234,"[Accounts] Failed to update account with identifier {}, error: {}",2,True
+191,[timestamp] [application name/process ID/thread ID] [log level] [log message],2,True
+169,network changed: v4(en0-:{IP_ADDRESS}) v6(en0:{IPV6_ADDRESS}) DNS! Proxy SMB,2,True
+167,"CCFile::captureLogRun Skipping current file Dir file [DATE]-CCIOReporter-002.xml, Current File [DATE]-CCIOReporter-002.xml",2,True
+166,ARPT: %.9f: wl0: setup_keepalive: Remote IP: %s,2,True
+165,############################## {log_message},2,True
+164,ARPT: %.6f: %s: setup_keepalive: Local IP: %s,2,True
+163,Wake reason: ?,2,True
+162,[timestamp] [applicationName][processID/threadID] [logLevel] [logMessage],2,True
+161,{message},2,True
+160,<date/time> | <log level> | <module name> | <file name>:<line number>:<function name> | <log message>,2,True
+159,hibernate_teardown_pmap_structs done: last_valid_compact_indx {},2,True
+158,could discard act {} inact {} purgeable {} spec {} cleaned {},2,True
+157,{class}::{method} {message},2,True
+155,[DATE] [APPLICATION_NAME][PROCESS_ID/THREAD_ID] [LOG_LEVEL] [LOG_MESSAGE],2,True
+154,[IOBluetoothHostControllerUSBTransport][start] -- completed -- result = %s -- %s,2,True
+153,sigio_handler: sigio_handler_active != 0,2,True
+152,<application_name>(<process_id>) <action> <resource>,2,True
+151,mDNS_DeregisterInterface: Frequent transitions for interface {interface} ({ip_address}),2,True
+150,"hibernate_alloc_pages act {}, inact {}, anon {}, throt {}, spec {}, wire {}, wireinit {}",2,True
+149,"ARPT: %.6f: wl0: wl_update_tcpkeep_seq: Updated seq/ack/win from UserClient Seq %u, Ack %u, Win size %u",2,True
+190,"ARPT: %.6f: IOPMPowerSource Information: onWake,  SleepType: %s,  'ExternalConnected': %s, 'TimeRemaining': %d,",2,True
+168,{ApplicationName} {ModuleName} {LogMessage},2,True
+156,"CCFile::captureLogRun Skipping current file Dir file [DATE]-CCIOReporter-007.xml, Current File [DATE]-CCIOReporter-007.xml",2,True
+170,<Component>::<Action> <Description>,2,True
+181,"ARPT: %.9f: %s: setup_keepalive: interval %d, retry_interval %d, retry_count %d",2,True
+189,wake time set {time} s,2,True
+171,"Opened file {file_path}, size {file_size}, extents {num_extents}, maxio {max_io}, ssd {is_ssd}",2,True
+188,<timestamp> | <log level> | <module name> | <file name>:<line number>:<function name> | <log message>,2,True
+187,objc[%d]: Class %s is implemented in both %s and %s. One of the two will be used. Which one is undefined.,2,True
+186,{module} {action} {count},2,True
+184,hibernate_page_list_setall found pageCount {},2,True
+183,en0: Supported channels {channels},2,True
+182,network changed: v4(en0:{ipv4_address}) v6(en0+:{ipv6_address}) DNS! Proxy SMB,2,True
+185,[%{TIME}] %{DATA} signalled err=%{INT} (%{DATA}) (%{DATA}) at %{GREEDYDATA},2,True
+180,"hibernate_newruntime_map time: {} ms, IOPolledFilePollersOpen(), ml_get_interrupts_enabled {}",2,True
+179,[HID] [ATC] [Error] AppleDeviceManagementHIDEventService::start {message},2,True
+178,"CCFile::copyFile fileName is [TIMESTAMP]-CCIOReporter-001.xml, source path:[SOURCE_PATH], dest path:[DEST_PATH]",2,True
+177,N/A (This log message does not contain any variables or contextual information that would require a template),2,True
+176,[timestamp] [process_name][process_id/thread_id] [log_level] [function_name] log_message,2,True
+175,"device_generate_desktop_screenshot: authw %s, shield %s",2,True
+174,<Component>::<Function> - <Message>,2,True
+172,en0: Supported channels {},2,True
+173,INIT -- {message},2,True
+388,the url = {},1,True
+392,Got an XPC error: {error_message},1,True
+391,"ChromeExistion main strSendMsg = {""websitekey"":false,""commandkey"":true,""browserkey"":true}",1,True
+390,ARPT: %.6f: AQM agg results 0x%04x len hi/lo: 0x%x 0x%x BAbitmap(0-3) %d %d %d %d,1,True
+389,"{function_name}({parameter}) failed, {error_message} ({error_code})",1,True
+385,after trim url = {},1,True
+387,network changed: {network_change_type}* {affected_component},1,True
+386,network changed: {reason},1,True
+382,assertion failed: {build number}: {process name} + {offset} [{UUID}]: {memory address},1,True
+384,url host = {},1,True
+383,"hostControllerOnline - Number of Paired devices = {}, List of Paired devices = ({})",1,True
+394,[HID] [MT] AppleMultitouchDevice::start entered,1,True
+393,"CCFile::captureLogRun Skipping current file Dir file [DATE]-CCIOReporter-028.xml, Current File [DATE]-CCIOReporter-028.xml",1,True
+403,-[NETClientConnection evaluateCrazyIvan46] CI46 - Perform CrazyIvan46! QQ.%d tc%d %s,1,True
+395,"booter start at {} ms smc {} ms, [{}, {}, {}] total {} ms, dsply {}, {} ms, tramp {} ms",1,True
+396,"Unexpected payload found for message {message_id}, dataLen {data_length}",1,True
+397,"Opened file {file_path}, size {file_size}, extents {num_extents}, maxio {max_io} ssd {is_ssd}",1,True
+398,"device_generate_lock_screen_screenshot: authw %p(%d)[%d, %d, %d, %d] shield %p(%d), dev [%d,%d]",1,True
+399,<log_message> time: <time_in_ms> ms,1,True
+400,"PBRequester failed with Error Error Domain=NSURLErrorDomain Code=-1009 ""{reason}"" UserInfo={NSUnderlyingError=0x7fe13530fc60 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 ""{reason}"" UserInfo={NSErrorFailingURLStringKey=https://gsp-ssl.ls.apple.com/dispatcher.arpc, NSErrorFailingURLKey=https://gsp-ssl.ls.apple.com/dispatcher.arpc, _kCFStreamErrorCodeKey=8, _kCFStreamErrorDomainKey=12, NSLocalizedDescription={reason}}}, NSErrorFailingURLStringKey=https://gsp-ssl.ls.apple.com/dispa`",1,True
+401,ARPT: %.6f: %s: MDNS: IPV4 Addr: %s,1,True
+402,-[NETClientConnection evaluateCrazyIvan46] CI46 - Perform CrazyIvan46! QQ.10018 tc23677 {IP_ADDRESS}:{PORT},1,True
+404,IOPolledFilePollersOpen({}) {} ms,1,True
+405,<action> completed - discarded <number>,1,True
+406,<Application Name> <Process ID> <Log Message>,1,True
+407,[DATE] [APPLICATION_NAME] [lvl=LOG_LEVEL] [MESSAGE],1,True
+380,"CCFile::copyFile fileName is [TIMESTAMP]-io80211Family-031.pcapng, source path:/var/log/CoreCapture/com.apple.iokit.IO80211Family/IO80211AWDLPeerManager//[TIMESTAMP]-io80211Family-031.pcapng, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.iokit.IO80211Family/[TIMESTAMP]=AuthFail:sts:5_rsn:0/IO80211AWDLPeerManager//[TIMESTAMP]-io80211Family-031.pcapng",1,True
+381,-[SFLListManager(ServiceReplyProtocol) notifyChanges:toListWithIdentifier:] Notified of item changes to list with identifier {},1,True
+360,"bitmap_size {}, previewSize {}, writing {} pages @ {}",1,True
+379,"PBRequester failed with Error Error Domain=NSURLErrorDomain Code=-1009 ""{reason}"" UserInfo={NSUnderlyingError=0x7fb7f0035dc0 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 ""{reason}"" UserInfo={NSErrorFailingURLStringKey=https://gs-loc.apple.com/clls/wloc, NSErrorFailingURLKey=https://gs-loc.apple.com/clls/wloc, _kCFStreamErrorCodeKey=8, _kCFStreamErrorDomainKey=12, NSLocalizedDescription={reason}}}, NSErrorFailingURLStringKey=https://gs-loc.apple.com/clls/wloc, NSErrorFailingURLK",1,True
+378,"bitmap_size {bitmap_size}, previewSize {previewSize}, writing {writing} pages @ {address}",1,True
+353,<<<< MediaValidator >>>> mv_ValidateRFC4281CodecId: {message},1,True
+354,{action} started,1,True
+355,{time} {level}: {code}: {message},1,True
+356,"schedule invalidation <DYTransport %@, error: %@>",1,True
+357,hibernate_page_list_setall(preflight {}) start,1,True
+358,[BroadcomBluetoothHostController][SetupController] -- Delay HCI Reset by {}ms,1,True
+359,[timestamp] [process_name][process_id/thread_id] [log_level] [function_name] [log_message],1,True
+409,CoreAnimation: timed out fence {},1,True
+361,Wake reason: {wake_reason} ({source}),1,True
+362,"CCFile::captureLogRun Skipping current file Dir file [DATE]-CCIOReporter-041.xml, Current File [DATE]-CCIOReporter-041.xml",1,True
+363,[HID] [MT] AppleActuatorHIDEventDriver::start entered,1,True
+364,"ARPT: {timestamp}: {interface}: Roamed or switched channel, reason #{reason}, bssid {bssid}, last RSSI {rssi}",1,True
+365,full wake promotion (reason {}) {} ms,1,True
+366,<<<< MediaValidator >>>> mv_LookupCodecSupport: {message},1,True
+367,<<<< IQ-CA >>>> piqca_setUsePreQueue: (0x7fce1406d600) rejecting report of layer being serviced - IQ has not yet begun to update,1,True
+368,[%{TIME}] %{DATA:module} %{GREEDYDATA:message},1,True
+369,"[QL] No sandbox token for request <{}>, it will probably fail",1,True
+370,<<<< IQ-CA >>>> piqca_setUsePreQueue: (0x7fce16267800) rejecting report of layer being serviced - IQ has not yet begun to update,1,True
+371,<Module>/<Component> <Message>,1,True
+372,-[SOAPParser:0x7fca6040cb50 parser:didStartElement:namespaceURI:qualifiedName:attributes:] Type not found in EWSItemType for ExchangePersonIdGuid (t:ExchangePersonIdGuid),1,True
+373,Failed to connect (view) outlet from (NSApplication) to (NSColorPickerGridView): missing setter or instance variable,1,True
+374,"<Module>: <Level>, <Message>",1,True
+375,"nw_path_evaluator_start_helper_connection net_helper_path_evaluation_start failed, dumping backtrace: [x86_64] libnetcore-583.50.1 0   libsystem_network.dylib             0x00007fff92fabde9 __nw_create_backtrace_string + 123 1   libsystem_network.dylib             0x00007fff92fc289f nw_path_evaluator_start_helper_connection + 196 2   libdispatch.dylib                   0x00007fff980fa93d _dispatch_call_block_and_release + 12 3   libdispatch.dylib                   0x00007fff980ef40b _dispatch_client_callout + 8 4   libdispatch.dylib                   0x00007fff980f403b _dispatch_queue_drain +",1,True
+376,Sandbox: QuickLookSatelli({process_id}) {action} mach-lookup {lookup_target},1,True
+377,"CCFile::copyFile fileName is [TIMESTAMP]-AirPortBrcm4360_Logs-001.txt, source path:[SOURCE_PATH], dest path:[DEST_PATH]",1,True
+408,<IMMacNotificationCenterManager: 0xXXXXXXXXXXXX>: Updating enabled: BOOL   (Topics: ( )),1,True
+430,ARPT: <timestamp>: AQM agg params 0xfc0 maxlen hi/lo 0x0 0xffff minlen 0x0 adjlen 0x0,1,True
+410,[{class}::{method}] {message},1,True
+453,[BroadcomBluetoothHostControllerUSBTransport][start] -- Completed (matched on Device) -- 0x3800,1,True
+441,kern_open_file_for_direct_io({}),1,True
+442,en0: BSSID changed to [BSSID],1,True
+443,<action> (reason <number>) <duration> ms,1,True
+444,"Arranged view frame: {{}, {}}",1,True
+445,__[MODULE][FUNCTION]_block_invoke [UNIQUE_IDENTIFIER] - [MESSAGE] [EXTRA_INFORMATION]__,1,True
+446,<function_name>(<parameter>) took <time> ms,1,True
+447,{Action} controller terminated,1,True
+448,ARPT: <timestamp>: wl0: leaveModulePoweredForOffloads: <message>,1,True
+449,[BroadcomBluetoothHostControllerUSBTransport][start] -- Completed (matched on Device) -- 0x8800,1,True
+450,"DB Error: 1 ""{error message}""",1,True
+451,did discard act {} inact {} purgeable {} spec {} cleaned {},1,True
+452,"CCFile::copyFile fileName is [TIMESTAMP]-CCIOReporter-003.xml, source path:[SOURCE_PATH], dest path:[DEST_PATH]",1,True
+454,-[NETClientConnection evaluateCrazyIvan46] CI46 - Perform CrazyIvan46! QQ.10018 tc25805 {IP_ADDRESS}:{PORT},1,True
+411,<log_type>: <log_message>,1,True
+455,"ARPT: {timestamp}: {interface}: Roamed or switched channel, reason #{reason}, bssid {bssid}, last RSSI {RSSI}",1,True
+456,<module> completed - took <time> msecs,1,True
+457,-[NETClientConnection evaluateCrazyIvan46] CI46 - Perform CrazyIvan46! QQ.10018 tc25354 {IP_ADDRESS}:{PORT},1,True
+458,[<log source>] [<log message>],1,True
+459,"Unable to simultaneously satisfy constraints: ( ""<NSLayoutConstraint:0x7f8efa7db140 H:[NSImageView:0x7f8efa7db900(38)]>"", ""<NSLayoutConstraint:0x7f8efa7cbe00 H:|-(14)-[NSImageView:0x7f8efa7db900]   (Names: PageItemCell:0x7f8efa7cb450, '|':PageItemCell:0x7f8efa7cb450 )>"", ""<NSLayoutConstraint:0x7f8f17556f20 'NSView-Encapsulated-Layout-Width' H:[PageItemCell(73)]   (Names: PageItemCell:0x7f8efa7cb450 )>"", ""<NSLayoutConstraint:0x7f8efa7dc1c0 H:[NSImageView:0x7f8efa7db900]-(10)-[NSTextField:0x7f8efa7da9a0]>"", ""<NSLayoutConstraint:0x7f8efa7cbf70 H:[NSTextField:0x7f8f02f1da90]-(14)-|   (Names: PageI`",1,True
+460,{Module/Component} {Error message} ({Error code}),1,True
+461,<action> <description>,1,True
+462,"no application identifier provided, can't use provisioning profiles [pid={pid}]",1,True
+463,Sandbox: SpotlightNetHelp(352) deny(1) ipc-posix-shm-read-data CFPBS:186A7:,1,True
+464,"[com.apple.calendar.store.log.caldav.queue] [Account refresh failed with error: Error Domain=CoreDAVHTTPStatusErrorDomain Code=502 ""(null)"" UserInfo={AccountName=%{AccountName}, CalDAVErrFromRefresh=%{CalDAVErrFromRefresh}, CoreDAVHTTPHeaders=%{CoreDAVHTTPHeaders}} }]",1,True
+465,Failed to connect (titleField) outlet from (MMSessionPickerChoosenRowView) to (NSTextField): missing setter or instance variable,1,True
+466,ARPT: %.9f: AirPort_Brcm43xx::platformWoWEnable: WWEN[%s],1,True
+440,"[Accounts] Current connection, <NSXPCConnection: %@> connection from pid %ld, doesn't have account access.",1,True
+439,"ARPT: %.6f: wl0: wl_update_tcpkeep_seq: Original Seq: %u, Ack: %u, Win size: %u",1,True
+438,[DATE] [COMPONENT] [ACTION]: [DETAILS],1,True
+437,enabling pid={pid} for plug-in {plugin_name} ({plugin_version}) {plugin_id} {plugin_path},1,True
+412,"Unable to simultaneously satisfy constraints: ( ""<NSAutoresizingMaskLayoutConstraint:0xXXXXXXXXXXXX h=-&- v=-&- V:[NSScrollView:0xXXXXXXXXXXXX]-(XX)-|   (Names: '|':NSView:0xXXXXXXXXXXXX )>"", ""<NSAutoresizingMaskLayoutConstraint:0xXXXXXXXXXXXX h=-&- v=-&- V:|-(XX)-[NSScrollView:0xXXXXXXXXXXXX]   (Names: '|':NSView:0xXXXXXXXXXXXX )>"", ""<NSAutoresizingMaskLayoutConstraint:0xXXXXXXXXXXXX h=-&- v=--& V:[NSView:0xXXXXXXXXXXXX(0)]>"", ""<NSAutoresizingMaskLayoutConstraint:0xXXXXXXXXXXXX h=-&- v=-&- V:|-(0)-[NSView:0xXXXXXXXXXXXX]   (Names: '|':NSView:0xXXXXXXXXXXXX )>"", ""<NSAutoresizingMaskLayoutConst",1,True
+413,HH:mm:ss.SSS : <log message>,1,True
+414,[timestamp] <<<< IQ-CA >>>> piqca_setUsePreQueue: (0x7fce15069400) rejecting report of layer being serviced - IQ has not yet begun to update,1,True
+415,Sandbox: com.apple.WebKit({process_id}) {action}({result}) {file_operation} {file_path},1,True
+416,"Unable to simultaneously satisfy constraints: ( ""<NSLayoutConstraint:0x[constraintID] H:[NSImageView:0x[imageViewID](38)]>"", ""<NSLayoutConstraint:0x[constraintID] H:|-(14)-[NSImageView:0x[imageViewID]]   (Names: [viewName]:0x[viewID], '|':[viewName]:0x[viewID] )>"", ""<NSLayoutConstraint:0x[constraintID] 'NSView-Encapsulated-Layout-Width' H:[PageItemCell(73)]   (Names: [viewName]:0x[viewID] )>"", ""<NSLayoutConstraint:0x[constraintID] H:[NSImageView:0x[imageViewID]]-(10)-[NSTextField:0x[textFieldID]]>"", ""<NSLayoutConstraint:0x[constraintID] H:[NSTextField:0x[textFieldID]]-(14)-|   (Names: [viewName]:0x[viewID] )>"")",1,True
+417,"Configuration Notice: ASL Module ""{module_name}"" sharing output destination ""{output_destination}"" with ASL Module ""{module_name}"". Output parameters from ASL Module ""{module_name}"" override any specified in ASL Module ""{module_name}"".",1,True
+418,(DiskStore.Normal:2382) {id} {value},1,True
+419,[timestamp] [process name][process ID/thread ID] [log level] [message],1,True
+420,DB Path: {},1,True
+421,Could not get event name for stream/token: {stream/token}: {error code}: {error message},1,True
+422,Error in CoreDragRemoveTrackingHandler: {error_code},1,True
+423,"ARPT: <timestamp>: IOPMPowerSource Information: onWake, SleepType: <sleep_type>, 'ExternalConnected': <external_connected>, 'TimeRemaining': <time_remaining>,",1,True
+424,-[SOAPParser:0x7f84bad89660 parser:didStartElement:namespaceURI:qualifiedName:attributes:] Type not found in EWSItemType for ExchangePersonIdGuid (t:ExchangePersonIdGuid),1,True
+425,in6_unlink_ifa: IPv6 address {} has no prefix,1,True
+426,"CCFile::copyFile fileName is [TIMESTAMP]-io80211Family-007.pcapng, source path:/var/log/CoreCapture/com.apple.iokit.IO80211Family/IO80211AWDLPeerManager//[TIMESTAMP]-io80211Family-007.pcapng, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.iokit.IO80211Family/[TIMESTAMP]=AuthFail:sts:5_rsn:0/IO80211AWDLPeerManager//[TIMESTAMP]-io80211Family-007.pcapng",1,True
+427,"doSaveChannels@286: Will write to: /Library/Logs/CrashReporter/CoreCapture/IOReporters/[YYYY-MM-DD_HH,mm,ss.mmmmmm] - AssocFail:sts:2_rsn:0.xml",1,True
+428,"CCFile::captureLogRun Skipping current file Dir file [DATE]-CCIOReporter-019.xml, Current File [DATE]-CCIOReporter-019.xml",1,True
+429,-[NETClientConnection evaluateCrazyIvan46] CI46 - Perform CrazyIvan46! {app_name}.{app_version} {tc_id} {ip_address},1,True
+351,ARPT: %.9f: AirPort_Brcm43xx::%s: %s,1,True
+431,{interface}: manual intervention required!,1,True
+432,[{timestamp}] [{logger}] [{level}] {message},1,True
+433,{}::{} {},1,True
+434,"FigByteStreamStatsLogOneRead: ByteStream read of {bytes} bytes @ {timestamp} took {time} secs. to complete, {num_reads} reads >= 1 sec.",1,True
+435,{time} : Discoverable mode changed to {mode},1,True
+436,"ARPT: %.9f: wl0: wl_update_tcpkeep_seq: Updated seq/ack/win from UserClient Seq %u, Ack %u, Win size %u",1,True
+352,[itemasync_CopyProperty] signalled err=[error code] ([error description]) at [file path] line [line number],1,True
+330,{function} is deprecated for {class}. Please use {newFunction}.,1,True
+350,"Unexpected payload found for message {messageNumber}, dataLen {dataLength}",1,True
+276,"ARPT: {timestamp}: IOPMPowerSource Information: {message}, SleepType: {sleep_type}, 'ExternalConnected': {external_connected}, 'TimeRemaining': {time_remaining},",1,True
+264,"ARPT: %.6f: %s: wl_update_tcpkeep_seq: Original Seq: %llu, Ack: %llu, Win size: %d",1,True
+265,[IOBluetoothFamily][staticBluetoothTransportShowsUp] -- Received Bluetooth Controller register service notification -- {},1,True
+266,"CCFile::copyFile fileName is [TIMESTAMP]-CCIOReporter-017.xml, source path:[SOURCE_PATH], dest path:[DEST_PATH]=[ERROR_DETAILS]/OneStats//[TIMESTAMP]-CCIOReporter-017.xml",1,True
+267,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for {seconds} seconds.  Ignoring.",1,True
+268,ARPT: {timestamp}: AirPort_Brcm43xx::syncPowerState: WWEN[{enabled}],1,True
+269,{Message},1,True
+270,Service exited with abnormal code: {},1,True
+271,{Action} manager is not powered on,1,True
+272,__[THREAD]-[CLASS METHOD]_block_invoke [INVOCATION NAME] - [MESSAGE] [EXTRA INFO],1,True
+273,"network_reachability_changed : {network_status}, netbiosd is {action}",1,True
+274,"ARPT: %f: %s: setup_keepalive: interval %d, retry_interval %d, retry_count %d",1,True
+275,"CCFile::copyFile fileName is [DATE]-AirPortBrcm4360_Logs-007.txt, source path:/var/log/CoreCapture/com.apple.driver.AirPort.Brcm4360.0/DriverLogs//[DATE]-AirPortBrcm4360_Logs-007.txt, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.driver.AirPort.Brcm4360.0/[DATE]=AuthFail:sts:5_rsn:0/DriverLogs//[DATE]-AirPortBrcm4360_Logs-007.txt",1,True
+277,"CCFile::copyFile fileName is [TIMESTAMP]-CCIOReporter-008.xml, source path:[SOURCE_PATH], dest path:[DEST_PATH]",1,True
+349,"CCFile::copyFile fileName is [TIMESTAMP]-io80211Family-063.pcapng, source path:/var/log/CoreCapture/com.apple.iokit.IO80211Family/IO80211AWDLPeerManager//[TIMESTAMP]-io80211Family-063.pcapng, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.iokit.IO80211Family/[TIMESTAMP]=AuthFail:sts:5_rsn:0/IO80211AWDLPeerManager//[TIMESTAMP]-io80211Family-063.pcapng",1,True
+278,"CCFile::copyFile fileName is [TIMESTAMP]-io80211Family-016.pcapng, source path:/var/log/CoreCapture/com.apple.iokit.IO80211Family/IO80211AWDLPeerManager//[TIMESTAMP]-io80211Family-016.pcapng, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.iokit.IO80211Family/[TIMESTAMP]=AuthFail:sts:5_rsn:0/IO80211AWDLPeerManager//[TIMESTAMP]-io80211Family-016.pcapng",1,True
+279,"CCFile::captureLogRun Skipping current file Dir file [DATE]-CCIOReporter-027.xml, Current File [DATE]-CCIOReporter-027.xml",1,True
+280,ARPT: %.9f: %s: MDNS: IPV4 Addr: %s,1,True
+281,"CCFile::copyFile fileName is [TIMESTAMP]-CCIOReporter-032.xml, source path:[SOURCE_PATH], dest path:[DEST_PATH]=[ERROR_DETAILS]/OneStats//[TIMESTAMP]-CCIOReporter-032.xml",1,True
+282,"CCFile::captureLogRun Skipping current file Dir file [DATE]-CCIOReporter-038.xml, Current File [DATE]-CCIOReporter-038.xml",1,True
+283,"CCFile::copyFile fileName is [TIMESTAMP]-io80211Family-040.pcapng, source path:/var/log/CoreCapture/com.apple.iokit.IO80211Family/IO80211AWDLPeerManager//[TIMESTAMP]-io80211Family-040.pcapng, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.iokit.IO80211Family/[TIMESTAMP]=AuthFail:sts:5_rsn:0/IO80211AWDLPeerManager//[TIMESTAMP]-io80211Family-040.pcapng",1,True
+284,"CCFile::copyFile fileName is [TIMESTAMP]-AirPortBrcm4360_Logs-047.txt, source path:/var/log/CoreCapture/com.apple.driver.AirPort.Brcm4360.0/DriverLogs//[TIMESTAMP]-AirPortBrcm4360_Logs-047.txt, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.driver.AirPort.Brcm4360.0/[TIMESTAMP]=AuthFail:sts:5_rsn:0/DriverLogs//[TIMESTAMP]-AirPortBrcm4360_Logs-047.txt",1,True
+285,"CCFile::captureLogRun Skipping current file Dir file [DATE]-CCIOReporter-062.xml, Current File [DATE]-CCIOReporter-062.xml",1,True
+286,__[THREAD]-[CLASS METHOD]_block_invoke [BLOCK NAME] - [LOG MESSAGE],1,True
+287,"<log_type>: hibernate_flush_memory, <log_description>: buffer_cache_gc freed up 13202 wired pages",1,True
+288,{action} time set {time} s,1,True
+289,[{component}] [{module}] {message},1,True
+263,network changed: v4(en0:{ipv4_address}) v6(en0!:{ipv6_address}) DNS Proxy SMB,1,True
+262,"ARPT: %.9f: wl0: setup_keepalive: interval %d, retry_interval %d, retry_count %d",1,True
+261,"FigByteStreamStatsLogOneRead: ByteStream read of {bytes} bytes @ {time} took {duration} sec. to complete, {reads} reads >= 0.5 sec.",1,True
+260,[IOBluetoothFamily][ProcessBluetoothTransportShowsUpActionWL] -- Connected to the transport successfully -- %x -- %x -- %x,1,True
+235,[DATE] [APPLICATION_NAME][PROCESS_ID/ADDRESS] [LOG_LEVEL] -[METHOD_NAME] [LOG_MESSAGE],1,True
+236,ARPT: {timestamp}: AirPort_Brcm43xx::platformWoWEnable: WWEN[{status}],1,True
+237,handle_will_sleep_auth_and_shield_windows: Reordering authw 0x%s(%d) (lock state: %d),1,True
+238,[timestamp] [applicationName][processID/threadID] [logLevel] [message],1,True
+239,PMStats: Hibernate read took {} ms,1,True
+240,"ARPT: {}.{}: {}: MDNS: {} SRV Recs, {} TXT Recs",1,True
+241,<timestamp> : Scanning mode Contacts Only,1,True
+242,network changed: {network_change_type}* {network_change_details},1,True
+243,{time} : BTLE discovered device with hash <{hash}>,1,True
+244,WARNING: {message},1,True
+245,"device_generate_desktop_screenshot: authw {}, shield {}",1,True
+246,<function_name> <port_number> <destination_address> failed: [<error_code>] <error_message>,1,True
+247,AirPort: Link Down on {}. Reason {} ({}).,1,True
+248,"PBRequester failed with Error Error Domain=NSURLErrorDomain Code=-1009 ""{reason}"" UserInfo={NSUnderlyingError=0x7fe13512cf70 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 ""{reason}"" UserInfo={NSErrorFailingURLStringKey=https://gsp-ssl.ls.apple.com/dispatcher.arpc, NSErrorFailingURLKey=https://gsp-ssl.ls.apple.com/dispatcher.arpc, _kCFStreamErrorCodeKey=8, _kCFStreamErrorDomainKey=12, NSLocalizedDescription={reason}}}, NSErrorFailingURLStringKey=https://gsp-ssl.ls.apple.com/dispa`",1,True
+249,[timestamp] [process_name/process_id] [log_level] [function_name] [log_message],1,True
+250,[timestamp] [process name][process id/process identifier] [log level] [log message],1,True
+251,"<interface>: channel changed to <channel>,<direction>",1,True
+252,<<<< IQ-CA >>>> piqca_setUsePreQueue: (0x7f92413e3000) rejecting report of layer being serviced - IQ has not yet begun to update,1,True
+253,host connection <NSXPCConnection: %s> connection from pid %d invalidated,1,True
+254,Error in CoreDragRemoveReceiveHandler: {error code},1,True
+255,"PBRequester failed with Error Error Domain=NSURLErrorDomain Code=-1001 ""{reason}"" UserInfo={NSUnderlyingError=0x7fe133460660 {Error Domain=kCFErrorDomainCFNetwork Code=-1001 ""{reason}"" UserInfo={NSErrorFailingURLStringKey=https://gsp-ssl.ls.apple.com/dispatcher.arpc, NSErrorFailingURLKey=https://gsp-ssl.ls.apple.com/dispatcher.arpc, _kCFStreamErrorCodeKey=-2102, _kCFStreamErrorDomainKey=4, NSLocalizedDescription={reason}}}, NSErrorFailingURLStringKey=https://gsp-ssl.ls.apple.com/dispatcher.arpc, NSErrorFailingURLKey=https://gsp-ssl.ls.apple.com/dispatc`",1,True
+256,"device_generate_lock_screen_screenshot: authw %s(%d)[%d, %d, %d, %d] shield %s(%d), dev [%d,%d]",1,True
+257,"SOSAccountThisDeviceCanSyncWithCircle sync with device failure: Error Domain=com.apple.security.sos.error Code=1035 ""{Error message}"" UserInfo={NSDescription={Error message}}",1,True
+258,Configuration Notice: <Log Message>,1,True
+259,{function_name}({parameter}) took {time} ms,1,True
+290,<action> completed - took <time> msecs,1,True
+291,hciControllerOnline; HID devices? {},1,True
+292,<IMMacNotificationCenterManager: %x>: notification observer: %s   notification: %s,1,True
+321,"device_generate_lock_screen_screenshot: authw %p[%d, %d, %d, %d] shield %p(%d), dev [%d,%d]",1,True
+323,{module}_{action} took {time} ms,1,True
+324,"hibernate_machine_init: state %d, image pages %d, sum was %s, imageSize %lx, image1Size %lx, conflictCount %d, nextFree %d",1,True
+325,Not enough information provided to determine the log template.,1,True
+326,"ARPT: %.6f: wl0: setup_keepalive: interval %d, retry_interval %d, retry_count %d",1,True
+327,ARPT: <timestamp>: <module>: <message>,1,True
+328,.sdef warning for argument '{argument}' of command '{command}' in suite '{suite}': '{error_code}' is not a valid type name.,1,True
+329,"FigByteStreamStatsLogOneRead: ByteStream read of {bytes} bytes @ {position} took {time} sec. to complete, {reads} reads >= 0.5 sec.",1,True
+331,[%time%] (%module%) %message%,1,True
+332,<<<< CRABS >>>> crabsWaitForLoad: [{}] Wait time out - -{} (msRequestTimeout {}),1,True
+333,"PBRequester failed with Error Error Domain=NSURLErrorDomain Code=-1001 ""{reason}"" UserInfo={NSUnderlyingError=0x7fb7ed616c80 {Error Domain=kCFErrorDomainCFNetwork Code=-1001 ""{reason}"" UserInfo={NSErrorFailingURLStringKey=https://gs-loc.apple.com/clls/wloc, NSErrorFailingURLKey=https://gs-loc.apple.com/clls/wloc, _kCFStreamErrorCodeKey=-2102, _kCFStreamErrorDomainKey=4, NSLocalizedDescription={reason}}}, NSErrorFailingURLStringKey=https://gs-loc.apple.com/clls/wloc, NSErrorFailingURLKey=https://gs-loc.apple.com/clls/wloc, _kCFStreamErrorDomainKey=4, _k`",1,True
+334,"NETWORK: requery, {}, {}, {}, {}, {}, items, fQueryRetries, {}, fLastRetryTimestamp, {}.{}",1,True
+335,Failed to stop a scan - central is not powered on: {},1,True
+336,AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = <Details>,1,True
+337,<Component>: <Message>,1,True
+338,ARPT: %f: %s: setup_keepalive: Remote IP: %s,1,True
+339,Wake reason: {reason} ({source}),1,True
+340,[BroadcomBluetoothHostControllerUSBTransport][start] -- Completed (matched on Device) -- 0x6000,1,True
+341,vm_compressor_fastwake_warmup ({start} - {end}) - {status},1,True
+342,"<IMMacNotificationCenterManager: 0x7ff1b2e00ba0>: Updating enabled: YES   (Topics: ( ""com.apple.private.alloy.icloudpairing"", ""com.apple.private.alloy.continuity.encryption"", ""com.apple.private.alloy.continuity.activity"", ""com.apple.ess"", ""com.apple.private.ids"", ""com.apple.private.alloy.phonecontinuity"", ""com.apple.madrid"", ""com.apple.private.ac"", ""com.apple.private.alloy.phone.auth"", ""com.apple.private.alloy.keychainsync"", ""com.apple.private.alloy.fmf"", ""com.apple.private.alloy.sms"", ""com.apple.private.alloy.screensharing"", ""com.apple.private.alloy.maps"", ""com.apple.private.alloy.thumper.key`",1,True
+343,"Configuration Notice: ASL Module ""{module_name}"" claims selected messages. Those messages may not appear in standard system log files or in the ASL database.",1,True
+344,N/A (This log message does not contain any variables or contextual information),1,True
+345,[{timestamp}] {module} {message} at {file} line {line_number},1,True
+346,"CCFile::copyFile fileName is [TIMESTAMP]-CCIOReporter-044.xml, source path:[SOURCE_PATH], dest path:[DEST_PATH]=[ERROR_DETAILS]/OneStats//[TIMESTAMP]-CCIOReporter-044.xml",1,True
+347,doSaveChannels@286: Will write to: /Library/Logs/CrashReporter/CoreCapture/IOReporters/[DATE_TIME] - AssocFail:sts:5_rsn:0.xml,1,True
+348,"CCFile::copyFile fileName is [TIMESTAMP]-io80211Family-056.pcapng, source path:/var/log/CoreCapture/com.apple.iokit.IO80211Family/IO80211AWDLPeerManager//[TIMESTAMP]-io80211Family-056.pcapng, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.iokit.IO80211Family/[TIMESTAMP]=AuthFail:sts:5_rsn:0/IO80211AWDLPeerManager//[TIMESTAMP]-io80211Family-056.pcapng",1,True
+322,-[ISGenerateImageOp generateImageWithCompletion:] Failed to composit image for descriptor <ISBindingImageDescriptor: %@>.,1,True
+320,Session {} created,1,True
+293,ARPT: {timestamp}: AirPort_Brcm43xx::{function}: {message},1,True
+319,"[Accounts] Current connection, <NSXPCConnection: %@> connection from pid %d, doesn't have account access.",1,True
+294,ARPT: %.6f: wl0: setup_keepalive: Local IP: %s,1,True
+295,"2017-07-04 15:03:53.270 GoogleSoftwareUpdateAgent[35018/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for URL: ""https://tools.google.com/service/update2?cup2hreq=a70d6372a4e45a6cbba61cd7f057c79bf73c79db1b1951dc17c605e870f0419b&cup2key=7:934679018""",1,True
+296,network changed: DNS*,1,True
+297,"hibernate_teardown: wired_pages {}, free_pages {}, active_pages {}, inactive_pages {}, speculative_pages {}, cleaned_pages {}, compressor_pages {}",1,True
+298,"CCFile::copyFile fileName is [TIMESTAMP]-io80211Family-018.pcapng, source path:/var/log/CoreCapture/com.apple.iokit.IO80211Family/IO80211AWDLPeerManager//[TIMESTAMP]-io80211Family-018.pcapng, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.iokit.IO80211Family/[TIMESTAMP]=AuthFail:sts:2_rsn:0/IO80211AWDLPeerManager//[TIMESTAMP]-io80211Family-018.pcapng",1,True
+299,<action> done: last_valid_compact_indx <index>,1,True
+300,(ImportBailout.Error:1331) Asked to exit for Diskarb,1,True
+301,[timestamp] [processName][processID/threadID] [logLevel] [message],1,True
+302,"CCFile::copyFile fileName is [TIMESTAMP]-CCIOReporter-002.xml, source path:[SOURCE_PATH], dest path:[DEST_PATH]=[ERROR_DETAILS]/OneStats//[TIMESTAMP]-CCIOReporter-002.xml",1,True
+303,<module_name> <line_number> <function_name> <error_code>,1,True
+304,Checking iCDP status for DSID {DSID} (checkWithServer={checkWithServer}),1,True
+305,ARPT: %.9f: %s: %s,1,True
+306,ARPT: %f: wl0: setup_keepalive: Local IP: %s,1,True
+307,network changed: v4({interface}-:{ipv4_address}) v6({interface}-:{ipv6_address}) {dns_status} {proxy_status},1,True
+308,"CCFile::copyFile fileName is [TIMESTAMP]-AirPortBrcm4360_Logs-025.txt, source path:/var/log/CoreCapture/com.apple.driver.AirPort.Brcm4360.0/DriverLogs//[TIMESTAMP]-AirPortBrcm4360_Logs-025.txt, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.driver.AirPort.Brcm4360.0/[TIMESTAMP]=AuthFail:sts:5_rsn:0/DriverLogs//[TIMESTAMP]-AirPortBrcm4360_Logs-025.txt",1,True
+309,[{timestamp}] {process_name}[{process_id}/{thread_id}] [lvl={log_level}] {log_message},1,True
+310,Cocoa scripting error for '{parameter}': {message}.,1,True
+311,network changed: v4(en0!:{{IP_ADDRESS}}) DNS+ Proxy+ SMB,1,True
+312,-[SOAPParser:0x7f82b1f24e50 parser:didStartElement:namespaceURI:qualifiedName:attributes:] Type not found in EWSItemType for ExchangePersonIdGuid (t:ExchangePersonIdGuid),1,True
+313,"CCFile::captureLogRun Skipping current file Dir file [DATE]-CCIOReporter-005.xml, Current File [DATE]-CCIOReporter-005.xml",1,True
+314,ARPT: %.9f: wl0: MDNS: IPV6 Addr: %s,1,True
+315,ARPT: %.9f: %s: MDNS: IPV6 Addr: %s,1,True
+316,[timestamp] <<<< [source] >>>> [message],1,True
+317,extension %@ -> (%@),1,True
+318,-[SOAPParser:0x7fc7025b2810 parser:didStartElement:namespaceURI:qualifiedName:attributes:] Type not found in EWSItemType for ExchangePersonIdGuid (t:ExchangePersonIdGuid),1,True
+467,{class}::{function},1,True

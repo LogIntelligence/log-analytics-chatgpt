@@ -1,0 +1,74 @@
+,EventTemplate,Occurrences
+0,"""<*> \""<*> <*> <*>"" status: <*> len: <*> time: <*>""",491
+1,"""<*> \""<*>"" status: <*> len: <*> time: <*>""",222
+2,"<*> ""<*>"" status: <*> len: <*> time: <*>",167
+3,image <*> at (<*>): checking,82
+4,"image <*> at (<*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage",82
+5,Active base files: <*>,82
+6,[instance: <*>] VM Resumed (Lifecycle Event),44
+7,[instance: <*>] During sync_power_state the instance has a pending task (<*>). Skip.,41
+8,"<*> ""<*> <*> <*>"" status: <*> len: <*> time: <*>",36
+9,"IP ""<*> <*> <*>"" status: <*> len: <*> time: <*>",30
+10,Unknown base file: <*>,30
+11,Removable base files: <*>,30
+12,[instance: <*>] VM Paused (Lifecycle Event),22
+13,[instance: <*>] Instance spawned successfully.,22
+14,[instance: <*>] Took <*> seconds to spawn the instance on the hypervisor.,22
+15,[instance: <*>] Took <*> seconds to build instance.,22
+16,[instance: <*>] Instance destroyed successfully.,22
+17,[instance: <*>] VM Started (Lifecycle Event),21
+18,[instance: <*>] Deleting instance files <*>,21
+19,[instance: <*>] Took <*> seconds to destroy the instance on the hypervisor.,21
+20,[instance: <*>] Took <*> seconds to deallocate network for instance.,21
+21,Removing base or swap file: <*>,21
+22,"[instance: <*>] memory limit: <*> MB, free: <*> MB",21
+23,"[instance: <*>] Total disk: <*> GB, used: <*> GB",21
+24,[instance: <*>] Claim successful,21
+25,[instance: <*>] Deletion of <*> complete,20
+26,"[instance: <*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",20
+27,"[instance: <*>] Total memory: <*> MB, used: <*> MB",20
+28,"[instance: <*>] Total vcpu: <*> VCPU, used: <*> VCPU",20
+29,"[instance: <*>] vcpu limit not specified, defaulting to unlimited",20
+30,[instance: <*>] Creating image,20
+31,[instance: <*>] VM Stopped (Lifecycle Event),20
+32,Creating event network-vif-plugged:<*> for instance <*>,20
+33,"<*> ""GET <*> HTTP/1.<*>"" status: <*> len: <*> time: <*>",18
+34,HTTP exception thrown: <*>,18
+35,"[instance: <*>] disk limit not specified, defaulting to unlimited",17
+36,[instance: <*>] Terminating instance,17
+37,Auditing locally available compute resources for node <*>,15
+38,"Total usable vcpus: <*>, total allocated vcpus: <*>",15
+39,Final resource view: name=<*> phys_ram=<*> used_ram=<*> phys_disk=<*> used_disk=<*> total_vcpus=<*> used_vcpus=<*> pci_stats=<*>,15
+40,Compute_service record updated for <*>,15
+41,"<*> ""<*> <*>/v2/<*>/servers/<*> HTTP/1.<*>"" status: <*> len: <*> time: <*>",14
+42,"IP1,IP2 ""GET <*> HTTP/1.<*>"" status: <*> len: <*> time: <*>",11
+43,Base or swap file too young to remove: <*>,9
+44,"""<*>,<*> ""<*> <*> <*>"" status: <*> len: <*> time: <*>""",8
+45,"IP ""<*> <*> HTTP/1.<*>"" status: <*> len: <*> time: <*>",8
+46,<*>: Terminating instance,5
+47,The instance sync for host '<*>' did not match. Re-created its InstanceList.,5
+48,"<*> disk limit not specified, defaulting to unlimited",4
+49,"<*> ""<*> <*> HTTP/1.<*>"" status: <*> len: <*> time: <*>",3
+50,HTTP exception thrown: No instances found for any event,3
+51,Successfully synced instances from host '<*>'.,2
+52,"<*> ""<*> <*> HTTP/1.<*>"" status: <*> len: <*> time: <*>""",2
+53,[instance: <*>] During sync_power_state the instance has a pending task (<*>). <*>.,2
+54,Creating event <*>: <*>,1
+55,Running instance usage audit for host <*> from <*> to <*>. <*> instances.,1
+56,"<*> vcpu limit not specified, defaulting to unlimited",1
+57,"IP_ADDRESS ""<*> <*> HTTP/1.<*>"" status: <*> len: <*> time: <*>",1
+58,[instance: <*>] Deletion of <*>/<*>_del complete,1
+59,<*>: Creating image,1
+60,"<*>,<*> ""<*> <*> <*>"" status: <*> len: <*> time: <*>",1
+61,"""<*> \""<*> <*> HTTP/<*>\"" status: <*> len: <*> time: <*>""",1
+62,"<*> Total vcpu: <*> VCPU, used: <*> VCPU",1
+63,"<*> ""<*> <*>/v2/<*>/servers/<*> HTTP/1.<*>"" status: <*> len: <*> time: <*>""",1
+64,"""<*> ""<*> <*> <*>"" status: <*> len: <*> time: <*>""",1
+65,[instance: <*>] <*> (Lifecycle Event),1
+66,<*> VM Started (Lifecycle Event),1
+67,"While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor.",1
+68,"<*> Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",1
+69,"<*> Total memory: <*> MB, used: <*> MB",1
+70,"<*> ""<*> <*> status: <*> len: <*> time: <*>""",1
+71,Creating event <*> for instance <*>,1
+72,"<*>, ""<*>"" status: <*> len: <*> time: <*>",1

@@ -1,0 +1,937 @@
+,EventTemplate,Occurrences
+0,IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0,13
+1,Thermal pressure state: {state1} Memory pressure state: {state2},11
+2,FA||Url||taskID[{taskID}] dealloc,8
+3,ARPT: 620701.011328: AirPort_Brcm43xx::syncPowerState: WWEN[enabled],1
+4,ARPT: 620702.879952: AirPort_Brcm43xx::platformWoWEnable: WWEN[{state}],1
+5,mDNS_DeregisterInterface: Frequent transitions for interface awdl0 ({address}),1
+6,"ARPT: 620749.901374: IOPMPowerSource Information: onSleep, SleepType: Normal Sleep, 'ExternalConnected': Yes, 'TimeRemaining': 0,",1
+7,"ARPT: 620750.434035: wl0: wl_update_tcpkeep_seq: Original Seq: {seq}, Ack: {ack}, Win size: {win_size}",1
+8,ARPT: 620752.337198: ARPT: Wake Reason: Wake on Scan offload,1
+9,__73-[NetworkAnalyticsEngine observeValueForKeyPath:ofObject:change:context:]_block_invoke unexpected switch value 2,16
+10,IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL,15
+11,"ARPT: 620896.311264: wl0: MDNS: 0 SRV Recs, 0 TXT Recs",1
+12,AppleCamIn::systemWakeCall - messageType = {type},50
+13,"setting hostname to ""{hostname}""",7
+14,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 439034 seconds. Ignoring.",1
+15,CCIOReporterFormatter::addRegistryChildToChannelDictionary streams 7,7
+16,[time] <<<< CRABS >>>> crabsFlumeHostAvailable: [{hex}] Byte flume reports host available again.,1
+17,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 2450 seconds. Ignoring.",1
+18,AirPort: Link Down on awdl0. Reason 1 (Unspecified).,7
+19,IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = {route} port = {port} unplug = {unplug},4
+20,"PM response took {time} ms ({code}, {source})",1
+21,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 438666 seconds. Ignoring.",1
+22,"ARPT: 621131.293163: wl0: Roamed or switched channel, reason #8, bssid 5c:50:15:4c:18:13, last RSSI -64",1
+23,"ARPT: 621145.554555: IOPMPowerSource Information: onSleep, SleepType: Normal Sleep, 'ExternalConnected': Yes, 'TimeRemaining': 0,",1
+24,"ARPT: 621146.080894: wl0: wl_update_tcpkeep_seq: Original Seq: {seq}, Ack: {ack}, Win size: {win_size}",1
+25,nw_nat64_post_new_ifstate successfully changed NAT64 ifstate from {state1} to {state2},7
+26,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 2165 seconds. Ignoring.",1
+27,"com.apple.EscrowSecurityAlert.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 13090 seconds. Ignoring.",1
+28,"IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(true)",11
+29,"network_reachability_changed : network is not reachable, netbiosd is shutting down",1
+30,CCFile::captureLogRun() Exiting CCFile::captureLogRun,22
+31,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 2039 seconds. Ignoring.",1
+32,com.apple.Addres(31211) deny network-outbound /private/var/run/mDNSResponder,1
+33,ARPT: 621241.634070: wl0: MDNS: IPV6 Addr: {ipv6_address},1
+34,AirPort: Link Up on en0,4
+35,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 438274 seconds. Ignoring.",1
+36,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 1849 seconds. Ignoring.",1
+37,Sandbox: com.apple.Addres(31229) deny(1) network-outbound /private/var/run/mDNSResponder,1
+38,mDNS_DeregisterInterface: Frequent transitions for interface awdl0 ({ipv6_address}),1
+39,ARPT: 621342.242614: AirPort_Brcm43xx::platformWoWEnable: WWEN[enable],1
+40,AirPort: Link Up on awdl0,9
+41,ARPT: 621389.379319: wl0: MDNS: IPV6 Addr: {ipv6_address},1
+42,AppleThunderboltGenericHAL::earlyWake - complete - took 0 milliseconds,8
+43,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 438095 seconds. Ignoring.",1
+44,mDNS_DeregisterInterface: Frequent transitions for interface en0 ({ipv6_address}),1
+45,AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 7,3
+46,"ARPT: 621490.858770: wl0: wl_update_tcpkeep_seq: Updated seq/ack/win from UserClient Seq {seq}, Ack {ack}, Win size {win}",1
+47,ARPT: 621490.890645: AirPort_Brcm43xx::syncPowerState: WWEN[enabled],1
+48,ARPT: 621492.770239: AirPort_Brcm43xx::platformWoWEnable: WWEN[{enable}],1
+49,en0::IO80211Interface::postMessage bssid changed,10
+50,ARPT: 621542.378462: ARPT: Wake Reason: Wake on Scan offload,1
+51,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 1268 seconds. Ignoring.",1
+52,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 12119 seconds. Ignoring.",1
+53,Thermal pressure state: 0 Memory pressure state: 0,8
+54,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 437673 seconds. Ignoring.",1
+55,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 12087 seconds. Ignoring.",1
+56,AppleThunderboltNHIType2::waitForOk2Go2Sx - intel_rp = 1 dlla_reporting_supported = 0,6
+57,mDNS_RegisterInterface: Frequent transitions for interface en0 (FE80:0000:0000:0000:C6B3:01FF:FECD:467F),3
+58,AppleCamIn::wakeEventHandlerThread,20
+59,Thermal pressure state: {state} Memory pressure state: {state},20
+60,"ARPT: 621686.164365: wl0: setup_keepalive: Local port: {port}, Remote port: {port}",1
+61,ARPT: 621738.114066: AirPort_Brcm43xx::platformWoWEnable: WWEN[enable],1
+62,-[UABestAppSuggestionManager notifyBestAppChanged:type:options:bundleIdentifier:activityType:dynamicIdentifier:when:confidence:deviceName:deviceIdentifier:deviceType:] (null) UASuggestedActionType={type} (null)/(null) opts={options} when={date} confidence={confidence} from=(null)/(null) (UABestAppSuggestionManager.m #319),14
+63,en0: channel changed to 1,11
+64,ARPT: 621799.252673: AQM agg results 0x8001 len hi/lo: 0x0 0x26 BAbitmap(0-3) 0 0 0 0,1
+65,"CCFile::captureLog Received Capture notice id: {id}, reason = {reason}",8
+66,"com.apple.EscrowSecurityAlert.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 10602 seconds. Ignoring.",1
+67,IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED,14
+68,Unrecognized attribute value: t:{attribute},8
+69,Sandbox: com.apple.Addres(31328) deny(1) network-outbound /private/var/run/mDNSResponder,2
+70,"SOSAccountThisDeviceCanSyncWithCircle sync with device failure: Error Domain=com.apple.security.sos.error Code={code} ""{description}"" UserInfo={{key}={value}}}",10
+71,"CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data",2
+72,Sandbox: com.apple.Addres(31346) deny(1) network-outbound /private/var/run/mDNSResponder,1
+73,com.apple.Addres(31376) deny network-outbound /private/var/run/mDNSResponder,1
+74,IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0,19
+75,10:46:47.425 : BTLE scanner Powered On,1
+76,button report: 0x8002be0,7
+77,com.apple.Addres(31382) deny network-outbound /private/var/run/mDNSResponder,1
+78,11:20:51.293 : BTLE discovered device with hash <{hash}>,1
+79,"securityd_xpc_dictionary_handler cloudd[326] copy_matching Error Domain=NSOSStatusErrorDomain Code={code} ""{description}"" ({error}: {message}) UserInfo={{key}={value}}",4
+80,Location icon should now be in state 'Inactive',20
+81,"ARPT: {timestamp}: {interface}: setup_keepalive: interval {interval}, retry_interval {retry_interval}, retry_count {retry_count}",5
+82,ARPT: 626126.086246: wl0: MDNS: IPV4 Addr: {ip_address},1
+83,__42-[NETClientConnection evaluateCrazyIvan46]_block_invoke CI46 - Hit by torpedo! QQ.10018 tc19060 {ip}:{port},1
+84,ARPT: 626132.740936: AirPort_Brcm43xx::platformWoWEnable: WWEN[{state}],1
+85,"Setting BTCoex Config: enable_2G:{enable_2G}, profile_2g:{profile_2g}, enable_5G:{enable_5G}, profile_5G:{profile_5G}",7
+86,Sandbox: com.apple.Addres({pid}) deny({value}) network-outbound {path},1
+87,Captive: [CNInfoNetworkActive:{number}] {interface}: SSID '{SSID}' making interface primary (cache indicates network not captive),3
+88,"com.apple.suggestions.harvest: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 16227 seconds. Ignoring.",1
+89,IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO,6
+90,-[NetworkAnalyticsEngine _writeJournalRecord:fromCellFingerprint:key:atLOI:ofKind:lqm:isFaulty:] Hashing of the primary key failed. Dropping the journal record.,17
+91,11:46:19.229 : Finished generating hashes,1
+92,Captive: CNPluginHandler en0: Evaluating,4
+93,"com.apple.suggestions.harvest: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 16034 seconds. Ignoring.",1
+94,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 1277 seconds. Ignoring.",1
+95,ARPT: 626380.467130: ARPT: Wake Reason: Wake on Scan offload,1
+96,"PM response took {time} ms ({value}, powerd)",8
+97,tcp_connection_destination_perform_socket_connect 19110 connectx to {ip}:{port}@{index} failed: [{error_code}] {error_message},1
+98,AirPort: Link Down on en0. Reason 8 (Disassociated because station leaving).,5
+99,11:49:29.473 : BTLE scanner Powered On,1
+100,"USBMSC Identifier (non-unique): {identifier} {hex1} {hex2} {hex3}, {number}",8
+101,CCXPCService::setStreamEventHandler Registered for notification callback.,2
+102,[{date}:{time}:{log_level}:{file_name}({line_number})] {log_message},4
+103,Saw change in network reachability (isReachable={isReachable}),4
+104,[HID] [ATC] AppleDeviceManagementHIDEventService::processWakeReason Wake reason: Host ({reason}),8
+105,en0: BSSID changed to {bssid},5
+106,"com.apple.suggestions.harvest: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 15759 seconds. Ignoring.",1
+107,"com.apple.EscrowSecurityAlert.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 4439 seconds. Ignoring.",1
+108,"com.apple.EscrowSecurityAlert.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 4429 seconds. Ignoring.",1
+109,dnssd_clientstub ConnectToServer: connect()-> No of tries: 1,15
+110,-[NETClientConnection effectiveBundleID] using process name apsd as bundle ID (this is expected for daemons without bundle ID,9
+111,"com.apple.EscrowSecurityAlert.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 4187 seconds. Ignoring.",1
+112,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 4099 seconds. Ignoring.",1
+113,"ARPT: 626625.204595: wl0: wl_update_tcpkeep_seq: Updated seq/ack/win from UserClient Seq {seq}, Ack {ack}, Win size {win}",1
+114,"com.apple.suggestions.harvest: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 15323 seconds. Ignoring.",1
+115,AppleCamIn::systemWakeCall - messageType = 0xE0000340,5
+116,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 427826 seconds. Ignoring.",1
+117,"com.apple.EscrowSecurityAlert.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 2350 seconds. Ignoring.",1
+118,"com.apple.EscrowSecurityAlert.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 1542 seconds. Ignoring.",1
+119,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 1428 seconds. Ignoring.",1
+120,"RTC: Maintenance 2017/7/1 {time}, sleep 2017/7/1 {time}",2
+121,"en0: channel changed to {channel},{change}",6
+122,13:20:12.402 : BTLE scanner Powered On,1
+123,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 424575 seconds. Ignoring.",1
+124,com.apple.Addres(31588) deny network-outbound /private/var/run/mDNSResponder,1
+125,RTC: PowerByCalendarDate setting ignored,11
+126,Location icon should now be in state 'Active',17
+127,ARPT: 627141.702095: wl0: MDNS: IPV6 Addr: {ipv6_address},1
+128,dnssd_clientstub ConnectToServer: connect()-> No of tries: 2,15
+129,en0: 802.11d country code set to '{code}'.,5
+130,en0: channel changed to 6,3
+131,"USBMSC Identifier (non-unique): 000000000820 0x5ac 0x8406 0x820, 3",4
+132,"ARPT: 627305.613279: wl0: setup_keepalive: Seq: {seq}, Ack: {ack}, Win size: {win_size}",1
+133,ARPT: 627355.597577: ARPT: Wake Reason: Wake on Scan offload,1
+134,QQ(10018) deny mach-lookup com.apple.networking.captivenetworksupport,6
+135,[HID] [MT] AppleMultitouchDevice::willTerminate entered,3
+136,[BluetoothHIDDeviceController] EventServiceDisconnectedCallback,1
+137,PMStats: Hibernate read took 197 ms,1
+138,dnssd_clientstub ConnectToServer: connect() failed path:{path} Socket:{socket} Err:{err} Errno:{errno} {description},4
+139,"pages {pages}, wire {wire}, act {act}, inact {inact}, cleaned {cleaned} spec {spec}, zf {zf}, throt {throt}, compr {compr}, xpmapped {xpmapped}",4
+140,"VDCAssistant: Found a camera ({camera_id}) , but was not able to start it up ({error_code} -- ({error_type}) successful)",1
+141,handle_will_sleep_auth_and_shield_windows: Reordering authw 0x{hex}(2004) (lock state: {state}),1
+142,button report: 0x8002bdf,6
+143,"2017-07-01 19:46:26.133 GoogleSoftwareUpdateAgent[31702/0x7000002a0000] [lvl=2] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] Checking with local engine: <KSUpdateEngine:0x100259c60 ticketStore=<KSPersistentTicketStore:0x100253770 store=<KSKeyedPersistentStore:0x100254d10 path=""/Users/xpc/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"" lockFile=<KSLockFile:0x100254d80 path=""/Users/xpc/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"" locked=NO > >> processor=<KSActionProcessor:0x100259e70 delegate=<KSUpdateEngine:0x100259c60> isProces",1
+144,-[{class} {method}] {message},16
+145,-[ISGenerateImageOp generateImageWithCompletion:] Failed to composit image for descriptor {descriptor}.,3
+146,Error returned from iconservicesagent: (null),13
+147,tcp_connection_tls_session_error_callback_imp 1977 __tcp_connection_tls_session_callback_write_block_invoke.434 error {error},1
+148,"SecOSStatusWith error:[{error_code}] Error Domain=NSOSStatusErrorDomain Code={error_code} ""{error_message}"" ({error_details}) UserInfo={{error_info}}}",5
+149,send_datagram_available_ping: pid 445 failed to act on a ping it dequeued before timing out.,26
+150,WARNING: Type1 font data isn't in the correct format required by the Adobe Type 1 Font Format specification.,1
+151,"com.apple.ical.sync.x-coredata://DB05755C-483D-44B7-B93B-ED06E57FF420/CalDAVPrincipal/p11: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 59 seconds. Ignoring.",1
+152,"device_generate_desktop_screenshot: authw {authw}(2000), shield {shield}(2001)",3
+153,[com.apple.calendar.store.log.caldav.coredav] [Refusing to parse response to PROPPATCH because of content-type: [{content_type}].],5
+154,"NETWORK: requery, {num1}, {num2}, {num3}, {num4}, {num5}, items, fQueryRetries, {num6}, fLastRetryTimestamp, {timestamp}",1
+155,"ARPT: 640362.070027: wl0: wl_update_tcpkeep_seq: Original Seq: {seq}, Ack: {ack}, Win size: {win_size}",1
+156,Previous sleep cause: {cause},15
+157,Wake reason: RTC (Alarm),5
+158,AppleThunderboltNHIType2::prePCIWake - power up complete - took 2 us,4
+159,02:18:39.156 : BTLE scanner Powered On,1
+160,network changed: v4(en0-:{ip}) v6(en0:{ipv6}) DNS! Proxy SMB,2
+161,dnssd_clientstub ConnectToServer: connect() failed path:/var/run/mDNSResponder Socket:{socket} Err:{err} Errno:{errno} {operation},9
+162,hibernate_page_list_setall found pageCount {count},2
+163,[HID] [ATC] [Error] AppleDeviceManagementHIDEventService::start Could not make a string from out connection notification key,2
+164,en0: BSSID changed to {BSSID},11
+165,[IOBluetoothFamily][staticBluetoothTransportShowsUp] -- Received Bluetooth Controller register service notification -- {hex},1
+166,nw_nat64_post_new_ifstate successfully changed NAT64 ifstate from {old_state} to {new_state},8
+167,FA||Url||taskID[2019353117] dealloc,1
+168,"NETWORK: requery, {num1}, {num2}, {num3}, {num4}, {num5}, items, fQueryRetries, {num6}, fLastRetryTimestamp, {num7}",12
+169,"2017-07-02 10:40:07.676 GoogleSoftwareUpdateAgent[32012/0x7000002a0000] [lvl=2] -[KSAgentApp updateProductWithProductID:usingEngine:] Checking for updates for ""com.google.Keystone"" using engine <KSUpdateEngine:0x100313e70 ticketStore=<KSPersistentTicketStore:0x100332a60 store=<KSKeyedPersistentStore:0x100315fa0 path=""/Users/xpc/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"" lockFile=<KSLockFile:0x1003176d0 path=""/Users/xpc/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"" locked=NO > >> processor=<KSActionProcessor:0x1003143e0 delegate=<KSUpdateE",1
+170,2017/07/02 11:38:49.414 | I | VoipWrapper | DAVEngineImpl.cpp:{line}:Close | close video chat. llFriendUIN = {uin}.,1
+171,"ARPT: 645791.413780: IOPMPowerSource Information: onSleep, SleepType: Normal Sleep, 'ExternalConnected': No, 'TimeRemaining': {time},",1
+172,ARPT: 645795.024045: ARPT: Wake Reason: Wake on Scan offload,1
+173,Bluetooth -- LE is supported - Disable LE meta event,11
+174,12:15:23.005 : Discoverable mode changed to Off,1
+175,tcp_connection_handle_connect_conditions_bad 19617 failed: {code} - No network route,1
+176,Captive: CNPluginHandler en0: Authenticated,7
+177,ARPT: 645957.322055: wl0: setup_keepalive: Local IP: 10.105.163.202,1
+178,AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 4,2
+179,ARPT: 646193.687729: AirPort_Brcm43xx::platformWoWEnable: WWEN[{enable}],1
+180,TBT W (2): 0x0040 [x],4
+181,network changed: DNS* Proxy,3
+182,"ARPT: 646292.668059: wl0: MDNS: 0 SRV Recs, 0 TXT Recs",1
+183,mDNS_RegisterInterface: Frequent transitions for interface awdl0 (FE80:0000:0000:0000:D8A5:90FF:FEF5:7FFF),1
+184,AppleThunderboltNHIType2::prePCIWake - power up complete - took 1 us,10
+185,ARPT: 646509.760609: AirPort_Brcm43xx::platformWoWEnable: WWEN[enable],1
+186,tcp_connection_tls_session_error_callback_imp 2044 __tcp_connection_tls_session_callback_write_block_invoke.434 error {error},1
+187,ASL Sender Statistics,9
+188,"SOSAccountThisDeviceCanSyncWithCircle sync with device failure: Error Domain=com.apple.security.sos.error Code={code} ""{description}"" UserInfo={NSDescription={description}}}",2
+189,2017-07-02 15:46:40.516 GoogleSoftwareUpdateAgent[32432/0x7000002a0000] [lvl={level}] -[KSOutOfProcessFetcher(PrivateMethods) launchedHelperTaskForToolPath:error:] KSOutOfProcessFetcher launched '{path}' with process id: {id},1
+190,"2017-07-02 15:46:40.697 GoogleSoftwareUpdateAgent[{pid}/{address}] [lvl={level}] -[KSUpdateEngine updateAllExceptProduct:] KSUpdateEngine updating all installed products, except:'{product}'.",1
+191,2017-07-02 15:46:41.445 ksfetch[32435/0x7fff79824000] [lvl={level}] main() ksfetch fetching URL (<NSMutableURLRequest: {url}> { URL: {url} }) to folder:{folder},1
+192,"Path not allowed in target domain: type = pid, path = {path} error = {error}: {error_message}, origin = {origin}",3
+193,tcp_connection_tls_session_error_callback_imp 2068 __tcp_connection_tls_session_callback_write_block_invoke.434 error {error},1
+194,[time] <<<< {text} >>>> {text}: ({hex}) {text} - {text},4
+195,[time] {function} signalled err={error} ({description}) at {path} line {line},2
+196,KeychainGetICDPStatus: keychain: {status},14
+197,"Path not allowed in target domain: type = pid, path = {path} error = {error}: The specified service did not ship in the requestor's bundle, origin = {origin}",3
+198,host connection <NSXPCConnection: {address}> connection from pid {pid} invalidated,1
+199,Error in CoreDragRemoveReceiveHandler: {code},1
+200,ARPT: 661549.802297: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on.,1
+201,"ARPT: 661552.832561: IOPMPowerSource Information: onWake, SleepType: Normal Sleep, 'ExternalConnected': Yes, 'TimeRemaining': 0,",1
+202,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 49 seconds. Ignoring.",1
+203,com.apple.Addres(32626) deny network-outbound /private/var/run/mDNSResponder,1
+204,ARPT: 661708.530713: wl0: MDNS: IPV6 Addr: {ipv6_address},1
+205,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 2262 seconds. Ignoring.",1
+206,Captive: CNPluginHandler en0: Inactive,4
+207,in6_unlink_ifa: IPv6 address {address} has no prefix,9
+208,network changed: v4(en0:{ipv4}) v6(en0+:{ipv6}) DNS! Proxy SMB,2
+209,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 318966 seconds. Ignoring.",1
+210,dnssd_clientstub ConnectToServer: connect()-> No of tries: 3,14
+211,"ARPT: 661856.313502: wl0: MDNS: 0 SRV Recs, 0 TXT Recs",1
+212,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 318156 seconds. Ignoring.",1
+213,ARPT: 661915.168735: wl0: MDNS: IPV6 Addr: {ipv6_address},1
+214,"com.apple.suggestions.harvest: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 3498 seconds. Ignoring.",1
+215,"PBRequester failed with Error Error Domain=NSURLErrorDomain Code=-1001 ""The request timed out."" UserInfo={NSUnderlyingError=0x7fe133460660 {Error Domain=kCFErrorDomainCFNetwork Code=-1001 ""The request timed out."" UserInfo={NSErrorFailingURLStringKey=https://gsp-ssl.ls.apple.com/dispatcher.arpc, NSErrorFailingURLKey=https://gsp-ssl.ls.apple.com/dispatcher.arpc, _kCFStreamErrorCodeKey=-2102, _kCFStreamErrorDomainKey=4, NSLocalizedDescription=The request timed out.}}, NSErrorFailingURLStringKey=https://gsp-ssl.ls.apple.com/dispatcher.arpc, NSErrorFailingURLKey=https://gsp-ssl.ls.apple.com/dispatc}",1
+216,ARPT: 662096.028575: wl0: MDNS: IPV6 Addr: {ipv6_address},1
+217,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 314896 seconds. Ignoring.",1
+218,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 106 seconds. Ignoring.",1
+219,AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 5,3
+220,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 61304 seconds. Ignoring.",1
+221,"device_generate_lock_screen_screenshot: authw {authw}(2000)[{x1}, {y1}, {x2}, {y2}] shield {shield}(2001), dev [{x2},{y2}]",1
+222,2017-07-02 20:50:47.457 ksfetch[{pid}/{hex}] [lvl={level}] KSHelperReceiveAllData() KSHelperTool read {bytes} bytes from stdin.,1
+223,[time] FigAgglomeratorSetObjectForKey signalled err={err} ({errName}) ({keyDesc}) at {filePath} line {lineNumber},4
+224,tcp_connection_tls_session_error_callback_imp 2103 __tcp_connection_tls_session_callback_write_block_invoke.434 error {error},1
+225,21:48:53.041 : BTLE scanner Powered Off,1
+226,"PBRequester failed with Error Error Domain=NSURLErrorDomain Code={code} ""{description}"" UserInfo={NSUnderlyingError={error} {Error Domain=kCFErrorDomainCFNetwork Code={code} ""{description}"" UserInfo={NSErrorFailingURLStringKey={key}, NSErrorFailingURLKey={key}, _kCFStreamErrorCodeKey={key}, _kCFStreamErrorDomainKey={key}, NSLocalizedDescription={description}}}, NSErrorFailingURLStringKey={key}",2
+227,ARPT: 669592.164786: AQM agg params 0xfc0 maxlen hi/lo 0x0 0xffff minlen 0x0 adjlen 0x0,1
+228,Received Capture Event,15
+229,Sandbox: QQ(10018) deny(1) mach-lookup com.apple.networking.captivenetworksupport,3
+230,Sandbox: com.apple.Addres(32885) deny(1) network-outbound /private/var/run/mDNSResponder,1
+231,[time] <<<< Boss >>>> figPlaybackBossPrerollCompleted: unexpected preroll-complete notification,20
+232,ARPT: 671682.028482: wl0: MDNS: IPV6 Addr: {ipv6_address},1
+233,AppleThunderboltGenericHAL::earlyWake - complete - took 1 milliseconds,14
+234,tcp_connection_tls_session_error_callback_imp 2115 __tcp_connection_tls_session_callback_write_block_invoke.434 error {error},1
+235,sigio_handler: sigio_handler_active != 0,2
+236,############################## _getSysMsgList,10
+237,"Configuration Notice: ASL Module ""{module}"" claims selected messages. Those messages may not appear in standard system log files or in the ASL database.",1
+238,"ARPT: 671856.784669: IOPMPowerSource Information: onSleep, SleepType: Normal Sleep, 'ExternalConnected': No, 'TimeRemaining': {time},",1
+239,Wake reason: ?,2
+240,01:06:37.436 : Scanning mode Contacts Only,1
+241,"ARPT: 671889.268467: wl0: setup_keepalive: Seq: {seq}, Ack: {ack}, Win size: {win_size}",1
+242,"ARPT: 671958.142550: wl0: setup_keepalive: Local port: {port}, Remote port: {port}",1
+243,01:42:26.004 : BTLE scanning stopped,1
+244,com.apple.Addres(32992) deny network-outbound /private/var/run/mDNSResponder,1
+245,wake time set +0.270003 s,1
+246,"ARPT: 672041.595629: wl0: setup_keepalive: interval {interval}, retry_interval {retry_interval}, retry_count {retry_count}",1
+247,[HID] [MT] MTActuatorManagement::getActuatorRef Calling MTActuatorOpen() outside of MTTrackpadHIDManager.,1
+248,"ARPT: 672113.005012: wl0: setup_keepalive: interval {interval}, retry_interval {retry_interval}, retry_count {retry_count}",1
+249,"ARPT: 672113.005034: wl0: setup_keepalive: Seq: {seq}, Ack: {ack}, Win size: {win_size}",1
+250,ARPT: 672115.511090: AirPort_Brcm43xx::platformWoWEnable: WWEN[enable],1
+251,AppleCamIn::systemWakeCall - messageType = 0xE0000300,1
+252,03:31:43.005 : BTLE scanning stopped,1
+253,ARPT: 672405.912863: wl0: MDNS: IPV6 Addr: {ipv6_address},1
+254,"NETWORK: requery, 0, 0, 0, 0, 252, items, fQueryRetries, 0, fLastRetryTimestamp, 520765684.9",1
+255,mDNS_DeregisterInterface: Frequent transitions for interface en0 ({ip_address}),2
+256,ARPT: 672487.663921: wl0: MDNS: IPV6 Addr: {ipv6_address},1
+257,com.apple.Addres(33047) deny network-outbound /private/var/run/mDNSResponder,1
+258,wake time set -0.331349 s,1
+259,com.apple.Addres(33056) deny network-outbound /private/var/run/mDNSResponder,1
+260,"ARPT: 672663.206073: wl0: wl_update_tcpkeep_seq: Original Seq: {seq}, Ack: {ack}, Win size: {win_size}",1
+261,button report: 0x80039B7,6
+262,AppleCamIn::handleWakeEvent_gated,15
+263,ARPT: {timestamp}: {interface}: {function}: {message},2
+264,AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 6,2
+265,Sandbox: com.apple.Addres(33119) deny(1) network-outbound /private/var/run/mDNSResponder,1
+266,"ARPT: 672922.026642: wl0: MDNS: 0 SRV Recs, 0 TXT Recs",1
+267,ARPT: 672925.537944: AirPort_Brcm43xx::platformWoWEnable: WWEN[enable],1
+268,ARPT: 672925.539048: AirPort_Brcm43xx::syncPowerState: WWEN[enabled],1
+269,ARPT: 673002.849007: wl0: MDNS: IPV6 Addr: {ipv6_address},1
+270,06:57:52.002 : Purged contact hashes,1
+271,com.apple.Addres(33139) deny network-outbound /private/var/run/mDNSResponder,2
+272,ARPT: 673078.174655: AirPort_Brcm43xx::platformWoWEnable: WWEN[{state}],1
+273,"ARPT: 673110.784021: wl0: wl_update_tcpkeep_seq: Updated seq/ack/win from UserClient Seq {seq}, Ack {ack}, Win size {win}",1
+274,07:33:34.878 : BTLE scanning started,1
+275,"IOPMrootDomain: idle cancel, state 1",3
+276,ARPT: 673255.225425: AirPort_Brcm43xx::platformWoWEnable: WWEN[enable],1
+277,08:21:18.004 : Discoverable mode changed to Off,1
+278,"ARPT: 673289.745639: wl0: wl_update_tcpkeep_seq: Updated seq/ack/win from UserClient Seq {seq}, Ack {ack}, Win size {win}",1
+279,"ARPT: 673321.718258: wl0: setup_keepalive: Local port: {port}, Remote port: {port}",1
+280,"ARPT: 673324.060219: wl0: wl_update_tcpkeep_seq: Updated seq/ack/win from UserClient Seq {seq}, Ack {ack}, Win size {win}",1
+281,ARPT: 673325.798753: ARPT: Wake Reason: Wake on TCP Timeout,1
+282,"ARPT: 673399.580233: IOPMPowerSource Information: onSleep, SleepType: Normal Sleep, 'ExternalConnected': No, 'TimeRemaining': {TimeRemaining},",1
+283,AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = 8,1
+284,"ARPT: 673431.714836: wl0: setup_keepalive: Local port: {port}, Remote port: {port}",1
+285,"hibernate_alloc_pages act {act}, inact {inact}, anon {anon}, throt {throt}, spec {spec}, wire {wire}, wireinit {wireinit}",2
+286,hibernate_teardown_pmap_structs done: last_valid_compact_indx {index},2
+287,"ARPT: 673493.721766: wl0: MDNS: 0 SRV Recs, 0 TXT Recs",1
+288,09:57:10.384 : Scanning mode Contacts Only,1
+289,sigio_handler: sigio_handler_active != 1,3
+290,enabling pid={pid} for plug-in {plugin}({version}) {uuid} {path},1
+291,FA||Url||taskID[2019353296] dealloc,1
+292,"2017-07-03 10:40:41.730 GoogleSoftwareUpdateAgent[33263/0x700000323000] [lvl=2] -[KSAgentApp performSelfUpdateWithEngine:] Checking for self update with Engine: <KSUpdateEngine:0x10062de70 ticketStore=<KSPersistentTicketStore:0x1005206e0 store=<KSKeyedPersistentStore:0x1005282c0 path=""{path}"" lockFile=<KSLockFile:0x100510480 path=""{path}"" locked={locked} > >> processor=<KSActionProcessor:0x10062e060 delegate=<KSUpdateEngine:0x10062de70> isProcessing={isProcessing}",1
+293,2017-07-03 10:40:42.940 GoogleSoftwareUpdateAgent[{id}/{hex}] [lvl={level}] -[KSOmahaServer updateInfosForUpdateResponse:updateRequest:infoStore:upToDateTickets:updatedTickets:events:errors:] Response passed CUP validation.,1
+294,[time] FigAgglomeratorSetObjectForKey signalled err={err} ({error}) ({key}) at {path} line {line},2
+295,[time] {message} at {path} line {line},5
+296,[time] {function} signalled err={error_code} ({error_description}) at {file_path} line {line_number},1
+297,[time] {function} signalled err={error_code} ({error_description}) (invalidated) at {file_path} line {line_number},1
+298,wake time set -0.855670 s,1
+299,"Opened file {file_path}, size {size}, extents {extents}, maxio {maxio} ssd {ssd}",3
+300,"NETWORK: no response from server, reachability, {number}, queryRetries, {number}",4
+301,"Unexpected payload found for message 9, dataLen 0",2
+302,CCFile::captureLog,17
+303,en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 144 149 153 157 161,2
+304,ARPT: 681387.132167: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake,1
+305,ARPT: 681446.072377: AirPort_Brcm43xx::platformWoWEnable: WWEN[{enable}],1
+306,Internal name did not resolve to internal address!,1
+307,Service exited with abnormal code: 1,1
+308,Central manager is not powered on,1
+309,"CCFile::captureLogRun Skipping current file Dir file [{timestamp}]-CCIOReporter-002.xml, Current File [{timestamp}]-CCIOReporter-002.xml",2
+310,__42-[NETClientConnection evaluateCrazyIvan46]_block_invoke CI46 - Hit by torpedo! QQ.10018 tc20795 {ip}:{port},1
+311,"CCFile::copyFile fileName is [timestamp]-io80211Family-002.pcapng, source path:/var/log/CoreCapture/com.apple.iokit.IO80211Family/IO80211AWDLPeerManager//[timestamp]-io80211Family-002.pcapng, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.iokit.IO80211Family/[timestamp]=AssocFail:sts:{sts}_rsn:{rsn}/IO80211AWDLPeerManager//[timestamp]-io80211Family-002.pcapng",1
+312,ARPT: 682068.402171: framerdy 0x0 bmccmd 7 framecnt 1024,1
+313,tcp_connection_handle_connect_conditions_bad 20835 failed: {code} - {reason},1
+314,tcp_connection_handle_connect_conditions_bad 20851 failed: {code} - {reason},1
+315,com.apple.Addres(33476) deny network-outbound /private/var/run/mDNSResponder,1
+316,<IMMacNotificationCenterManager: 0x{memory_address}>: DND Enabled: {enabled},3
+317,13:55:56.094 : Starting AirDrop server for user 501 on wake,1
+318,Sandbox: com.apple.Addres(33493) deny(1) network-outbound /private/var/run/mDNSResponder,1
+319,ARPT: 682406.173418: wl0: setup_keepalive: Remote IP: {ip},1
+320,"ARPT: 682407.704265: wl0: wl_update_tcpkeep_seq: Original Seq: {seq}, Ack: {ack}, Win size: {win_size}",1
+321,"RTC: Maintenance 2017/7/3 21:47:58, sleep 2017/7/3 21:35:20",1
+322,Sandbox: com.apple.Addres(33508) deny(1) network-outbound /private/var/run/mDNSResponder,1
+323,ARPT: 682466.260119: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on.,1
+324,ARPT: 682468.243050: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake,1
+325,ARPT: 682468.243133: AirPort_Brcm43xx::platformWoWEnable: WWEN[{enable}],1
+326,"<<<< FigByteStream >>>> FigByteStreamStatsLogOneRead: ByteStream read of {bytes} bytes @ {position} took {time} secs. to complete, {reads} reads >= 1 sec.",1
+327,com.apple.Addres(33523) deny network-outbound /private/var/run/mDNSResponder,1
+328,ARPT: 682634.998705: wl0: setup_keepalive: Remote IP: {ip},1
+329,ARPT: 682638.445688: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake,1
+330,network changed: v4(en0:{ipv4}) v6(en0!:{ipv6}) DNS Proxy SMB,1
+331,"CCFile::captureLog Received Capture notice id: {id}, reason = AuthFail:sts:5_rsn:0",12
+332,CCIOReporterFormatter::refreshSubscriptionsFromStreamRegistry clearing out any previous subscriptions,9
+333,"CCFile::copyFile fileName is {fileName}, source path:{sourcePath}, dest path:{destPath}",13
+334,Sandbox: com.apple.Addres(33540) deny(1) network-outbound /private/var/run/mDNSResponder,1
+335,"CCLogTap::profileRemoved, Owner: com.apple.iokit.IO80211Family, Name: OneStats",1
+336,"<<<< FigByteStream >>>> FigByteStreamStatsLogOneRead: ByteStream read of {bytes} bytes @ {time} took {duration} sec. to complete, {reads} reads >= {threshold} sec.",1
+337,"CCFile::captureLogRun Skipping current file Dir file {file1}, Current File {file2}",13
+338,"CCFile::captureLogRun Skipping current file Dir file [{timestamp}]-{filename}, Current File [{timestamp}]-{filename}",4
+339,network changed: v6(en0-:{ipv6}) DNS- Proxy-,2
+340,ARPT: 682827.873728: AQM agg results 0x8001 len hi/lo: 0x0 0x26 BAbitmap(0-3) 0 0 0 0,1
+341,"CCFile::captureLogRun Skipping current file Dir file {file}, Current File {file}",3
+342,ARPT: 682833.053879: framerdy 0x0 bmccmd 3 framecnt 1024,1
+343,ARPT: 682834.192587: wlc_dump_aggfifo:,1
+344,"CCFile::captureLogRun Skipping current file Dir file [{timestamp}]-CCIOReporter-027.xml, Current File [{timestamp}]-CCIOReporter-027.xml",1
+345,ARPT: 682840.256116: AQM agg results 0x8001 len hi/lo: 0x0 0x30 BAbitmap(0-3) 0 0 0 0,1
+346,"CCFile::captureLogRun Skipping current file Dir file [{timestamp}]-CCIOReporter-038.xml, Current File [{timestamp}]-CCIOReporter-038.xml",1
+347,[time] <<<< CRABS >>>> crabsFlumeHostUnavailable: [{address}] Byte flume reports host unavailable.,1
+348,com.apple.Addres(33562) deny network-outbound /private/var/run/mDNSResponder,1
+349,ARPT: 682969.397322: AirPort_Brcm43xx::platformWoWEnable: WWEN[enable],1
+350,ARPT: 682977.654133: wlc_dump_aggfifo:,1
+351,doSaveChannels@286: Will write to: /Library/Logs/CrashReporter/CoreCapture/IOReporters/[{timestamp}] - AuthFail:sts:{sts}_rsn:{rsn}.xml,1
+352,tcp_connection_destination_perform_socket_connect 21152 connectx to {ip}:{port}@{index} failed: [{code}] {message},1
+353,tcp_connection_handle_connect_conditions_bad 21158 failed: {code} - {message},1
+354,ARPT: 683047.197539: framerdy 0x0 bmccmd 3 framecnt 1024,1
+355,"CCFile::captureLogRun Skipping current file Dir file [{timestamp}]-CCIOReporter-062.xml, Current File [{timestamp}]-CCIOReporter-062.xml",1
+356,__42-[NETClientConnection evaluateCrazyIvan46]_block_invoke CI46 - Hit by torpedo! NeteaseMusic.17988 tc9008 {ip}:{port},1
+357,"[CardDAVPlugin-ERROR] -getPrincipalInfo:[_controller supportsRequestCompressionAtURL:{url}] Error Domain=NSURLErrorDomain Code={code} ""The request timed out."" UserInfo={{NSUnderlyingError={error} {Error Domain=kCFErrorDomainCFNetwork Code={code} ""The request timed out."" UserInfo={NSErrorFailingURLStringKey={key}, NSErrorFailingURLKey={key}, _kCFStreamErrorCodeKey={key}, _kCFStreamErrorDomainKey={key},",1
+358,ARPT: 683172.046921: AirPort_Brcm43xx::syncPowerState: WWEN[enabled],1
+359,ARPT: 683173.929950: ARPT: Wake Reason: Wake on Scan offload,1
+360,"ARPT: 683239.026135: wl0: MDNS: 0 SRV Recs, 0 TXT Recs",1
+361,hibernate image path: /var/vm/sleepimage,2
+362,hibernate_flush_memory: buffer_cache_gc freed up 13202 wired pages,1
+363,"hibernate_machine_init pagesDone {pagesDone} sum2 {sum2}, time: {time} ms, disk(0x{diskHex}) {diskSpeed} Mb/s, comp bytes: {compBytes} time: {compTime} ms {compSpeed} Mb/s, crypt bytes: {cryptBytes} time: {cryptTime} ms {cryptSpeed} Mb/s",1
+364,ASSERTION FAILED: dvcAddrRef != ((void *)0) -[DriverServices getDeviceAddress:] line: 2789,4
+365,hibernate_machine_init reading,2
+366,assertion failed: 15G1510: com.apple.telemetry + 38574 [10D2E324-788C-30CC-A749-55AE67AEC7BC]: 0x7fc235807b90,3
+367,hibernate_flush_memory: buffer_cache_gc freed up 3349 wired pages,1
+368,jemmytest,10
+369,hibernate_setup(0) took {time} ms,2
+370,**** [IOBluetoothFamily][ProcessBluetoothTransportShowsUpActionWL] -- calling IOBluetoothFamily's registerService() -- {hex1} -- {hex2} -- {hex3} ****,2
+371,**** [IOBluetoothFamily][ProcessBluetoothTransportShowsUpActionWL] -- Connected to the transport successfully -- {hex1} -- {hex2} -- {hex3} ****,1
+372,hciControllerOnline; HID devices? 0,1
+373,INIT -- Host controller is published,2
+374,"polled file major 1, minor 0, blocksize 4096, pollers 5",3
+375,BuildActDeviceEntry exit,2
+376,__42-[NETClientConnection evaluateCrazyIvan46]_block_invoke CI46 - Hit by torpedo! QQ.10018 {var1}:{var2} {var3}:{var4},2
+377,"ARPT: 683604.474196: IOPMPowerSource Information: onSleep, SleepType: Standby, 'ExternalConnected': No, 'TimeRemaining': {time},",1
+378,ARPT: 683617.825411: AirPort_Brcm43xx::platformWoWEnable: WWEN[{enable}],1
+379,ARPT: 683623.036953: wl0: setup_keepalive: Remote IP: {ip},1
+380,Wake reason: ARPT (Network),3
+381,AppleActuatorHIDEventDriver: message service is terminated,1
+382,[18:56:23.837] <<<< CRABS >>>> crabsFlumeHostUnavailable: [0x{hex}] Byte flume reports host unavailable.,1
+383,payload Data 07 00,1
+384,WARNING: hibernate_page_list_setall skipped 11799 xpmapped pages,1
+385,"hibernate_teardown: wired_pages {wired_pages}, free_pages {free_pages}, active_pages {active_pages}, inactive_pages {inactive_pages}, speculative_pages {speculative_pages}, cleaned_pages {cleaned_pages}, compressor_pages {compressor_pages}",1
+386,[BluetoothHIDDeviceController] EventServiceConnectedCallback,2
+387,ARPT: 683779.928118: framerdy 0x0 bmccmd {bmccmd} framecnt {framecnt},1
+388,ARPT: 683780.224800: AQM agg results 0x8001 len hi/lo: 0x0 0x26 BAbitmap(0-3) 0 0 0 0,1
+389,[time] FigAgglomeratorSetObjectForKey signalled err={err} ({errName}) ({key}) at {filePath} line {lineNumber},4
+390,tcp_connection_handle_connect_conditions_bad 21353 failed: {code} - No network route,1
+391,"CCFile::copyFile fileName is [timestamp]-io80211Family-018.pcapng, source path:/var/log/CoreCapture/com.apple.iokit.IO80211Family/IO80211AWDLPeerManager//[timestamp]-io80211Family-018.pcapng, dest path:/Library/Logs/CrashReporter/CoreCapture/com.apple.iokit.IO80211Family/[timestamp]=AuthFail:sts:2_rsn:0/IO80211AWDLPeerManager//[timestamp]-io80211Family-018.pcapng",1
+392,hibernate_rebuild_pmap_structs done: last_valid_compact_indx 285862,1
+393,BuildActDeviceEntry enter,2
+394,(ImportBailout.Error:1331) Asked to exit for Diskarb,1
+395,"Path not allowed in target domain: type = pid, path = {path} error = {error}: {message}, origin = {origin}",9
+396,2017-07-03 20:25:13.378 GoogleSoftwareUpdateAgent[33847/0x7000002a0000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction starting update check for ticket(s): {( <KSTicket:0x10053b310 productID=com.google.Keystone version={version} xc=<KSPathExistenceChecker:0x10053ac30 path={path}> url={url} creationDate={date} ticketVersion={version} > )} Using server: <KSOmahaServer:0x100248090 engine=<KSUpdateEngine:0x1007249c0> >,1
+397,[time] FigAgglomeratorSetObjectForKey signalled err={err} ({errName}) ({additionalInfo}) at {filePath} line {lineNumber},1
+398,FA||Url||taskID[2019353376] dealloc,1
+399,KeychainGetICDPStatus: status: off,8
+400,tcp_connection_handle_connect_conditions_bad 21502 failed: {code} - No network route,1
+401,tcp_connection_handle_connect_conditions_bad 21503 failed: {code} - No network route,1
+402,__42-[NETClientConnection evaluateCrazyIvan46]_block_invoke CI46 - Hit by torpedo! QQ.10018 tc21519 {ip}:{port},1
+403,Sandbox: com.apple.Addres(33959) deny(1) network-outbound /private/var/run/mDNSResponder,1
+404,FA||Url||taskID[2019353410] dealloc,1
+405,[23:24:32.378] <<<< Boss >>>> figPlaybackBossPrerollCompleted: unexpected preroll-complete notification,1
+406,ARPT: 697702.656868: AirPort_Brcm43xx::powerChange: System Sleep,1
+407,tcp_connection_tls_session_error_callback_imp 2210 tcp_connection_tls_session_handle_read_error.790 error 60,1
+408,"com.apple.SoftwareUpdate.Activity: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 6349 seconds. Ignoring.",1
+409,"com.apple.SoftwareUpdate.Activity: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 6306 seconds. Ignoring.",1
+410,ARPT: 697853.842104: AirPort_Brcm43xx::syncPowerState: WWEN[enabled],1
+411,"com.apple.SoftwareUpdate.Activity: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 5533 seconds. Ignoring.",1
+412,"com.apple.EscrowSecurityAlert.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 44944 seconds. Ignoring.",1
+413,"com.apple.suggestions.harvest: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 9749 seconds. Ignoring.",1
+414,Checking iCDP status for DSID {dsid} (checkWithServer={checkWithServer}),1
+415,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 1883 seconds. Ignoring.",1
+416,ARPT: 698052.637142: AirPort_Brcm43xx::powerChange: System Sleep,1
+417,ARPT: 698055.177765: AirPort_Brcm43xx::platformWoWEnable: WWEN[{enable}],1
+418,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 207556 seconds. Ignoring.",1
+419,ARPT: 698150.103985: wl0: setup_keepalive: Remote IP: {ip},1
+420,ARPT: 698152.085457: AirPort_Brcm43xx::powerChange: System Sleep,1
+421,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 206850 seconds. Ignoring.",1
+422,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 206840 seconds. Ignoring.",1
+423,"com.apple.EscrowSecurityAlert.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 39837 seconds. Ignoring.",1
+424,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 38276 seconds. Ignoring.",1
+425,ARPT: 698348.781411: wl0: MDNS: IPV6 Addr: {ipv6_address},1
+426,"com.apple.suggestions.harvest: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 3199 seconds. Ignoring.",1
+427,ARPT: 698398.428268: wl0: setup_keepalive: Remote IP: {ip},1
+428,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 1728 seconds. Ignoring.",2
+429,"com.apple.suggestions.harvest: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 1732 seconds. Ignoring.",1
+430,ARPT: 698501.213099: ARPT: Wake Reason: Wake on TCP Timeout,1
+431,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 34623 seconds. Ignoring.",1
+432,ARPT: 698596.169927: wl0: setup_keepalive: Local IP: 10.142.110.255,1
+433,Sandbox: com.apple.Addres(34268) deny(1) network-outbound /private/var/run/mDNSResponder,1
+434,"com.apple.EscrowSecurityAlert.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 31785 seconds. Ignoring.",1
+435,AppleThunderboltNHIType2::prePCIWake - power up complete - took 5 us,1
+436,Sandbox: com.apple.Addres(34309) deny(1) network-outbound /private/var/run/mDNSResponder,1
+437,ARPT: 698894.284410: wl0: MDNS: IPV6 Addr: {ipv6_address},1
+438,ARPT: 698896.274509: AirPort_Brcm43xx::powerChange: System Sleep,1
+439,ARPT: 698896.831598: AirPort_Brcm43xx::platformWoWEnable: WWEN[enable],1
+440,ARPT: 698898.741521: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake,1
+441,"com.apple.EscrowSecurityAlert.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 29590 seconds. Ignoring.",1
+442,Sandbox: com.apple.Addres(34326) deny(1) network-outbound /private/var/run/mDNSResponder,1
+443,"com.apple.EscrowSecurityAlert.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 28123 seconds. Ignoring.",1
+444,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 1077 seconds. Ignoring.",1
+445,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 192946 seconds. Ignoring.",1
+446,"ARPT: 699244.827573: wl0: wl_update_tcpkeep_seq: Updated seq/ack/win from UserClient Seq {seq}, Ack {ack}, Win size {win}",1
+447,ARPT: 699246.920246: ARPT: Wake Reason: Wake on Scan offload,1
+448,ARPT: 699300.508954: wl0: setup_keepalive: Local IP: {ip},1
+449,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 23884 seconds. Ignoring.",1
+450,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 190238 seconds. Ignoring.",1
+451,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 23852 seconds. Ignoring.",1
+452,"ARPT: 699352.804212: wl0: wl_update_tcpkeep_seq: Updated seq/ack/win from UserClient Seq {seq}, Ack {ack}, Win size {win}",1
+453,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 189428 seconds. Ignoring.",1
+454,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 1852 seconds. Ignoring.",1
+455,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 1847 seconds. Ignoring.",1
+456,"ARPT: 699408.252331: IOPMPowerSource Information: onSleep, SleepType: Normal Sleep, 'ExternalConnected': Yes, 'TimeRemaining': 0,",1
+457,network changed: v4(en0-:{ipv4}) v6(en0-:{ipv6}) DNS- Proxy-,1
+458,Sandbox: com.apple.Addres(34429) deny(1) network-outbound /private/var/run/mDNSResponder,1
+459,"ARPT: 699456.025397: wl0: setup_keepalive: Local port: {port}, Remote port: {port}",1
+460,tcp_connection_handle_connect_conditions_bad 21875 failed: {code} - No network route,1
+461,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 215 seconds. Ignoring.",2
+462,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 6 seconds. Ignoring.",1
+463,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 187547 seconds. Ignoring.",1
+464,network changed: DNS*,1
+465,en0: Supported channels 1 2 3 4 5 6 7 8 9 10 11 12 13 36 40 44 48 52 56 60 64 100 104 108 112 116 120 124 128 132 136 140 144 149 153 157 161 165,2
+466,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 186599 seconds. Ignoring.",1
+467,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 185770 seconds. Ignoring.",1
+468,"com.apple.suggestions.harvest: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 9995 seconds. Ignoring.",1
+469,ARPT: 699815.080622: wl0: MDNS: IPV6 Addr: {ipv6_address},1
+470,ARPT: 699878.306468: AirPort_Brcm43xx::syncPowerState: WWEN[enabled],1
+471,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 183327 seconds. Ignoring.",2
+472,"ARPT: 699925.384446: wl0: setup_keepalive: Seq: {seq}, Ack: {ack}, Win size: {win_size}",1
+473,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 182511 seconds. Ignoring.",1
+474,tcp_connection_handle_connect_conditions_bad 21983 failed: {code} - No network route,1
+475,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 181657 seconds. Ignoring.",1
+476,"com.apple.suggestions.harvest: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 5144 seconds. Ignoring.",1
+477,tcp_connection_handle_connect_conditions_bad 21993 failed: {code} - No network route,1
+478,FA||Url||taskID[2019353444] dealloc,1
+479,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 138 seconds. Ignoring.",1
+480,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 12051 seconds. Ignoring.",1
+481,2017-07-04 09:42:57.924 GoogleSoftwareUpdateAgent[34603/0x700000323000] [lvl=2] +[KSCodeSigningVerification verifyBundle:applicationId:error:] KSCodeSigningVerification verifying code signing for '{bundlePath}' with the requirement '{requirement}',1
+482,2017-07-04 09:42:58.121 ksfetch[34604/0x7fff79824000] [lvl={level}] main() ksfetch done fetching.,1
+483,"ARPT: 700254.389213: wl0: setup_keepalive: Seq: {seq}, Ack: {ack}, Win size: {win_size}",1
+484,ARPT: 700256.949512: AirPort_Brcm43xx::syncPowerState: WWEN[enabled],1
+485,ARPT: 700311.376442: wl0: MDNS: IPV6 Addr: {ipv6_address},1
+486,"ARPT: 700311.376459: wl0: MDNS: 0 SRV Recs, 0 TXT Recs",1
+487,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 11173 seconds. Ignoring.",1
+488,network changed: v4(en0!:{ip}) DNS+ Proxy+ SMB,1
+489,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 1737 seconds. Ignoring.",1
+490,-[SOAPParser:{address} parser:didStartElement:namespaceURI:qualifiedName:attributes:] Type not found in EWSItemType for ExchangePersonIdGuid (t:ExchangePersonIdGuid),4
+491,[{time}] <<<< CRABS >>>> crabsFlumeHostAvailable: [{address}] Byte flume reports host available again.,1
+492,"com.apple.EscrowSecurityAlert.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 10319 seconds. Ignoring.",1
+493,"com.apple.suggestions.harvest: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 43063 seconds. Ignoring.",1
+494,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 8416 seconds. Ignoring.",1
+495,"com.apple.EscrowSecurityAlert.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 8500 seconds. Ignoring.",1
+496,Sandbox: com.apple.Addres(34685) deny(1) network-outbound /private/var/run/mDNSResponder,1
+497,ARPT: 700626.024536: wl0: MDNS: IPV6 Addr: {ipv6_address},1
+498,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 7615 seconds. Ignoring.",1
+499,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 1609 seconds. Ignoring.",1
+500,ARPT: 700687.112611: AirPort_Brcm43xx::powerChange: System Sleep,1
+501,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 5970 seconds. Ignoring.",1
+502,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 172284 seconds. Ignoring.",1
+503,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 5688 seconds. Ignoring.",1
+504,"CCFile::captureLogRun Skipping current file Dir file [{timestamp}]-CCIOReporter-{number}.xml, Current File [{timestamp}]-CCIOReporter-{number}.xml",1
+505,ARPT: 700863.801551: wl0: MDNS: IPV6 Addr: {ipv6_address},1
+506,Sandbox: com.apple.Addres(34738) deny(1) network-outbound /private/var/run/mDNSResponder,1
+507,ARPT: 700919.494551: wl0: MDNS: IPV6 Addr: {ipv6_address},1
+508,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 1878 seconds. Ignoring.",1
+509,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 170391 seconds. Ignoring.",1
+510,"ARPT: 700980.255260: wl0: setup_keepalive: Seq: {seq}, Ack: {ack}, Win size: {win_size}",1
+511,"CCLogTap::profileRemoved, Owner: com.apple.iokit.IO80211Family, Name: IO80211AWDLPeerManager",2
+512,Sandbox: com.apple.Addres(34830) deny(1) network-outbound /private/var/run/mDNSResponder,1
+513,com.apple.Addres(34830) deny network-outbound /private/var/run/mDNSResponder,1
+514,[hh:mm:ss.mmm] <<<< {boss} >>>> {function}: {message},1
+515,extension com.apple.ncplugin.WorldClock -> (null),1
+516,"ARPT: 702237.246510: wl0: setup_keepalive: Local port: {port}, Remote port: {port}",1
+517,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 168082 seconds. Ignoring.",1
+518,"ARPT: 702351.279867: wl0: setup_keepalive: interval {interval}, retry_interval {retry_interval}, retry_count {retry_count}",1
+519,"com.apple.EscrowSecurityAlert.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 177 seconds. Ignoring.",1
+520,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 1769 seconds. Ignoring.",1
+521,ARPT: 702415.308381: AirPort_Brcm43xx::platformWoWEnable: WWEN[{enable}],1
+522,"[Accounts] Current connection, <NSXPCConnection: {address}> connection from pid {pid}, doesn't have account access.",2
+523,"[Accounts] Failed to update account with identifier {identifier}, error: Error Domain=ABAddressBookErrorDomain Code={code} ""({description})""",2
+524,Session 101921 created,1
+525,"2017-07-04 15:03:53.270 GoogleSoftwareUpdateAgent[{pid}/{hex}] [lvl={level}] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for URL: ""{url}""",1
+526,-[ISGenerateImageOp generateImageWithCompletion:] Failed to composit image for descriptor <ISBindingImageDescriptor: {descriptor}>.,1
+527,[15:47:25.614] <<<< Boss >>>> figPlaybackBossPrerollCompleted: unexpected preroll-complete notification,1
+528,Sandbox: com.apple.Addres(35110) deny(1) network-outbound /private/var/run/mDNSResponder,2
+529,ARPT: 711599.232230: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake,1
+530,"com.apple.SoftwareUpdate.Activity: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 4045 seconds. Ignoring.",1
+531,kern_open_file_for_direct_io took 6 ms,1
+532,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 151433 seconds. Ignoring.",1
+533,"com.apple.SoftwareUpdate.Activity: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 3226 seconds. Ignoring.",1
+534,17:13:03.545 : Starting AirDrop server for user 501 on wake,1
+535,"ARPT: 711749.913729: IOPMPowerSource Information: onSleep, SleepType: Normal Sleep, 'ExternalConnected': Yes, 'TimeRemaining': 0,",1
+536,ARPT: 711752.511718: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake,1
+537,17:26:44.228 : Scanning mode Contacts Only,1
+538,Sandbox: com.apple.Addres(35150) deny(1) network-outbound /private/var/run/mDNSResponder,1
+539,"ARPT: 711979.641310: wl0: setup_keepalive: interval {interval}, retry_interval {retry_interval}, retry_count {retry_count}",1
+540,"com.apple.suggestions.harvest: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 40 seconds. Ignoring.",1
+541,"ARPT: 712221.085635: wl0: wl_update_tcpkeep_seq: Updated seq/ack/win from UserClient Seq {seq}, Ack {ack}, Win size {win}",1
+542,"com.apple.suggestions.harvest: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 42431 seconds. Ignoring.",1
+543,18:35:05.187 : Scanning mode Contacts Only,1
+544,ARPT: 712530.297675: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on.,1
+545,CGXDisplayDidWakeNotification [712572581805245]: posting kCGSDisplayDidWake,1
+546,ARPT: 712604.204993: wl0: MDNS: IPV6 Addr: {ipv6_address},1
+547,Peripheral manager is not powered on,3
+548,Sandbox: com.apple.Addres(35229) deny(1) network-outbound /private/var/run/mDNSResponder,1
+549,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 1867 seconds. Ignoring.",1
+550,"com.apple.suggestions.harvest: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 36678 seconds. Ignoring.",1
+551,Sandbox: com.apple.Addres(35250) deny(1) network-outbound /private/var/run/mDNSResponder,1
+552,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 139865 seconds. Ignoring.",1
+553,ARPT: 712915.870808: wl0: MDNS: IPV4 Addr: {ip_address},1
+554,"ARPT: 712918.575461: IOPMPowerSource Information: onSleep, SleepType: Normal Sleep, 'ExternalConnected': Yes, 'TimeRemaining': 0,",1
+555,ARPT: 712921.782306: AirPort_Brcm43xx::platformWoWEnable: WWEN[{state}],1
+556,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 139095 seconds. Ignoring.",1
+557,"com.apple.suggestions.harvest: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 35003 seconds. Ignoring.",1
+558,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 139057 seconds. Ignoring.",1
+559,"ARPT: 712997.981881: IOPMPowerSource Information: onWake, SleepType: Normal Sleep, 'ExternalConnected': Yes, 'TimeRemaining': 0,",1
+560,20:54:03.455 : BTLE scanner Powered On,1
+561,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 138144 seconds. Ignoring.",1
+562,__42-[NETClientConnection evaluateCrazyIvan46]_block_invoke CI46 - Hit by torpedo! QQ.10018 tc22491 {ip}:{port},1
+563,Sandbox: com.apple.Addres(35286) deny(1) network-outbound /private/var/run/mDNSResponder,1
+564,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 132 seconds. Ignoring.",1
+565,21:07:16.729 : Scanning mode Contacts Only,1
+566,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 135670 seconds. Ignoring.",1
+567,ARPT: 713439.104232: AirPort_Brcm43xx::powerChange: System Sleep,1
+568,"ARPT: 713439.104255: IOPMPowerSource Information: onSleep, SleepType: Normal Sleep, 'ExternalConnected': Yes, 'TimeRemaining': 0,",1
+569,ARPT: 713493.575563: wl0: setup_keepalive: Remote IP: {ip},1
+570,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 1843 seconds. Ignoring.",1
+571,22:29:26.099 : BTLE scanner Powered On,1
+572,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 978 seconds. Ignoring.",1
+573,"PM response took {time} ms ({code}, {app})",1
+574,"device_generate_lock_screen_screenshot: authw {authw}(2000)[{x}, {y}, {width}, {height}] shield {shield}(2001), dev [{width},{height}]",1
+575,Cocoa scripting error for '{code}': {message}.,38
+576,Cocoa scripting error for '{code}': four character codes must be four characters long.,33
+577,.sdef warning for argument '{arg}' of command '{command}' in suite '{suite}': '{value}' is not a valid type name.,1
+578,FA||Url||taskID[2019353519] dealloc,1
+579,objc[35391]: Class TSUAtomicLRUCache is implemented in both {path1} and {path2}. One of the two will be used. Which one is undefined.,1
+580,Invalidating watch set.,1
+581,objc[35448]: Class TSUCustomFormatData is implemented in both {path1} and {path2}. One of the two will be used. Which one is undefined.,1
+582,00:03:06.178 : Started generating hashes,1
+583,00:03:36.715 : BTLE scanning started,1
+584,"<<<< FigByteStream >>>> FigByteStreamStatsLogOneRead: ByteStream read of {bytes} bytes @ {position} took {time} sec. to complete, {reads} reads >= {threshold} sec.",1
+585,button report: 0X80076ED,1
+586,-_continuousScroll is deprecated for NSScrollWheel. Please use -hasPreciseScrollingDeltas.,1
+587,-deviceDeltaY is deprecated for NSScrollWheel. Please use -scrollingDeltaY.,1
+588,[00:28:42.167] (Fig) signalled err=-12871,1
+589,[{time}] <<<< CRABS >>>> crabsWaitForLoad: [{address}] Wait time out - -1001 (msRequestTimeout -1),1
+590,tcp_connection_handle_connect_conditions_bad 22710 failed: {code} - {reason},1
+591,"Configuration Notice: ASL Module ""com.apple.corecdp.osx.asl"" claims selected messages. Those messages may not appear in standard system log files or in the ASL database.",1
+592,"PBRequester failed with Error Error Domain=NSURLErrorDomain Code={code} ""The request timed out."" UserInfo={NSUnderlyingError={error} {Error Domain=kCFErrorDomainCFNetwork Code={code} ""The request timed out."" UserInfo={NSErrorFailingURLStringKey={key}, NSErrorFailingURLKey={key}, _kCFStreamErrorCodeKey={key}, _kCFStreamErrorDomainKey={key}, NSLocalizedDescription=The request timed out.}}, NSErrorFailingURLStringKey={key}, NSErrorFailingURLKey={key}, _kCFStreamErrorDomainKey={key}, _kCFStreamErrorCodeKey={key}, NSLocalizedDescription=The request timed out.}",1
+593,"NETWORK: requery, 0, 0, 0, 0, 284, items, fQueryRetries, 0, fLastRetryTimestamp, 520934130.6",1
+594,Failed to stop a scan - central is not powered on: 4,1
+595,ARPT: 720406.265686: AirPort_Brcm43xx::powerChange: System Sleep,1
+596,ARPT: 720413.304306: wl0: setup_keepalive: Remote IP: {ip},1
+597,com.apple.Addres(35762) deny network-outbound /private/var/run/mDNSResponder,1
+598,ARPT: 720580.338311: AirPort_Brcm43xx::powerChange: System Sleep,1
+599,Sandbox: com.apple.Addres(35773) deny(1) network-outbound /private/var/run/mDNSResponder,1
+600,Wake reason: EC.SleepTimer (SleepTimer),1
+601,**** [BroadcomBluetoothHostControllerUSBTransport][start] -- Completed (matched on Device) -- 0x6000 ****,1
+602,"hibernate_newruntime_map time: {time} ms, IOPolledFilePollersOpen(), ml_get_interrupts_enabled {interrupts}",2
+603,"hibernate_machine_init pagesDone {pagesDone} sum2 {sum2}, time: {time} ms, disk(0x20000) {diskSpeed} Mb/s, comp bytes: {compBytes} time: {compTime} ms {compSpeed} Mb/s, crypt bytes: {cryptBytes} time: {cryptTime} ms {cryptSpeed} Mb/s",1
+604,vm_compressor_fastwake_warmup (581519 - 591525) - starting,1
+605,"<IMMacNotificationCenterManager: {address}>: Updating enabled: YES (Topics: ( ""{topic1}"", ""{topic2}"", ""{topic3}"", ""{topic4}"", ""{topic5}"", ""{topic6}"", ""{topic7}"", ""{topic8}"", ""{topic9}"", ""{topic10}"", ""{topic11}"", ""{topic12}"", ""{topic13}"", ""{topic14}"", ""{topic15}"", ""{topic16}""",1
+606,"2017-07-05 10:52:15.982 GoogleSoftwareUpdateAgent[{pid}/{hex}] [lvl={level}] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for URL: ""{url}""",1
+607,2017-07-05 10:52:16.779 ksfetch[35863/0x7fff79824000] [lvl=2] main() Fetcher received a request: <NSMutableURLRequest: 0x100501610> { URL: https://tools.google.com/service/update2?cup2hreq=a7873a51b1cb55518e420d20dff47d463781ed3f7aa83c3153129eefb148070b&cup2key=7:2501762722 },1
+608,2017-07-05 10:52:16.977 GoogleSoftwareUpdateAgent[35861/0x700000323000] [lvl={level}] -[KSPrefetchAction performAction] KSPrefetchAction no updates to prefetch.,1
+609,2017/07/05 10:57:01.130 | I | VoipWrapper | DAVEngineImpl.cpp:{line}:Close | close video chat. llFriendUIN = {id}.,1
+610,<IMMacNotificationCenterManager: 0x7fdcc9d16380>: notification observer: com.apple.FaceTime notification: __CFNotification {address} {name = {notification_name}},1
+611,CCProfileMonitor::freeResources done,1
+612,tcp_connection_destination_perform_socket_connect 44073 connectx to {ip}:{port}@{index} failed: [{error_code}] {error_message},1
+613,<IMMacNotificationCenterManager: 0x{memory_address}>: NC Disabled: {boolean},5
+614,CGXDisplayDidWakeNotification [723587602857832]: posting kCGSDisplayDidWake,1
+615,__42-[NETClientConnection evaluateCrazyIvan46]_block_invoke CI46 - Hit by torpedo! QQ.10018 tc22930 {ip}:{port},1
+616,ARPT: 724509.898718: wl0: MDNS: IPV4 Addr: {ip_address},1
+617,Daemon connection invalidated!,1
+618,"CCFile::copyFile fileName is [timestamp]-AirPortBrcm4360_Logs-025.txt, source path:{source_path}, dest path:{dest_path}",1
+619,ARPT: 724786.252727: AQM agg results 0x8001 len hi/lo: 0x0 0x26 BAbitmap(0-3) 0 0 0 0,1
+620,doSaveChannels@286: Will write to: /Library/Logs/CrashReporter/CoreCapture/IOReporters/[{timestamp}] - AssocFail:sts:{sts}_rsn:{rsn}.xml,1
+621,"CCFile::copyFile fileName is [timestamp]-io80211Family-056.pcapng, source path:{source_path}, dest path:{dest_path}",1
+622,"CCFile::copyFile fileName is [timestamp]-io80211Family-063.pcapng, source path:{source_path}, dest path:{dest_path}",1
+623,network changed: v4(en0+:{ipv4}) v6(en0:{ipv6}) DNS! Proxy SMB,1
+624,"ARPT: 724869.297011: IOPMPowerSource Information: onWake, SleepType: Normal Sleep, 'ExternalConnected': No, 'TimeRemaining': {time},",1
+625,IOHibernatePollerOpen(0),2
+626,"hibernate_machine_init: state 2, image pages {pages}, sum was {sum}, imageSize {size}, image1Size {size1}, conflictCount {count}, nextFree {free}",1
+627,hibernate_rebuild completed - took 10042450943433 msecs,1
+628,AppleActuatorDevice::stop Entered,1
+629,AppleActuatorDevice::start Entered,1
+630,ARPT: 725147.528572: AirPort_Brcm43xx::powerChange: System Sleep,1
+631,"bitmap_size {size}, previewSize {size}, writing {pages} pages @ {address}",2
+632,ARPT: 725209.960568: AQM agg params 0xfc0 maxlen hi/lo 0x0 0xffff minlen 0x0 adjlen 0x0,1
+633,ARPT: 725218.810934: AirPort_Brcm43xx::powerChange: System Sleep,1
+634,en0: manual intervention required!,1
+635,"DB Error: 1 ""{error}""",1
+636,"2017-07-05 16:18:06.450 GoogleSoftwareUpdateAgent[36128/0x7000002a0000] [lvl={level}] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher fetching from URL: ""{url}""",1
+637,ARPT: 725996.598754: framerdy 0x0 bmccmd {bmccmd} framecnt {framecnt},1
+638,ARPT: 725996.811165: AQM agg params 0xfc0 maxlen hi/lo 0x0 0xffff minlen 0x0 adjlen 0x0,1
+639,doSaveChannels@286: Will write to: /Library/Logs/CrashReporter/CoreCapture/IOReporters/[{date}] - AuthFail:sts:{sts}_rsn:{rsn}.xml,3
+640,<IMMacNotificationCenterManager: 0x{memory_address}>: Updating enabled: {enabled} (Topics: ({topics})),1
+641,"device_generate_lock_screen_screenshot: authw {authw}(2000)[{list}], shield {shield}(2001), dev [{width},{height}]",1
+642,ARPT: 728046.456828: wl0: setup_keepalive: Local IP: 10.142.108.38,1
+643,"ARPT: 728173.580097: wl0: setup_keepalive: interval {interval}, retry_interval {retry_interval}, retry_count {retry_count}",1
+644,ARPT: 728173.580149: wl0: MDNS: IPV4 Addr: {ip_address},1
+645,com.apple.Addres(36227) deny network-outbound /private/var/run/mDNSResponder,1
+646,[time] <<<< CRABS >>>> crabsFlumeHostAvailable: [{address}] Byte flume reports host available again.,1
+647,"arp_client_transmit(en0) failed, Network is down (50)",1
+648,-[NETClientConnection evaluateCrazyIvan46] CI46 - Perform CrazyIvan46! QQ.10018 {var1} {var2}:{var3},1
+649,tcp_connection_handle_connect_conditions_bad 23411 failed: {code} - No network route,1
+650,-[NETClientConnection effectiveBundleID] using process name {process_name} as bundle ID (this is expected for daemons without bundle ID,4
+651,"CCFile::captureLogRun Skipping current file Dir file [{timestamp}]-CCIOReporter-007.xml, Current File [{timestamp}]-CCIOReporter-007.xml",2
+652,"ARPT: 728563.210777: IOPMPowerSource Information: onSleep, SleepType: Normal Sleep, 'ExternalConnected': No, 'TimeRemaining': {time},",1
+653,"ARPT: 728620.515604: wl0: MDNS: 0 SRV Recs, 0 TXT Recs",1
+654,Sandbox: com.apple.Addres(36325) deny(1) network-outbound /private/var/run/mDNSResponder,1
+655,could discard act {act} inact {inact} purgeable {purgeable} spec {spec} cleaned {cleaned},2
+656,"booter start at {time} ms smc {smc_time} ms, [{numbers}] total {total_time} ms, dsply {dsply_time}, {dsply_time2} ms, tramp {tramp_time} ms",1
+657,"hostControllerOnline - Number of Paired devices = {count}, List of Paired devices = ({devices})",1
+658,com.apple.Addres(36332) deny network-outbound /private/var/run/mDNSResponder,1
+659,**** [BroadcomBluetoothHostController][SetupController] -- Delay HCI Reset by 300ms ****,1
+660,AppleActuatorHIDEventDriver: stop,2
+661,**** [IOBluetoothHostControllerUSBTransport][start] -- completed -- result = {result} -- {address} ****,1
+662,AppleActuatorDeviceUserClient::start Entered,1
+663,ARPT: 729188.852474: AQM agg params 0xfc0 maxlen hi/lo 0x0 0xffff minlen 0x0 adjlen 0x0,1
+664,2017-07-06 00:30:37.064 ksfetch[36439/0x7fff79824000] [lvl=2] main() Fetcher is exiting.,1
+665,2017-07-06 00:30:37.071 GoogleSoftwareUpdateAgent[{pid}/{thread}] [lvl={level}] -[{class} {method}] {message},1
+666,"Google Chrome He[36456] triggered unnest of range 0x7fff93c00000->0x7fff93e00000 of DYLD shared region in VM map 0x77c9114550458e7b. While not abnormal for debuggers, this increases system memory footprint until the target exits.",1
+667,network changed: v4({interface}:{ipv4}) v6({interface}:{ipv6}) DNS! Proxy SMB,2
+668,com.apple.Addres(36461) deny network-outbound /private/var/run/mDNSResponder,2
+669,WARNING: hibernate_page_list_setall skipped 19622 xpmapped pages,1
+670,tcp_connection_handle_connect_conditions_bad 23645 failed: {code} - No network route,1
+671,com.apple.Addres(36491) deny network-outbound /private/var/run/mDNSResponder,1
+672,-[NETClientConnection evaluateCrazyIvan46] CI46 - Perform CrazyIvan46! QQ.{qq} tc{tc} {ip}:{port},1
+673,hibernate_page_list_setall(preflight 1) start,1
+674,hibernate_page_list_setall time: {time} ms,1
+675,IOPolledFilePollersOpen(0) 6 ms,1
+676,tcp_connection_handle_connect_conditions_bad 23701 failed: {code} - No network route,1
+677,hibernate_teardown completed - discarded 93932,1
+678,AppleActuatorDeviceUserClient::stop Entered,1
+679,[IOBluetoothHostController::setConfigState] calling registerService,1
+680,[HID] [MT] AppleMultitouchDevice::start entered,1
+681,"[CardDAVPlugin-ERROR] -getPrincipalInfo:[_controller supportsRequestCompressionAtURL:{url}] Error Domain=NSURLErrorDomain Code={code} ""The Internet connection appears to be offline."" UserInfo={{NSUnderlyingError={error} {Error Domain=kCFErrorDomainCFNetwork Code={code} ""The Internet connection appears to be offline."" UserInfo={NSErrorFailingURLStringKey={key}, NSErrorFailingURLKey={key}",1
+682,Unable to start NetBIOS name service:,2
+683,Got an XPC error: Connection invalid,1
+684,-[SFLListManager(ServiceReplyProtocol) notifyChanges:toListWithIdentifier:] Notified of item changes to list with identifier com.apple.LSSharedFileList.RecentApplications,1
+685,FA||Url||taskID[{id}] dealloc,1
+686,2017-07-06 09:24:14.417 ksfetch[36728/0x7fff79824000] [lvl=2] main() ksfetch fetching URL (<NSMutableURLRequest: 0x100602220> { URL: https://tools.google.com/service/update2?cup2hreq=f5e83ec64ff3fc5533a3c206134a6517e274f9e1cb53df857e15049b6e4c9f8e&cup2key=7:1721929288 }) to folder:/tmp/KSOutOfProcessFetcher.aPWod5QMh1/download,1
+687,2017-07-06 09:24:14.733 GoogleSoftwareUpdateAgent[36726/0x7000002a0000] [lvl={level}] -[KSMultiUpdateAction performAction] KSPromptAction had no updates to apply.,1
+688,no sleep images for WillPowerOffWithImages,1
+689,"com.apple.EscrowSecurityAlert.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 12754 seconds. Ignoring.",1
+690,ChromeExistion main isUndetectWithCommand = 1,2
+691,after trim url = {url},1
+692,ChromeExistion main strSendMsg = {json},1
+693,url host = www.baidu.com,1
+694,the url = {url},1
+695,11:07:29.673 : Purged contact hashes,1
+696,ARPT: 739017.747240: ARPT: Wake Reason: Wake on Scan offload,1
+697,com.apple.Addres(36919) deny network-outbound /private/var/run/mDNSResponder,1
+698,[com.apple.calendar.store.log.caldav.queue] [Adding [<CalDAVAccountRefreshQueueableOperation: {hex}; Sequence: {num}>] to failed operations.],3
+699,ARPT: 739157.867474: wlc_dump_aggfifo:,1
+700,ARPT: 739163.832381: AQM agg results 0x8001 len hi/lo: 0x0 0x26 BAbitmap(0-3) 0 0 0 0,1
+701,"CCFile::captureLogRun Skipping current file Dir file [{timestamp}]-CCIOReporter-028.xml, Current File [{timestamp}]-CCIOReporter-028.xml",1
+702,ARPT: 739241.687186: AQM agg results 0x8001 len hi/lo: 0x0 0x26 BAbitmap(0-3) 0 0 0 0,1
+703,__42-[NETClientConnection evaluateCrazyIvan46]_block_invoke CI46 - Hit by torpedo! QQ.10018 tc24039 {ip}:{port},1
+704,ARPT: 739253.582611: wlc_dump_aggfifo:,1
+705,"CCFile::captureLogRun Skipping current file Dir file [{timestamp}]-CCIOReporter-041.xml, Current File [{timestamp}]-CCIOReporter-041.xml",1
+706,"ARPT: {timestamp}: {interface}: Roamed or switched channel, reason #{reason}, bssid {bssid}, last RSSI {rssi}",1
+707,tcp_connection_tls_session_error_callback_imp 2375 __tcp_connection_tls_session_callback_write_block_invoke.434 error {error},1
+708,"ARPT: 739357.156234: wl0: setup_keepalive: Seq: {seq}, Ack: {ack}, Win size: {win_size}",1
+709,ARPT: 739359.663674: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on.,1
+710,ARPT: 739420.595498: AirPort_Brcm43xx::syncPowerState: WWEN[enabled],1
+711,ARPT: 739481.576701: wl0: MDNS: IPV6 Addr: {ipv6_address},1
+712,ARPT: 739549.504820: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake,1
+713,ARPT: 739605.015490: wl0: MDNS: IPV6 Addr: {ipv6_address},1
+714,ARPT: 739668.778627: AirPort_Brcm43xx::powerChange: System Sleep,1
+715,tcp_connection_destination_perform_socket_connect 45238 connectx to {ip}:{port}@{index} failed: [{error_code}] {error_message},1
+716,tcp_connection_handle_connect_conditions_bad 24150 failed: {code} - No network route,1
+717,hibernate_rebuild started,1
+718,14:16:06.179 : Scanning mode Contacts Only,1
+719,Sandbox: com.apple.Addres(37034) deny(1) network-outbound /private/var/run/mDNSResponder,1
+720,"Service ""{service}"" tried to hijack endpoint ""{endpoint}"" from owner: {owner}",3
+721,"RTC: Maintenance 2017/{month}/{day} {hour}:{minute}:{second}, sleep 2017/{month}/{day} {hour}:{minute}:{second}",1
+722,2017-07-06 14:57:16.261 ksfetch[37061/0x7fff79824000] [lvl={level}] KSHelperReceiveAllData() KSHelperTool read {bytes} bytes from stdin.,1
+723,"2017-07-06 14:57:16.661 GoogleSoftwareUpdateAgent[37059/0x7000002a0000] [lvl={level}] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for URL: ""{url}""",1
+724,2017-07-06 14:57:16.667 GoogleSoftwareUpdateAgent[{pid}/{hex}] [lvl={level}] -[{class}({delegate}) {method}] {message},1
+725,"ARPT: 740174.102665: wl0: MDNS: 0 SRV Recs, 0 TXT Recs",1
+726,ARPT: 740226.968934: AirPort_Brcm43xx::platformWoWEnable: WWEN[{state}],1
+727,ARPT: 740345.497593: AirPort_Brcm43xx::syncPowerState: WWEN[enabled],1
+728,ARPT: 740352.115529: AirPort_Brcm43xx::platformWoWEnable: WWEN[enable],1
+729,ARPT: 740501.982555: wl0: MDNS: IPV6 Addr: {ipv6_address},1
+730,ARPT: 740504.547655: AirPort_Brcm43xx::syncPowerState: WWEN[enabled],1
+731,"ARPT: 740631.402908: IOPMPowerSource Information: onWake, SleepType: Normal Sleep, 'ExternalConnected': No, 'TimeRemaining': {time},",1
+732,17:23:43.193 : Scanning mode Contacts Only,1
+733,"DB Error: 1 ""no such table: tb_c2cMsg_2658655094""",1
+734,"NETWORK: requery, 0, 0, 0, 0, 302, items, fQueryRetries, 0, fLastRetryTimestamp, 521080983.6",1
+735,Sandbox: com.apple.WebKit({pid}) {action}({result}) {operation} {path},1
+736,FA||Url||taskID[2019353666] dealloc,1
+737,2017-07-06 06:22:57.163367 PM [AirPlayUIAgent] BecomingInactive: NSWorkspaceWillSleepNotification,1
+738,2017/07/06 18:22:57.953 | I | VoipWrapper | DAVEngineImpl.cpp:{line}:Close | close video chat. llFriendUIN = {id}.,1
+739,"com.apple.SoftwareUpdate.Activity: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 7518 seconds. Ignoring.",1
+740,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 258 seconds. Ignoring.",1
+741,Sandbox: com.apple.Addres(37204) deny(1) network-outbound /private/var/run/mDNSResponder,1
+742,full wake request (reason {reason}) {time} ms,1
+743,18:37:30.916 : BTLE scanner Powered Off,1
+744,"ARPT: 744319.484045: wl0: wl_update_tcpkeep_seq: Original Seq: {seq}, Ack: {ack}, Win size: {win_size}",1
+745,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 65594 seconds. Ignoring.",1
+746,"com.apple.SoftwareUpdate.Activity: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 5880 seconds. Ignoring.",1
+747,"com.apple.suggestions.harvest: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 16680 seconds. Ignoring.",1
+748,kern_open_file_for_direct_io(0),1
+749,"com.apple.suggestions.harvest: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 15823 seconds. Ignoring.",1
+750,19:17:46.405 : BTLE scanner Powered Off,1
+751,ARPT: 744472.877165: AirPort_Brcm43xx::platformWoWEnable: WWEN[{enable}],1
+752,"com.apple.suggestions.harvest: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 15002 seconds. Ignoring.",1
+753,ARPT: 744589.508896: wl0: setup_keepalive: Remote IP: 17.249.28.35,1
+754,"ARPT: 744593.160590: wl0: wl_update_tcpkeep_seq: Updated seq/ack/win from UserClient Seq {seq}, Ack {ack}, Win size {win}",1
+755,ARPT: 744595.284508: AirPort_Brcm43xx::platformWoWEnable: WWEN[{enable}],1
+756,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 524667 seconds. Ignoring.",1
+757,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 63122 seconds. Ignoring.",1
+758,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 524657 seconds. Ignoring.",1
+759,ARPT: 744650.016431: wl0: MDNS: IPV6 Addr: {ipv6_address},1
+760,"com.apple.SoftwareUpdate.Activity: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 2593 seconds. Ignoring.",1
+761,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 523840 seconds. Ignoring.",1
+762,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 62280 seconds. Ignoring.",1
+763,"PM response took {time} ms ({code}, {message})",1
+764,20:03:05.179 : BTLE scanner Powered Off,1
+765,2017-07-06 20:46:03.869 GoogleSoftwareUpdateAgent[{process}/{thread}] [lvl={level}] -[{class} {method}] {message},1
+766,"Page bounds {{x1, y1} {x2, y2}}",2
+767,Failed to connect (titleField) outlet from (MMSessionPickerChoosenRowView) to (NSTextField): missing setter or instance variable,1
+768,[com.apple.calendar.store.log.caldav.queue] [Account {account}@{url} timed out when executing operation: <CalDAVAccountRefreshQueueableOperation: {address}; Sequence: {sequence}>],1
+769,"[com.apple.calendar.store.log.caldav.queue] [Account refresh failed with error: Error Domain=CoreDAVHTTPStatusErrorDomain Code=502 ""(null)"" UserInfo={AccountName={name}, CalDAVErrFromRefresh={value}, CoreDAVHTTPHeaders=<CFBasicHash {hash} [0x7fff7abc1440]>{type = immutable dict, count = {count}, entries => {entries} } }]",1
+770,Sandbox: SpotlightNetHelp(352) deny(1) ipc-posix-shm-read-data CFPBS:186A7:,1
+771,tcp_connection_tls_session_error_callback_imp 2438 __tcp_connection_tls_session_callback_write_block_invoke.434 error 22,1
+772,FA||Url||taskID[2019353724] dealloc,1
+773,"no application identifier provided, can't use provisioning profiles [pid={pid}]",1
+774,tcp_connection_destination_handle_tls_close_notify 111 closing socket due to TLS CLOSE_NOTIFY alert,1
+775,CFNetwork SSLHandshake failed ({code}),1
+776,"Unable to simultaneously satisfy constraints: ( ""<NSLayoutConstraint:0x{constraint1} H:[NSImageView:0x{imageView}](38)]>"", ""<NSLayoutConstraint:0x{constraint2} H:|-(14)-[NSImageView:0x{imageView}] (Names: PageItemCell:0x{pageItemCell}, '|':PageItemCell:0x{pageItemCell} )>"", ""<NSLayoutConstraint:0x{constraint3} 'NSView-Encapsulated-Layout-Width' H:[PageItemCell(73)] (Names: PageItemCell:0x{pageItemCell} )>"", ""<NSLayoutConstraint:0x{constraint4} H:[NSImageView:0x{imageView}]-(10)-[NSTextField:0x{textField}]]>"", ""<NSLayoutConstraint:0x{constraint5} H:[NSTextField:0x{textField}]-(14)-| (Names: PageI",1
+777,"Unable to simultaneously satisfy constraints: ( ""<NSLayoutConstraint:0x{constraint_id} H:[NSImageView:0x{imageview_id}({width})]>"", ""<NSLayoutConstraint:0x{constraint_id} H:|-(14)-[NSImageView:0x{imageview_id}] (Names: {name}:0x{cell_id}, '|':{name}:0x{cell_id} )>"", ""<NSLayoutConstraint:0x{constraint_id} 'NSView-Encapsulated-Layout-Width' H:[{name}({cell_width})] (Names: {name}:0x{cell_id} )>"", ""<NSLayoutConstraint:0x{constraint_id} H:[NSImageView:0x{imageview_id}]-(10)-[NSTextField:0x{textfield_id}]>"", ""<NSLayoutConstraint:0x{constraint_id} H:[NSTextField:0x{textfield_id}]-(14)-| (Names: {name}",1
+778,"Configuration Notice: ASL Module ""{module1}"" sharing output destination ""{destination}"" with ASL Module ""{module2}"". Output parameters from ASL Module ""{module2}"" override any specified in ASL Module ""{module1}"".",1
+779,"CCFile::copyFile fileName is [timestamp]-CCIOReporter-001.xml, source path:{sourcePath}, dest path:{destPath}=AuthFail:sts:{sts}_rsn:{rsn}/OneStats//[timestamp]-CCIOReporter-001.xml",1
+780,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 43840 seconds. Ignoring.",1
+781,(DiskStore.Normal:2382) 20cb04f 1.000086,1
+782,com.apple.Addres(37617) deny network-outbound /private/var/run/mDNSResponder,1
+783,"com.apple.SoftwareUpdate.Activity: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 5703 seconds. Ignoring.",1
+784,ARPT: 761864.513194: AirPort_Brcm43xx::powerChange: System Sleep,1
+785,"2017-07-07 01:47:40.090 GoogleSoftwareUpdateAgent[37644/0x7000002a0000] [lvl={level}] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher start fetch from URL: ""{url}""",1
+786,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 38922 seconds. Ignoring.",1
+787,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 893 seconds. Ignoring.",1
+788,com.apple.Addres(37682) deny network-outbound /private/var/run/mDNSResponder,1
+789,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 498005 seconds. Ignoring.",1
+790,ARPT: 762302.122693: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on.,1
+791,"com.apple.EscrowSecurityAlert.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 35733 seconds. Ignoring.",1
+792,ARPT: 762363.637095: AirPort_Brcm43xx::powerChange: System Sleep,1
+793,ARPT: 762366.143164: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake,1
+794,ARPT: 762484.281874: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake,1
+795,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 33204 seconds. Ignoring.",1
+796,"com.apple.EscrowSecurityAlert.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 33282 seconds. Ignoring.",1
+797,"ARPT: 762543.171617: IOPMPowerSource Information: onSleep, SleepType: Normal Sleep, 'ExternalConnected': Yes, 'TimeRemaining': 0,",1
+798,"com.apple.suggestions.harvest: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 106 seconds. Ignoring.",1
+799,"ARPT: 762603.017378: wl0: setup_keepalive: Local port: {port}, Remote port: {port}",1
+800,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 31570 seconds. Ignoring.",1
+801,com.apple.Addres(37725) deny network-outbound /private/var/run/mDNSResponder,1
+802,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 491488 seconds. Ignoring.",1
+803,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 1002 seconds. Ignoring.",2
+804,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 29108 seconds. Ignoring.",1
+805,com.apple.Addres(37745) deny network-outbound /private/var/run/mDNSResponder,1
+806,ARPT: 762900.518967: wl0: MDNS: IPV6 Addr: {ipv6_address},1
+807,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 1065 seconds. Ignoring.",1
+808,ARPT: 762962.511796: AirPort_Brcm43xx::powerChange: System Sleep,1
+809,"com.apple.EscrowSecurityAlert.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 26744 seconds. Ignoring.",1
+810,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 26656 seconds. Ignoring.",1
+811,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 488163 seconds. Ignoring.",1
+812,ARPT: 763023.568413: AirPort_Brcm43xx::syncPowerState: WWEN[enabled],1
+813,"com.apple.EscrowSecurityAlert.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 25947 seconds. Ignoring.",1
+814,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 25042 seconds. Ignoring.",1
+815,"com.apple.EscrowSecurityAlert.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 25077 seconds. Ignoring.",1
+816,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 21754 seconds. Ignoring.",1
+817,ARPT: 763490.115579: wl0: MDNS: IPV6 Addr: {ipv6_address},1
+818,"CCDataTap::profileRemoved, Owner: {owner}, Name: {name}",1
+819,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 20786 seconds. Ignoring.",1
+820,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 481541 seconds. Ignoring.",1
+821,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 479780 seconds. Ignoring.",1
+822,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 14028 seconds. Ignoring.",1
+823,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 474773 seconds. Ignoring.",1
+824,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 473935 seconds. Ignoring.",1
+825,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 11575 seconds. Ignoring.",1
+826,ARPT: 764299.017125: wl0: MDNS: IPV6 Addr: {ipv6_address},1
+827,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 472301 seconds. Ignoring.",1
+828,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 845 seconds. Ignoring.",1
+829,ARPT: 764361.057441: wl0: MDNS: IPV6 Addr: {ipv6_address},1
+830,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 9959 seconds. Ignoring.",1
+831,"com.apple.EscrowSecurityAlert.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 10028 seconds. Ignoring.",1
+832,"ARPT: 764427.640542: wl0: setup_keepalive: Seq: {seq}, Ack: {ack}, Win size: {win_size}",1
+833,"RTC: Maintenance 2017/7/7 17:31:21, sleep 2017/7/7 17:18:49",1
+834,"com.apple.EscrowSecurityAlert.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 9219 seconds. Ignoring.",1
+835,Unrecognized XSSimpleTypeDefinition: OneOff,2
+836,DB Path: {path},1
+837,Could not get event name for stream/token: com.apple.xpc.activity/4505: 132: Request for stale data,1
+838,2017-07-07 10:54:41.296 ksfetch[37925/0x7fff79824000] [lvl={level}] KSHelperReceiveAllData() KSHelperTool read {bytes} bytes from stdin.,1
+839,2017-07-07 10:54:41.875 GoogleSoftwareUpdateAgent[37924/0x7000002a0000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction starting update check for ticket(s): {( <KSTicket:0x100365950 productID=com.google.Chrome version=59.0.3071.115 xc=<KSPathExistenceChecker:0x10036e950 path=/Applications/Google Chrome.app> serverType=Omaha url=https://tools.google.com/service/update2 creationDate=2017-02-18 15:41:18 tagPath=/Applications/Google Chrome.app/Contents/Info.plist tagKey=KSChannelID brandPath=/Users/xpc/Library/Google/Google Chrome Brand.plist brandKey=KSBrandID versionPath=/Applic,1
+840,"NETWORK: requery, 0, 0, 0, 0, 294, items, fQueryRetries, 0, fLastRetryTimestamp, 521144227.4",1
+841,Error in CoreDragRemoveTrackingHandler: {error},1
+842,"ARPT: 770226.223664: IOPMPowerSource Information: onWake, SleepType: Normal Sleep, 'ExternalConnected': Yes, 'TimeRemaining': 0,",1
+843,Session 101800 destroyed,1
+844,ARPT: 770518.944345: framerdy 0x0 bmccmd {bmccmd} framecnt {framecnt},1
+845,ARPT: 770597.394609: AQM agg params 0xfc0 maxlen hi/lo 0x0 0xffff minlen 0x0 adjlen 0x0,1
+846,ARPT: 770602.528852: AirPort_Brcm43xx::platformWoWEnable: WWEN[enable],1
+847,ARPT: 770605.092581: ARPT: Wake Reason: Wake on Scan offload,1
+848,doSaveChannels@286: Will write to: /Library/Logs/CrashReporter/CoreCapture/IOReporters/[{date}] - AssocFail:sts:{sts}_rsn:{rsn}.xml,1
+849,"CCFile::captureLogRun Skipping current file Dir file [{timestamp}]-CCIOReporter-019.xml, Current File [{timestamp}]-CCIOReporter-019.xml",1
+850,-[NETClientConnection evaluateCrazyIvan46] CI46 - Perform CrazyIvan46! NeteaseMusic.17988 tc12042 {ip}:{port},1
+851,com.apple.Addres(38132) deny network-outbound /private/var/run/mDNSResponder,1
+852,ARPT: 770712.519828: framerdy 0x0 bmccmd {bmccmd} framecnt {framecnt},1
+853,ARPT: 770772.533370: AQM agg params 0xfc0 maxlen hi/lo 0x0 0xffff minlen 0x0 adjlen 0x0,1
+854,ARPT: 770786.961436: AQM agg params 0xfc0 maxlen hi/lo 0x0 0xffff minlen 0x0 adjlen 0x0,1
+855,ARPT: 770798.478026: framerdy 0x0 bmccmd {bmccmd} framecnt {framecnt},1
+856,ARPT: 770802.879782: wlc_dump_aggfifo:,1
+857,ARPT: 770812.035971: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake,1
+858,com.apple.Addres(38179) deny network-outbound /private/var/run/mDNSResponder,1
+859,"ARPT: 771388.849884: wl0: setup_keepalive: interval {interval}, retry_interval {retry_interval}, retry_count {retry_count}",1
+860,ARPT: 771393.363637: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake,1
+861,ARPT: 771456.438849: AirPort_Brcm43xx::platformWoWEnable: WWEN[{enable}],1
+862,ARPT: 771516.615152: AirPort_Brcm43xx::platformWoWEnable: WWEN[{enable}],1
+863,com.apple.Addres(38210) deny network-outbound /private/var/run/mDNSResponder,2
+864,"ARPT: 771631.938256: IOPMPowerSource Information: onSleep, SleepType: Normal Sleep, 'ExternalConnected': No, 'TimeRemaining': {time},",1
+865,tcp_connection_handle_connect_conditions_bad 25340 failed: {code} - No network route,1
+866,-[NETClientConnection evaluateCrazyIvan46] CI46 - Perform CrazyIvan46! QQ.10018 tc{num} {ip}:{port},1
+867,"ARPT: 771663.085756: wl0: Roamed or switched channel, reason #8, bssid 00:a6:ca:db:93:cc, last RSSI -60",1
+868,"PBRequester failed with Error Error Domain=NSURLErrorDomain Code={code} ""The Internet connection appears to be offline."" UserInfo={NSUnderlyingError={error} {Error Domain=kCFErrorDomainCFNetwork Code={code} ""The Internet connection appears to be offline."" UserInfo={NSErrorFailingURLStringKey={key}, NSErrorFailingURLKey={key}, _kCFStreamErrorCodeKey={key}, _kCFStreamErrorDomainKey={key}, NSLocalizedDescription=The Internet connection appears to be offline.}}, NSErrorFailingURLStringKey={key}, NSErrorFailingURLKey={key}",1
+869,"CCFile::copyFile fileName is [timestamp]-AirPortBrcm4360_Logs-001.txt, source path:{source_path}, dest path:{dest_path}",1
+870,CGXDisplayDidWakeNotification [771797848593539]: posting kCGSDisplayDidWake,1
+871,Session 102106 destroyed,1
+872,Sandbox: QuickLookSatelli(38418) deny(1) mach-lookup com.apple.networkd,1
+873,"nw_path_evaluator_start_helper_connection net_helper_path_evaluation_start failed, dumping backtrace: [x86_64] libnetcore-583.50.1 0 libsystem_network.dylib 0x00007fff92fabde9 __nw_create_backtrace_string + 123 1 libsystem_network.dylib 0x00007fff92fc289f nw_path_evaluator_start_helper_connection + 196 2 libdispatch.dylib 0x00007fff980fa93d _dispatch_call_block_and_release + 12 3 libdispatch.dylib 0x00007fff980ef40b _dispatch_client_callout + 8 4 libdispatch.dylib 0x00007fff980f403b _dispatch_queue_drain +",1
+874,"CoreAnimation: warning, deleted thread with uncommitted CATransaction; set CA_DEBUG_TRANSACTIONS=1 in environment to log backtraces.",1
+875,Sandbox: com.apple.Addres(38449) deny(1) network-outbound /private/var/run/mDNSResponder,1
+876,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 40 seconds. Ignoring.",1
+877,"com.apple.EscrowSecurityAlert.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 68031 seconds. Ignoring.",1
+878,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 2889 seconds. Ignoring.",1
+879,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 67203 seconds. Ignoring.",1
+880,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 442301 seconds. Ignoring.",1
+881,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 441483 seconds. Ignoring.",1
+882,"ARPT: 775899.188954: wl0: wl_update_tcpkeep_seq: Updated seq/ack/win from UserClient Seq {seq}, Ack {ack}, Win size {win}",1
+883,18:50:46.109 : BTLE scanner Powered On,1
+884,"com.apple.SoftwareUpdate.Activity: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 4223 seconds. Ignoring.",1
+885,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 65558 seconds. Ignoring.",1
+886,full wake promotion (reason {reason}) {time} ms,1
+887,"NSURLSession/NSURLConnection HTTP load failed (kCFStreamErrorDomainSSL, -9806)",1
+888,"[QL] No sandbox token for request <{request}>, it will probably fail",1
+889,"schedule invalidation <DYTransport {address}, error: lost transport connection ({code})>",1
+890,[time] {function} signalled err={error_code} ({error_description}) ({error_type} codec {codec_number}) at line {line_number},1
+891,<<<< MediaValidator >>>> mv_LookupCodecSupport: Unrecognized codec {codec},1
+892,<<<< MediaValidator >>>> mv_ValidateRFC4281CodecId: Unrecognized codec {codecId}.(null). Failed codec specific check.,1
+893,CoreAnimation: timed out fence 5fe83,1
+894,tcp_connection_tls_session_error_callback_imp 2515 __tcp_connection_tls_session_callback_write_block_invoke.434 error {error},1
+895,Failed to connect (view) outlet from ({class}) to ({property}): missing setter or instance variable,1
+896,2017/07/07 21:47:20.392 | {level} | {module} | {file}:{line}:{function} | {message},1
+897,ARPT: 783667.697957: AirPort_Brcm43xx::powerChange: System Sleep,1
+898,21:58:33.765 ERROR: 177: timed out after 15.000s (0 0); mMajorChangePending=0,1
+899,ARPT: 783790.553857: wl0: MDNS: IPV6 Addr: {ipv6_address},1
+900,ARPT: 783795.288172: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake,1
+901,22:24:31.135 : BTLE scanner Powered On,1
+902,"ARPT: 784053.579480: wl0: setup_keepalive: Local port: {port}, Remote port: {port}",1
+903,"ARPT: 784055.560270: IOPMPowerSource Information: onSleep, SleepType: Normal Sleep, 'ExternalConnected': No, 'TimeRemaining': {time},",1
+904,ARPT: 784117.089800: AirPort_Brcm43xx::powerChange: System Sleep,1
+905,ARPT: {timestamp}: {module}: {function}: {message},1
+906,ARPT: 784178.158614: AirPort_Brcm43xx::platformWoWEnable: WWEN[enable],1
+907,-[NETClientConnection evaluateCrazyIvan46] CI46 - Perform CrazyIvan46! QQ.10018 tc25805 {ip}:{port},1
+908,ARPT: 784287.966851: AirPort_Brcm43xx::platformWoWEnable: WWEN[enable],1
+909,efi pagecount 72,2
+910,ARPT: 784486.498066: wlc_dump_aggfifo:,1
+911,**** [BroadcomBluetoothHostControllerUSBTransport][start] -- Completed (matched on Device) -- 0x3800 ****,1
+912,"CCFile::copyFile fileName is [timestamp]-CCIOReporter-003.xml, source path:{sourcePath}, dest path:{destPath}",1
+913,did discard act {act} inact {inact} purgeable {purgeable} spec {spec} cleaned {cleaned},1
+914,tcp_connection_handle_connect_conditions_bad 25902 failed: {code} - No network route,1
+915,"CCDataTap::profileRemoved, Owner: com.apple.iokit.IO80211Family, Name: AssociationEventHistory",1
+916,"ARPT: 784632.788065: wl0: Roamed or switched channel, reason #8, bssid 5c:50:15:36:bc:03, last RSSI -69",1
+917,"DB Error: 1 ""no such table: tb_c2cMsg_2909288299""",1
+918,**** [BroadcomBluetoothHostControllerUSBTransport][start] -- Completed (matched on Device) -- 0x8800 ****,1
+919,Host controller terminated,1
+920,[HID] [MT] AppleActuatorHIDEventDriver::start entered,1
+921,__42-[NETClientConnection evaluateCrazyIvan46]_block_invoke CI46 - Hit by torpedo! QQ.10018 tc25995 {ip}:{port},1
+922,[BluetoothHIDDeviceController]ERROR: Could not find the disconnected object,2
+923,**** [IOBluetoothHostControllerUSBTransport][start] -- completed -- result = {result} -- {code} ****,1
+924,tcp_connection_handle_connect_conditions_bad 26042 failed: {code} - No network route,1
+925,ARPT: 785104.988856: AirPort_Brcm43xx::syncPowerState: WWEN[enabled],1
+926,vm_compressor_fastwake_warmup completed - took 12461 msecs,1
+927,"Unable to simultaneously satisfy constraints: ( ""<NSAutoresizingMaskLayoutConstraint:0x{constraint_id} h=-&- v=-&- V:[NSScrollView:0x{scroll_view_id}]-(11)-| (Names: '|':NSView:0x{view_id} )>"", ""<NSAutoresizingMaskLayoutConstraint:0x{constraint_id} h=-&- v=-&- V:|-(45)-[NSScrollView:0x{scroll_view_id}] (Names: '|':NSView:0x{view_id} )>"", ""<NSAutoresizingMaskLayoutConstraint:0x{constraint_id} h=-&- v=--& V:[NSView:0x{subview_id}(0)]>"", ""<NSAutoresizingMaskLayoutConstraint:0x{constraint_id} h=-&- v=-&- V:|-(0)-[NSView:0x{view_id}] (Names: '|':NSView:0x{subview_id} )>"", ""<NSAutoresizingMaskLayoutConst",1
+928,2017-07-08 06:26:32.364 GoogleSoftwareUpdateAgent[{pid}/{hex}] [lvl={level}] -[{class}({delegate}) {method}] {message},1
+929,2017-07-08 06:26:32.365 GoogleSoftwareUpdateAgent[{pid}/{hex}] [lvl={level}] -[{class}({method}) {message}],1
+930,ARPT: 787923.793193: wl0: leaveModulePoweredForOffloads: Wi-Fi will stay on.,1
+931,"Arranged view frame: {{x}, {y}} {{width}, {height}}",1
+932,CCProfileMonitor::setStreamEventHandler,1
+933,Telling CSI to go low power.,1
+934,ARPT: 790457.609414: AirPort_Brcm43xx::powerChange: System Sleep,1
+935,ARPT: 790564.863081: wl0: MDNS: IPV6 Addr: {ipv6_address},1

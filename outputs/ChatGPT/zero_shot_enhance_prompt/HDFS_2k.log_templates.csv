@@ -1,0 +1,48 @@
+,EventTemplate,Occurrences
+0,PacketResponder {number} for block {block_id} terminating,105
+1,PacketResponder {} for block {} terminating,199
+2,BLOCK* NameSystem.addStoredBlock: blockMap updated: {datanode}:50010 is added to {block} size {size},314
+3,Received block {block_id} of size {block_size} from {source_ip},285
+4,Receiving block {block_id} src: {source_address} dest: {destination_address},261
+5,BLOCK* NameSystem.allocateBlock: {file_path}. {block_id},115
+6,Received block {block_id} of size {size} from {source_ip},7
+7,Verification succeeded for {block_id},17
+8,Deleting block {block_id} file {file_path},225
+9,IP_ADDRESS:PORT Served block BLOCK_ID to CLIENT_IP,62
+10,IP:PORT Served block BLOCK_ID to DESTINATION_IP,3
+11,{}:{}:Got exception while serving {} to {}:,16
+12,{}:{}:Got exception while serving {} to {},24
+13,{source_ip}:{port}:Got exception while serving {block_id} to {destination_ip}:,14
+14,{ip}:{port}:Got exception while serving {block_id} to /{client_ip}:,2
+15,IP_ADDRESS:PORT Served block BLOCK_ID to FILE_PATH,4
+16,{ip_address}:{port}:Got exception while serving {block_id} to /{client_ip}:,5
+17,{source_ip}:{port}:Got exception while serving {block_id} to /{destination_ip}:,7
+18,IP:PORT:Got exception while serving {block_id} to {destination_IP},3
+19,{ip_address}:{port}:Got exception while serving {block_id} to {destination_ip}:,1
+20,IP:PORT:Got exception while serving {BLOCK_ID} to {CLIENT_IP}:,2
+21,Receiving block blk_{block_id} src: {source_address} dest: {destination_address},12
+22,Receiving block blk_{block_id} src: {source_ip}:{source_port} dest: {destination_ip}:{destination_port},19
+23,BLOCK* NameSystem.delete: {block_id} is added to invalidSet of {datanode},223
+24,{}:{}:Got exception while serving {} to /{}:,3
+25,{ip}:{port}:Got exception while serving {block} to /{destination}:,1
+26,IP:PORT Served block {BLOCK_ID} to {CLIENT_IP},1
+27,{source}:50010 Served block {block_id} to {destination},5
+28,{}:{}:Got exception while serving {} to {}/{}:,1
+29,{ip_address}:{port} Served block {block_id} to {destination},3
+30,IP:PORT Served block {BLOCK_ID} to {DESTINATION_IP},1
+31,Deleting block blk_{block_id} file {file_path},17
+32,Deleting block blk_{dynamic_variable} file {dynamic_variable},21
+33,Verification succeeded for {block_number},2
+34,PacketResponder {#} for block {block_id} terminating,1
+35,PacketResponder {responder_id} for block {block_id} terminating,6
+36,Verification succeeded for {block},1
+37,{} Starting thread to transfer block {} to {}:50010,1
+38,BLOCK* ask {ip_address}:{port} to delete {block_id},1
+39,BLOCK* ask {ip_address}:{port} to delete  {block_id},1
+40,{ip_address}:{port}:Got exception while serving {block_id} to {client_ip}:,1
+41,{source}:50010 Served block {block} to {destination},1
+42,Received block blk_{block_id} src: {source_address} dest: {destination_address} of size {block_size},1
+43,BLOCK* NameSystem.delete: {block_id} is added to invalidSet of {datanode_ip}:{port},1
+44,BLOCK* ask {ip_address}:{port} to delete {block_ids},3
+45,BLOCK* ask {sourceIP}:{sourcePort} to replicate {blockID} to datanode(s) {destinationIP}:{destinationPort},1
+46,Received block {block_id} src: {source_address} dest: {destination_address} of size {block_size},1

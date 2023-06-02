@@ -1,0 +1,151 @@
+,EventTemplate,Occurrences
+0,Session: <*> initialized by client <*>.,609
+1,"Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState:<*>",405
+2,Warning: <*>,276
+3,Failed to get next element [HRESULT = <*>],224
+4,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM],147
+5,Expecting attribute name [HRESULT = <*>],77
+6,Failed to internally open package. [HRESULT = <*>],18
+7,"Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'.",7
+8,<*>: <*>,6
+9,"Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState: <*>",6
+10,<*> <log level> <function name> (<dll name> version <version number>) called (stack <stack trace>),3
+11,"Creating NT transaction (seq <*>), objectname [<*>]""<*>""",3
+12,"Created NT transaction (seq <*>) result <*>, handle @<*>",3
+13,<*> CSI perf trace:,3
+14,<*> processing thread terminated <*>,3
+15,Loaded Servicing Stack <*> with Core: <*>,2
+16,Starting the TrustedInstaller main loop.,2
+17,<*> service starts successfully.,2
+18,SQM: Initializing online with Windows opt-in: <*>,2
+19,SQM: Cleaning up report files older than <*> days.,2
+20,SQM: Requesting upload of all unsent reports.,2
+21,"SQM: Failed to start upload with file pattern: <*>, flags: <*> [HRESULT = <*>]",2
+22,SQM: Failed to start standard sample upload. [HRESULT = <*>],2
+23,"SQM: Queued <*> file(s) for upload with pattern: <*>, flags: <*>",2
+24,SQM: Warning: Failed to upload all unsent reports. [HRESULT = <*>],2
+25,"No startup processing required, TrustedInstaller service was not set as autostart, or else a reboot is still pending.",2
+26,<*> <*> <*> (<*>),2
+27,"NonStart: <*>, <*>.",2
+28,"Read out cached package applicability for package: Package_for_KB3127220~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+29,"Read out cached package applicability for package: Package_for_KB3185319~31bf3856ad364e35~amd64~~11.<*>, ApplicableState: <*>, CurrentState:<*>",2
+30,"Read out cached package applicability for package: Package_for_KB2978742~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+31,"Read out cached package applicability for package: Package_for_KB3055642~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+32,"Read out cached package applicability for package: Package_for_KB2563227~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+33,"Read out cached package applicability for package: Package_for_KB2607047~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+34,"Read out cached package applicability for package: Package_for_KB3184471~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+35,"Read out cached package applicability for package: Package_for_KB3146963~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+36,"Read out cached package applicability for package: Package_for_KB2716513~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+37,"Read out cached package applicability for package: Package_for_KB3059317~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+38,"Read out cached package applicability for package: Package_for_KB3078667~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+39,"Read out cached package applicability for package: Package_for_KB2620704~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+40,"Read out cached package applicability for package: Package_for_KB3075220~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+41,"Read out cached package applicability for package: Package_for_KB2479943~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+42,"Read out cached package applicability for package: Package_for_KB2840631~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+43,"Read out cached package applicability for package: Package_for_KB3093513~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+44,"Read out cached package applicability for package: Package_for_KB3108670~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+45,"Read out cached package applicability for package: Package_for_KB2547666~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+46,"Read out cached package applicability for package: Package_for_KB2574819~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+47,"Read out cached package applicability for package: Package_for_KB3092601~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+48,"Read out cached package applicability for package: Package_for_KB2937610~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+49,"Read out cached package applicability for package: Package_for_KB2809215~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+50,"Read out cached package applicability for package: Package_for_KB2809900~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+51,"Read out cached package applicability for package: Package_for_KB2972211~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+52,"Read out cached package applicability for package: Package_for_KB947821~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+53,"Read out cached package applicability for package: Package_for_KB2818604~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+54,"Read out cached package applicability for package: Package_for_KB2570947~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+55,"Read out cached package applicability for package: Package_for_KB2512715~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+56,"Read out cached package applicability for package: Package_for_KB3021917~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+57,"Read out cached package applicability for package: Package_for_KB3013531~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+58,"Read out cached package applicability for package: Package_for_KB3076949~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+59,"Read out cached package applicability for package: Package_for_KB2843630~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+60,"Read out cached package applicability for package: Package_for_KB3135983~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+61,"Read out cached package applicability for package: Package_for_KB3139940~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+62,"Read out cached package applicability for package: Package_for_KB2864202~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+63,"Read out cached package applicability for package: Package_for_KB3138910~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+64,"Read out cached package applicability for package: Package_for_KB3020393~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+65,"Read out cached package applicability for package: Package_for_KB2772930~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+66,"Read out cached package applicability for package: Package_for_KB2621146~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+67,"Read out cached package applicability for package: Package_for_KB2601626~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+68,"Read out cached package applicability for package: Package_for_KB2853587~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+69,"Read out cached package applicability for package: Package_for_KB2632503~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+70,"Read out cached package applicability for package: Package_for_KB2991963~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+71,"Read out cached package applicability for package: Package_for_KB2544893~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+72,"Read out cached package applicability for package: Package_for_KB2690533~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+73,"Read out cached package applicability for package: Package_for_KB3139914~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+74,"Read out cached package applicability for package: Package_for_KB2621440~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+75,"Read out cached package applicability for package: Package_for_KB2992611~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+76,"Read out cached package applicability for package: Package_for_KB3092627~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+77,"Read out cached package applicability for package: Package_for_KB2813430~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+78,"Read out cached package applicability for package: Package_for_KB3033889~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+79,"Read out cached package applicability for package: Package_for_KB3184122~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+80,"Read out cached package applicability for package: Package_for_KB2761217~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+81,"Read out cached package applicability for package: Package_for_KB2835174~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+82,"Read out cached package applicability for package: Package_for_KB2973112~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+83,"Read out cached package applicability for package: Package_for_KB982018~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+84,"Read out cached package applicability for package: Package_for_KB2799926~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+85,"Read out cached package applicability for package: Package_for_KB2928120~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",2
+86,Failed to create backup log cab. [HRESULT = <*> - <*>],2
+87,<*> <*> <*> (<*> version <*>) called (stack <*>),2
+88,<*>@<*> <*> - <*>,2
+89,Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy<*>/Windows/System32/config/<*>,2
+90,<*> <*>.,1
+91,<*> CSI Store <*> (0x00000000004c29e0) initialized,1
+92,"Read out cached package applicability for package: Package_for_KB3108664~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",1
+93,"Read out cached package applicability for package: Package_for_KB3060716~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",1
+94,"Read out cached package applicability for package: Package_for_KB3177186~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",1
+95,"Read out cached package applicability for package: Package_for_KB3019978~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",1
+96,"Read out cached package applicability for package: Package_for_KB2931356~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",1
+97,"Read out cached package applicability for package: Package_for_KB2823180~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",1
+98,"Read out cached package applicability for package: Package_for_KB2972100~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",1
+99,"Read out cached package applicability for package: Package_for_KB3046269~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",1
+100,"Read out cached package applicability for package: Package_for_KB3109103~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",1
+101,"Read out cached package applicability for package: Package_for_KB3054476~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",1
+102,"Read out cached package applicability for package: Package_for_KB3138378~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",1
+103,"Read out cached package applicability for package: Package_for_RollupFix~31bf3856ad364e35~amd64~~7601.<*>, ApplicableState: <*>, CurrentState:<*>",1
+104,Reboot mark refs incremented to: <*>,1
+105,Scavenge: <*>,1
+106,"CSI Transaction @0x47e9e0 initialized for deployment engine <*> with flags <*> and client id [<*>]""TI6.0_0:0/""",1
+107,Scavenge: Begin CSI Store,1
+108,Performing <*> operations; <*> are not lock/unlock and follow:,1
+109,"<*> Store coherency cookie matches last scavenge cookie, skipping scavenge.",1
+110,<*> <*>::<*> calling <*>::<*> - coldpatching=<*> applyflags=<*>,1
+111,"Scavenge: Completed, disposition: <*>",1
+112,<*>@<*>: CSI Transaction @<*> destroyed,1
+113,Reboot mark refs: <*>,1
+114,Ending the TrustedInstaller main loop.,1
+115,Starting TrustedInstaller finalization.,1
+116,"<*> <*>. In this case, the log template would be: <*> <*>. And the log message would be: Ending TrustedInstaller finalization.",1
+117,Starting TrustedInstaller initialization.,1
+118,<*> <*> (<*> version <*>) called (stack @<*> ...),1
+119,"<*> <*>. In this case, the log template would be: <*> <*>. And the log message would be an instance of this template: Ending TrustedInstaller initialization.",1
+120,"Loading offline registry hive: schema.dat, into registry key '<*>' from path '<*>'.",1
+121,Offline image is: <*>,1
+122,"Disabling manifest caching, because the image is not writeable.",1
+123,<*> <*> <*>,1
+124,Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SYSTEM,1
+125,Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy<*>/Windows/System32/config/SECURITY,1
+126,Unloading offline registry hive: {<*>}<*>,1
+127,Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/DEFAULT,1
+128,Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Users/default/ntuser.dat,1
+129,Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/system32/smi/store/Machine/schema.dat,1
+130,CSI Store <*> (<*>) initialized,1
+131,"Read out cached package applicability for package: Package_for_KB3138901~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",1
+132,"Read out cached package applicability for package: Package_for_KB3011780~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",1
+133,"Read out cached package applicability for package: Package_for_KB3156017~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",1
+134,"Read out cached package applicability for package: Package_for_KB2919469~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",1
+135,"Read out cached package applicability for package: Package_for_KB2929733~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",1
+136,"Read out cached package applicability for package: Package_for_KB2800095~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",1
+137,"Read out cached package applicability for package: Package_for_KB3110329~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",1
+138,"Read out cached package applicability for package: Package_for_KB2604115~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",1
+139,"Read out cached package applicability for package: Package_for_KB3109094~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",1
+140,"Read out cached package applicability for package: Package_for_KB2871997~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",1
+141,"Read out cached package applicability for package: Package_for_KB3185911~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",1
+142,"Read out cached package applicability for package: Package_for_KB3123479~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",1
+143,"Read out cached package applicability for package: Package_for_KB2685813~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",1
+144,"Read out cached package applicability for package: Package_for_KB3122648~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",1
+145,"Read out cached package applicability for package: Package_for_KB3037574~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",1
+146,"Read out cached package applicability for package: Package_for_KB3161949~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",1
+147,"Read out cached package applicability for package: Package_for_KB3035017~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",1
+148,"Read out cached package applicability for package: Package_for_KB3142024~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",1
+149,"Read out cached package applicability for package: Package_for_KB2552343~31bf3856ad364e35~amd64~~6.<*>, ApplicableState: <*>, CurrentState:<*>",1

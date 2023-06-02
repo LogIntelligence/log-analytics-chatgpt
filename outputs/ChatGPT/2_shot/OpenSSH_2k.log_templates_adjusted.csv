@@ -1,0 +1,32 @@
+,EventTemplate,Occurrences
+0,Received disconnect from <*>: <*>: <*> [preauth],413
+1,Failed password for <*> from <*> port <*> <*>,403
+2,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*> user=<*>,375
+3,pam_unix(sshd:auth): check pass; user <*>,135
+4,Invalid user <*> from <*>,113
+5,input_userauth_request: invalid user <*> [preauth],113
+6,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*>,110
+7,reverse mapping checking getaddrinfo for <*> [<*>] failed - POSSIBLE BREAK-IN ATTEMPT!,85
+8,Failed password for invalid user <*> from <*> port <*> <*>,65
+9,Failed password for invalid user <*> from <*> port <*> ssh2,49
+10,error: Received disconnect from <*>: <*>: <*>. [<*>],45
+11,Connection closed by <*> [preauth],34
+12,Did not receive identification string from <*>,10
+13,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>,9
+14,PAM service(<*>) ignoring max retries; <*> > <*>,7
+15,Received disconnect from <*>: <*>: <*>. [<*>],7
+16,PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*>,5
+17,Disconnecting: Too many authentication failures for <*> [<*>],3
+18,message repeated <*> times: [ Failed password for <*> from <*> port <*> <*>],2
+19,PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*> user=<*>,2
+20,error: Received disconnect from <*>: <*>: <*> [preauth],2
+21,Failed none for invalid user <*> from <*> port <*> ssh2,2
+22,Failed none for invalid user <*> from <*> port <*> <*>,2
+23,PAM <*> more authentication failure; logname= uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*>,2
+24,Failed password for <*> user <*> from <*> port <*> <*>,1
+25,Accepted password for <*> from <*> port <*> ssh2,1
+26,pam_unix(sshd:session): session opened for user <*> by (uid=<*>),1
+27,Received disconnect from <*>: <*>: <*>,1
+28,pam_unix(sshd:session): session closed for user <*>,1
+29,PAM <*> more authentication failures; logname=<*> uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*>,1
+30,fatal: Write failed: <*> [<*>],1

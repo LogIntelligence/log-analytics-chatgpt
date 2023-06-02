@@ -1,0 +1,80 @@
+,EventTemplate,Occurrences
+0,"<*> ""GET <*> HTTP/1.<*>"" status: <*> len: <*> time: <*>",405
+1,"<*> ""GET <*>"" status: <*> len: <*> time: <*>",356
+2,"<*>,<*> ""GET <*> HTTP/1.<*>"" status: <*> len: <*> time: <*>",90
+3,[instance: <*>] <*> (<*>),86
+4,Active base files: <*>,82
+5,"image <*> at (<*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage",76
+6,image <*> at (<*>): <*>,68
+7,"<*>,<*> ""GET <*>"" status: <*> len: <*> time: <*>",53
+8,"<*> ""POST <*>"" status: <*> len: <*> time: <*>""",52
+9,[<*>] <*>,40
+10,Unknown base file: <*>,30
+11,Removable base files: <*>,30
+12,[<*>] Took <*> seconds to deallocate network for instance.,21
+13,Removing base or swap file: <*>,21
+14,HTTP exception thrown: No instances found for any event,21
+15,"[<*>] Total vcpu: <*> VCPU, used: <*> VCPU",21
+16,[<*>] Instance spawned successfully.,20
+17,[<*>] Took <*> seconds to spawn the instance on the hypervisor.,20
+18,"<*> ""DELETE <*>"" status: <*> len: <*> time: <*>",19
+19,"[<*>] Total memory: <*> MB, used: <*> MB",19
+20,"[<*>] disk limit not specified, defaulting to unlimited",19
+21,[instance: <*>] During sync_power_state the instance has a pending task (<*>). Skip.,19
+22,[<*>] Instance destroyed successfully.,18
+23,"[<*>] memory limit: <*> MB, free: <*> MB",18
+24,"[<*>] Total disk: <*>, used: <*>",18
+25,[<*>] Deletion of <*> complete,18
+26,[<*>] Took <*> seconds to build instance.,18
+27,[<*>] Took <*> seconds to destroy the instance on the hypervisor.,17
+28,[<*>] During sync_power_state the instance has a pending task (<*>). <*>.,15
+29,Auditing locally available compute resources for node <*>,15
+30,"Total usable vcpus: <*>, total allocated vcpus: <*>",15
+31,Final resource view: name=<*> phys_ram=<*> used_ram=<*> phys_disk=<*> used_disk=<*> total_vcpus=<*> used_vcpus=<*> pci_stats=<*>,15
+32,Compute_service record updated for <*>,15
+33,image <*> at (<*>): checking,14
+34,"<*> ""POST <*>"" status: <*> len: <*> time: <*>",12
+35,[instance: <*>] <*>,12
+36,[instance: <*>] Terminating instance,12
+37,Creating event <*>: <*> for instance <*>,12
+38,"<*> ""GET <*>"" status: <*> len: <*> time: <*>""",11
+39,Creating event <*> for instance <*>,10
+40,"[instance: <*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",10
+41,[instance: <*>] Deleting instance files <*>,10
+42,"[<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",10
+43,"[<*>] vcpu limit not specified, defaulting to unlimited",9
+44,Base or swap file too young to remove: <*>,9
+45,[<*>] Terminating instance,8
+46,[<*>: <*>] Deleting instance files <*>,8
+47,[instance: <*>] VM Started (Lifecycle Event),7
+48,[instance: <*>] <*> (Lifecycle Event),6
+49,[<*>] <*> (<*>),6
+50,"image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (<*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage",6
+51,[<*>] During sync_power_state the instance has a pending task (<*>). Skip.,5
+52,"<*>, <*> ""GET <*>"" status: <*> len: <*> time: <*>",5
+53,"<*>,<*> ""GET /latest/meta-data/block-device-mapping/ HTTP/1.<*>"" status: <*> len: <*> time: <*>",5
+54,The template for the given log message cannot be determined as it does not contain any variables to abstract.,5
+55,[instance: <*>] Took <*> seconds to build instance.,4
+56,[instance: <*>] Took <*> seconds to destroy the instance on the hypervisor.,4
+57,[<*>] VM Started (Lifecycle Event),4
+58,[<*>: <*>] <*>,4
+59,[<*>: <*>],4
+60,"<*>,<*> ""GET /latest/meta-data/ HTTP/1.<*>"" status: <*> len: <*> time: <*>",4
+61,[<*>] Deleting instance files <*>,3
+62,"<*> ""DELETE <*>"" status: <*> len: <*> time: <*>""",3
+63,[<*>] Claim successful,3
+64,"[instance: <*>] memory limit: <*> MB, free: <*> MB",3
+65,"[<*>] Total disk: <*> GB, used: <*> GB",3
+66,Successfully synced instances from host '<*>'.,2
+67,[instance: <*>] Claim successful,2
+68,[instance: <*>] Instance destroyed successfully.,2
+69,[instance: <*>] Instance spawned successfully.,2
+70,[instance: <*>] Took <*> seconds to spawn the instance on the hypervisor.,2
+71,"[instance: <*>] Total memory: <*> MB, used: <*> MB",2
+72,[<*>: <*> of <*> <*>],1
+73,"<*>, <*> ""GET <*> HTTP/1.<*>"" status: <*> len: <*> time: <*>",1
+74,Running instance usage audit for host <*> from <*> to <*>. <*> instances.,1
+75,[<*>: <*>] <*> of <*> complete,1
+76,"[<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU]",1
+77,"""<*>,<*> \""GET <*> HTTP/1.1\"" status: <*> len: <*> time: <*>""",1
+78,"While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor.",1

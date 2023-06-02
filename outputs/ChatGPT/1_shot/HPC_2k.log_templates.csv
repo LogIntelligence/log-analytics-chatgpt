@@ -1,0 +1,120 @@
+,EventTemplate,Occurrences
+0,Component State Change: Component \042{component_name}\042 is in the {state} state (HWID={hwid}),1
+1,Component State Change: Component {component} is in the {state} state (HWID={hwid}),11
+2,command_id,1
+3,clusterAddMember (command {commandId}),1
+4,risBoot (command {var}),1
+5,bootGenvmunix (command {command_id}),2
+6,boot (command {var}),22
+7,{var},18
+8,1975,1
+9,halt (command {command_id}),1
+10,boot (command {command_id}),31
+11,wait ({string}),5
+12,2057,1
+13,2154,1
+14,halt (command {var1}),1
+15,2217,2
+16,2201,1
+17,2199,1
+18,wait (command {var1})},2
+19,2302,1
+20,2257,1
+21,2322,1
+22,2354,1
+23,2347,1
+24,2449,1
+25,2468,1
+26,wait (command {var}),2
+27,2484,1
+28,{var1},1
+29,2549,1
+30,2683,1
+31,2682,1
+32,2800,1
+33,2817,2
+34,2823,1
+35,2900,1
+36,2885,1
+37,2909,1
+38,2963,1
+39,2999,1
+40,2992,1
+41,3087,1
+42,3079,1
+43,3078,1
+44,3141,1
+45,wait (command {command_id}),1
+46,3334,1
+47,3412,1
+48,3523,1
+49,3525,1
+50,3519,1
+51,3612,1
+52,3649,1
+53,3690,1
+54,3698,1
+55,3709,1
+56,3837,1
+57,3847,1
+58,3973,1
+59,3981,2
+60,4061,1
+61,4116,1
+62,4145,1
+63,4221,1
+64,4219,1
+65,Command has completed successfully,10
+66,Targeting domains:node-{domain} and nodes:node-[{start}-{end}] child of command {command},2
+67,Targeting domains:{domain} and nodes:{nodes} child of command {command},1
+68,Targeting domains:node-{node} and nodes:node-[{nodes}],1
+69,Targeting domains:node-{domain} and nodes:node-[{node_range}] child of command {command_id},1
+70,Targeting domains:node-{domain} and nodes:node-[{start}-{end}] child of command {command_id},1
+71,Targeting domains:{domain} and nodes:{node},2
+72,Targeting domains:node-D[{placeholder}\ {placeholder}] and nodes:node-[{placeholder}\ {placeholder}],1
+73,psu failure\ ambient={ambient},5
+74,Temperature ({}) exceeds warning threshold,2
+75,ClusterFileSystem: There is no server for ServerFileSystem domain {domain},32
+76,NIFF: node {node_name} detected a failed network connection on network {network_address} via interface {interface_name},1
+77,NIFF: node node-{node_id} detected a failed network connection on network {network} via interface {interface},1
+78,ServerFileSystem: An {domain} domain panic has occurred on {storage},1
+79,Fan speeds ( {number} {number} {number} **** {number} {number} ),79
+80,Fan speeds ( {number} {number} {number} {number} {number} {number} ),11
+81,Command has been aborted,1
+82,power/control problem,1
+83,Link error,13
+84,Link in reset,9
+85,Link ok,13
+86,Link error on broadcast tree {interconnect},4
+87,ServerFileSystem: ServerFileSystem domain {domain} is full,8
+88,ServerFileSystem: {domain} is full,4
+89,ClusterFileSystem: ServerFileSystem domain {domain} is no longer served by node {node},36
+90,running,162
+91,blocked,15
+92,not responding,60
+93,configured out,91
+94,inconsistent nodesets {node} {hex} <ok> {node} {hex} <ok> {node} {hex} <ok>,1
+95,active,5
+96,inconsistent nodesets {node} {hex_code} <ok> {node} {hex_code} <ok> {node} {hex_code} <ok> {node} {hex_code} <ok>,1
+97,not-responding,1
+98,inconsistent nodesets {node} {hex_code} <ok> {node} {hex_code} <ok> {node} {hex_code} <ok> {node} {hex_code} <ok> {node} {hex_code} <ok> {node} {hex_code} <ok> {node} {hex_code} <ok> {node} {hex_code} <ok> {node} {hex_code} <ok> {node} {hex_code} <ok> {node} {hex_code} <ok> {node} {hex_code} <ok>,1
+99,starting,1
+100,closing,1
+101,inconsistent nodesets {node} {value} <ok> {node} {value} <ok> {node} {value} <ok> {node} {value} <ok> {node} {value} <ok>,1
+102,normal,206
+103,warning,205
+104,ambient={value},207
+105,critical,20
+106,ambient={ambient},62
+107,ambient={ambient_value},17
+108,ambient={},6
+109,Linkerror event interval expired,394
+110,risBoot (command {command}) Error: Timed out while waiting for SRM prompt: <ABORT code completed>,1
+111,boot (command {command}) Error: HALT asserted\ cannot continue,1
+112,Failed subcommands {int},1
+113,link errors remain current,56
+114,NIFF: node {node} has detected an available network connection on network {network} via interface {interface},40
+115,NIFF: node {node_name} has detected an available network connection on network {network_address} via interface {interface_name},43
+116,NIFF: node node-{node_id} has detected an available network connection on network {network} via interface {interface},6
+117,NIFF: node {node_id} has detected an available network connection on network {network_address} via interface {interface_type},1
+118,NIFF: node {node_name} has detected an available network connection on network {network} via interface {interface},1

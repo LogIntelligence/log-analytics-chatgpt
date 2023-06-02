@@ -1,0 +1,65 @@
+,EventTemplate,Occurrences
+0,Notification time out: {timeout},37
+1,Received connection request /{ip}:{port},224
+2,Send {worker} leaving {thread},262
+3,Interrupted while waiting for message on {queue},290
+4,"Connection broken for id {id}, my id = {my_id}, error =",289
+5,Received connection request /{ip_address}:{port},75
+6,Interrupting {worker},266
+7,Interrupted while waiting for message on queue,24
+8,Closed socket connection for client /{client_address}:{client_port} which had sessionid {session_id},27
+9,caught {exception_type} exception,28
+10,Client attempting to renew session {session_id} at {ip_address}:{port},3
+11,Closed socket connection for client /{client_ip}:{client_port} which had sessionid {session_id},17
+12,Client attempting to establish new session at /{ip}:{port},39
+13,Established session {session_id} with negotiated timeout {timeout} for client {client_address},50
+14,Accepted socket connection from /{ip_address}:{port},29
+15,Unexpected Exception:,1
+16,Accepted socket connection from /{ip}:{port},7
+17,Accepted socket connection from /{ip_address}:{port_number},12
+18,Client attempting to establish new session at /{ip_address}:{port},2
+19,Connection request from old client /{client_ip}:{client_port}; will be dropped if server is in r-o mode,33
+20,caught {error_type} exception,9
+21,Server environment:user.dir={directory},1
+22,Cannot open channel to {number} at election address {address},62
+23,Processed session termination for sessionid: {sessionid},47
+24,"Expiring session {session_id}, timeout of {timeout}ms exceeded",40
+25,******* GOODBYE /{ip}:{port} ********,3
+26,LOOKING,4
+27,Cannot open channel to {channel_number} at election address {address},24
+28,My election bind port: {ip}/{port},1
+29,"Have smaller server identifier, so dropping the connection: ({}, {})",1
+30,FOLLOWING,2
+31,"New election. My id = {id}, proposed zxid={zxid}",1
+32,Server environment:host.name={hostname},1
+33,FOLLOWING - LEADER ELECTION TOOK - {time},2
+34,"Notification: {int} (n.leader), {hex} (n.zxid), {hex} (n.round), {string} (n.state), {int} (n.sid), {hex} (n.peerEPoch), {string} (my state)",4
+35,Connection request from old client /{client_ip}:{client_port}; will be dropped if server is in {mode} mode,6
+36,autopurge.snapRetainCount set to {value},1
+37,Server environment:java.vendor={vendor},2
+38,Revalidating client: {client_id},3
+39,Server environment:zookeeper.version={version}--{build_date} GMT,1
+40,Server environment:user.name={username},2
+41,Server environment:os.name={os_name},2
+42,Closed socket connection for client /{client_ip}:{client_port} (no session established for client),4
+43,Exception causing close of session {sessionId} due to {exceptionType}: {exceptionMessage},3
+44,"Notification: {int} (n.leader), {hex} (n.zxid), {int} (n.round), {string} (n.state), {int} (n.sid), {hex} (n.peerEPoch), {string} (my state)",8
+45,tickTime set to {tickTime},1
+46,"Connection broken for id {id}, my id = {my_id}, error = {error}",2
+47,Unexpected exception causing shutdown while {variable} still open,12
+48,******* GOODBYE /{ip_address}:{port} ********,16
+49,Got user-level KeeperException when processing sessionid:{sessionid} type:{type} cxid:{cxid} zxid:{zxid} txntype:{txntype} reqpath:{reqpath} Error Path:{error_path} Error:{error},1
+50,Starting {process} peer,1
+51,Snapshotting: {hex_value} to {file_path},2
+52,autopurge.purgeInterval set to {value},3
+53,Follower sid: {sid} : {info} : {class},1
+54,maxSessionTimeout set to {value},1
+55,Server environment:java.class.path={classpath},1
+56,Have quorum of supporters; starting up and setting last processed zxid: {zxid},1
+57,shutdown of {process} complete,1
+58,First is {var},1
+59,Reading snapshot {file_path},1
+60,Sending {ACTION},1
+61,Getting a snapshot from leader,2
+62,minSessionTimeout set to {value},2
+63,Server environment:java.home={java_home},1

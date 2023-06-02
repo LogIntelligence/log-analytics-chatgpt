@@ -1,0 +1,59 @@
+,EventTemplate,Occurrences
+0,"Times: total = <*>, boot = <*>, init = <*>, finish = <*>",375
+1,Got assigned task <*>,305
+2,Running task <*> in stage <*> (TID <*>),305
+3,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,300
+4,Found block <*> locally,257
+5,"Partition <*> not found, computing it",75
+6,"Block <*> stored as bytes in memory (estimated size <*>, free <*>)",73
+7,Started reading broadcast variable <*>,37
+8,Reading broadcast variable <*> took <*> ms,37
+9,"Block <*> stored as bytes in memory (estimated size <*> KB, free <*> KB)",30
+10,File Output Committer Algorithm version is <*>,30
+11,Saved output of task '<*>' to <*>,30
+12,Input split: <*>,27
+13,"Block <*> stored as values in memory (estimated size <*>, free <*>)",19
+14,<*>: Committed,19
+15,Input split: <*>+<*>,18
+16,<*>: <*>,10
+17,"Block <*> stored as values in memory (estimated size <*> KB, free <*> KB)",7
+18,"Block <*> stored as bytes in memory (estimated size <*> B, free <*> KB)",3
+19,Changing view acls to: <*>,2
+20,Changing modify acls to: <*>,2
+21,SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(<*>); users with modify permissions: Set(<*>),2
+22,Successfully started service '<*>' on port <*>.,2
+23,Registered signal handlers for [<*>],1
+24,Slf4jLogger started,1
+25,Starting remoting,1
+26,Remoting started; listening on addresses :[akka.tcp://<*>@<*>],1
+27,Created local directory at <*>,1
+28,MemoryStore started with capacity <*> GB,1
+29,Connecting to driver: spark://<*>@<*>,1
+30,Successfully registered with driver,1
+31,Starting executor ID <*> on host <*>,1
+32,Server created on <*>,1
+33,Trying to register BlockManager,1
+34,Registered BlockManager,1
+35,"Block broadcast_9_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+36,"Block broadcast_9 stored as values in memory (estimated size <*>, free <*>)",1
+37,"Block broadcast_8_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+38,"Block broadcast_8 stored as values in memory (estimated size <*>, free <*>)",1
+39,"mapred.tip.id is deprecated. Instead, use mapreduce.task.id",1
+40,"mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id",1
+41,"mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap",1
+42,"mapred.job.id is deprecated. Instead, use mapreduce.job.id",1
+43,"mapred.task.partition is deprecated. Instead, use mapreduce.task.partition",1
+44,"Block broadcast_0 stored as values in memory (estimated size <*>, free <*>)",1
+45,"Block broadcast_4_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+46,"Block broadcast_4 stored as values in memory (estimated size <*>, free <*>)",1
+47,"Block broadcast_3_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+48,"Block broadcast_3 stored as values in memory (estimated size <*>, free <*>)",1
+49,"Block broadcast_1_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+50,"Block broadcast_1 stored as values in memory (estimated size <*>, free <*>)",1
+51,"Block broadcast_2_piece0 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+52,"Block broadcast_2 stored as values in memory (estimated size <*>, free <*>)",1
+53,"Block broadcast_10 stored as values in memory (estimated size <*>, free <*>)",1
+54,"Block broadcast_11 stored as values in memory (estimated size <*>, free <*>)",1
+55,"Block broadcast_12 stored as values in memory (estimated size <*>, free <*>)",1
+56,"Block broadcast_13 stored as values in memory (estimated size <*>, free <*>)",1
+57,<*>,1

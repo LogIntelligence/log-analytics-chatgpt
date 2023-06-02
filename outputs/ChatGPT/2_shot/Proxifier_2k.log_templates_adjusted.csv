@@ -1,0 +1,33 @@
+,EventTemplate,Occurrences
+0,<*> open through proxy <*> HTTPS,545
+1,<*> open through proxy <*> <*>,409
+2,"<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",248
+3,"<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",232
+4,"<*> close, <*> bytes sent, <*> bytes received, lifetime <*> sec>",105
+5,"<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",103
+6,"<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>",88
+7,"<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*> sec>",31
+8,"<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*> sec>",30
+9,<*> error : Could not connect to proxy <*> - connection attempt failed with error <*>,26
+10,"<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*> sec>",25
+11,"<*> <*>, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",21
+12,<*> error : Could not connect to proxy <*> - Could not resolve <*> error <*>,19
+13,<*> error : A connection request was canceled before the completion.,18
+14,"<*> error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code <*>",17
+15,"<*> <*>, <*> bytes sent, <*> bytes received, lifetime <*> sec>",15
+16,"<*> close, <*> bytes sent, <*> bytes (<*>), lifetime <*>",13
+17,<*> error : <*>,11
+18,"<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> MB) received, lifetime <*>",9
+19,"<*> close, <*> bytes sent, <*> bytes (<*>) received, lifetime <*>",7
+20,"<*> <*>, <*> bytes sent, <*> bytes (<*>), lifetime <*>",5
+21,"<*> <*>, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",4
+22,<*> error : Could not connect through proxy <*> - Proxy closed the connection unexpectedly.,3
+23,"<*> <*>, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>",3
+24,"<*> <*>, <*> bytes sent, <*> bytes received, lifetime <*>",3
+25,<*> open through proxy <*> SOCKS5,2
+26,csdnimg.cn:<*> error : A connection request was canceled before the completion.,2
+27,"<*> close, <*> bytes sent, <*> bytes (<*>) received, lifetime <*> sec",2
+28,"<*> close, <*> bytes sent, <*> bytes (<*>), lifetime <*> sec",1
+29,"<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*> sec",1
+30,"<*> close, <*> bytes sent, <*> bytes (<*> <*>) received, lifetime <*>",1
+31,<*> error : Could not connect to proxy <*> - <*>,1

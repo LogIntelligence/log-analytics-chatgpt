@@ -1,0 +1,56 @@
+,EventTemplate,Occurrences
+0,Interrupted while waiting for message on queue,314
+1,Received connection request <*>,299
+2,"Connection broken for id <*>, my id = <*>, error =",289
+3,Interrupting SendWorker,266
+4,Send worker leaving thread,262
+5,Cannot open channel to <*> at election address <*>,86
+6,Established session <*> with negotiated timeout <*> for client <*>,50
+7,Accepted socket connection from <*>,48
+8,Processed session termination for sessionid: <*>,47
+9,Closed socket connection for client <*> which had sessionid <*>,44
+10,Client attempting to establish new session at <*>,41
+11,"Expiring session <*>, timeout of <*> exceeded",40
+12,Connection request from old client <*>; will be dropped if server is in r-o mode,39
+13,Notification time out: <*>,37
+14,caught end of stream exception,37
+15,******* GOODBYE <*> ********,19
+16,Unexpected exception causing shutdown while sock still open,12
+17,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), <*> (n.state), <*> (n.sid), <*> (n.peerEPoch), <*> (my state)",11
+18,LOOKING,4
+19,Closed socket connection for client <*> (no session established for client),4
+20,Client attempting to renew session <*> at <*>,3
+21,Revalidating client: <*>,3
+22,autopurge.purgeInterval set to <*>,3
+23,FOLLOWING,2
+24,FOLLOWING - LEADER ELECTION TOOK - <*>,2
+25,Server environment:java.vendor=Oracle Corporation,2
+26,Server environment:user.name=zookeeper,2
+27,Server environment:os.name=Linux,2
+28,"Connection broken for id <*>, my id = <*>, error = <*>",2
+29,Snapshotting: <*> to <*>,2
+30,Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running,2
+31,Getting a snapshot from leader,2
+32,minSessionTimeout set to -<*>,2
+33,Unexpected Exception:,1
+34,Server environment:user.dir=/,1
+35,My election bind port: <*>/<*>,1
+36,"Have smaller server identifier, so dropping the connection: (<*>, <*>)",1
+37,"New election. My id = <*>, proposed zxid=<*>",1
+38,Server environment:host.name=<*>,1
+39,autopurge.snapRetainCount set to <*>,1
+40,"Server environment:zookeeper.version=<*>, built on <*>",1
+41,Exception causing close of session <*> due to <*>,1
+42,tickTime set to <*>,1
+43,Got user-level KeeperException when processing sessionid:<*> type:<*> cxid:<*> zxid:<*> txntype:<*> reqpath:<*> Error Path:<*> Error:KeeperErrorCode = <*> for <*>,1
+44,Starting quorum peer,1
+45,Follower sid: <*> : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@33557fe4,1
+46,maxSessionTimeout set to -<*>,1
+47,Server environment:java.class.path=<*>,1
+48,Have quorum of supporters; starting up and setting last processed zxid: 0xb00000000,1
+49,shutdown of request processor complete,1
+50,First is 0x0,1
+51,Reading snapshot <*>,1
+52,Sending DIFF,1
+53,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <*> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)",1
+54,Server environment:java.home=<*>,1

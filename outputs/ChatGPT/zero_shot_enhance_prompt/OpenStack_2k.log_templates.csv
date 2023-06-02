@@ -1,0 +1,102 @@
+,EventTemplate,Occurrences
+0,"{ip_address} ""GET {endpoint} HTTP/1.1"" status: {status_code} len: {content_length} time: {response_time}",485
+1,[instance: {instance_id}] VM Started (Lifecycle Event),22
+2,[instance: {instance_id}] VM Paused (Lifecycle Event),22
+3,[instance: {instance_id}] During sync_power_state the instance has a pending task ({task}). Skip.,43
+4,image {image_id} at ({file_path}): checking,82
+5,"image {image_id} at ({file_path}): in use: on this node {local_count} local, {other_count} on other nodes sharing this instance storage",82
+6,Active base files: /var/lib/nova/instances/_base/{base_file},82
+7,Creating event network-vif-plugged:{event_id} for instance {instance_id},13
+8,"IP_ADDRESS ""POST /v2/{EVENT_ID}/os-server-external-events HTTP/1.1"" status: {STATUS_CODE} len: {RESPONSE_LENGTH} time: {RESPONSE_TIME}",9
+9,[instance: {instance_id}] VM Resumed (Lifecycle Event),44
+10,[instance: {instance_id}] Instance spawned successfully.,22
+11,[instance: {instance_id}] Took {time} seconds to spawn the instance on the hypervisor.,22
+12,[instance: {instance_id}] Took {time} seconds to build instance.,22
+13,"{ip_address} ""GET {endpoint} HTTP/1.1"" status: {status_code} len: {length} time: {response_time}",48
+14,Auditing locally available compute resources for node {node_name},15
+15,"Total usable vcpus: {usable_vcpus}, total allocated vcpus: {allocated_vcpus}",15
+16,Final resource view: name={name} phys_ram={phys_ram}MB used_ram={used_ram}MB phys_disk={phys_disk}GB used_disk={used_disk}GB total_vcpus={total_vcpus} used_vcpus={used_vcpus} pci_stats={pci_stats},9
+17,Compute_service record updated for {compute_service}: {compute_service},15
+18,"{client_ip},{server_ip} ""GET {endpoint} HTTP/1.1"" status: {status_code} len: {response_length} time: {response_time}",14
+19,"{client_ip},{server_ip} ""GET {endpoint} HTTP/1.1"" status: {status_code} len: {content_length} time: {response_time}",83
+20,"IP1,IP2 ""GET /openstack/2013-10-17/vendor_data.json HTTP/1.1"" status: {status} len: {length} time: {time}",12
+21,"{ip_address} ""DELETE {url} HTTP/1.1"" status: {status_code} len: {content_length} time: {response_time}",11
+22,"IP1,IP2 ""METHOD PATH PROTOCOL"" status: STATUS len: LENGTH time: TIME",1
+23,[instance: {instance_id}] Terminating instance,22
+24,[instance: {instance_id}] Instance destroyed successfully.,22
+25,"IP_ADDRESS ""HTTP_METHOD /v2/{ID}/servers/detail HTTP/1.1"" status: {STATUS_CODE} len: {RESPONSE_LENGTH} time: {RESPONSE_TIME}",97
+26,[instance: {instance_id}] Deleting instance files {file_path},20
+27,[instance: {instance_id}] Deletion of {file_path} complete,20
+28,[instance: {instance_id}] Took {time_taken} seconds to destroy the instance on the hypervisor.,12
+29,[instance: {instance_id}] Took {time} seconds to deallocate network for instance.,21
+30,"{ip} ""GET {url} HTTP/1.1"" status: {status} len: {length} time: {time}",1
+31,Unknown base file: {file_path},19
+32,Removable base files: /var/lib/nova/instances/_base/{base_file},30
+33,Removing base or swap file: /var/lib/nova/instances/_base/{file_id},21
+34,HTTP exception thrown: {error_message},21
+35,"{ip_address} ""POST {endpoint} HTTP/1.1"" status: {status_code} len: {length} time: {response_time}",19
+36,"{ip_address} ""POST {endpoint} HTTP/1.1"" status: {status_code} len: {content_length} time: {response_time}",35
+37,"[instance: {instance_id}] Attempting claim: memory {memory} MB, disk {disk} GB, vcpus {vcpus} CPU",21
+38,"[instance: {instance_id}] Total memory: {total_memory} MB, used: {used_memory} MB",21
+39,"[instance: {instance_id}] memory limit: {memory_limit} MB, free: {free_memory} MB",19
+40,"[instance: {instance_id}] Total disk: {total_disk} GB, used: {used_disk} GB",21
+41,"[instance: {instance_id}] disk limit not specified, defaulting to unlimited",21
+42,"[instance: {instance_id}] Total vcpu: {total_vcpu} VCPU, used: {used_vcpu} VCPU",21
+43,"[instance: {instance_id}] vcpu limit not specified, defaulting to unlimited",21
+44,[instance: {instance_id}] Claim successful,21
+45,"IP_ADDRESS ""GET REQUEST_PATH HTTP/1.1"" status: STATUS_CODE len: RESPONSE_LENGTH time: RESPONSE_TIME",32
+46,"IP_ADDRESS ""GET /v2/{ID}/servers/{SERVER_ID} HTTP/1.1"" status: {STATUS_CODE} len: {RESPONSE_LENGTH} time: {RESPONSE_TIME}",5
+47,[instance: {instance_id}] Creating image,21
+48,[instance: {instance_id}] VM Stopped (Lifecycle Event),21
+49,Creating event network-vif-plugged:{network_id} for instance {instance_id},4
+50,Successfully synced instances from host '{hostname}'.,2
+51,"IP1,IP2 ""GET /openstack/2013-10-17 HTTP/1.1"" status: {status} len: {length} time: {time}",2
+52,"{client_ip},{server_ip} ""GET {request} HTTP/1.1"" status: {status_code} len: {response_length} time: {response_time}",8
+53,"IP1,IP2 ""GET /latest/meta-data/block-device-mapping/ HTTP/1.1"" status: {status} len: {length} time: {time}",6
+54,"{},{} ""GET /latest/meta-data/block-device-mapping/ami HTTP/1.1"" status: {} len: {} time: {}",1
+55,"{},{} ""GET {} HTTP/1.1"" status: {} len: {} time: {}",19
+56,"IP1,IP2 ""GET /latest/meta-data/placement/ HTTP/1.1"" status: {status} len: {length} time: {time}",2
+57,"{ip_address} ""GET {url} HTTP/1.1"" status: {status_code} len: {length} time: {response_time}",9
+58,Running instance usage audit for host {hostname} from {start_time} to {end_time}. {num_instances} instances.,1
+59,[instance: {instance_id}] Took {time} seconds to destroy the instance on the hypervisor.,9
+60,Unknown base file: {base_file_path},11
+61,"{ip_address} ""GET {url} HTTP/1.1"" status: {status_code} len: {content_length} time: {response_time}",16
+62,"[instance: {instance_id}] memory limit: {memory_limit} MB, free: {memory_free} MB",2
+63,"IP_ADDRESS ""HTTP_METHOD /v2/{UUID}/servers/{UUID} HTTP/1.1"" status: {STATUS_CODE} len: {RESPONSE_LENGTH} time: {RESPONSE_TIME}",1
+64,"{ip_address} ""{http_method} {endpoint} HTTP/1.1"" status: {status_code} len: {content_length} time: {response_time}",6
+65,Base or swap file too young to remove: /var/lib/nova/instances/_base/{file_id},9
+66,"IP_ADDRESS ""HTTP_METHOD /v2/{ID}/servers/detail HTTP/VERSION"" status: {STATUS_CODE} len: {RESPONSE_LENGTH} time: {RESPONSE_TIME}",12
+67,Creating event network-vif-plugged:{uuid} for instance {uuid},3
+68,"IP1,IP2 ""GET /openstack/2012-08-10/meta_data.json HTTP/1.1"" status: {status} len: {length} time: {time}",6
+69,"IP_ADDRESS ""DELETE /v2/{UUID}/servers/{UUID} HTTP/1.1"" status: {STATUS_CODE} len: {RESPONSE_LENGTH} time: {RESPONSE_TIME}",1
+70,"IP_ADDRESS ""GET /v2/{UUID}/servers/{UUID} HTTP/1.1"" status: {STATUS_CODE} len: {RESPONSE_LENGTH} time: {RESPONSE_TIME}",1
+71,"IP1,IP2 ""METHOD PATH HTTP_VERSION"" status: STATUS_CODE len: LENGTH time: TIME",1
+72,"IP1,IP2 ""GET /openstack/2013-10-17/meta_data.json HTTP/1.1"" status: {status} len: {length} time: {time}",11
+73,"{ip_address} ""{http_method} {endpoint} HTTP/1.1"" status: {status_code} len: {response_length} time: {response_time}",3
+74,"{ip_address} ""GET {endpoint} HTTP/1.1"" status: {status_code} len: {response_length} time: {response_time}",8
+75,Final resource view: name={name} phys_ram={phys_ram} used_ram={used_ram} phys_disk={phys_disk} used_disk={used_disk} total_vcpus={total_vcpus} used_vcpus={used_vcpus} pci_stats={pci_stats},6
+76,"IP_ADDRESS ""HTTP_METHOD /v2/{ID}/servers/{SERVER_ID} HTTP/VERSION"" status: {STATUS_CODE} len: {RESPONSE_LENGTH} time: {RESPONSE_TIME}",1
+77,"IP_ADDRESS ""GET /v2/{ID}/servers/{UUID} HTTP/1.1"" status: {STATUS} len: {LENGTH} time: {TIME}",2
+78,"{client_ip},{server_ip} ""GET {url} HTTP/1.1"" status: {status_code} len: {content_length} time: {response_time}",2
+79,"IP_ADDRESS ""DELETE /v2/{ID}/servers/{SERVER_ID} HTTP/1.1"" status: {STATUS_CODE} len: {RESPONSE_LENGTH} time: {RESPONSE_TIME}",1
+80,"IP_ADDRESS ""HTTP_METHOD /v2/{dynamic_variable}/servers/detail?all_tenants=True&changes-since={dynamic_variable} HTTP/1.1"" status: {dynamic_variable} len: {dynamic_variable} time: {dynamic_variable}",1
+81,The instance sync for host '{hostname}' did not match. Re-created its InstanceList.,5
+82,"IP1,IP2 ""GET /openstack/2013-10-17/user_data HTTP/1.1"" status: {status} len: {length} time: {time}",8
+83,"{client_ip},{server_ip} ""GET {request} HTTP/1.1"" status: {status_code} len: {content_length} time: {response_time}",8
+84,"IP1,IP2 ""GET /latest/meta-data/block-device-mapping/ami HTTP/1.1"" status: {status} len: {length} time: {time}",3
+85,"IP_ADDRESS ""HTTP_METHOD /v2/{IMAGE_ID} HTTP/VERSION"" status: {STATUS_CODE} len: {RESPONSE_LENGTH} time: {RESPONSE_TIME}",1
+86,"IP1,IP2 ""GET /latest/meta-data/block-device-mapping/root HTTP/1.1"" status: {status} len: {length} time: {time}",2
+87,"{client_ip},{server_ip} ""GET {request_url} HTTP/1.1"" status: {status_code} len: {response_length} time: {response_time}",11
+88,"IP1,IP2 ""GET /latest/meta-data/reservation-id HTTP/1.1"" status: {status} len: {length} time: {time}",3
+89,"IP1,IP2 ""GET /latest/meta-data/local-hostname HTTP/1.1"" status: {status} len: {length} time: {time}",1
+90,"{client_ip},{proxy_ip} ""GET {request_url} HTTP/1.1"" status: {status_code} len: {response_length} time: {response_time}",1
+91,"IP_ADDRESS ""GET /v2/{ID}/servers/{UUID} HTTP/1.1"" status: {STATUS_CODE} len: {RESPONSE_LENGTH} time: {RESPONSE_TIME}",3
+92,"{client_ip},{server_ip} ""{http_method} {endpoint} HTTP/1.1"" status: {status_code} len: {content_length} time: {response_time}",1
+93,"While synchronizing instance power states, found {num_instances_db} instances in the database and {num_instances_hypervisor} instances on the hypervisor.",1
+94,"IP1,IP2 ""GET /latest/meta-data/ HTTP/1.1"" status: {status} len: {length} time: {time}",1
+95,[instance: {instance_id}] Deleting instance files /var/lib/nova/instances/{instance_id}_del,1
+96,[instance: {instance_id}] Deletion of /var/lib/nova/instances/{instance_id}_del complete,1
+97,"{client_ip},{server_ip} ""GET {request_path} HTTP/1.1"" status: {status_code} len: {response_length} time: {response_time}",1
+98,"IP_ADDRESS ""POST /v2/{ID}/servers HTTP/1.1"" status: {STATUS_CODE} len: {RESPONSE_LENGTH} time: {RESPONSE_TIME}",1
+99,Creating event network-vif-plugged:{uuid} for instance {instance_id},1
+100,Creating event network-vif-plugged:{dynamic_variable_1} for instance {dynamic_variable_2},1

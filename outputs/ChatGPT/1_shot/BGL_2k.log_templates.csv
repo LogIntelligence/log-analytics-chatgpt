@@ -1,0 +1,1105 @@
+,EventTemplate,Occurrences
+0,instruction cache parity error corrected,42
+1,63543 double-hummer alignment exceptions,1
+2,162 double-hummer alignment exceptions,1
+3,141 double-hummer alignment exceptions,1
+4,"CE sym 2, at {address}, mask {mask}",2
+5,ciod: failed to read message prefix on control stream (CioStream socket to {ip}:{port},3
+6,"CE sym 20, at 0x1438f9e0, mask 0x40",1
+7,generating core.2275,1
+8,generating core.862,1
+9,generating core.728,1
+10,generating core.775,1
+11,generating core.3276,1
+12,generating core.1717,1
+13,generating core.3919,1
+14,generating core.2079,1
+15,generating core.1414,1
+16,generating core.3055,1
+17,generating core.201,1
+18,generating core.1125,1
+19,generating core.412,1
+20,generating core.7828,1
+21,generating core.5570,1
+22,generating core.8275,1
+23,generating core.4183,1
+24,generating core.6545,1
+25,generating core.4245,1
+26,generating core.6884,1
+27,force load/store alignment...............{},2
+28,generating core.6471,1
+29,generating core.4155,1
+30,generating core.449,1
+31,generating core.6990,1
+32,generating core.4876,1
+33,generating core.2218,1
+34,generating core.7518,1
+35,generating core.5854,1
+36,generating core.7457,1
+37,generating core.6896,1
+38,generating core.3488,1
+39,generating core.1172,1
+40,generating core.2286,1
+41,generating core.786,1
+42,generating core.2680,1
+43,generating core.1524,1
+44,generating core.4937,1
+45,generating core.6801,1
+46,generating core.4368,1
+47,generating core.851,1
+48,generating core.1744,1
+49,generating core.1588,1
+50,generating core.5307,1
+51,generating core.7192,1
+52,"CE sym 20, at {address}, mask {mask}",3
+53,"CE sym {sym}, at {address}, mask {mask}",22
+54,generating core.430,1
+55,generating core.174,1
+56,ciod: cpu {cpu} at treeaddr {treeaddr} sent unrecognized message {message},1
+57,generating core.976,1
+58,generating core.1990,1
+59,generating core.3638,1
+60,generating core.2690,1
+61,generating core.3804,1
+62,generating core.418,1
+63,generating core.310,1
+64,generating core.2409,1
+65,generating core.4182,1
+66,generating core.8153,1
+67,generating core.7836,1
+68,generating core.2911,1
+69,generating core.2921,1
+70,generating core.122,1
+71,generating core.1973,1
+72,ciod: LOGIN chdir({directory}) failed: {error},12
+73,generating core.4984,1
+74,generating core.1822,1
+75,"CE sym 28, at 0x{address}, mask 0x{mask}",1
+76,"1 ddr errors(s) detected and corrected on rank 0, symbol {placeholder}, bit {placeholder}",2
+77,"CE sym 14, at {address}, mask {mask}",2
+78,generating core.3265,1
+79,generating core.2599,1
+80,generating core.1818,1
+81,generating core.1694,1
+82,generating core.3401,1
+83,generating core.25350,1
+84,generating core.1820,1
+85,generating core.254,1
+86,generating core.1887,1
+87,generating core.8280,1
+88,generating core.12357,1
+89,data TLB error interrupt,60
+90,ciod: Message code 0 is not 51 or 4294967295,1
+91,data storage interrupt,30
+92,instruction address: {address},21
+93,generating core.{core_id},3
+94,generating core.1711,1
+95,generating core.2332,1
+96,generating core.4505,2
+97,generating core.1521,1
+98,data address: {address},7
+99,machine check: i-fetch......................0,5
+100,program interrupt: illegal instruction......0,5
+101,data address: {hex_address},1
+102,exception syndrome register: {hex_value},6
+103,data store interrupt caused by dcbf.........0,5
+104,program interrupt: privileged instruction...0,5
+105,program interrupt: trap instruction.........0,1
+106,program interrupt: imprecise exception......0,5
+107,store operation.............................1,2
+108,machine state register: {hex_value},4
+109,data store interrupt caused by icbi.........0,5
+110,"problem state (0=sup,1=usr).......{}",3
+111,floating point instr. enabled.....1,4
+112,auxiliary processor.........................{},5
+113,machine check enable..............{},2
+114,floating pt ex mode {0} enable......{1},3
+115,program interrupt: unimplemented operation..{},1
+116,debug interrupt enable............{},1
+117,floating pt ex mode 1 enable......0,2
+118,byte ordering exception.....................{},2
+119,data address space................{},5
+120,core configuration register: {value},7
+121,program interrupt: fp cr update.............0,1
+122,guaranteed instruction cache block touch.0,2
+123,program interrupt: fp cr field .............0,4
+124,guaranteed data cache block touch........1,1
+125,icache prefetch depth....................{},1
+126,icache prefetch threshold................{},2
+127,wait state enable.................{},1
+128,critical input interrupt enable...{variable},1
+129,special purpose registers:,1
+130,lr:{lr} cr:{cr} xer:{xer} ctr:{ctr},1
+131,rts internal error,1
+132,debug wait enable.................{},2
+133,instruction address space.........{},1
+134,disable store gathering..................{},3
+135,generating core.42,2
+136,total of {count} ddr error(s) detected and corrected,13
+137,generating core.145,1
+138,generating core.1978,1
+139,generating core.2040,1
+140,generating core.15,1
+141,generating core.16218,1
+142,generating core.8531,2
+143,generating core.2961,1
+144,generating core.15966,2
+145,generating core.93,1
+146,generating core.2605,1
+147,generating core.6037,1
+148,generating core.886,1
+149,generating core.3053,1
+150,generating core.2790,2
+151,generating core.1488,1
+152,generating core.2186,1
+153,generating core.978,1
+154,generating core.2808,1
+155,generating core.2486,1
+156,generating core.334,1
+157,generating core.5401,1
+158,generating core.14418,1
+159,generating core.2558,1
+160,generating core.9785,1
+161,generating core.4614,1
+162,generating core.7615,1
+163,generating core.15935,1
+164,"ciod: Error loading /home/draeger/testQboxhang-nozerobytebug-nosleepyescomm: invalid or missing program image, No such file or directory",1
+165,ciod: Error creating node map from file {file_path}: {error_message},1
+166,"CE sym 0, at 0x1b858280, mask 0x40",2
+167,generating core.8089,1
+168,generating core.4660,1
+169,generating core.721,1
+170,generating core.5287,1
+171,generating core.783,1
+172,"1 ddr errors(s) detected and corrected on rank {rank}, symbol {symbol}, bit {bit}",9
+173,"ciod: Error loading ./runtime_malloc: invalid or missing program image, No such file or directory",1
+174,199680 double-hummer alignment exceptions,1
+175,1969920 double-hummer alignment exceptions,1
+176,2576000 double-hummer alignment exceptions,2
+177,6182400 double-hummer alignment exceptions,3
+178,3091200 double-hummer alignment exceptions,3
+179,"CE sym 12, at 0x1b786f60, mask 0x04",1
+180,"CE sym 0, at 0x1b8584e0, mask 0x80",1
+181,"CE sym 23, at 0x03f89c00, mask 0x10",2
+182,23431872 double-hummer alignment exceptions,1
+183,259966605 double-hummer alignment exceptions,1
+184,255244071 double-hummer alignment exceptions,1
+185,259822751 double-hummer alignment exceptions,1
+186,generating core.24721,1
+187,generating core.4184,1
+188,generating core.58109,1
+189,generating core.9881,1
+190,generating core.19579,1
+191,generating core.4501,1
+192,generating core.50230,1
+193,generating core.62516,1
+194,generating core.27921,1
+195,generating core.16830,1
+196,generating core.9369,1
+197,generating core.10140,1
+198,generating core.37749,1
+199,generating core.9654,1
+200,generating core.56155,1
+201,generating core.40250,1
+202,generating core.45353,1
+203,generating core.9578,1
+204,generating core.14856,1
+205,generating core.62468,1
+206,generating core.38415,1
+207,generating core.39138,1
+208,generating core.10394,1
+209,generating core.41347,1
+210,generating core.7619,1
+211,generating core.54486,1
+212,generating core.22421,1
+213,generating core.18261,1
+214,generating core.58616,1
+215,generating core.47736,1
+216,generating core.25048,1
+217,generating core.58777,1
+218,generating core.49137,1
+219,generating core.42553,1
+220,generating core.2109,1
+221,generating core.718,1
+222,generating core.10752,1
+223,generating core.323,1
+224,ciod: Error loading {file_path}: {error_message},6
+225,generating core.21112,1
+226,program interrupt,3
+227,generating core.28370,1
+228,program interrupt: illegal instruction......1,3
+229,program interrupt: unimplemented operation..0,1
+230,generating core.14700,1
+231,"CE sym 0, at 0x1b8594e0, mask 0x40",1
+232,Node card is not fully functional,6
+233,generating core.1786,1
+234,generating core.26918,1
+235,generating core.10125,1
+236,generating core.4230,1
+237,generating core.179,1
+238,generating core.1177,1
+239,generating core.32693,1
+240,generating core.7151,1
+241,generating core.7023,1
+242,344040 double-hummer alignment exceptions,3
+243,generating core.29308,1
+244,generating core.2586,1
+245,generating core.6040,1
+246,generating core.16904,1
+247,generating core.26186,1
+248,generating core.26156,1
+249,generating core.2112,1
+250,generating core.23659,1
+251,generating core.1605,1
+252,generating core.16483,1
+253,generating core.257,1
+254,generating core.18751,1
+255,generating core.22783,1
+256,generating core.8021,1
+257,generating core.10734,1
+258,generating core.3613,1
+259,generating core.1916,1
+260,generating core.4246,1
+261,generating core.7777,1
+262,generating core.5935,1
+263,generating core.8691,1
+264,generating core.5512,1
+265,generating core.1123,1
+266,generating core.1641,1
+267,"CE sym 0, at 0x1b858ca0, mask 0x40",1
+268,ciod: Error creating node map from file {file_path}: Bad file descriptor,1
+269,"CE sym 22, at {address}, mask {mask}",1
+270,generating core.1165,1
+271,generating core.23615,1
+272,generating core.865,1
+273,generating core.1626,1
+274,generating core.16594,1
+275,generating core.18540,1
+276,generating core.9825,1
+277,generating core.6698,1
+278,generating core.4525,1
+279,generating core.28084,1
+280,generating core.6028,1
+281,generating core.536,1
+282,generating core.15655,1
+283,generating core.8628,1
+284,generating core.12122,1
+285,generating core.2210,1
+286,generating core.10312,1
+287,generating core.228,1
+288,generating core.332,1
+289,generating core.15740,1
+290,generating core.3389,1
+291,Ido chip status changed: FF:F2:9F:16:E2:23:00:0D:60:E9:1D:DC ip={ip} v={v} t={t} status={status} {timestamp},1
+292,Can not get assembly information for node card,6
+293,1146800 double-hummer alignment exceptions,27
+294,458720 double-hummer alignment exceptions,8
+295,generating core.1114,1
+296,generating core.848,1
+297,generating core.2117,1
+298,generating core.3293,1
+299,generating core.1351,1
+300,generating core.17222,1
+301,generating core.20392,1
+302,generating core.31006,1
+303,generating core.20088,1
+304,generating core.26993,1
+305,generating core.20954,1
+306,generating core.6139,1
+307,generating core.10185,1
+308,generating core.13776,1
+309,generating core.19596,1
+310,generating core.15557,1
+311,generating core.4193,1
+312,generating core.7539,1
+313,generating core.22024,1
+314,generating core.22905,1
+315,generating core.24671,2
+316,generating core.17853,1
+317,generating core.25568,1
+318,generating core.23080,1
+319,generating core.9739,1
+320,generating core.7187,1
+321,generating core.23438,1
+322,generating core.7881,1
+323,generating core.9778,1
+324,generating core.7915,1
+325,generating core.3006,1
+326,generating core.14627,1
+327,generating core.2348,1
+328,generating core.226,1
+329,generating core.1219,1
+330,generating core.8877,1
+331,generating core.13558,1
+332,generating core.404,1
+333,ciod: Missing or invalid fields on line 1 of node map file /home/auselton/bgl/64mps.sequential.mapfile,1
+334,1 torus receiver z+ input pipe error(s) (dcr {hex_code}) detected and corrected,1
+335,generating core.631,1
+336,generating core.998,1
+337,generating core.1129,1
+338,generating core.424,1
+339,generating core.1213,1
+340,generating core.1433,1
+341,generating core.2950,1
+342,generating core.319,1
+343,generating core.303,1
+344,generating core.1998,1
+345,632431728 double-hummer alignment exceptions,1
+346,634368144 double-hummer alignment exceptions,1
+347,632254896 double-hummer alignment exceptions,1
+348,633283776 double-hummer alignment exceptions,1
+349,generating core.841,1
+350,generating core.815,1
+351,generating core.57762,1
+352,generating core.3436,1
+353,generating core.4592,1
+354,generating core.149,1
+355,generating core.62507,1
+356,generating core.1807,1
+357,ciod: duplicate canonical-rank {rank1} to logical-rank {rank2} mapping at line {line} of node map file {file},1
+358,ciod: Error creating node map from file {file_path}: Block device required,1
+359,generating core.9652,1
+360,generating core.11154,1
+361,generating core.7571,1
+362,generating core.12364,1
+363,generating core.13817,1
+364,generating core.14349,1
+365,generating core.8897,1
+366,generating core.7946,1
+367,generating core.10299,1
+368,generating core.9949,1
+369,generating core.9051,1
+370,generating core.7752,1
+371,generating core.10793,1
+372,generating core.40979,1
+373,generating core.18129,1
+374,generating core.47738,1
+375,generating core.42109,1
+376,generating core.6682,1
+377,generating core.7672,1
+378,generating core.47122,1
+379,generating core.17493,1
+380,generating core.23664,1
+381,generating core.19296,1
+382,generating core.6553,1
+383,generating core.56320,1
+384,generating core.3824,1
+385,generating core.5781,1
+386,generating core.55191,1
+387,generating core.38077,1
+388,generating core.41557,1
+389,generating core.36539,1
+390,generating core.51900,1
+391,generating core.33018,1
+392,generating core.29433,1
+393,generating core.36248,1
+394,generating core.41080,1
+395,generating core.57878,1
+396,generating core.245,1
+397,generating core.2315,1
+398,generating core.30603,1
+399,generating core.17517,1
+400,generating core.2633,1
+401,generating core.50240,1
+402,generating core.10211,1
+403,generating core.57863,1
+404,generating core.51808,1
+405,generating core.59907,1
+406,generating core.25382,1
+407,generating core.8646,1
+408,generating core.7167,1
+409,generating core.14589,1
+410,generating core.2300,1
+411,generating core.14652,1
+412,generating core.14807,1
+413,generating core.31758,1
+414,generating core.7205,2
+415,generating core.10247,1
+416,generating core.30230,1
+417,generating core.2299,1
+418,generating core.28666,1
+419,generating core.2481,1
+420,generating core.52376,1
+421,generating core.10930,1
+422,generating core.51134,1
+423,generating core.5235,1
+424,generating core.50841,1
+425,generating core.48433,1
+426,generating core.34955,1
+427,generating core.46408,1
+428,generating core.35872,1
+429,generating core.133,1
+430,generating core.4622,1
+431,generating core.58351,1
+432,generating core.9158,1
+433,generating core.22376,1
+434,generating core.12329,1
+435,generating core.4035,1
+436,generating core.15459,1
+437,generating core.55384,1
+438,generating core.5342,1
+439,generating core.46559,1
+440,generating core.25604,1
+441,generating core.61172,1
+442,generating core.25271,1
+443,generating core.34015,1
+444,generating core.63070,1
+445,generating core.31192,1
+446,generating core.40344,1
+447,generating core.62462,1
+448,generating core.40528,1
+449,generating core.42234,1
+450,generating core.23259,1
+451,generating core.24314,1
+452,generating core.4180,1
+453,generating core.24538,1
+454,generating core.26078,1
+455,generating core.30706,1
+456,generating core.8147,1
+457,generating core.57391,1
+458,generating core.11784,1
+459,generating core.61963,1
+460,generating core.33163,1
+461,generating core.30275,1
+462,generating core.15753,1
+463,generating core.7362,1
+464,generating core.8575,1
+465,generating core.9784,1
+466,generating core.11921,1
+467,generating core.11879,1
+468,generating core.13067,1
+469,generating core.13131,1
+470,generating core.14071,1
+471,generating core.8544,1
+472,generating core.13946,1
+473,generating core.16095,1
+474,generating core.7183,1
+475,generating core.1988,1
+476,generating core.2347,1
+477,generating core.2573,1
+478,generating core.3985,1
+479,generating core.13592,1
+480,generating core.10019,1
+481,generating core.10842,1
+482,generating core.8138,1
+483,1365301360 double-hummer alignment exceptions,1
+484,1315337824 double-hummer alignment exceptions,1
+485,1401390016 double-hummer alignment exceptions,1
+486,generating core.32657,1
+487,generating core.26835,1
+488,generating core.28242,1
+489,generating core.20970,1
+490,generating core.18514,1
+491,generating core.19321,1
+492,generating core.13753,1
+493,generating core.23542,1
+494,generating core.28918,1
+495,generating core.21145,1
+496,generating core.8832,1
+497,generating core.20015,1
+498,generating core.11564,1
+499,generating core.1557,1
+500,generating core.5167,1
+501,generating core.3111,1
+502,generating core.7193,1
+503,generating core.5861,1
+504,generating core.15425,1
+505,generating core.560,1
+506,generating core.5760,1
+507,generating core.13752,1
+508,generating core.10860,1
+509,generating core.12536,1
+510,generating core.19744,1
+511,generating core.8803,1
+512,generating core.28238,1
+513,generating core.12643,1
+514,generating core.12927,1
+515,generating core.6917,1
+516,generating core.21353,1
+517,generating core.17276,1
+518,generating core.26955,1
+519,generating core.11135,1
+520,generating core.6711,2
+521,generating core.22283,1
+522,generating core.21175,1
+523,generating core.28329,1
+524,generating core.20367,1
+525,generating core.23838,1
+526,generating core.16300,1
+527,generating core.7623,1
+528,generating core.1957,1
+529,generating core.3292,1
+530,generating core.3249,1
+531,generating core.2606,1
+532,generating core.2233,1
+533,generating core.3959,1
+534,generating core.2880,1
+535,generating core.3792,1
+536,generating core.2971,1
+537,generating core.3269,1
+538,generating core.24376,1
+539,generating core.31435,1
+540,generating core.3851,1
+541,generating core.20257,1
+542,generating core.32257,1
+543,generating core.7068,1
+544,generating core.4329,1
+545,generating core.16600,1
+546,generating core.6519,1
+547,generating core.15313,1
+548,generating core.16623,1
+549,generating core.10429,1
+550,generating core.32116,1
+551,generating core.15924,1
+552,"CE sym 2, at 0x0d09f1c0, mask 0x80",1
+553,"ciod: Error loading /home/greeno/raptor.new.dev.3d.BGL.CXX_XL.MPI.ex: invalid or missing program image, No such file or directory",1
+554,rts panic! - stopping execution,2
+555,generating core.9079,1
+556,generating core.6425,1
+557,generating core.3400,1
+558,generating core.2263,1
+559,generating core.9386,1
+560,generating core.4061,1
+561,generating core.14070,1
+562,generating core.14021,1
+563,generating core.1715,1
+564,generating core.4489,1
+565,generating core.2092,1
+566,generating core.5967,1
+567,118661512 double-hummer alignment exceptions,1
+568,112099344 double-hummer alignment exceptions,1
+569,113170696 double-hummer alignment exceptions,1
+570,117400328 double-hummer alignment exceptions,1
+571,112762744 double-hummer alignment exceptions,1
+572,116130784 double-hummer alignment exceptions,1
+573,114147592 double-hummer alignment exceptions,1
+574,113622512 double-hummer alignment exceptions,1
+575,114059360 double-hummer alignment exceptions,1
+576,114091808 double-hummer alignment exceptions,1
+577,115325776 double-hummer alignment exceptions,1
+578,113982272 double-hummer alignment exceptions,1
+579,113355952 double-hummer alignment exceptions,1
+580,115193048 double-hummer alignment exceptions,1
+581,111990296 double-hummer alignment exceptions,1
+582,112625368 double-hummer alignment exceptions,1
+583,116249832 double-hummer alignment exceptions,1
+584,112481672 double-hummer alignment exceptions,1
+585,116332728 double-hummer alignment exceptions,1
+586,generating core.691,1
+587,generating core.52403,1
+588,generating core.12883,1
+589,generating core.4159,1
+590,generating core.5054,1
+591,generating core.17150,1
+592,generating core.47314,1
+593,generating core.5520,1
+594,generating core.17817,1
+595,generating core.34898,1
+596,generating core.47007,1
+597,generating core.18363,1
+598,generating core.22494,1
+599,"CE sym 16, at 0x0456cd40, mask 0x04",1
+600,generating core.26059,1
+601,generating core.17999,1
+602,generating core.30671,1
+603,generating core.2600,1
+604,generating core.15192,1
+605,generating core.26224,1
+606,generating core.25712,1
+607,generating core.22807,1
+608,generating core.284,1
+609,generating core.5381,1
+610,generating core.27051,1
+611,generating core.29420,1
+612,generating core.8374,1
+613,generating core.7855,1
+614,generating core.2296,1
+615,generating core.1103,1
+616,generating core.2010,1
+617,generating core.3181,1
+618,generating core.32010,1
+619,generating core.9651,1
+620,generating core.10057,1
+621,generating core.5939,1
+622,generating core.12984,1
+623,generating core.17467,1
+624,generating core.29367,1
+625,generating core.14852,1
+626,generating core.4862,1
+627,generating core.27323,1
+628,generating core.26646,1
+629,generating core.5428,1
+630,generating core.12212,1
+631,generating core.3343,1
+632,generating core.19942,1
+633,generating core.18324,1
+634,generating core.3510,1
+635,generating core.17851,1
+636,generating core.30632,1
+637,generating core.26735,1
+638,generating core.18689,1
+639,generating core.27698,1
+640,generating core.10645,1
+641,generating core.5009,1
+642,generating core.5785,1
+643,generating core.27577,1
+644,generating core.32755,1
+645,generating core.30675,1
+646,generating core.11493,1
+647,generating core.5671,1
+648,generating core.27926,1
+649,generating core.15967,1
+650,generating core.24172,1
+651,generating core.29732,1
+652,generating core.17526,1
+653,generating core.19481,1
+654,generating core.23873,2
+655,generating core.14603,1
+656,generating core.15737,1
+657,generating core.23119,1
+658,generating core.14824,1
+659,generating core.15648,1
+660,generating core.7156,1
+661,generating core.22967,1
+662,generating core.3980,1
+663,generating core.11473,1
+664,generating core.13043,1
+665,generating core.28011,1
+666,generating core.27197,1
+667,generating core.27704,1
+668,generating core.9337,1
+669,generating core.22886,1
+670,generating core.22325,1
+671,generating core.23998,1
+672,ciod: Error creating node map from file {file_path}: Permission denied,1
+673,ciod: Z coordinate {coord} exceeds physical dimension {dim} at line {line} of node map file {file},1
+674,generating core.4615,1
+675,generating core.1682,1
+676,generating core.896,1
+677,generating core.4675,1
+678,generating core.84,1
+679,generating core.1227,1
+680,generating core.59955,1
+681,generating core.38143,1
+682,generating core.41718,1
+683,generating core.29431,1
+684,generating core.33399,1
+685,generating core.11379,1
+686,generating core.36339,1
+687,generating core.42833,1
+688,generating core.20595,1
+689,generating core.17560,1
+690,generating core.17212,1
+691,generating core.26131,1
+692,generating core.45777,1
+693,generating core.62940,1
+694,generating core.27867,1
+695,generating core.21016,1
+696,generating core.465,1
+697,generating core.55352,1
+698,generating core.44723,1
+699,generating core.36787,1
+700,generating core.29903,1
+701,generating core.33706,1
+702,generating core.8879,1
+703,generating core.50505,1
+704,generating core.29899,1
+705,generating core.46536,1
+706,generating core.50988,1
+707,generating core.22273,1
+708,generating core.46157,1
+709,generating core.59042,1
+710,generating core.29543,1
+711,generating core.22119,1
+712,generating core.4900,1
+713,generating core.30256,1
+714,generating core.64146,1
+715,generating core.58328,1
+716,generating core.20241,1
+717,generating core.24337,1
+718,generating core.21045,1
+719,generating core.47256,1
+720,generating core.45183,1
+721,generating core.46654,1
+722,generating core.21374,1
+723,generating core.45880,1
+724,generating core.20691,1
+725,generating core.45943,1
+726,generating core.46425,1
+727,generating core.11113,1
+728,generating core.5738,1
+729,generating core.237,1
+730,generating core.47690,1
+731,generating core.58120,1
+732,generating core.45167,1
+733,generating core.17638,1
+734,generating core.52833,1
+735,generating core.56961,1
+736,generating core.43008,1
+737,generating core.29025,1
+738,generating core.7682,1
+739,generating core.14519,1
+740,generating core.51421,1
+741,generating core.26734,1
+742,generating core.39406,1
+743,generating core.30886,1
+744,generating core.11916,1
+745,generating core.25367,1
+746,generating core.23150,1
+747,generating core.31197,1
+748,generating core.29207,1
+749,generating core.11244,1
+750,generating core.16134,1
+751,generating core.14142,1
+752,generating core.27997,1
+753,generating core.16038,1
+754,generating core.7663,1
+755,"rts: kernel terminated for reason 1001rts: bad message header: invalid cpu, type={type}, cpu={cpu}, index={index}, total={total}",1
+756,generating core.176,1
+757,8 floating point alignment exceptions,37
+758,generating core.7830,1
+759,generating core.1781,1
+760,generating core.8977,1
+761,generating core.12721,1
+762,generating core.15193,1
+763,generating core.9136,1
+764,generating core.9021,1
+765,generating core.5927,1
+766,generating core.3455,1
+767,generating core.3093,1
+768,15 floating point alignment exceptions,14
+769,generating core.9315,1
+770,generating core.2241,1
+771,generating core.10607,1
+772,generating core.6940,1
+773,generating core.14911,1
+774,generating core.9713,1
+775,generating core.28529,1
+776,generating core.18632,1
+777,generating core.2505,1
+778,generating core.24634,1
+779,generating core.31691,1
+780,generating core.2767,1
+781,generating core.29493,1
+782,generating core.23425,1
+783,5 floating point alignment exceptions,22
+784,generating core.7818,1
+785,generating core.15063,1
+786,generating core.2317,1
+787,generating core.12630,1
+788,generating core.11357,1
+789,generating core.14250,1
+790,generating core.10514,1
+791,generating core.4781,1
+792,685 floating point alignment exceptions,4
+793,1005 floating point alignment exceptions,5
+794,generating core.16019,1
+795,generating core.45168,1
+796,generating core.33115,1
+797,generating core.4535,1
+798,generating core.53271,1
+799,generating core.31056,1
+800,generating core.62637,1
+801,generating core.15977,1
+802,generating core.37807,1
+803,generating core.38022,1
+804,generating core.2704,1
+805,generating core.50,1
+806,generating core.4012,1
+807,generating core.2917,1
+808,generating core.114,1
+809,generating core.248,1
+810,generating core.118,1
+811,generating core.469,1
+812,generating core.64538,1
+813,generating core.37690,1
+814,generating core.42905,1
+815,generating core.55515,1
+816,generating core.46655,1
+817,generating core.38843,1
+818,generating core.3098,1
+819,generating core.45245,1
+820,generating core.34256,1
+821,generating core.29755,1
+822,generating core.50579,1
+823,generating core.9997,1
+824,generating core.64072,1
+825,generating core.25229,1
+826,generating core.45674,1
+827,generating core.36904,1
+828,generating core.59976,1
+829,generating core.59977,1
+830,generating core.9958,1
+831,generating core.19592,1
+832,generating core.50086,1
+833,generating core.22469,1
+834,generating core.63787,1
+835,generating core.18084,1
+836,generating core.2105,1
+837,generating core.306,1
+838,generating core.11346,1
+839,generating core.6161,1
+840,New ido chip inserted into the database: {ido_chip} ip={ip_address} v={version} t={type},3
+841,NodeCard is not fully functional,1
+842,"Node card status: ALERT {#}, ALERT {#}, ALERT {#}, ALERT {#} is (are) active. Clock Mode is {#}. Clock Select is {#}. Phy JTAG Reset is {#}. ASIC JTAG Reset is {#} asserted. Temperature Mask is {#} active. No temperature error. Temperature Limit Error Latch is {#}. PGOOD is {#}. PGOOD error latch is {#}. MPGOOD is {#}. MPGOOD error latch is {#}. The 2.5 volt rail is {#}. The 1.5 volt rail is {#}.",1
+843,"Node card VPD check: {node} node in processor card slot {slot} do not match. VPD ecid {ecid}, found {found}",1
+844,"idoproxydb hit ASSERT condition: ASSERT expression=0 Source file=idotransportmgr.cpp Source line=1043 Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)",35
+845,Node card status: no ALERTs are active. Clock Mode is {Clock Mode}. Clock Select is {Clock Select}. Phy JTAG Reset is {Phy JTAG Reset}. ASIC JTAG Reset is {ASIC JTAG Reset}. Temperature Mask is {Temperature Mask}. No temperature error. Temperature Limit Error Latch is {Temperature Limit Error Latch}. PGOOD IS {PGOOD}. PGOOD ERROR LATCH IS {PGOOD ERROR LATCH}. MPGOOD IS {MPGOOD}. MPGOOD ERROR LATCH IS {MPGOOD ERROR LATCH}. The 2.5 volt rail is {2.5 volt rail}. The 1.5 volt rail is {1.5 volt rail}.,5
+846,"Node card VPD check: {string} node in processor card slot {string} do not match. VPD ecid {string}, found {string}",8
+847,Ido chip status changed: FF:F2:9F:16:EB:27:00:0D:60:E9:14:D8 ip={ip} v={v} t={t} status={status} {timestamp},1
+848,Ido chip status changed: FF:F2:9F:15:7E:6E:00:0D:60:EA:81:91 ip={ip} v={v} t={t} status={status} {timestamp},1
+849,"PrepareForService shutting down NodeCard(mLctn({}), mCardSernum({}), mLp({}), mIp({}), mType({})) as part of Service Action 310",1
+850,Ido chip status changed: FF:F2:9F:16:DC:81:00:0D:60:E9:23:7E ip={ip} v={v} t={t} status={status} {timestamp},1
+851,rts tree/torus link training failed: wanted: {var1} {var2} {var3}+ {var4}- {var5}+ {var6}- {var7}+ {var8}- got: {var1} {var2} {var3}- {var4}- {var5}+ {var6}- {var7}+ {var8}-,1
+852,"CE sym 18, at {address}, mask {mask}",1
+853,1 tree receiver 2 in re-synch state event(s) (dcr 0x019a) detected,1
+854,"CE sym 28, at {address}, mask {mask}",1
+855,"CE sym 25, at 0x10e1b8a0, mask 0x10",1
+856,"ciod: Error loading /bgl/apps/scaletest/performance/MINIBEN/mb_243_0810/allreduce.rts: invalid or missing program image, Exec format error",15
+857,ciod: LOGIN chdir(pwd) failed: No such file or directory,2
+858,"ciod: Error loading /bgl/apps/scaletest/stability/MDCASK/WORK/65576/inferno: invalid or missing program image, No such file or directory",1
+859,ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to {ip}:{port}: Link has been severed,8
+860,ciod: Missing or invalid fields on line 1 of node map file /home/auselton/bgl/mapfiles/bgl.128mps.f64.map,1
+861,rts: kernel terminated for reason {reason},6
+862,ciod: generated 64 core files for program /bgl/apps/swl-prep/ibm-swl/functional/sppm_chkpt/run/sppm,4
+863,ciod: generated 1 core files for program /bgl/apps/swl-prep/ibm-swl/functional/sppm_chkpt/run/sppm,1
+864,"CE sym 3, at {address}, mask {mask}",1
+865,ciod: generated 128 core files for program /home/germann2/BGL-demo/SPaSM_mpi,8
+866,iar {iar} dear {dear},138
+867,iar {iar_value} dear {dear_value},14
+868,2201500 double-hummer alignment exceptions,2
+869,1547520 double-hummer alignment exceptions,1
+870,iar {hex} dear {hex},26
+871,iar {address} dear {address},26
+872,3095040 double-hummer alignment exceptions,1
+873,773760 double-hummer alignment exceptions,1
+874,1524480 double-hummer alignment exceptions,3
+875,iar {hex_value} dear {hex_value},2
+876,"CE sym 0, at 0x12af93a0, mask 0x08",1
+877,156055738 double-hummer alignment exceptions,1
+878,147337410 double-hummer alignment exceptions,1
+879,139632470 double-hummer alignment exceptions,1
+880,155918940 double-hummer alignment exceptions,1
+881,28298332 double-hummer alignment exceptions,1
+882,23768676 double-hummer alignment exceptions,1
+883,34253552 double-hummer alignment exceptions,1
+884,35050330 double-hummer alignment exceptions,1
+885,35418742 double-hummer alignment exceptions,1
+886,47332148 double-hummer alignment exceptions,1
+887,39190074 double-hummer alignment exceptions,1
+888,30646810 double-hummer alignment exceptions,1
+889,36833864 double-hummer alignment exceptions,1
+890,24669022 double-hummer alignment exceptions,1
+891,38029258 double-hummer alignment exceptions,1
+892,39309752 double-hummer alignment exceptions,1
+893,27901852 double-hummer alignment exceptions,1
+894,41097026 double-hummer alignment exceptions,1
+895,54600944 double-hummer alignment exceptions,1
+896,32888202 double-hummer alignment exceptions,1
+897,"NFS Mount failed on bglio716, slept 15 seconds, retrying (1)",1
+898,"NFS Mount failed on bglio91, slept 15 seconds, retrying (1)",1
+899,"CE sym 26, at {address}, mask {mask}",2
+900,"3 ddr errors(s) detected and corrected on rank {rank}, symbol {symbol}, bit {bit}",1
+901,ciod: generated 64 core files for program IMB-MPI1.2MB_perf,1
+902,"CE sym 35, at 0x1317cee0, mask 0x10",1
+903,Lustre mount FAILED : {var1} : point {var2},4
+904,"4 ddr errors(s) detected and corrected on rank {rank}, symbol {symbol}, bit {bit}",3
+905,Lustre mount FAILED : bglio136 : point /p/gb1,1
+906,Lustre mount FAILED : bglio75 : point /p/gb1,1
+907,1 torus receiver x+ input pipe error(s) (dcr {dcr_value}) detected and corrected,1
+908,"CE sym 33, at 0x00dbd200, mask 0x80",1
+909,Lustre mount FAILED : bglio336 : point /p/gb1,1
+910,"CE sym 21, at 0x04d64dc0, mask 0x80",1
+911,Lustre mount FAILED : bglio23 : point /p/gb1,1
+912,ciod: pollControlDescriptors: Detected the debugger died.,3
+913,"ciod: In packet from node {node} ({location}), message code {code} is not {expected} or {unexpected} (softheader={header})",1
+914,1 torus receiver y+ input pipe error(s) (dcr {hex_code}) detected and corrected,1
+915,"CE sym 6, at 0x1880a8e0, mask 0x40",1
+916,"ciod: Error loading /bgl/apps/swl-prep/rky-swl/MPI-PERF/IMB/perf_tests/IMB-MPI1.5124KB: invalid or missing program image, No such file or directory",1
+917,suppressing further interrupts of same type,2
+918,Lustre mount FAILED : bglio388 : point /p/gb1,1
+919,"CE sym 25, at 0x1a544020, mask 0x40",1
+920,Ido chip status changed: FF:F2:9F:15:7B:E0:00:0D:60:EA:84:1F ip={ip} v={v} t={t} status={status} {timestamp},1
+921,"CE sym 9, at 0x123b6ca0, mask 0x20",1
+922,"ciod: Error loading /home/yates//bandwidth.rts: invalid or missing program image, No such file or directory",1
+923,"ciod: Error loading /home/{user}//{file}: invalid or missing program image, {error}",3
+924,"ciod: Error loading /home/yates//broadcast.rts: invalid or missing program image, No such file or directory",1
+925,rts: bad message header: expecting type 57 instead of type 3 (softheader={softheader}) PSR0={PSR0} PSR1={PSR1} PRXF={PRXF} PIXF={PIXF},1
+926,"ciod: Error loading /bgl/apps/SWL/performance/MINIBEN//bandwidth.rts: invalid or missing program image, No such file or directory",1
+927,"ciod: Error loading /bgl/apps/SWL/performance/MINIBEN//torus-latency.rts: invalid or missing program image, No such file or directory",1
+928,ciod: LOGIN chdir({directory_path}) failed: {error_message},5
+929,"CE sym 29, at {address}, mask {mask}",2
+930,"1 ddr errors(s) detected and corrected on rank 0, symbol {symbol}, bit {bit}",1
+931,"CE sym 26, at 0x022c3fc0, mask 0x40",1
+932,"CE sym 27, at 0x166a9f20, mask 0x02",1
+933,"CE sym 15, at {address}, mask {mask}",2
+934,"CE sym 16, at {address}, mask {mask}",1
+935,ciod: generated 128 core files for program /bgl/apps/SWL/stability/DDCMD//ddcMDbglV,1
+936,ciod: generated 64 core files for program /home/spelce1/HPCC_IBM/TomAndJeff/bin/tested_copro/tested_copro.rts,1
+937,critical input interrupt (unit={unit} bit={bit}): warning for torus y+ wire,1
+938,"CE sym {sym_num}, at {address}, mask {mask}",1
+939,"CE sym 13, at 0x0397e0e0, mask 0x08",1
+940,"CE sym 9, at 0x11b9cc60, mask 0x04",1
+941,"ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/Gunnels/VNM64/vnm.rts: invalid or missing program image, Permission denied",1
+942,"CE sym 6, at {address}, mask {mask}",3
+943,ciod: generated 108 core files for program {program_path},1
+944,"CE sym {sym_num}, at {address}, mask {mask_value}",1
+945,"ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/VNM/64K/vnm.rts: invalid or missing program image, Permission denied",1
+946,ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to {ip_address}:{port}: Link has been severed,1
+947,"ciod: Error loading /bgl/apps/followup/SPASM/spasm.254: invalid or missing program image, Permission denied",2
+948,"CE sym 14, at 0x17086be0, mask 0x02",1
+949,4 tree receiver 2 in re-synch state event(s) (dcr {hex_value}) detected,1
+950,"CE sym 23, at 0x1793c560, mask 0x01",1
+951,ciod: generated 64 core files for program /home/spelce1/HPCC_IBM/Urgent/COP/64K/opt_co_dc.rts,1
+952,ciod: generated 58 core files for program {program_path},1
+953,data cache search parity error detected. attempting to correct,6
+954,"CE sym 13, at 0x{hex_address}, mask 0x{hex_mask}",1
+955,shutdown complete,1
+956,"ciod: Error loading /bgl/apps/followup/RAPTOR/new.raptor.trace: invalid or missing program image, Exec format error",2
+957,ciod: generated 64 core files for program /home/rfisher/sodscaling/flash2,1
+958,"ciod: Error loading allreduce_int_V1R1.rts: invalid or missing program image, No such file or directory",1
+959,critical input interrupt (unit={unit} bit={bit}): warning for torus z- wire,1
+960,16 tree receiver 2 in re-synch state event(s) (dcr {hex_value}) detected,1
+961,"Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader={placeholder} {placeholder} {placeholder} {placeholder}) PSR0={placeholder} PSR1={placeholder} PRXF={placeholder} PIXF={placeholder}",2
+962,"CE sym 27, at 0x1b70b860, mask 0x80",2
+963,"ciod: Error loading /home/spelce1/HPCC_IBM/Urgent/COP/64K/hpcc-1.0.0.102905_opt_essl_cpm: invalid or missing program image, Permission denied",1
+964,"CE sym 16, at 0x18fa5d40, mask 0x80",1
+965,"CE sym 30, at {address}, mask {mask}",3
+966,"ciod: Error loading /home.old/glosli/src/ddcMD/ddcMD1.1.17/bin/ddcMDGbglV: invalid or missing program image, No such file or directory",1
+967,"ciod: Error loading /home.old/glosli/src/ddcMD/ddcMD1.1.18a/bin/ddcMDGbglV: invalid or missing program image, No such file or directory",1
+968,640404 floating point alignment exceptions,5
+969,640764 floating point alignment exceptions,1
+970,iar {var1} dear {var2},2
+971,487476 floating point alignment exceptions,2
+972,2354412 floating point alignment exceptions,15
+973,62500 floating point alignment exceptions,3
+974,45684 floating point alignment exceptions,1
+975,16604010 floating point alignment exceptions,1
+976,16469355 floating point alignment exceptions,1
+977,16736445 floating point alignment exceptions,1
+978,74350836 floating point alignment exceptions,1
+979,54004554 floating point alignment exceptions,1
+980,ciod: generated 128 core files for program /g/g20/valone1/SPaSM-shock/SPaSM_mpi,1
+981,2667384 floating point alignment exceptions,1
+982,407736 floating point alignment exceptions,1
+983,428412 floating point alignment exceptions,1
+984,441348 floating point alignment exceptions,1
+985,"CE sym 21, at 0x111d8c60, mask 0x01",1
+986,"CE sym 34, at 0x11e7ed80, mask 0x80",1
+987,"2 ddr errors(s) detected and corrected on rank {rank}, symbol {symbol}, bit {bit}",2
+988,"ciod: Error loading /bgl/apps/followup/RAPTOR/pre-study/raptor.newcomp.r1: invalid or missing program image, Permission denied",2
+989,ciod: generated 128 core files for program /g/g24/germann2/BGL-demo/SPaSM_mpi,1
+990,19220208 floating point alignment exceptions,1
+991,"Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader={softheader}) PSR0={PSR0} PSR1={PSR1} PRXF={PRXF} PIXF={PIXF}",1
+992,5302707 floating point alignment exceptions,1
+993,"CE sym 25, at 0x10e1bce0, mask 0x40",1
+994,5 torus receiver z+ input pipe error(s) (dcr 0x02f0) detected and corrected,1
+995,"CE sym 9, at 0x{address}, mask 0x{mask}",1
+996,3 L3 EDRAM error(s) (dcr {dcr}) detected and corrected,1
+997,"CE sym 25, at {address}, mask {mask}",2
+998,488205 floating point alignment exceptions,1
+999,ciod: generated 128 core files for program /bgl/apps/followup/SPaSM_static/SPaSM_mpi.new_comp,1
+1000,"Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader={placeholder} PSR0={placeholder} PSR1={placeholder} PRXF={placeholder} PIXF={placeholder})",2
+1001,"critical input interrupt (unit={unit} bit={bit}): warning for torus z+ wire, suppressing further interrupts of same type",2
+1002,ciod: generated {num} core files for program {program},1
+1003,ciod: generated 64 core files for program /bgl/apps/followup/hellow/a.out.1111,2
+1004,"ciod: Error loading /bgl/apps/followup/SPaSM_static/SPaSM.460-1115: invalid or missing program image, Permission denied",1
+1005,18507114 torus sender z- retransmission error(s) (dcr {hex_value}) detected and corrected over {time} seconds,1
+1006,26741629 torus sender z- retransmission error(s) (dcr {hex_value}) detected and corrected over {time} seconds,1
+1007,"ciod: Received signal 15, code={code}, errno={errno}, address={address}",16
+1008,"CE sym 28, at 0x{address}, mask {mask}",1
+1009,ciod: generated 128 core files for program /g/g90/glosli/src/ddcMD/ddcMD1.1.18a/bin/ddcMDbglV,2
+1010,Lustre mount FAILED : bglio78 : block_id : location,1
+1011,MACHINE CHECK DCR read timeout (mc=e08x iar 0x00000000 lr 0xc00045a4),2
+1012,MACHINE CHECK DCR read timeout (mc=e08x iar 0x{hex} lr 0x{hex}),5
+1013,"ciod: Error reading message prefix on CioStream socket to {ip}:{port}, Connection timed out",2
+1014,"ciod: Error reading message prefix on CioStream socket to {ip}:{port}, Connection reset by peer",4
+1015,"CE sym 14, at 0x{address}, mask 0x{mask}",1
+1016,dbcr0={dbcr0} dbsr={dbsr} ccr0={ccr0},1
+1017,"ciod: Error reading message prefix on CioStream socket to {ip}:{port}, Link has been severed",7
+1018,r24={var1} r25={var2} r26={var3} r27={var4},1
+1019,13 tree receiver 1 in re-synch state event(s) (dcr {hex_value}) detected over {time} seconds,1
+1020,"CE sym 1, at 0x01d7eaa0, mask 0x02",1
+1021,0 microseconds spent in the rbs signal handler during 0 calls. {microseconds} was the maximum time for a single instance of a correctable ddr.,51
+1022,"10722 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",7
+1023,"10740 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",3
+1024,"10744 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",3
+1025,"10700 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",1
+1026,"10732 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",2
+1027,"10655 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",1
+1028,"10650 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",1
+1029,"10686 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",2
+1030,"10674 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",1
+1031,"10730 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",2
+1032,"10692 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",1
+1033,"10660 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",1
+1034,"10752 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",2
+1035,"10676 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",4
+1036,"10752 total interrupts. {int1} critical input interrupts. {int2} microseconds total spent on critical input interrupts, {int3} microseconds max time in a critical input interrupt.",1
+1037,"10728 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",1
+1038,"10712 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",2
+1039,"10718 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",2
+1040,"10644 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",2
+1041,"10738 total interrupts. {int1} critical input interrupts. {int2} microseconds total spent on critical input interrupts, {int3} microseconds max time in a critical input interrupt.",3
+1042,"10646 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",1
+1043,"10710 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",1
+1044,"10706 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",1
+1045,"10765 total interrupts. {int1} critical input interrupts. {int2} microseconds total spent on critical input interrupts, {int3} microseconds max time in a critical input interrupt.",1
+1046,"10698 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",3
+1047,"10684 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",3
+1048,"10652 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",1
+1049,"1966 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",1
+1050,"10714 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",1
+1051,"10666 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",2
+1052,"10663 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",1
+1053,"10766 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",1
+1054,"10680 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",1
+1055,"CE sym 4, at {address}, mask {mask}",1
+1056,"10616 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",1
+1057,"10754 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",1
+1058,"10668 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",1
+1059,"10708 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",1
+1060,"10640 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",1
+1061,"10714 total interrupts. {int1} critical input interrupts. {int2} microseconds total spent on critical input interrupts, {int3} microseconds max time in a critical input interrupt.",1
+1062,"10636 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",1
+1063,"10664 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",1
+1064,"10736 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",1
+1065,"720 total interrupts. {int1} critical input interrupts. {int2} microseconds total spent on critical input interrupts, {int3} microseconds max time in a critical input interrupt.",1
+1066,"720 total interrupts. {int} critical input interrupts. {int} microseconds total spent on critical input interrupts, {int} microseconds max time in a critical input interrupt.",1
+1067,"CE sym 27, at {address}, mask {mask}",1
+1068,"CE sym 9, at 0x{hex_address}, mask 0x{hex_mask}",1
+1069,"1 ddr error(s) detected and corrected on rank {rank}, symbol {symbol} over {time} seconds",2
+1070,"PrepareForService shutting down Node card(mLctn({}), mCardSernum({}), mLp({}), mIp({}), mType({})) as part of Service Action 648",1
+1071,"Kernel detected {integer} integer alignment exceptions ({integer}) iar {hexadecimal}, dear {hexadecimal} ({integer}) iar {hexadecimal}, dear {hexadecimal} ({integer}) iar {hexadecimal}, dear {hexadecimal} ({integer}) iar {hexadecimal}, dear {hexadecimal} ({integer}) iar {hexadecimal}, dear {hexadecimal} ({integer}) iar {hexadecimal}, dear {hexadecimal} ({integer}) iar {hexadecimal}, dear {hexadecimal} ({integer}) iar {hexadecimal}, dear {hexadecimal}",1
+1072,1 tree receiver {integer} in re-synch state event(s) (dcr {hexadecimal}) detected over {integer} seconds,1
+1073,"CE sym 11, at {address}, mask {mask}",1
+1074,"CE sym 19, at 0x057c7e00, mask 0x20",1
+1075,"159 ddr error(s) detected and corrected on rank {rank}, symbol {symbol} over {time} seconds",1
+1076,total of {count} ddr error(s) detected and corrected over {time} seconds,4
+1077,minus normalized number..................{},1
+1078,Lustre mount FAILED : bglio617 : block_id : location,1
+1079,fraction rounded.........................{number},1
+1080,"critical input interrupt (unit={unit} bit={bit}): warning for tree C1 wire, suppressing further interrupts of same type",1
+1081,size of scratchpad portion of L3.........{value} ({unit}),1
+1082,"Kernel detected {integer} integer alignment exceptions ({integer}) iar {hex}, dear {hex} ({integer}) iar {hex}, dear {hex} ({integer}) iar {hex}, dear {hex} ({integer}) iar {hex}, dear {hex} ({integer}) iar {hex}, dear {hex} ({integer}) iar {hex}, dear {hex} ({integer}) iar {hex}, dear {hex} ({integer}) iar {hex}, dear {hex}",6
+1083,"Kernel detected {integer} integer alignment exceptions ({integer}) iar {hex}, dear {hex} ({integer}) iar {hex}, dear {hex} ({integer}) iar {hex}, dear {hex} ({integer}) iar {hex}, dear {hex} ({integer}) iar {hex}, dear {hex} ({integer}) iar {hex}, dear {hex} ({integer}) iar {hex}, dear {hex}",2
+1084,"ciod: Error loading {file_path}: invalid or missing program image, {error_message}",2
+1085,"ciod: Error loading /p/gb1/stella/SPPM/1322/sppm_DD: invalid or missing program image, Permission denied",1
+1086,"ciod: Error loading /bgl/apps/SWL/stability/MDCASK/WORK/1383/inferno: invalid or missing program image, Permission denied",1
+1087,"ciod: Error loading /p/gb1/stella/UMT2K/1372/umt2k_DD: invalid or missing program image, Permission denied",1
+1088,"ciod: Error loading /bgl/apps/SWL/stability/NEWS05/news05_DD: invalid or missing program image, Permission denied",1
+1089,"ciod: Error loading /p/gb1/stella/UMT2K/1325/umt2k_DD: invalid or missing program image, Permission denied",1
+1090,"ciod: Error loading /p/gb1/stella/UMT2K/1369/umt2k_DD: invalid or missing program image, Permission denied",1
+1091,"ciod: Error loading /bgl/apps/SWL/stability/HPL/WORK/1498./hpl_DD: invalid or missing program image, No such file or directory",1
+1092,"ciod: Error loading /bgl/apps/SWL/stability/HPL/WORK/1501./hpl_DD: invalid or missing program image, No such file or directory",1
+1093,"28 ddr error(s) detected and corrected on rank {rank}, symbol {symbol} over {time} seconds",1
+1094,"2 ddr error(s) detected and corrected on rank {rank}, symbol {symbol} over {time} seconds",2
+1095,"ciod: Error loading /g/g0/spelce1/Tuned/SPaSM-base/rundir/SPaSM.baseline: invalid or missing program image, Permission denied",1
+1096,"5 ddr error(s) detected and corrected on rank {rank}, symbol {symbol} over {time} seconds",1
+1097,"ciod: Error reading message prefix on CioStream socket to {ip_address}:{port}, Link has been severed",1
+1098,2 L3 EDRAM error(s) (dcr {hex}) detected and corrected over {seconds} seconds,1
+1099,ciod: generated 128 core files for program /g/g24/germann2/SPaSM_static/SPaSM_mpi,1
+1100,"ciod: Error loading /g/g24/buber/Yunsic/BlueGene/partad.develf/taddriver.32.exe: program image too big, {size} > {limit}",1
+1101,fpr29=0xffffffff ffffffff ffffffff ffffffff,1
+1102,Machine State Register: {hex_value},1
+1103,ciod: generated 128 core files for program /g/g24/germann2/SPaSM_mini/MEAM/r13,1

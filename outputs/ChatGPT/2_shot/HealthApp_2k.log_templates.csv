@@ -1,0 +1,78 @@
+,EventTemplate,Occurrences
+0,onStandStepChanged {int},260
+1,onExtend:{timestamp} {int} {int} {int},273
+2,onReceive action: android.intent.action.SCREEN_ON,17
+3,processHandleBroadcastAction action:android.intent.action.SCREEN_ON,17
+4,flush sensor data,17
+5,getTodayTotalDetailSteps = {timestamp}##{int}##{int}##{int}##{int}##{int},242
+6,setTodayTotalDetailSteps={timestamp}##{int}##{int}##{int}##{int}##{int},241
+7,calculateCaloriesWithCache totalCalories={int},241
+8,calculateAltitudeWithCache totalAltitude={int},241
+9,REPORT : {int} {int} {int} {int},136
+10,onReceive action: android.intent.action.SCREEN_OFF,17
+11,isScreenOn {boolean},1
+12,"screen status unknown,think screen on",1
+13,processHandleBroadcastAction action:android.intent.action.TIME_TICK,129
+14,flushTempCacheToDB by stand,1
+15,Alarm uploadStaticsToDB totalSteps={int} Calories:{int} Floor:{int} Distance:{int},1
+16,writeDataToDB size {int},1
+17,"upLoadOneMinuteDataToEngine time={int},{int},{int},{int},{int}",5
+18,getBinderPackageName packageName = {string},8
+19,"getAppContext() isAppValid health or wear, packageName = {string}",2
+20,insertHiHealthData() checkAppType {int} appID = {int},2
+21,"insertHiHealthData() size = {int},app = {int},One Data Type = {int},packageName = {string},writeStatType = {int}",2
+22,"saveHealthDetailData() deviceID = {int},clientID={int},id={int}",2
+23,"saveStatData() type ={int},time = {timestamp},statClient = {int},who is {int}",4
+24,"new date ={int}, type={int},{float},old={float}",16
+25,"saveHealthDetailData() saveOneDetailData fail hiHealthData = {timestamp},type = {int}",2
+26,"bulkSaveDetailHiHealthData() size = {int},totalTime = {int}",2
+27,startListenerChange subscribeList = [1],2
+28,"insertHiHealthData() bulkSaveDetailHiHealthData fail errorCode = {int},errorMessage = {str}",1
+29,insertHiHealthData() end totalTime = {int},2
+30,uploadStaticsToDB() onResult type = {int} obj={boolean},1
+31,uploadStaticsToDB failed message={boolean},1
+32,checkInsertStatus stepSum or calorieSum is enough,2
+33,checkInsertStatus stepStatSum or calorieStatSum is enough,2
+34,"stepSyncOrNot appSynTimes is {int}, statsyncTimes is {int}",2
+35,"startInsertSportSync start auto sync,app is 1",2
+36,"checkFirstSyncByType no such data in db ,type is {int} deviceCode is {int}",2
+37,"startInsertSportSync first 500 steps sync,do all sync",2
+38,"startSync hiSyncOption = HiSyncOption{syncAction={int}, syncMethod={int}, syncScope={int}, syncDataType={int}, syncModel={int}, pushAction={int}},app = {int} who = {int}",5
+39,needAutoSync autoSyncSwitch is open,5
+40,"initDataPrivacy the dataPrivacy switch is open, start push health data!",5
+41,initDataPrivacy the dataPrivacy is {boolean},5
+42,"initUserPrivacy the userPrivacy switch is open, start push user data!",5
+43,initUserPrivacy the userPrivacy is {boolean},5
+44,ifCanSync not! no cloud version,5
+45,sendSyncFailedBroadcast,5
+46,"new date ={int}, type={int},{float},{string}={float}",1
+47,"saveRealTimeHealthDatasStat() size = {int},totalTime = {int}",1
+48,InsertCallBack() onSuccess type = {int} data={bool},1
+49,InsertEvent success begin:{int} end:{int},1
+50,setWriteDBLastDataMinute={int},1
+51,setWriteDBLastDataMinute success,1
+52,flush2DB result success,1
+53,processHandleBroadcastAction action:{string},15
+54,"timeStamp back,extendReportTimeStamp={timestamp}",5
+55,startTimer start autoSync,3
+56,stepSyncOrNot appSynTimes is {int},3
+57,getTodaySportData mStepsRecordManager=com.huawei.health.g.c@{string},6
+58,theDayChanged {timestamp},1
+59,initEnviroument,1
+60,getStepCounterStatus,1
+61,getStepCounterStatus= true,1
+62,reStartStepCounter,1
+63,registersensorsuccess: true,1
+64,clear(),1
+65,getTodayBasicStandardSteps= {timestamp}##{int}##{int},2
+66,tryToRecordAsBasicStepData bWrite true,1
+67,getDiffTotalSteps= {timestamp}##{int},2
+68,setBasicStandardSteps basicStandardStep={int} restartSteps={int},1
+69,setDiffTotalSteps=0,1
+70,tryToReloadTodayBasicSteps{timestamp}|{int}|{int}|{int},1
+71,reload : {int} restar {int},1
+72,next day:steps{int}mLastReport{int},1
+73,setGoalNotifiShownRecord {timestamp} {boolean},1
+74,closeNotification...,1
+75,deleteHealthNotification(),1
+76,"checkCurrentDay a new day comes , reset basicSyncCondition, currentDay is {int} oldDay is {int}",1

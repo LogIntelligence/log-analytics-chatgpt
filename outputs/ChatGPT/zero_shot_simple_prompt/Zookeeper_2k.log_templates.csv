@@ -1,0 +1,80 @@
+,EventTemplate,Occurrences,Type
+0,Interrupted while waiting for message on queue,314,True
+1,"Connection broken for id {id}, my id = {my_id}, error = {error}",284,True
+2,Received connection request /{IP}:{PORT},269,True
+3,{Log message},266,True
+4,{Action} worker leaving thread,262,True
+5,Cannot open channel to {channel_number} at election address {address}:{port},48,True
+6,"Expiring session {sessionId}, timeout of {timeout}ms exceeded",40,True
+7,Established session {session_id} with negotiated timeout {timeout} for client {client_address},40,True
+8,Cannot open channel to {} at election address {}:{},38,True
+10,Notification time out: {},37,True
+9,caught {exception} exception,37,True
+11,Received connection request /{IP}:{port},30,True
+12,Connection request from old client /{IP address}:{port}; will be dropped if server is in r-o mode,30,True
+13,Accepted socket connection from /:port,28,True
+14,Processed session termination for sessionid: {sessionid},25,True
+15,Client attempting to establish new session at /{ip}:{port},22,True
+16,Processed session termination for sessionid: {},22,True
+17,Closed socket connection for client /: which had sessionid,20,True
+18,Client attempting to establish new session at /{IP}:{PORT},18,True
+19,Closed socket connection for client /{IP}:{PORT} which had sessionid {SESSIONID},18,True
+20,Accepted socket connection from /{IP}:{PORT},13,True
+21,{Message},12,True
+22,GOODBYE /{IP}:{PORT},10,True
+23,"Notification: %d (n.leader), %s (n.zxid), %d (n.round), %s (n.state), %d (n.sid), %d (n.peerEPoch), %s (my state)",7,True
+24,Established session 0x{session_id} with negotiated timeout {timeout} for client {client_address}:{client_port},7,True
+25,Connection request from old client /<IP address>:<port>; will be dropped if server is in r-o mode,7,True
+26,"Connection broken for id {}, my id = {}, error = {}",7,True
+27,GOODBYE /{IP}:{PORT}/,6,True
+28,Accepted socket connection from /:,6,True
+29,LOOKING,4,True
+30,Closed socket connection for client /{IP}:{PORT} ({REASON}),4,True
+34,autopurge.purgeInterval set to {},3,True
+36,Exception causing close of session {sessionId} due to {exceptionType}: {exceptionMessage},3,True
+35,GOODBYE /{IP}:{PORT} ********,3,True
+31,Client attempting to renew session {session_id} at {ip_address}:{port},3,True
+33,Revalidating client: {},3,True
+32,Closed socket connection for client /: which had sessionid 0x,3,True
+45,Server environment:java.vendor={},2,True
+44,Closed socket connection for client /{IP}:{port} which had sessionid {sessionid},2,True
+42,{action} set to {value},2,True
+43,Server environment:user.name=%s,2,True
+39,Getting a snapshot from leader,2,True
+41,"Notification: %d (%s), 0x%x (%s), 0x%x (%s), %s (%s), %d (%s), 0x%x (%s), %s (%s)",2,True
+38,There is no log template provided in the given log message.,2,True
+37,"Notification: %d (n.leader), %s (n.zxid), %d (n.round), %s (n.state), %d (n.sid), %s (n.peerEPoch), %s (my state)",2,True
+40,Snapshotting: {value} to {path},2,True
+70,Reading snapshot {file_path},1,True
+64,Sending DIFF,1,True
+65,{variable} set to {value},1,True
+66,Starting quorum peer,1,True
+67,{action} of request processor complete,1,True
+68,Connection request from old client /{IP}:{port}; will be dropped if server is in r-o mode,1,True
+69,Accepted socket connection from /:52310,1,True
+71,Closed socket connection for client /:36125 which had sessionid 0x.,1,True
+62,Server environment:java.class.path={},1,True
+72,Follower sid: {} : {} : {},1,True
+73,Server environment:os.name={}```,1,True
+74,Client attempting to establish new session at /{IP}:{port},1,True
+75,"""First is {}""",1,True
+76,FOLLOWING - LEADER ELECTION TOOK - {time in milliseconds},1,True
+77,Have quorum of supporters; starting up and setting last processed zxid: {},1,True
+63,Server environment:host.name={hostname},1,True
+60,Established session 0x%s with negotiated timeout %d for client /%s:%d,1,True
+61,Unexpected Exception:,1,True
+59,Server environment:user.dir=%s,1,True
+58,Connection request from old client /{IP_ADDRESS}:{PORT}; will be dropped if server is in r-o mode,1,True
+57,"""My election bind port: {ip_address}:{port}""",1,True
+56,"Have smaller server identifier, so dropping the connection: ({}, {})",1,True
+55,"New election. My id =  {}, proposed zxid={}",1,True
+54,Established session 0x%s with negotiated timeout %d for client %s:%d,1,True
+53,FOLLOWING - LEADER ELECTION TOOK - {},1,True
+52,Established session 0x{session_id} with negotiated timeout {timeout} for client {client_address},1,True
+51,"Server environment:zookeeper.version={}, built on {} GMT",1,True
+50,Server environment:os.name={os_name},1,True
+49,tickTime set to {},1,True
+48,Got user-level KeeperException when processing sessionid:{} type:{} cxid:{} zxid:{} txntype:{} reqpath:{} Error Path:{} Error:{},1,True
+47,"Notification: %d (%s), 0x%s (%s), 0x%s (%s), %s (%s), %d (%s), 0x%s (%s), %s (%s)",1,True
+46,{setting} set to {value},1,True
+78,Server environment:java.home={},1,True

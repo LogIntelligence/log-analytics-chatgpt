@@ -1,0 +1,116 @@
+,EventTemplate,Occurrences
+0,Address change detected. Old: <*> New: <*>,476
+1,Progress of TaskAttempt <*> is : <*>,289
+2,Failed to renew lease for <*> for <*> seconds. Will retry shortly ...,168
+3,Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ...,158
+4,ERROR IN CONTACTING <*>.,147
+5,Retrying connect to server: <*>. Already tried <*> time(s); retry policy is <*>,146
+6,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>",131
+7,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,130
+8,Resolved <*> to <*>,39
+9,<*> Task Transitioned from <*> to <*>,22
+10,<*>{<*>}<*> TaskAttempt Transitioned from <*> to <*>,14
+11,Processing the event EventType: <*> for container <*> taskAttempt <*>,13
+12,Opening proxy : <*>,13
+13,"getResources() for <*>: ask=<*> release=<*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*> knownNMs=<*>",12
+14,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>,12
+15,Got allocated containers <*>,10
+16,Assigned container <*> to <*>,10
+17,Launching <*>,10
+18,Shuffle port returned by ContainerManager for <*> : <*>,10
+19,TaskAttempt: [<*>] using containerId: [<*> on NM: [<*>],10
+20,ATTEMPT_START <*>,10
+21,Auth successful for <*> (auth:<*>),10
+22,JVM with ID : <*> asked for a task,10
+23,JVM with ID: <*> given task: <*>,10
+24,Registering class <*> for class <*>,9
+25,Before Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>,5
+26,<*>{<*>}<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,5
+27,<*> Transitioned from <*> to <*>,4
+28,<*>{<*>}<*> TaskAttempt Transitioned from NEW to UNASSIGNED,4
+29,<*>{<*>}<*> TaskAttempt Transitioned from ASSIGNED to RUNNING,4
+30,<*>{<*>}<*>{<*>} TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,4
+31,Diagnostics report from <*>: Error: java.net.NoRouteToHostException: No Route to Host from <*> to <*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost,4
+32,Default file system [<*>],3
+33,Processing the event EventType: <*>,3
+34,KILLING <*>,3
+35,Using callQueue class <*>,2
+36,Starting Socket Reader #<*> for port <*>,2
+37,IPC Server Responder: <*>,2
+38,IPC Server listener on <*>: starting,2
+39,adding path spec: <*>,2
+40,<*>{<*>}<*>{<*>}_{<*>} TaskAttempt Transitioned from {<*>} to {<*>},2
+41,<*>{<*>} TaskAttempt Transitioned from <*> to <*>,2
+42,Received completed container <*>,2
+43,<*> TaskAttempt Transitioned from <*> to <*>,2
+44,Task: <*> - exited : <*>; For more details see: <*>,2
+45,Task cleanup failed for attempt <*>,2
+46,<*> failures on node <*>,2
+47,Created MRAppMaster for application <*>,1
+48,Executing with tokens: <*>,1
+49,"Kind: YARN_AM_RM_TOKEN, Service: , Ident: (appAttemptId { application_id { id: <*> cluster_timestamp: <*> } attemptId: <*> } keyId: <*>)",1
+50,Using mapred <*>.,1
+51,OutputCommitter set in config <*>,1
+52,OutputCommitter is <*>,1
+53,Emitting job history data to the timeline server is not enabled,1
+54,loaded properties from <*>,1
+55,Scheduled snapshot period at <*> second(s).,1
+56,MRAppMaster metrics system started,1
+57,Adding job token for <*> to jobTokenSecretManager,1
+58,Not uberizing <*> because: not enabled; too many maps; too much input;,1
+59,Input size for job <*> = <*>. Number of splits = <*>,1
+60,Number of reduces for job <*> = <*>,1
+61,"MRAppMaster launching normal, non-uberized, multi-container job <*>.",1
+62,Adding protocol <*> to the server,1
+63,Instantiated MRClientService at <*>/<*>,1
+64,Logging to org.slf4j.impl.Log4jLoggerAdapter(<*>) via org.mortbay.log.Slf4jLog,1
+65,Http request log for <*> is not defined,1
+66,Added global filter '<*>' (class=<*>),1
+67,Added filter <*> (class=<*>) to context <*>,1
+68,Added filter <*> (class=<*>) to context static,1
+69,Jetty bound to port <*>,1
+70,jetty-<*>,1
+71,Extract jar:<*> to <*>,1
+72,Started HttpServer2$SelectChannelConnectorWithSafeStartup@<*>,1
+73,Web app <*> started at <*>,1
+74,Registered webapp guice modules,1
+75,JOB_CREATE <*>,1
+76,nodeBlacklistingEnabled:<*>,1
+77,maxTaskFailuresPerNode is <*>,1
+78,blacklistDisablePercent is <*>,1
+79,Connecting to ResourceManager at <*>/<*>,1
+80,"maxContainerCapability: <memory:<*>, vCores:<*>",1
+81,queue: <*>,1
+82,Upper limit on the thread pool size is <*>,1
+83,yarn.client.max-cached-nodemanagers-proxies : <*>,1
+84,<*>{<*>}<*>{<*>} TaskAttempt Transitioned from NEW to UNASSIGNED,1
+85,"mapResourceRequest:<memory:<*>, vCores:<*>",1
+86,"Event Writer setup for JobId: <*>, File: <*>",1
+87,"reduceResourceRequest:<memory:<*>, vCores:<*>",1
+88,The job-jar file on the remote FS is <*>,1
+89,The job-conf file on the remote FS is <*>,1
+90,Adding <*> tokens and <*> secret keys for NM use for launching container,1
+91,Size of containertokens_dob is <*>,1
+92,Putting shuffle token in <*>,1
+93,<*>{<*>}<*>{<*>},1
+94,"Cannot assign container Container: [ContainerId: <*>, NodeId: <*>, NodeHttpAddress: <*>, Resource: <memory:<*>, vCores:<*>, Priority: <*>, Token: Token { kind: ContainerToken, service: <*> }, ] for a map as either container memory less than required <memory:<*>, vCores:<*> or no pending map tasks - maps.isEmpty=<*>",1
+95,Container complete event for unknown container id <*>,1
+96,Done acknowledgement from <*>,1
+97,Task succeeded with attempt <*>,1
+98,Num completed Tasks: <*>,1
+99,Reduce slow start threshold reached. Scheduling reduces.,1
+100,All maps assigned. Ramping up all remaining reduces:<*>,1
+101,DefaultSpeculator.addSpeculativeAttempt -- we are speculating <*>,1
+102,We launched <*> speculations. Sleeping <*> milliseconds.,1
+103,Scheduling a redundant attempt for task <*>,1
+104,Diagnostics report from <*>: Container killed by the ApplicationMaster.,1
+105,"Slow ReadProcessor read fields took <*> (threshold=<*>); ack: seqno: <*> status: <*> status: <*> downstreamAckTimeNanos: <*>, targets: [<*>]",1
+106,DFSOutputStream ResponseProcessor exception for block <*>,1
+107,Error Recovery for block <*> in pipeline <*>: bad datanode <*>,1
+108,DataStreamer Exception,1
+109,<*>{<*>}<*>{<*>} TaskAttempt Transitioned from FAIL_TASK_CLEANUP to FAILED,1
+110,Error writing History Event: <*>,1
+111,"Thread Thread[<*>,<*>,<*>] threw an Exception.",1
+112,Added <*> to list of failed <*>,1
+113,<*>{<*>}<*>{<*>}_{<*>},1
+114,Added <*> to list of failed maps,1

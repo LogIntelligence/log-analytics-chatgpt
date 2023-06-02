@@ -1,0 +1,456 @@
+,EventTemplate,Occurrences
+0,IOThunderboltSwitch<{switch_index}>({switch_address})::listenerCallback - Thunderbolt HPD packet for route = {route} port = {port} unplug = {unplug},36
+1,Thermal pressure state: {variable1} Memory pressure state: {variable2},39
+2,FA||Url||taskID[{taskID}] dealloc,16
+3,ARPT: {timestamp}: AirPort_Brcm43xx::syncPowerState: WWEN[{enabled}],12
+4,ARPT: {timestamp}: AirPort_Brcm43xx::platformWoWEnable: WWEN[{status}],19
+5,mDNS_DeregisterInterface: Frequent transitions for interface {interface} ({address}),2
+6,"ARPT: {timestamp}: IOPMPowerSource Information: {event}, SleepType: {sleep_type}, 'ExternalConnected': {external_connected}, 'TimeRemaining': {time_remaining},",15
+7,"ARPT: {timestamp}: {interface}: wl_update_tcpkeep_seq: Original Seq: {seq_num}, Ack: {ack_num}, Win size: {win_size}",4
+8,ARPT: {timestamp}: ARPT: Wake Reason: {reason},8
+9,__[Number]-[String observeValueForKeyPath:String ofObject:AnyObject change:[Dictionary] context:AnyObject]_block_invoke [String] [String] [Number],16
+10,IO80211AWDLPeerManager::setAwdlAutoMode {action} AWDL,15
+11,"ARPT: {timestamp}: {interface}: MDNS: {num_srv_recs} SRV Recs, {num_txt_recs} TXT Recs",9
+12,AppleCamIn::systemWakeCall - messageType = {messageType},56
+13,"setting hostname to ""{hostname}""",7
+14,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for {seconds} seconds. Ignoring.",45
+15,CCIOReporterFormatter::addRegistryChildToChannelDictionary streams {int},7
+16,[{time}] <<<< {process} >>>> {function}: [{address}] {message},1
+17,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for {seconds} seconds. Ignoring.",29
+18,AirPort: Link Down on {interface}. Reason {code} ({reason}).,12
+19,"PM response took {time} ms ({code}, {service})",9
+20,"ARPT: {timestamp}: {interface}: Roamed or switched channel, reason #{reason}, bssid {bssid}, last RSSI {RSSI}",2
+21,nw_nat64_post_new_ifstate successfully changed NAT64 ifstate from {hexadecimal} to {hexadecimal},10
+22,"com.apple.EscrowSecurityAlert.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for {seconds} seconds. Ignoring.",23
+23,"IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode({boolean})",11
+24,"network_reachability_changed : {reason}, netbiosd is shutting down",1
+25,{}::captureLogRun() Exiting {}::captureLogRun,16
+26,com.apple.Addres({pid}) deny {action} {path},23
+27,ARPT: {timestamp}: {interface}: MDNS: IPV6 Addr: {ipv6_address},19
+28,AirPort: Link Up on {interface},13
+29,Sandbox: {process}(31229) {action}(1) {type} /{path},1
+30,ARPT: {timestamp}: AirPort_Brcm43xx::platformWoWEnable: WWEN[{enable}],9
+31,{}::{} - {} - took {} milliseconds,22
+32,mDNS_DeregisterInterface: Frequent transitions for interface {interface} ({ip_address}),3
+33,{}::waitForOk2Go2Sx - retries = {},11
+34,"ARPT: {timestamp}: {interface}: wl_update_tcpkeep_seq: Updated seq/ack/win from UserClient Seq {seq}, Ack {ack}, Win size {win_size}",6
+35,{}::{}::postMessage {} changed,10
+36,ARPT: {float}: ARPT: Wake Reason: {string},3
+37,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for {seconds} seconds. Ignoring.",29
+38,AppleThunderboltNHIType2::waitForOk2Go2Sx - intel_rp = {intel_rp} dlla_reporting_supported = {dlla_reporting_supported},6
+39,mDNS_RegisterInterface: Frequent transitions for interface {interface} ({address}),4
+40,{}::{},17
+41,"ARPT: {timestamp}: {interface}: setup_keepalive: Local port: {local_port}, Remote port: {remote_port}",8
+42,-[UABestAppSuggestionManager notifyBestAppChanged:type:options:bundleIdentifier:activityType:dynamicIdentifier:when:confidence:deviceName:deviceIdentifier:deviceType:] (null) UASuggestedActionType={type} (null)/(null) opts={options} when={date} confidence={confidence} from=(null)/(null) (UABestAppSuggestionManager.m #319),3
+43,en{interface}: channel changed to {channel},14
+44,ARPT: {timestamp}: AQM agg results {result_code} len hi/lo: {length_hi} {length_lo} BAbitmap({bitmap_range}) {bitmap_values},7
+45,"CCFile::captureLog Received Capture notice id: {id}, reason = {reason}",20
+46,IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from {old_mode} to {new_mode},19
+47,Unrecognized attribute value: t:{attribute},8
+48,Sandbox: {process}({pid}) {action}({result}) {category} {path},11
+49,"SOSAccountThisDeviceCanSyncWithCircle sync with device failure: Error Domain=com.apple.security.sos.error Code={errorCode} ""{errorMessage}"" UserInfo={{NSDescription={errorDescription}}}",12
+50,"CFPasteboardRef CFPasteboardCreate({CFAllocatorRef}, {CFStringRef}) : failed to create global data",2
+51,{:time} : BTLE scanner Powered On,8
+52,button report: {hex_value},19
+53,com.apple.Addres({pid}) deny {action} {resource},6
+54,11:20:51.293 : BTLE discovered device with hash <{hash}>,1
+55,"securityd_xpc_dictionary_handler cloudd[{process_id}] copy_matching Error Domain=NSOSStatusErrorDomain Code=-50 ""{error_description}"" ({error_code}: {error_message}) UserInfo={{NSDescription={error_description}}}",4
+56,Location icon should now be in state '{state}',37
+57,"ARPT: {timestamp}: {interface}: setup_keepalive: interval {interval}, retry_interval {retry_interval}, retry_count {retry_count}",11
+58,ARPT: {timestamp}: {interface}: MDNS: IPV4 Addr: {ip_address},4
+59,__[{thread}] [{class} {method}]_block_invoke {block} - {message} {error_code}. {error_type}{space}{ip_address},1
+60,"Setting BTCoex Config: enable_2G:{}, profile_2g:{}, enable_5G:{}, profile_5G:{}",7
+61,Captive: [CNInfoNetworkActive:{var1}] {var2}: SSID '{var3}' making interface primary (cache indicates network not captive),3
+62,"com.apple.suggestions.harvest: {activity} told me to run this job; however, but the start time isn't for {time} seconds. Ignoring.",18
+63,-[NetworkAnalyticsEngine _writeJournalRecord:fromCellFingerprint:key:atLOI:ofKind:lqm:isFaulty:] {reason}.,16
+64,{:time} : Finished generating hashes,1
+65,Captive: {string} {string}: {string},5
+66,tcp_connection_destination_perform_socket_connect {port} connectx to {ip}:{destination_port}@{attempt} failed: [{error_code}] {error_message},1
+67,"USBMSC Identifier (non-unique): {var1} {var2} {var3} {var4}, {var5}",12
+68,CCXPCService::setStreamEventHandler Registered for notification callback.,2
+69,[{timestamp}:WARNING:{filename}({line_number})] {error_message},1
+70,Saw change in network reachability (isReachable={isReachable}),4
+71,[HID] [ATC] AppleDeviceManagementHIDEventService::processWakeReason Wake reason: {WakeReason} ({WakeReasonCode}),8
+72,en0: BSSID changed to {BSSID},16
+73,dnssd_clientstub ConnectToServer: connect()-> No of tries: {tries},44
+74,-[{class} {method}] using process name {process_name} as bundle ID (this is expected for daemons without bundle ID,9
+75,"ARPT: {timestamp}: {interface}: wl_update_tcpkeep_seq: Updated seq/ack/win from UserClient Seq {seq_num}, Ack {ack_num}, Win size {win_size}",1
+76,"RTC: Maintenance {date_time}, sleep {date_time}",4
+77,{}::wakeEventHandlerThread,3
+78,"en{interface}: channel changed to {channel},{change}",4
+79,RTC: {variable} setting ignored,11
+80,en{interface}: 802.11d country code set to '{country_code}'.,3
+81,"ARPT: {float}: {str}: setup_keepalive: Seq: {int}, Ack: {int}, Win size: {int}",5
+82,QQ({}) deny mach-lookup {},1
+83,"RTC: Maintenance {date_time_1}, sleep {date_time_2}",1
+84,[{var1}] [{var2}] {var3} entered,2
+85,[{module}] {message},3
+86,PMStats: Hibernate read took {time} ms,1
+87,dnssd_clientstub ConnectToServer: connect() failed path:{path} Socket:{socket} Err:{err} Errno:{errno} {error_message},13
+88,"pages {pages}, wire {wire}, act {act}, inact {inact}, cleaned {cleaned} spec {spec}, zf {zf}, throt {throt}, compr {compr}, xpmapped {xpmapped}",4
+89,"VDCAssistant: Found a camera ({camera_id}) , but was not able to start it up ({error_code} -- ({error_type}) successful)",1
+90,handle_will_sleep_auth_and_shield_windows: Reordering authw {authw}(2004) (lock state: {lock_state}),1
+91,"{date} GoogleSoftwareUpdateAgent[{pid}/{memory_address}] [lvl={level}] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] Checking with local engine: <KSUpdateEngine:{memory_address} ticketStore=<KSPersistentTicketStore:{memory_address} store=<KSKeyedPersistentStore:{memory_address} path=""{path}"" lockFile=<KSLockFile:{memory_address} path=""{path}"" locked={locked} > >> processor=<KSActionProcessor:{memory_address} delegate=<KSUpdateEngine:{memory_address}> isProces",1
+92,-[{class} {method}] {message},20
+93,Error returned from iconservicesagent: {},11
+94,tcp_connection_tls_session_error_callback_imp {var1} __tcp_connection_tls_session_callback_write_block_invoke.{var2} error {var3},8
+95,"SecOSStatusWith error:[{error_code}] Error Domain=NSOSStatusErrorDomain Code={error_code} ""{error_description}"" ({error_type}: {error_message}) UserInfo={{NSDescription={description}}}",5
+96,send_datagram_available_ping: pid {pid} failed to act on a ping it dequeued before timing out.,26
+97,WARNING: {variable} font data isn't in the correct format required by the Adobe Type 1 Font Format specification.,1
+98,Error returned from iconservicesagent: {error},2
+99,"com.apple.ical.sync.x-coredata://{data}/CalDAVPrincipal/{data}: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for {number} seconds. Ignoring.",1
+100,"device_generate_desktop_screenshot: authw {authw}(2000), shield {shield}(2001)",3
+101,[{module}] [{message}],7
+102,"NETWORK: requery, {0}, {1}, {2}, {3}, {4}, {5}, fQueryRetries, {6}, fLastRetryTimestamp, {7}",3
+103,Previous sleep cause: {cause},15
+104,Wake reason: {reason} ({type}),5
+105,{}::prePCIWake - power up complete - took {} us,15
+106,network changed: v4({interface}-:{ipv4_address}) v6({interface}:{ipv6_address}) {flags},1
+107,hibernate_page_list_setall found pageCount {pageCount},2
+108,[{component}] [{severity}] [{message}] {details},2
+109,[{module}][{function}] -- {message} -- {code},1
+110,"{date} GoogleSoftwareUpdateAgent[{process_id}/{memory_address}] [lvl={log_level}] -[KSAgentApp updateProductWithProductID:usingEngine:] Checking for updates for ""{product_id}"" using engine <KSUpdateEngine:{memory_address} ticketStore=<KSPersistentTicketStore:{memory_address} store=<KSKeyedPersistentStore:{memory_address} path=""{ticket_store_path}"" lockFile=<KSLockFile:{memory_address} path=""{lock_file_path}"" locked={is_locked} > >> processor=<KSActionProcessor:{memory_address} delegate=<KSUpdateE",1
+111,YYYY/MM/DD HH:mm:ss.SSS | L | Component | File:Line:Function | Message.,1
+112,Bluetooth -- {protocol} is supported - {action} {event},11
+113,{:time} : Discoverable mode changed to {:status},2
+114,tcp_connection_handle_connect_conditions_bad {int} failed: {int} - {str},9
+115,Captive: {string} en{int}: {string},7
+116,ARPT: {timestamp}: {interface}: setup_keepalive: Local IP: {ip_address},4
+117,TBT W ({int}): {hex} [{char}],4
+118,network changed: {network_change_type}* {network_change_details},3
+119,QQ({id}) deny {action} {target},4
+120,ASL Sender Statistics,9
+121,YYYY-MM-DD HH:MM:SS.mmm {process_name}[{process_id}/{thread_id}] [lvl={log_level}] {method_name} {message},2
+122,YYYY-MM-DD HH:mm:ss.SSS {processName}[{processId}/{threadId}] [lvl={logLevel}] -[{methodName}] {message},1
+123,YYYY-MM-DD HH:MM:SS.sss {process}[{pid}/{thread}] [lvl={level}] {function}() {message},6
+124,"Path not allowed in target domain: type = {type}, path = {path} error = {error}: {error_message}, origin = {origin}",15
+125,[{time}] <<<< {module} >>>> {function}: ({address}) {message},4
+126,[{time}] {function_name} signalled err={error_code} ({error_description}) ({additional_info}) at {file_path} line {line_number},4
+127,KeychainGetICDPStatus: keychain: {status},14
+128,host connection {connection} connection from pid {pid} invalidated,1
+129,Error in {function}: {error_code},1
+130,ARPT: {timestamp}: {interface}: {function}: {message},5
+131,"ARPT: {timestamp}: IOPMPowerSource Information: onWake, SleepType: {sleep_type} Sleep, 'ExternalConnected': {external_connected}, 'TimeRemaining': {time_remaining},",3
+132,-[NetworkAnalyticsEngine _writeJournalRecord:fromCellFingerprint:key:atLOI:ofKind:lqm:isFaulty:] {reason}. Dropping the journal record.,1
+133,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for {time} seconds. Ignoring.",3
+134,ARPT: {timestamp}: {interface}: MDNS: IPV6 Addr: {address},9
+135,network changed: v4({interface}-:{ipv4_address}) v6({interface}:{ipv6_address}) DNS! Proxy SMB,1
+136,in6_unlink_ifa: IPv6 address {address} has no prefix,9
+137,network changed: v4({interface}:{ipv4_address}) v6({interface}+:{ipv6_address}) DNS! Proxy SMB,2
+138,"PBRequester failed with Error Error Domain=NSURLErrorDomain Code=-1001 ""The request timed out."" UserInfo={NSUnderlyingError=0x7fe133460660 {Error Domain=kCFErrorDomainCFNetwork Code=-1001 ""The request timed out."" UserInfo={NSErrorFailingURLStringKey={url}, NSErrorFailingURLKey={url}, _kCFStreamErrorCodeKey=-2102, _kCFStreamErrorDomainKey=4, NSLocalizedDescription=The request timed out.}}, NSErrorFailingURLStringKey={url}, NSErrorFailingURLKey={url}",1
+139,"com.apple.Safari.SafeBrowsing.Update: {variable1} told me to run this job; however, but the start time isn't for {variable2} seconds. {variable3}.",3
+140,-[UABestAppSuggestionManager notifyBestAppChanged:type:options:bundleIdentifier:activityType:dynamicIdentifier:when:confidence:deviceName:deviceIdentifier:deviceType:] (null) UASuggestedActionType={UASuggestedActionType} (null)/(null) opts={opts} when={when} confidence={confidence} from=(null)/(null) (UABestAppSuggestionManager.m #319),10
+141,"device_generate_lock_screen_screenshot: authw {authw}(2000)[{authw_coords}], shield {shield}(2001), dev [{dev_coords}]",2
+142,[{time}] FigAgglomeratorSetObjectForKey signalled err={error_code} ({error_description}) ({additional_info}) at {file_path} line {line_number},9
+143,{:time} : BTLE scanner Powered {status},4
+144,"PBRequester failed with Error Error Domain=NSURLErrorDomain Code=-1009 ""{error_description}"" UserInfo={NSUnderlyingError=0x{underlying_error_address} {Error Domain=kCFErrorDomainCFNetwork Code=-1009 ""{error_description}"" UserInfo={{NSErrorFailingURLStringKey={failing_url}, NSErrorFailingURLKey={failing_url}, _kCFStreamErrorCodeKey=8, _kCFStreamErrorDomainKey=12, NSLocalizedDescription={error_description}}}, NSErrorFailingURLStringKey={failing_url}",1
+145,ARPT: {timestamp}: AQM agg params {hex1} maxlen hi/lo {hex2} {hex3} minlen {hex4} adjlen {hex5},7
+146,Received {Event} Event,15
+147,Sandbox: QQ({}) deny({}) mach-lookup {},3
+148,[{time}] <<<< {person} >>>> {action}: {message},12
+149,sigio_handler: {variable} != 0,2
+150,############################## {function_name},10
+151,"Configuration Notice: ASL Module ""{module_name}"" claims selected messages. Those messages may not appear in standard system log files or in the ASL database.",2
+152,Wake reason: {reason},2
+153,__:__:__.____ : Scanning mode {mode},4
+154,{:time} : BTLE scanning stopped,2
+155,wake time set {time} s,1
+156,[{var1}] [{var2}] {var3}::getActuatorRef Calling {var4}() outside of {var5}.,1
+157,"ARPT: {timestamp}: {interface}: setup_keepalive: Seq: {sequence}, Ack: {acknowledgement}, Win size: {window_size}",3
+158,"NETWORK: requery, {0}, {1}, {2}, {3}, {4}, items, fQueryRetries, {5}, fLastRetryTimestamp, {6}",9
+159,wake time set {-0.331349} s,1
+160,"ARPT: {timestamp}: {interface}: wl_update_tcpkeep_seq: Original Seq: {original_seq}, Ack: {ack}, Win size: {win_size}",1
+161,{}::handleWakeEvent_gated,15
+162,ARPT: {timestamp}: {interface}: leaveModulePoweredForOffloads: {message},4
+163,Sandbox: {process}(33119) {action}(1) {type} /{path},1
+164,__:__:__.__ : Purged contact hashes,1
+165,{:time} : BTLE scanning started,2
+166,"IOPMrootDomain: idle cancel, state {state}",3
+167,"ARPT: {timestamp}: {interface}: wl_update_tcpkeep_seq: Updated seq/ack/win from {source} Seq {seq}, Ack {ack}, Win size {win}",2
+168,"hibernate_alloc_pages act {act}, inact {inact}, anon {anon}, throt {throt}, spec {spec}, wire {wire}, wireinit {wireinit}",2
+169,hibernate_teardown_pmap_structs done: last_valid_compact_indx {last_valid_compact_indx},2
+170,sigio_handler: {variable1} != 1,2
+171,enabling pid={pid} for plug-in {plugin} {uuid} {path},1
+172,"YYYY-MM-DD HH:mm:ss.SSS GoogleSoftwareUpdateAgent[NNNNN/0xXXXXXXXXX] [lvl=LVL] -[KSAgentApp performSelfUpdateWithEngine:] Checking for self update with Engine: <KSUpdateEngine:0xXXXXXXXXX ticketStore=<KSPersistentTicketStore:0xXXXXXXXXX store=<KSKeyedPersistentStore:0xXXXXXXXXX path=""PATH"" lockFile=<KSLockFile:0xXXXXXXXXX path=""PATH"" locked=NO > >> processor=<KSActionProcessor:0xXXXXXXXXX delegate=<KSUpdateEngine:0xXXXXXXXXX> isProcessing=N",1
+173,YYYY-MM-DD HH:mm:ss.sss {string}[{int}/{hex}] [lvl={int}] -{string} {string},1
+174,[{time}] FigAgglomeratorSetObjectForKey signalled err={err_code} ({err_name}) ({err_desc}) at {file_path} line {line_number},1
+175,[{time}] {function} signalled err={error_code} ({error_description}) ({additional_info}) at {file_path} line {line_number},4
+176,[${time}] <<<< ${user} >>>> ${action}: ${message},3
+177,[{time}] {function_name} signalled err={error_code} ({error_description}) (invalidated) at {file_path} line {line_number},1
+178,wake time set {-0.#######} s,1
+179,"Opened file {file_path}, size {size}, extents {extents}, maxio {maxio} ssd {ssd}",2
+180,"NETWORK: no response from server, {reason}, {error_code}, {action}, {retry_count}",1
+181,"Unexpected payload found for message {messageNumber}, dataLen {dataLength}",2
+182,CCFile::{functionName},17
+183,en0: Supported channels {channel_list},4
+184,ARPT: {timestamp}: AirPort_Brcm43xx::powerChange: {event} - {wake_type},11
+185,Internal name did not resolve to internal address!,1
+186,Service exited with abnormal code: {code},1
+187,Central manager is not powered on,1
+188,"CCFile::captureLogRun Skipping current file Dir file [{timestamp}]-CCIOReporter-002.xml, Current File [{timestamp}]-CCIOReporter-002.xml",1
+189,__[{thread}] [{class} {method}]_block_invoke {code} - {message} {error} {ip},3
+190,"CCFile::copyFile fileName is {fileName}, source path:{sourcePath}, dest path:{destPath}",18
+191,ARPT: {timestamp}: framerdy {hexadecimal} bmccmd {integer} framecnt {integer},2
+192,<IMMacNotificationCenterManager: {var1}>: DND Enabled: {var2},3
+193,{:time} : Starting AirDrop server for user {:user_id} on {:action},1
+194,Sandbox: {process}(33493) {action}(1) {type} /{path},1
+195,ARPT: {timestamp}: {interface}: setup_keepalive: Remote IP: {ip_address},3
+196,Sandbox: {process}(33508) {action}(1) {type} /{path},1
+197,"<<<< {stream_name} >>>> {log_name}: ByteStream read of {num_bytes} bytes @ {timestamp} took {duration} secs. to complete, {num_reads} reads >= 1 sec.",1
+198,ARPT: {timestamp}: {interface}: setup_keepalive: Remote IP: {ip},5
+199,network changed: v4({interface}:{ipv4_address}) v6({interface}!:{ipv6_address}) DNS Proxy SMB,1
+200,CCIOReporterFormatter::refreshSubscriptionsFromStreamRegistry {action} any previous subscriptions,9
+201,{}::{}() Exiting {}::{}(),6
+202,Sandbox: {process}(33540) {action}(1) {type} /{path},1
+203,"CCLogTap::profileRemoved, Owner: {owner}, Name: {name}",3
+204,"<<<< {stream_name} >>>> {log_name}: ByteStream read of {num_bytes} bytes @ {time} took {duration} sec. to complete, {num_reads} reads >= {threshold} sec.",1
+205,"CCFile::captureLogRun Skipping current file Dir file {dir_file}, Current File {current_file}",20
+206,network changed: v6({interface}:{ipv6_address}) DNS- Proxy-,1
+207,ARPT: {timestamp}: wlc_dump_aggfifo:,6
+208,"CCFile::captureLogRun Skipping current file Dir file {file_name}, Current File {file_name}",5
+209,[time] <<<< CATEGORY >>>> crabsFlumeHostUnavailable: [id] Byte flume reports host unavailable.,1
+210,nw_nat64_post_new_ifstate successfully changed NAT64 ifstate from {hex_value} to {hex_value},5
+211,doSaveChannels@{line_number}: Will write to: {file_path},6
+212,tcp_connection_destination_perform_socket_connect {int} connectx to {ip_address}:{int}@{int} failed: [{int}] {string},2
+213,tcp_connection_handle_connect_conditions_bad {var1} failed: {var2} - {var3},8
+214,ARPT: {timestamp}: framerdy {value1} bmccmd {value2} framecnt {value3},5
+215,Captive: {string} en0: {string},1
+216,__[{thread}] [{class} {method}]_{block} {message} {app}.{process} {host}:{port},1
+217,IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from {mode1} to {mode2},1
+218,"[{plugin}-ERROR] -{method}:[{parameter}] {error_description} UserInfo={NSUnderlyingError=0x{error_code} {Error Domain={error_domain} Code={error_code} ""{error_message}"" UserInfo={{NSErrorFailingURLStringKey={url}, NSErrorFailingURLKey={url}, _kCFStreamErrorCodeKey={stream_error_code}, _kCFStreamErrorD",1
+219,hibernate image path: {path},2
+220,hibernate_flush_memory: buffer_cache_gc freed up {number} wired pages,2
+221,"hibernate_machine_init pagesDone {pagesDone} sum2 {sum2}, time: {time} ms, disk(0x20000) {diskSpeed} Mb/s, comp bytes: {compBytes} time: {compTime} ms {compSpeed} Mb/s, crypt bytes: {cryptBytes} time: {cryptTime} ms {cryptSpeed} Mb/s",2
+222,ASSERTION FAILED: {var1} -[DriverServices {var2}:] line: {var3},4
+223,hibernate_{process}_init {action},2
+224,assertion failed: {var1}: com.apple.telemetry + {var2} [{var3}]: {var4},3
+225,jemmytest,10
+226,hibernate_setup({}) took {} ms,2
+227,**** [{module}][{function}] -- calling {module}'s {action}() -- {param1} -- {param2} -- {param3} ****,2
+228,**** [{module}][{action}] -- {message} -- {param1} -- {param2} -- {param3} ****,1
+229,hciControllerOnline; HID devices? {number},1
+230,INIT -- {string} is published,2
+231,"polled file major {major}, minor {minor}, blocksize {blocksize}, pollers {pollers}",3
+232,Build{Action}{Device}Entry exit,2
+233,Wake reason: {reason} ({source}),4
+234,{}: message service is terminated,1
+235,[${time}] <<<< ${type} >>>> ${message},1
+236,payload Data {hex1} {hex2},1
+237,en{interface}: 802.11d country code set to '{country}'.,2
+238,WARNING: {function_name} skipped {number} xpmapped pages,2
+239,"hibernate_teardown: wired_pages {wired_pages}, free_pages {free_pages}, active_pages {active_pages}, inactive_pages {inactive_pages}, speculative_pages {speculative_pages}, cleaned_pages {cleaned_pages}, compressor_pages {compressor_pages}",1
+240,ARPT: {timestamp}: framerdy {address} bmccmd {command} framecnt {count},1
+241,"CCFile::copyFile fileName is [{fileName}], source path:{sourcePath}, dest path:{destPath}",2
+242,hibernate_rebuild_pmap_structs done: last_valid_compact_indx {last_valid_compact_indx},1
+243,Build{Action}{Device}Entry {Enter/Exit},2
+244,({}:{}): {} for {},1
+245,[time] <<<< {person} >>>> {action}: {message},1
+246,YYYY-MM-DD HH:MM:SS.mmm GoogleSoftwareUpdateAgent[PID/TID] [lvl=LEVEL] -[CLASSNAME METHODNAME] MESSAGE,1
+247,[${time}] <<<< ${person} >>>> ${action}: ${message},2
+248,KeychainGetICDPStatus: status: {status},8
+249,sigio_handler: {variable} != 1,1
+250,__[{thread}] [{class} {method}]_{block} {message} {error} {ip},1
+251,Sandbox: {process}(33959) {action}(1) {type} /{path},1
+252,[time] <<<< [person] >>>> [action]: [message],4
+253,[__ : __ : __.___] <<<< ____ >>>> figPlaybackBossPrerollCompleted: ____,1
+254,ARPT: {timestamp}: AirPort_Brcm43xx::powerChange: {message},16
+255,tcp_connection_tls_session_error_callback_imp {var1} tcp_connection_tls_session_handle_read_error.790 error {var2},1
+256,"com.apple.SoftwareUpdate.Activity: {activity} told me to run this job; however, but the start time isn't for {seconds} seconds. Ignoring.",1
+257,"com.apple.SoftwareUpdate.Activity: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for {seconds} seconds. Ignoring.",9
+258,Checking iCDP status for DSID {dsid} (checkWithServer={checkWithServer}),1
+259,ARPT: {float}: AirPort_Brcm43xx::powerChange: {string},1
+260,network changed: v4({interface}-:{ipv4_address}) v6({interface}-:{ipv6_address}) {dns_status} {proxy_status},1
+261,network changed: {network_event},1
+262,tcp_connection_handle_connect_conditions_bad {number} failed: {number} - {message},1
+263,YYYY-MM-DD HH:MM:SS.mmm {process}[{pid}/{thread}] [lvl={level}] {message},1
+264,network changed: v4({interface}:{IP}) DNS+ Proxy+ SMB,1
+265,-[SOAPParser:{var1} parser:didStartElement:namespaceURI:qualifiedName:attributes:] Type not found in EWSItemType for {var2} ({var3}:{var4}),3
+266,[{time}] <<<< {event} >>>> {function}: [{address}] {message},1
+267,Sandbox: {process}(34685) {action}(1) {type} /{path},1
+268,Sandbox: {process}(34738) {action}(1) {type} /{path},1
+269,Sandbox: {process}(34830) {action}(1) {type} /{path},1
+270,extension {extensionName} -> ({value}),1
+271,"com.apple.EscrowSecurityAlert.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for {time} seconds. Ignoring.",1
+272,"[Accounts] Current connection, <NSXPCConnection: {connection_address}> connection from pid {pid}, doesn't have account access.",2
+273,"[Accounts] Failed to update account with identifier {identifier}, error: {error}",2
+274,Session {session_id} created,1
+275,YYYY-MM-DD HH:MM:SS.mmm {process_name}[{process_id}/{thread_id}] [lvl={log_level}] -[{class_name} {method_name}] {message},1
+276,"NETWORK: requery, {0}, {1}, {2}, {3}, {4}, {5}, items, fQueryRetries, {6}, fLastRetryTimestamp, {7}",1
+277,Sandbox: {process}(35110) {action}(1) {type} /{path},2
+278,kern_open_file_for_direct_io took {time} ms,1
+279,__:__:__.____ : Starting AirDrop server for user {} on {},1
+280,{:time} : Scanning mode {:mode},3
+281,Sandbox: {process}(35150) {action}(1) {type} /{path},1
+282,"ARPT: {timestamp}: {interface}: wl_update_tcpkeep_seq: Updated seq/ack/win from UserClient Seq {seq}, Ack {ack}, Win size {win}",1
+283,"com.apple.suggestions.harvest: {activity} told me to run this job; however, but the start time isn't for {seconds} seconds. Ignoring.",1
+284,CGXDisplayDidWakeNotification [{number}]: posting kCGSDisplayDidWake,1
+285,Peripheral manager is not powered on,3
+286,Sandbox: {process}(35229) {action}(1) {type} /{path},1
+287,Sandbox: {process}(35250) {action}(1) {type} /{path},1
+288,-[UABestAppSuggestionManager notifyBestAppChanged:type:options:bundleIdentifier:activityType:dynamicIdentifier:when:confidence:deviceName:deviceIdentifier:deviceType:] (null) UASuggestedActionType={int} (null)/(null) opts={null} when={date} confidence={int} from={null}/{null} (UABestAppSuggestionManager.m #{int}),1
+289,__[{thread}] [{class} {method}]_{block} {message} {error} {code} {ip}:{port},1
+290,Sandbox: {process}(35286) {action}(1) {type} /{path},1
+291,"NETWORK: no response from server, {var1}, 2, {var2}, 1",1
+292,"PM response took {time} ms ({code}, {app})",1
+293,FA||Url||taskID[{task_id}] dealloc,1
+294,Cocoa scripting error for '{code}': {message}.,71
+295,.{level} {message} for argument '{argument}' of command '{command}' in suite '{suite}': '{error}' is not a valid type name.,1
+296,objc[{pid}]: Class {class_name} is implemented in both {path_1} and {path_2}. One of the two will be used. Which one is undefined.,1
+297,Invalidating watch set.,1
+298,objc[{pid}]: Class {class} is implemented in both {path1} and {path2}. One of the two will be used. Which one is undefined.,1
+299,__:__:__.___ : Started generating hashes,1
+300,"<<<< {stream_name} >>>> {log_name}: ByteStream read of {num_bytes} bytes @ {timestamp} took {duration} sec. to complete, {num_reads} reads >= {threshold} sec.",1
+301,button report: {error_code},1
+302,-{function} is deprecated for {class}. Please use {newFunction}.,1
+303,-{methodName} is deprecated for {className}. Please use -{newMethodName}.,1
+304,[{time}] ({source}) signalled err={error_code},1
+305,[{time}] <<<< {module} >>>> {function}: [{address}] {message},1
+306,"PBRequester failed with Error Error Domain=NSURLErrorDomain Code=-1001 ""The request timed out."" UserInfo={NSUnderlyingError=0x{placeholder} {Error Domain=kCFErrorDomainCFNetwork Code=-1001 ""The request timed out."" UserInfo={NSErrorFailingURLStringKey=https://gs-loc.apple.com/clls/wloc, NSErrorFailingURLKey=https://gs-loc.apple.com/clls/wloc, _kCFStreamErrorCodeKey=-2102, _kCFStreamErrorDomainKey=4, NSLocalizedDescription=The request timed out.}}, NSErrorFailingURLStringKey=https://gs-loc.apple.com/clls/wloc, NSErrorFailingURLKey=https://gs-loc.apple.com/clls/wloc, _kCFStreamErrorDomainKey=4, _k",1
+307,"NETWORK: no response from server, {var1}, {var2}, {var3}, {var4}",1
+308,"NETWORK: {string}, {int}, {int}, {int}, {int}, {int}, {string}, {string}, {int}, {string}, {float}",4
+309,Failed to stop a scan - central is not powered on: {error_code},1
+310,Sandbox: {process}(35773) {action}(1) {type} /{path},1
+311,**** [{component}][{action}] -- {status} (matched on {criteria}) -- {code} ****,3
+312,"hibernate_newruntime_map time: {time} ms, {function1}(), {function2} {value}",2
+313,vm_compressor_fastwake_warmup ({start} - {end}) - starting,1
+314,"<IMMacNotificationCenterManager: {placeholder}>: Updating enabled: {placeholder} (Topics: ({placeholder}, {placeholder}, {placeholder}, {placeholder}, {placeholder}, {placeholder}, {placeholder}, {placeholder}, {placeholder}, {placeholder}, {placeholder}, {placeholder}, {placeholder}, {placeholder}, {placeholder}))",1
+315,YYYY-MM-DD HH:MM:SS.sss {process_name}[{process_id}/{thread_id}] [lvl={log_level}] {function_name}() {message},2
+316,YYYY-MM-DD HH:mm:ss.SSS {processName}[{processID}/{threadID}] [lvl={logLevel}] -[{methodName} {actionName}] {message},1
+317,YYYY/MM/DD HH:MM:SS.sss | L | Module | File:Line:Function | Message.,1
+318,<IMMacNotificationCenterManager: {var1}>: notification observer: {var2} notification: __CFNotification {var3} {var4},1
+319,CCProfileMonitor::{function} done,1
+320,tcp_connection_destination_perform_socket_connect {port} connectx to {ip}:{protocol}@{status} failed: [{error_code}] {error_message},1
+321,<IMMacNotificationCenterManager: {var1}>: NC Disabled: {var2},5
+322,CGXDisplayDidWakeNotification [{number}]: posting kCGSDisplayDidWake],2
+323,__[{thread}] [{class} {method}]_block_invoke {block} - {message} {error_code}. {error_description} {ip_address},1
+324,Daemon connection invalidated!,1
+325,"CCFile::copyFile fileName is {file_name}, source path:{source_path}, dest path:{dest_path}",1
+326,network changed: v4({interface}:{ipv4_address}) v6({interface}:{ipv6_address}) DNS! Proxy SMB,3
+327,IOHibernatePollerOpen({int}),2
+328,"hibernate_machine_init: state {state}, image pages {image_pages}, sum was {sum}, imageSize {image_size}, image1Size {image1_size}, conflictCount {conflict_count}, nextFree {next_free}",1
+329,[{HID}] [{MT}] {class}::willTerminate entered,1
+330,hibernate_rebuild completed - took {time} msecs,1
+331,{}::stop Entered,2
+332,{}::start Entered,2
+333,"bitmap_size {bitmap_size}, previewSize {previewSize}, writing {pages} pages @ {address}",2
+334,en{interface}: {message},1
+335,"DB Error: {error_code} ""{error_message}""",3
+336,YYYY-MM-DD HH:MM:SS.mmm {process_name}[{process_id}/{thread_id}] [lvl={log_level}] -[{method_name} {method_description}] {message},1
+337,<IMMacNotificationCenterManager: {var1}>: Updating enabled: {var2} (Topics: {var3}),1
+338,"device_generate_lock_screen_screenshot: authw {authw}(2000)[{authw_list}], shield {shield}(2001), dev [{dev_width},{dev_height}]",1
+339,[__:__:__.__] <<<< CRABS >>>> crabsFlumeHostAvailable: [{}] Byte flume reports host available again.,1
+340,"PBRequester failed with Error Error Domain=NSURLErrorDomain Code=-1009 ""The Internet connection appears to be offline."" UserInfo={NSUnderlyingError=0x7fe13530fc60 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 ""{placeholder1}"" UserInfo={NSErrorFailingURLStringKey=https://gsp-ssl.ls.apple.com/dispatcher.arpc, NSErrorFailingURLKey=https://gsp-ssl.ls.apple.com/dispatcher.arpc, _kCFStreamErrorCodeKey=8, _kCFStreamErrorDomainKey=12, NSLocalizedDescription=""{placeholder2}""}}, NSErrorFailingURLStringKey=https://gsp-ssl.ls.apple.com/dispa",1
+341,QQ({pid}) {action} {target},1
+342,"arp_client_transmit({interface}) failed, {error_message} ({error_code})",1
+343,Captive: CNPluginHandler {interface}: {status},2
+344,-[NETClientConnection evaluate{methodName}] {arg1} - Perform {taskName}! {arg2}. {arg3} {arg4}:{arg5},1
+345,[{date}:WARNING:{file}({line})] {message},2
+346,-[{class} {method}] using process name {processName} as bundle ID ({message}),4
+347,"CCFile::captureLogRun Skipping current file Dir file {date}-CCIOReporter-007.xml, Current File {date}-CCIOReporter-007.xml",2
+348,could discard act {act} inact {inact} purgeable {purgeable} spec {spec} cleaned {cleaned},2
+349,"booter start at {time} ms smc {smc_time} ms, [{unknown}], total {total_time} ms, dsply {dsply_time}, {unknown} ms, tramp {tramp_time} ms",1
+350,"hostControllerOnline - Number of Paired devices = {num_devices}, List of Paired devices = ({device_list})",1
+351,**** [{component}][{action}] -- {message} ****,1
+352,{}: {},1
+353,**** [{component}][{action}] -- completed -- result = {result} -- {code} ****,2
+354,YYYY-MM-DD HH:mm:ss.sss {processName}[{processId}/{threadId}] [lvl={logLevel}] {methodName} {message},1
+355,"Google Chrome He[{pid}] triggered unnest of range {memory_range} of DYLD shared region in VM map {vm_map}. While not abnormal for debuggers, this increases system memory footprint until the target exits.",1
+356,-[NETClientConnection evaluate{variable1}] {variable2} - Perform {variable3}! {variable4}.{variable5} {variable6} {variable7},3
+357,hibernate_page_list_setall(preflight {int}) start,1
+358,hibernate_page_list_setall time: {time} ms,1
+359,IOPolledFilePollersOpen({}) {} ms,1
+360,hibernate_teardown completed - discarded {num},1
+361,"Opened file {file_path}, size {file_size}, extents {num_extents}, maxio {max_io} ssd {is_ssd}",1
+362,[{class}::{method}] {message},1
+363,{:}: stop,1
+364,[{hid}] [{mt}] {class}::{method} entered,1
+365,[{module}-ERROR] -{function}:[{parameter}] {error},1
+366,Unable to start {service}:,2
+367,Got an {error_type} error: {error_description},1
+368,-[SFLListManager(ServiceReplyProtocol) notifyChanges:toListWithIdentifier:] Notified of item changes to list with identifier {identifier},1
+369,YYYY-MM-DD HH:MM:SS.mmm {processName}[{processID}/{threadID}] [lvl={logLevel}] -[{methodName} {className}] {message},1
+370,no sleep images for {variable},1
+371,ChromeExistion main isUndetectWithCommand = {value},2
+372,after trim url = {url},1
+373,"ChromeExistion main strSendMsg = {""websitekey"":{websitekey},""commandkey"":{commandkey},""browserkey"":{browserkey}}",1
+374,url host = {host},1
+375,the url = {url},1
+376,{:time} : Purged contact hashes,1
+377,"en{interface}: channel changed to {channel},{offset}",2
+378,network changed: v6({interface}-:{ipv6_address}) {flags},1
+379,__[{thread}] [{class} {method}]_{type} {code} - {message} {params},1
+380,[{date}:{time}:{severity}:{file}({line})] {message},1
+381,"ARPT: {timestamp}: {interface}: Roamed or switched channel, reason #{reason}, bssid {bssid}, last RSSI {rssi}",2
+382,{} started,1
+383,"CCFile::captureLogRun Skipping current file Dir file {date}-io80211Family-008.pcapng, Current File {date}-io80211Family-008.pcapng",1
+384,"Service ""{service}"" tried to hijack endpoint ""{endpoint}"" from owner: {owner}",3
+385,YYYY-MM-DD HH:MM:SS.sss {process_name}[{process_id}/{thread_id}] [lvl={log_level}] -[{class_name}({method_name}) {method_description}] {message},1
+386,YYYY-MM-DD HH:mm:ss.sss {process}[{pid}/{thread}] [lvl={level}] -[{class}({method}) {message},1
+387,"ARPT: {timestamp}: IOPMPowerSource Information: onWake, SleepType: {sleep_type}, 'ExternalConnected': {external_connected}, 'TimeRemaining': {time_remaining},",1
+388,Sandbox: {process}(9854) {action}(1) {resource} {path},1
+389,YYYY-MM-DD HH:MM:SS.mmmmmm PM [AirPlayUIAgent] BecomingInactive: {notification},1
+390,YYYY/MM/DD HH:MM:SS.mmm | L | Module | File:Line:Function | Message.,2
+391,Sandbox: {process}(37204) {action}(1) {type} /{path},1
+392,full wake request (reason {reason}) {time} ms,1
+393,"ARPT: {timestamp}: wl0: wl_update_tcpkeep_seq: Original Seq: {seq_num}, Ack: {ack_num}, Win size: {win_size}",1
+394,"com.apple.CacheDelete.daily: {activity_type} told me to run this job; however, but the start time isn't for {time} seconds. Ignoring.",2
+395,kern_open_file_for_direct_io({}),1
+396,"PM response took {time} ms ({code}, {status})",1
+397,[{component}] [{message}],1
+398,YYYY-MM-DD HH:MM:SS.mmm {process_name}[{process_id}/{memory_address}] [lvl={log_level}] -[function_name] message,1
+399,"NETWORK: no response from server, reachability, {int}, queryRetries, {int}",1
+400,"Page bounds {{}, {}}",1
+401,Failed to connect ({outletName}) outlet from ({sourceView}) to ({destinationView}): {reason},1
+402,[com.apple.calendar.store.log.caldav.queue] [Account {email}@{server}/caldav/principals/users/{username} timed out when executing operation: <CalDAVAccountRefreshQueueableOperation: {memory_address}; Sequence: {sequence}>],1
+403,"[com.apple.calendar.store.log.caldav.queue] [Account refresh failed with error: Error Domain=CoreDAVHTTPStatusErrorDomain Code={placeholder} ""{placeholder}"" UserInfo={AccountName={placeholder}, CalDAVErrFromRefresh=YES, CoreDAVHTTPHeaders=<CFBasicHash {placeholder} [0x7fff7abc1440]>{type = immutable dict, count = {placeholder}, entries => 0 : Connection = <CFString {placeholder} [0x7fff7abc1440]>{contents = ""{placeholder}""} 3 : Content-Type = text/html 4 : Content-Length = {placeholder} 5 : Server = nginx 6 : Date = <CFString {placeholder} [0x7fff7abc1440]>{contents = ""{placeholder}""} } }]",1
+404,"Page bounds {{{}, {}} {{}, {}}}",1
+405,Sandbox: {string}(352) {string}({int}) {string} {string}:{string}:,1
+406,"no application identifier provided, can't use provisioning profiles [pid={pid}]",1
+407,tcp_connection_destination_handle_tls_close_notify {int} closing socket due to TLS CLOSE_NOTIFY alert,1
+408,CFNetwork SSLHandshake failed ({error_code}),1
+409,"Unable to simultaneously satisfy constraints: ( ""<NSLayoutConstraint:{placeholder1}>"", ""<NSLayoutConstraint:{placeholder2}>"", ""<NSLayoutConstraint:{placeholder3}>"", ""<NSLayoutConstraint:{placeholder4}>"", ""<NSLayoutConstraint:{placeholder5}>"")",2
+410,"Configuration Notice: ASL Module ""{module1}"" sharing output destination ""{destination}"" with ASL Module ""{module2}"". Output parameters from ASL Module ""{module2}"" override any specified in ASL Module ""{module1}"".",1
+411,{:app_name}: {:message},1
+412,(,1
+413,YYYY-MM-DD HH:MM:SS.SSS {process_name}[{process_id}/{thread_id}] [lvl={log_level}] -[{method_name} {method_description}] {message},1
+414,"CCDataTap::profileRemoved, Owner: {owner}, Name: {name}",2
+415,Unrecognized XSSimpleTypeDefinition: {type},2
+416,DB Path: {path},1
+417,Could not get event name for stream/token: {stream/token}: {error_code}: {error_message},1
+418,{date} GoogleSoftwareUpdateAgent[{process_id}/{memory_address}] [lvl={log_level}] -[{action}] {description},1
+419,Error in {handler}: {error_code},1
+420,[{time}] FigAgglomeratorSetObjectForKey signalled err={error_code} ({error_description}) ({error_details}) at {file_path} line {line_number},1
+421,Session {session_id} destroyed,2
+422,"CCFile::captureLogRun Skipping current file Dir file [{timestamp}]-{filename}, Current File [{timestamp}]-{filename}",1
+423,-[NETClientConnection evaluate{methodName}] {arg1} - Perform {action}! {arg2}. {arg3} {arg4}:{arg5},1
+424,"PBRequester failed with Error Error Domain=NSURLErrorDomain Code=-1009 ""The Internet connection appears to be offline."" UserInfo={NSUnderlyingError=0x7fb7f0035dc0 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 ""The Internet connection appears to be offline."" UserInfo={NSErrorFailingURLStringKey={url}, NSErrorFailingURLKey={url}, _kCFStreamErrorCodeKey={errorCode}, _kCFStreamErrorDomainKey={errorDomain}, NSLocalizedDescription={description}}}, NSErrorFailingURLStringKey={url}, NSErrorFailingURLK",1
+425,Sandbox: {process}(38418) {action}(1) mach-lookup {target},1
+426,"nw_path_evaluator_start_helper_connection net_helper_path_evaluation_start failed, dumping backtrace: [{placeholder}]",1
+427,"CoreAnimation: warning, deleted thread with uncommitted CATransaction; set CA_DEBUG_TRANSACTIONS={debug_transactions} in environment to log backtraces.",1
+428,Sandbox: {process}(38449) {action}(1) {type} /{path},1
+429,-[SOAPParser:{var1} parser:didStartElement:namespaceURI:qualifiedName:attributes:] Type not found in {var2} for {var3} ({var4}:{var3}),1
+430,full wake promotion (reason {reason}) {time} ms,1
+431,"NSURLSession/NSURLConnection HTTP load failed ({}, {})",1
+432,"[QL] No sandbox token for request <{request}>, it will probably fail",1
+433,"schedule invalidation <DYTransport {transport_address}, error: {error_message}>",1
+434,[time] mv_LowLevelCheckIfVideoPlayableUsingDecoder signalled err={error_code} ({error_description}) (video codec {codec_number}) at line {line_number},1
+435,<<<< {module} >>>> {function}: {message},1
+436,<<<< MediaValidator >>>> mv_ValidateRFC4281CodecId: {error_message}. Failed codec specific check.,1
+437,CoreAnimation: timed out fence {fence_number},1
+438,Failed to connect ({action}) outlet from ({source}) to ({destination}): {reason},1
+439,__:__:__.___ ERROR: ___: {message} (___ ___); {variable}=0,1
+440,ARPT: {timestamp}: AirPort_Brcm43xx::powerChange: {event} - {type} Wake/ {type} Wake / {type} wake,1
+441,efi pagecount {count},2
+442,"CCFile::captureLogRun Skipping current file Dir file {date}-AirPortBrcm4360_Logs-004.txt, Current File {date}-AirPortBrcm4360_Logs-004.txt",1
+443,did discard act {act} inact {inact} purgeable {purgeable} spec {spec} cleaned {cleaned},1
+444,Host controller terminated,1
+445,[{hid}] [{mt}] {driver}::start entered,1
+446,__[{}-{} evaluate{}]_block_invoke {} - {}! {}.{} {}.{}:{},1
+447,[{module}]ERROR: {message},2
+448,vm_compressor_{mode}_warmup completed - took {time} msecs,1
+449,"Unable to simultaneously satisfy constraints: ( ""<NSAutoresizingMaskLayoutConstraint:0x{var1} h=-&- v=-&- V:[NSScrollView:0x{var2}]-(11)-| (Names: '|':NSView:0x{var3} )>"", ""<NSAutoresizingMaskLayoutConstraint:0x{var4} h=-&- v=-&- V:|-(45)-[NSScrollView:0x{var5}] (Names: '|':NSView:0x{var6} )>"", ""<NSAutoresizingMaskLayoutConstraint:0x{var7} h=-&- v=--& V:[NSView:0x{var8}](0)]>"", ""<NSAutoresizingMaskLayoutConstraint:0x{var9} h=-&- v=-&- V:|-(0)-[NSView:0x{var10}] (Names: '|':NSView:0x{var11})>"", ""<NSAutoresizingMaskLayoutConst",1
+450,YYYY-MM-DD HH:MM:SS.mmm {process}[{pid}/{thread}] [lvl={level}] -[{class}({method}) {message},1
+451,YYYY-MM-DD HH:MM:SS.mmm {app_name}[{process_id}/{thread_id}] [lvl={log_level}] -[{class_name}({method_name}) {log_message}],1
+452,"Arranged view frame: {{}, {}}}",1
+453,CCProfileMonitor::{functionName},1
+454,Telling CSI to go {power}.,1

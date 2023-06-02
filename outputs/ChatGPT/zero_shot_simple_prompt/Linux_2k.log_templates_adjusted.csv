@@ -1,0 +1,124 @@
+,EventTemplate,Occurrences
+0,connection from <*> () at <*>,587
+1,connection from <*> (<*>) at <*>,272
+2,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=<*>,243
+3,session closed for user <*>,123
+4,session opened for user <*> by (uid=<*>),122
+5,check pass; user unknown,117
+6,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost= %<*> user=<*>,52
+7,authentication failure; logname= uid=<*> euid=<*> tty=<*> ruser= rhost=<*>,51
+8,authentication failure; logname= uid=<*> euid=<*> tty=<*> ruser= rhost=<*> user=<*>,46
+9,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>,44
+10,ALERT exited abnormally with <*>,43
+11,connection from <*> (<*>) at <*> <*>,42
+12,<*> authentication failed,23
+13,notify question section contains no SOA,16
+14,Authentication failed from <*>: <*>,15
+15,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost= <*> user=<*>,13
+16,<*> startup succeeded,11
+17,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=massive.merukuru.org,10
+18,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=zummit.com,10
+19,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=p15105218.pureserver.info user=<*>,10
+20,connection from [IP address] (<*>) at <*>,8
+21,<*>.,7
+22,<*> shutdown succeeded,6
+23,BIOS-e820: <*> - <*> (<*>),5
+24,<*> from <IP Address>: <Error Message>,4
+25,removing device node '<*>',4
+26,creating device node '<*>',4
+27,<*> (<*>): <*>,4
+28,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=ip-<*>-<*>-<*>-<*>.ip.secureserver.net,3
+29,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=csnsu.nsuok.edu user=<*>,3
+30,<*>,3
+31,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost= %<*> user=%<*>,2
+32,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=%<*> user=%<*>,2
+33,<*> failed from <IP Address> (<*>): <*>,2
+34,Authentication failed from <*>: Permission denied in replay cache code,2
+35,"ANONYMOUS FTP LOGIN FROM <*>, (<*>)",2
+36,warning: can't get client address: Connection reset by peer,2
+37,<*>: <*>,2
+38,User <*> timed out after <*> seconds at <*>,1
+39,Received SNMP packet(s) from <*>,1
+40,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=guest,1
+41,*** info [mice.c(<*>)]:,1
+42,imps2: Auto-detected intellimouse PS/2,1
+43,session opened for user <*> by LOGIN(uid=<*>),1
+44,<*> LOGIN ON <*>,1
+45,syslogd startup succeeded,1
+46,"klogd <*>, log source = <*> started.",1
+47,Linux version <*> (<*>) (<*>) #<*> <*>,1
+48,BIOS-provided physical RAM map:,1
+49,<*> HIGHMEM available.,1
+50,<*> LOWMEM available.,1
+51,zapping low mappings.,1
+52,On node <*> totalpages: <*>,1
+53,"DMA zone: <*> pages, LIFO batch:<*>",1
+54,"Normal zone: <*> pages, LIFO batch:<*>",1
+55,"<*>: <*> pages, LIFO batch:<*>",1
+56,DMI <*> present.,1
+57,ACPI disabled because your bios is from <*> and too old,1
+58,You can enable it with acpi=force,1
+59,Built <*> zonelists,1
+60,Kernel command line: <*>,1
+61,mapped <*> trampoline to <*>.,1
+62,Initializing CPU#<*>,1
+63,"CPU <*> irqstacks, hard=<*> soft=<*>",1
+64,PID hash table entries: <*> (order <*>: <*> bytes),1
+65,Detected <*> MHz processor.,1
+66,Version <*> Starting,1
+67,Using tsc for high-res timesource,1
+68,rpc.statd startup <*>,1
+69,Console: colour VGA+ 80x25,1
+70,"Memory: <*>k/<*>k available (<*> kernel code, <*> reserved, <*> data, <*> init, <*> highmem)",1
+71,Calibrating delay loop... <*> BogoMIPS,1
+72,Security Scaffold <*> initialized,1
+73,SELinux: Initializing.,1
+74,SELinux: Starting in permissive mode,1
+75,"There is already a security framework initialized, register_security failed.",1
+76,<*> registering capabilities with the kernel,1
+77,selinux_register_security: Registering secondary module capability,1
+78,Capability <*> initialized,1
+79,rpc.idmapd startup succeeded,1
+80,"Dentry cache hash table entries: <*> (order: <*>, <*> bytes)",1
+81,"Inode-cache hash table entries: <*> (order: <*>, <*> bytes)",1
+82,"Mount-cache hash table entries: <*> (order: <*>, <*> bytes)",1
+83,"CPU: L1 I cache: <*>, L1 D cache: <*>",1
+84,CPU: L2 cache: <*>,1
+85,Intel machine check reporting enabled on CPU#<*>.,1
+86,CPU: <*> stepping <*>,1
+87,Enabling fast FPU save and restore... done.,1
+88,Enabling unmasked SIMD FPU exception support... done.,1
+89,Checking '<*>' instruction... <*>.,1
+90,Initializing random number generator: <*>,1
+91,NET: Registered protocol family <*>,1
+92,"PCI: PCI BIOS revision <*> entry at <*>, last bus=<*>",1
+93,PCI: Using configuration type <*>,1
+94,mtrr: v2.<*> (<*>),1
+95,ACPI: Subsystem revision <*>,1
+96,ACPI: Interpreter disabled.,1
+97,<Application/Service> <*> (c) <*>,1
+98,Starting pcmcia: <*>,1
+99,ACPI: ACPI tables contain no PCI IRQ routing entries,1
+100,PCI: Invalid ACPI-PCI IRQ routing table,1
+101,PCI: <*>,1
+102,PCI: Probing PCI hardware (bus <*>),1
+103,Transparent bridge - <*>,1
+104,PCI: Using IRQ router PIIX/ICH [$<*>/$<*>] at $<*>,1
+105,apm: BIOS version <*> Flags <*> (Driver version <*>),1
+106,audit: initializing netlink socket (disabled),1
+107,kernel.core_uses_pid = <*>,1
+108,HCI daemon ver <*> started,1
+109,audit(<*>): initialized,1
+110,Setting network parameters: <*>,1
+111,<*> <*> started,1
+112,"Total HugeTLB memory allocated, <*>",1
+113,Bringing up loopback interface: <*>,1
+114,VFS: Disk quotas <*>,1
+115,"Dquot-cache hash table entries: <*> (order <*>, <*> bytes)",1
+116,SELinux: Registering netfilter hooks,1
+117,Initializing Cryptographic API,1
+118,pci_hotplug: PCI Hot Plug PCI Core version: <*>,1
+119,isapnp: Scanning for PnP cards...,1
+120,isapnp: <*>,1
+121,Real Time Clock Driver <*>,1
+122,Linux agpgart interface v0.<*> (c) Dave Jones,1

@@ -1,0 +1,77 @@
+,EventTemplate,Occurrences
+0,Loaded Servicing Stack v{version} with Core: {core_path},2
+1,00000001@{date}:20:30:31.455 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @{stack1} @{stack2} @{stack3} @{stack4} @{stack5} @{stack6}),1
+2,00000002@{date}:20:30:31.458 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @{stack1} @{stack2} @{stack3} @{stack4} @{stack5} @{stack6}),1
+3,00000003@{date}:WcpInitialize (wcp.dll version {version}) called (stack @{stack1} @{stack2} @{stack3} @{stack4} @{stack5} @{stack6}),1
+4,Ending {process} initialization.,2
+5,Starting the {process} main loop.,2
+6,{} service starts successfully.,2
+7,SQM: Initializing online with Windows opt-in: {Boolean},2
+8,SQM: Cleaning up report files older than {days} days.,2
+9,SQM: Requesting upload of all unsent reports.,2
+10,"SQM: Failed to start upload with file pattern: {file_pattern}, flags: {flags} [HRESULT = {HRESULT}]",2
+11,SQM: Failed to start {variable} upload. [HRESULT = {variable} - E_FAIL],2
+12,"SQM: Queued {number} file(s) for upload with pattern: {file_path}, flags: {flags}",2
+13,SQM: Warning: Failed to upload all unsent reports. [HRESULT = {HRESULT} - E_FAIL],2
+14,"No startup processing required, {service} service was not set as autostart, or else {condition}.",2
+15,NonStart: Checking to ensure {process} processing was not required.,2
+16,"00000004 IAdvancedInstallerAwareStore_ResolvePendingTransactions (call {call_number}) (flags = {flags}, progress = {progress}, phase = {phase}, pdwDisposition = @{address}",2
+17,"Creating NT transaction (seq {seq}), objectname [{objectname_length}]""{objectname}""",2
+18,"Created NT transaction (seq {seq}) result {result}, handle @{handle}",3
+19,00000007@{date}:20:30:31.462 CSI perf trace:,1
+20,"NonStart: {status}, {reason}.",2
+21,Startup processing thread terminated {status},2
+22,00000008 CSI Store {store_id} ({store_address}) initialized,1
+23,Session: {session_id} initialized by client {client_name}.,603
+24,Warning: {message}.,280
+25,Expecting attribute name [HRESULT = {HRESULT} - {ERROR_DESCRIPTION}],145
+26,Failed to get next element [HRESULT = {HRESULT} - {ERROR_DESCRIPTION}],224
+27,Expecting attribute name [HRESULT = {HRESULT} - {ERROR_MESSAGE}],79
+28,Failed to internally open package. [HRESULT = {HRESULT} - CBS_E_INVALID_PACKAGE],18
+29,"Read out cached package applicability for package: {PackageID}, ApplicableState: {ApplicableState}, CurrentState:{CurrentState}",549
+30,"Read out cached package applicability for package: {package}, ApplicableState: {applicable_state}, CurrentState:{current_state}",4
+31,"Read out cached package applicability for package: {Package}, ApplicableState: {ApplicableState}, CurrentState:{CurrentState}",2
+32,"Read out cached package applicability for package: {PackageName}, ApplicableState: {ApplicableState}, CurrentState:{CurrentState}",3
+33,Session: {session_id}_144115249 initialized by client {client_name}.,1
+34,Session: {session_id}_149325547 initialized by client {client_name}.,1
+35,Session: {session_id}_149405552 initialized by client {client_name}.,1
+36,Session: {session_id}_155245886 initialized by client {client_name}.,1
+37,Session: {session_id}_155605907 initialized by client {client_name}.,1
+38,Session: {session_id}_155755915 initialized by client {client_name}.,1
+39,Failed to create backup log cab. [HRESULT = {HRESULT} - {ERROR}],2
+40,Reboot mark refs incremented to: {number},1
+41,Scavenge: {status},1
+42,"00000009@{date}:20:40:53.744 CSI Transaction @0x47e9e0 initialized for deployment engine {guid} with flags {flags} and client id [{id}]""{version}""",1
+43,Scavenge: Begin {variable},1
+44,0000000a Performing {number} operations; {number} are not lock/unlock and follow:,1
+45,"XXXXXXXX Store coherency cookie matches last scavenge cookie, skipping scavenge.",1
+46,{:X} ICSITransaction::Commit calling IStorePendingTransaction::Apply - coldpatching={:BOOL} applyflags={:INT},1
+47,"Creating NT transaction (seq {seq}), objectname [{length}]""{objectname}""",1
+48,0000000f@{date}:{time}.786 CSI perf trace:,1
+49,"Scavenge: Completed, disposition: {disposition}",1
+50,{:id}@{:date} CSI Transaction @{:address} destroyed,1
+51,Reboot mark refs: {number},1
+52,Idle processing thread terminated {status},1
+53,Ending the {process} main loop.,1
+54,Starting {process} finalization.,1
+55,Ending {process} finalization.,1
+56,Starting {process} initialization.,1
+57,00000001@{date}:16:00:46.160 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @{stack1} @{stack2} @{stack3} @{stack4} @{stack5} @{stack6}),1
+58,00000002@{date}:16:00:46.200 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @{stack1} @{stack2} @{stack3} @{stack4} @{stack5} @{stack6}),1
+59,00000003@{date}:16:00:46.213 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @{stack1} @{stack2} @{stack3} @{stack4} @{stack5} @{stack6}),1
+60,00000007@{date}:{time}.260 CSI perf trace:,1
+61,"Loading offline registry hive: {hive}, into registry key '{key}' from path '{path}'.",7
+62,"Loading offline registry hive: {filename}, into registry key '{key}' from path '{path}'.",1
+63,Offline image is: {status},1
+64,"Disabling manifest caching, because the image is not {variable}.",1
+65,00000008@{date}:16:00:46.635 PopulateComponentFamiliesKey - Begin,1
+66,00000009@{date}:16:01:03.072 PopulateComponentFamiliesKey - End,1
+67,0000000a CSI Store {store_id} ({store_address}) initialized,1
+68,Unloading offline registry hive: {GUID}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SOFTWARE,1
+69,Unloading offline registry hive: {GUID}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SYSTEM,1
+70,Unloading offline registry hive: {GUID}GLOBALROOT/Device/HarddiskVolumeShadowCopy{number}/Windows/System32/config/{filename},2
+71,Unloading offline registry hive: {GUID}GLOBALROOT/Device/HarddiskVolumeShadowCopy{number}/Windows/System32/config/COMPONENTS,1
+72,Unloading offline registry hive: {GUID}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/DEFAULT,1
+73,Unloading offline registry hive: {GUID}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Users/default/ntuser.dat,1
+74,Unloading offline registry hive: {hive}GLOBALROOT/Device/HarddiskVolumeShadowCopy{copy_number}/Windows/system32/smi/store/Machine/schema.dat,1
+75,0000000b CSI Store {store_id} ({store_address}) initialized,1

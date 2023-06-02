@@ -1,0 +1,85 @@
+,EventTemplate,Occurrences
+0,Registered signal handlers for [{signals}],1
+1,Changing view acls to: {acls},2
+2,Changing modify acls to: {acls},2
+3,SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set({view_permissions}); users with modify permissions: Set({modify_permissions}),2
+4,Slf4jLogger started,1
+5,Starting remoting,1
+6,Remoting started; listening on addresses :[akka.tcp://{system}@{address}:{port}],1
+7,Successfully started service '{service}' on port {port}.,2
+8,Created local directory at {directory},1
+9,MemoryStore started with capacity {capacity} GB,1
+10,Connecting to driver: spark://{scheduler}@{ip}:{port},1
+11,Successfully registered with driver,1
+12,Starting executor ID {executor_id} on host {host},1
+13,Server created on {port},1
+14,Trying to register BlockManager,1
+15,Registered BlockManager,1
+16,Got assigned task {task},305
+17,Running task {task} in stage {stage} (TID {tid}),305
+18,Started reading broadcast variable {variable},36
+19,"Block broadcast_9_piece0 stored as bytes in memory (estimated size {size}, free {free})",1
+20,Reading broadcast variable {variable} took {time} ms,37
+21,"Block broadcast_9 stored as values in memory (estimated size {size}, free {free})",1
+22,"Partition {rdd}_{partition} not found, computing it",46
+23,"Partition {rdd} not found, computing it",5
+24,"Partition {partition} not found, computing it",23
+25,Input split: {input_split},25
+26,Input split: {input_path},2
+27,"Block broadcast_8_piece0 stored as bytes in memory (estimated size {size}, free {free})",1
+28,"Block broadcast_8 stored as values in memory (estimated size {size}, free {free})",1
+29,"mapred.tip.id is deprecated. Instead, use mapreduce.task.id",1
+30,"mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id",1
+31,"mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap",1
+32,"mapred.job.id is deprecated. Instead, use mapreduce.job.id",1
+33,"mapred.task.partition is deprecated. Instead, use mapreduce.task.partition",1
+34,"Block broadcast_{block}_piece{piece} stored as bytes in memory (estimated size {size} B, free {free} KB)",1
+35,"Block broadcast_0 stored as values in memory (estimated size {size}, free {free})",1
+36,"Block broadcast_4_piece0 stored as bytes in memory (estimated size {size}, free {free})",1
+37,"Block broadcast_4 stored as values in memory (estimated size {size}, free {free})",1
+38,"Block broadcast_3_piece0 stored as bytes in memory (estimated size {size}, free {free})",1
+39,"Block broadcast_3 stored as values in memory (estimated size {size}, free {free})",1
+40,Started reading broadcast variable {var},1
+41,"Block broadcast_1_piece0 stored as bytes in memory (estimated size {size}, free {free})",1
+42,"Block broadcast_1 stored as values in memory (estimated size {size}, free {free})",1
+43,"Block broadcast_2_piece0 stored as bytes in memory (estimated size {size} B, free {free} KB)",1
+44,"Block broadcast_2 stored as values in memory (estimated size {size}, free {free})",1
+45,"Times: total = {total}, boot = {boot}, init = {init}, finish = {finish}",375
+46,"Block {block} stored as bytes in memory (estimated size {size}, free {free})",73
+47,Finished task {task} in stage {stage} (TID {tid}). {bytes} bytes result sent to driver,300
+48,"Block broadcast_{block}_piece{piece} stored as bytes in memory (estimated size {size} KB, free {free} KB)",30
+49,"Block broadcast_10 stored as values in memory (estimated size {size}, free {free})",1
+50,Found block {block} locally,257
+51,"Block broadcast_11 stored as values in memory (estimated size {size}, free {free})",1
+52,"Block broadcast_12 stored as values in memory (estimated size {size}, free {free})",1
+53,"Block broadcast_13 stored as values in memory (estimated size {size}, free {free})",1
+54,"Block broadcast_{id} stored as values in memory (estimated size {size}, free {free})",11
+55,"Block broadcast_{id} stored as values in memory (estimated size {size} KB, free {free} KB)",5
+56,"Block broadcast_{block} stored as values in memory (estimated size {size}, free {free})",2
+57,"Block broadcast_{blockId} stored as values in memory (estimated size {size}, free {free})",5
+58,"Block broadcast_{block} stored as values in memory (estimated size {size} KB, free {free} KB)",2
+59,File Output Committer Algorithm version is 1,30
+60,Saved output of task 'attempt_{attempt}_m_{m_id}_{task_id}' to {hdfs_path},20
+61,Saved output of task '{task_id}' to {output_path},8
+62,attempt_{job_id}_{task_type}_{task_attempt}_m_{task_id}_{attempt_id}: Committed,1
+63,attempt_{job_id}_{task_type}_{task_id}_{attempt_id}: Committed,5
+64,attempt_{job_id}_{task_type}_{task_id}_{attempt_id}: {status},8
+65,attempt_{application}_{task}_m_{task_attempt}_{node}: Committed,1
+66,attempt_{application}_{task}_m_{task_attempt}_{status}: Committed,1
+67,attempt_{application}_{task}_m_{attempt}_: Committed,1
+68,attempt_{application}_{task}_m_{attempt}: Committed,2
+69,attempt_{application}_{task}_m_{attempt}_{status}: Committed,1
+70,attempt_{application}_{task}_m_{task_attempt}_{status},1
+71,attempt_{application}_{task}_m_{attempt}_{node}: {status},2
+72,attempt_{application_id}_{task_type}_{task_attempt_id}_{task_attempt_num}: Committed,1
+73,attempt_{job_id}_{task_type}_{task_attempt}: Committed,1
+74,attempt_{application}_{task}_m_{task_attempt}: Committed,1
+75,Saved output of task 'attempt_{attempt}_m_{m_id}_{part}_1199' to {hdfs_path},1
+76,attempt_{application}_{task}_m_{attempt}_{node}: Committed,3
+77,attempt_{application_id}_{task_type}_{task_attempt_id}: Committed,1
+78,Saved output of task '{task}' to {location},1
+79,"Block {block} stored as values in memory (estimated size {size}, free {free})",1
+80,Input split: {input_path}:{start}+{length},14
+81,Input split: {input_path}:{start_offset}+{split_length},4
+82,"Block {block} stored as bytes in memory (estimated size {size} B, free {free} KB)",2
+83,"Partition {rdd}_{num} not found, computing it",1

@@ -1,0 +1,187 @@
+,EventTemplate,Occurrences,Type
+0,{server}: {port} open through proxy {proxy_server}:{proxy_port} {protocol},461,True
+1,{host}:{port} open through proxy {proxy_host}:{proxy_port} {protocol},151,True
+2,"{server}:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",110,True
+3,{source}:{port} open through proxy {proxy}:{proxy_port} {protocol},93,True
+4,{server}:{port} open through proxy {proxy_server}:{proxy_port} {protocol},88,True
+5,"{server}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",71,True
+6,"{host}:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",55,True
+7,{source}: {port} open through proxy {proxy}: {proxy_port} {protocol},43,True
+8,"{server}: {action}, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",42,True
+9,"{server}: {port} {action}, {sent} bytes sent, {received} bytes received, lifetime {lifetime}",40,True
+10,"{server}: {action}, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime <{duration} sec>",32,True
+12,"{server}:{port} {action}, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",31,True
+11,"{host}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",31,True
+13,{server}:{port} {level} : {message},30,True
+14,"{server}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes ({kb_received} KB) received, lifetime {lifetime}",29,True
+15,"{server}:{port} {action}, {bytes_sent} bytes sent, {bytes_received} bytes ({size}) received, lifetime {duration}",28,True
+16,"{server}: {action}, {sent} bytes sent, {received} bytes received, lifetime <{time}>",28,True
+17,"{server}:{port} {action}, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes received, lifetime {lifetime}",27,True
+18,"{server}: {port} {action}, {sent} bytes sent, {received} bytes received, lifetime {time}",23,True
+19,{source}:{port} {action} through proxy {proxy}:{proxy_port} {protocol},20,True
+20,"{server}:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes received, lifetime {lifetime}",20,True
+21,"{server}: {action}, {sent} bytes ({size}), {received} bytes received, lifetime {time}",20,True
+22,{service}:{port} open through proxy {proxy}:{proxy_port} {protocol},17,True
+23,{server}:{port} open through proxy {proxy}:{proxy_port} {protocol},17,True
+24,"{host}:{port} {action}, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",15,True
+25,"{server}:{port} {action}, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",14,True
+26,"{host}:{port} {action}, {bytes_sent} bytes sent, {bytes_received} bytes ({kb_received} KB) received, lifetime {lifetime}",14,True
+27,"{server}: {action}, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",14,True
+28,{service}:{port} {level} : {message},14,True
+29,"{host}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes ({kb_received} KB) received, lifetime {lifetime}",13,True
+30,<server>:<port> <level> : <message>,12,True
+31,"{server}:{port} {action}, {sent} bytes ({sent_kb} KB) sent, {received} bytes received, lifetime {lifetime}",12,True
+32,"{host}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime <{lifetime} sec}",11,True
+33,"{server}: {port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",10,True
+34,"{server}: {action}, {bytes_sent} bytes sent, {bytes_received} bytes ({size}) received, lifetime {duration}",10,True
+38,{client}:{port} open through proxy {proxy}:{proxy_port} {protocol},8,True
+37,"{server}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime <{duration} sec>",8,True
+36,{source}:{port} {level} : {message},8,True
+35,<source>:<port> open through proxy <proxy>:<proxy_port> <protocol>,8,True
+39,"{server}: {action}, {bytes_sent} bytes sent, {bytes_received} bytes ({kb_received} KB) received, lifetime {lifetime}",7,True
+40,"{host}:{port} {action}, {bytes_sent} bytes sent, {bytes_received} bytes ({kb_received} KB) received, lifetime {duration}",7,True
+41,"{server}:{port} {action}, {sent} bytes sent, {received} bytes received, lifetime {lifetime}",7,True
+42,{IP_ADDRESS}:{PORT} open through proxy {PROXY_ADDRESS}:{PROXY_PORT} {PROTOCOL},7,True
+43,"{server}:{port} {action}, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime <{lifetime}>",7,True
+44,{service}:{port} {level} : {message} - {additional information},6,True
+45,"{server}: {action}, {sent} bytes ({sent_kb} KB) sent, {received} bytes ({received_kb} KB) received, lifetime <{lifetime} sec>",6,True
+46,"{server}:{port} {action}, {sent} bytes ({size}), {received} bytes received, lifetime {time}",6,True
+49,"{host}:{port} {status}, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes received, lifetime {lifetime}",5,True
+51,{client}:{port} {action} through proxy {proxy}:{proxy_port} {protocol},5,True
+50,"{server}: {action}, {bytes_sent} bytes sent, {bytes_received} bytes ({size}) received, lifetime {time}",5,True
+47,{source}: {port} open through proxy {proxy}: {protocol},5,True
+48,{host}:{port} {level} : {message},5,True
+58,"{server}:{port} {action}, {bytes_sent} bytes sent, {bytes_received} bytes ({kb_received} KB) received, lifetime {duration}",4,True
+65,"{IP}:{PORT} close, {BYTES_SENT} bytes sent, {BYTES_RECEIVED} bytes received, lifetime {LIFETIME}",4,True
+64,{IP Address}:{Port} {Log Level} : {Message},4,True
+62,"{server}:{port} {action}, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes received, lifetime <{lifetime}>",4,True
+61,"{server}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes ({kb_received} KB) received, lifetime {duration}",4,True
+59,{host}:{port} {action} through proxy {proxy_host}:{proxy_port} {protocol},4,True
+63,{source}: {port} {action} through proxy {proxy}:{proxy_port} {protocol},4,True
+57,{timestamp} {source} {level} : {message},4,True
+56,"{server}:{port} {action}, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_mb} MB) received, lifetime {lifetime}",4,True
+55,"{server}:{port} {action}, {bytes_sent} bytes sent, {bytes_received} bytes ({kb_received} KB) received, lifetime {lifetime}",4,True
+54,"{server}:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_mb} MB) received, lifetime {lifetime}",4,True
+53,"{service}:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",4,True
+52,"{server}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",4,True
+60,{source}: {protocol} through proxy {proxy}: {proxy_port} {connection_type},4,True
+82,"{server}:{port} {action}, {sent} bytes ({size}), {received} bytes received, lifetime {duration}",3,True
+79,"{host}:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes received, lifetime {lifetime}",3,True
+80,"{server}:{port} close, {bytes_sent} bytes ({kb_sent} KB) sent, {bytes_received} bytes received, lifetime {lifetime}",3,True
+81,"{hostname}:{port} {action}, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",3,True
+75,"{server}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime <{lifetime} sec}",3,True
+83,{target_host}:{target_port} open through proxy {proxy_host}:{proxy_port} {protocol},3,True
+84,"{server}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes ({size}) received, lifetime {lifetime}",3,True
+85,"{server}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes ({size}) received, lifetime {duration}",3,True
+86,"{client}:{port} {action}, {bytes_sent} bytes sent, {bytes_received} bytes ({kb_received} KB) received, lifetime {lifetime}",3,True
+77,"{website}:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",3,True
+78,"{server}: {action}, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime <{lifetime}>",3,True
+71,2021-10-01 14:30:00 13.client-channel.google.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - connection attempt failed with error 10061,3,True
+76,"{server}:{port} {action}, {bytes_sent} bytes sent, {bytes_received} bytes ({size_received}) received, lifetime {lifetime}",3,True
+74,"{host}:{port} {status}, {sent} bytes sent, {received} bytes received, lifetime {lifetime}",3,True
+73,"{host}:{port} {status}, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",3,True
+72,"{server}:5070 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",3,True
+70,"{server}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes ({kb_received} KB) received, lifetime <{duration} sec>",3,True
+69,{server} {level} : {message},3,True
+68,"{server}:5070 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes received, lifetime {lifetime}",3,True
+67,"{server}: {port} {action}, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",3,True
+66,"{hostname}:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",3,True
+102,{IP Address}:{Port} open through proxy {Proxy Address}:{Proxy Port} {Proxy Type},2,True
+103,"{server}:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {duration}",2,True
+104,"{host}:{port} {action}, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {duration}",2,True
+105,"{server}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime <{lifetime} sec>",2,True
+106,"{server}:{port} {action}, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime <{duration}>",2,True
+100,"{server}:{port} {status}, {sent} bytes ({sent_kb} KB) sent, {received} bytes received, lifetime {duration}",2,True
+107,"{server}: {port} {action}, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",2,True
+108,"{server}: {action}, {sent} bytes ({sent_kb} KB) sent, {received} bytes ({received_kb} KB) received, lifetime {lifetime}",2,True
+109,{IP Address}:{Port} {Log Level} : {Error Message},2,True
+110,"{website}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",2,True
+111,<server>:<port> open through proxy <proxy_server>:<proxy_port> <protocol>,2,True
+112,"{server}:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime <{lifetime} sec>",2,True
+101,"{i}:{p} close, {sent} bytes sent, {received} bytes received, lifetime {lifetime}",2,True
+93,"{server}: {action}, {sent} sent, {received} received, lifetime {time}",2,True
+99,"{server}:{port} {action}, {bytes_sent} bytes sent, {bytes_received} bytes ({size}) received, lifetime <{duration}>",2,True
+91,{source}: {action} through proxy {proxy}: {protocol},2,True
+98,<application>:<port> open through proxy <proxy>:<proxy_port> <protocol>,2,True
+87,"{server}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes ({size}) received, lifetime <{duration} sec>",2,True
+89,"{server}:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",2,True
+90,"{client}:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",2,True
+88,"{hostname}:{port} {action}, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes received, lifetime {lifetime}",2,True
+92,"{host}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime <{lifetime} sec>",2,True
+94,"{service}:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes received, lifetime {lifetime}",2,True
+95,"{server}:{port} {status}, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",2,True
+96,"{host}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes ({size}) received, lifetime {lifetime}",2,True
+97,"{server}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes ({size}) received, lifetime <{duration}>",2,True
+158,"{hostname}:{port} {action}, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1,True
+165,<host>:<port> open through proxy <proxy_host>:<proxy_port> <protocol>,1,True
+164,"{i2.itc.cn}:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1,True
+163,"{host}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes ({kb_received} KB) received, lifetime <{lifetime} sec>",1,True
+162,<source>:<port> <action> through proxy <proxy>:<proxy_port> <protocol>,1,True
+161,"{hostname}:{port} {action}, {bytes_sent} bytes sent, {bytes_received} bytes ({size}) received, lifetime {duration}",1,True
+160,"{server}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime <{duration} sec}",1,True
+159,{destination}:{port} open through proxy {proxy}:{proxy_port} {protocol},1,True
+153,"{server}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime <{lifetime} sec>",1,True
+157,"{server}:{port} {action}, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {duration}",1,True
+156,<timestamp> <severity> : <message>,1,True
+155,"notifications.google.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1,True
+154,"{server}:443 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1,True
+167,"{server}:{port} {action}, {sent} bytes ({size}), {received} bytes received, lifetime <{duration} sec>",1,True
+152,{server}:443 open through proxy {proxy}:5070 HTTPS,1,True
+151,{server}:{port} {level} : {message} - {additional information},1,True
+166,"{application}:{port} close, {bytes_sent} bytes ({KB_sent} KB) sent, {bytes_received} bytes ({KB_received} KB) received, lifetime {duration}",1,True
+172,"{website}:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes received, lifetime {duration}",1,True
+168,"{host}:{port} {action}, {bytes_sent} bytes sent, {bytes_received} bytes ({size}) received, lifetime {lifetime}",1,True
+169,"{server}: {port} {action}, {sent} bytes ({sent_kb} KB) sent, {received} bytes ({received_kb} KB) received, lifetime <{lifetime} sec>",1,True
+184,"{server}:{port} {status}, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",1,True
+183,"{IP}:{PORT} close, {BYTES_SENT} bytes sent, {BYTES_RECEIVED} bytes received, lifetime <{DURATION} sec>",1,True
+182,"{host}:{port} close, {bytes_sent} bytes ({kb_sent} KB) sent, {bytes_received} bytes received, lifetime {lifetime}",1,True
+181,{server}:{port} {action} through proxy {proxy}:{proxy_port} {protocol},1,True
+180,"{host}:{port} close, {bytes_sent} bytes ({kb_sent} KB) sent, {bytes_received} bytes ({kb_received} KB) received, lifetime {lifetime}",1,True
+179,"<server>:<port> <action>, <bytes sent> bytes sent, <bytes received> bytes received, lifetime <time>",1,True
+178,"{website}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes ({kb_received} KB) received, lifetime {lifetime}",1,True
+177,"{source}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1,True
+176,"{interface} close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1,True
+175,{component}:{severity} : {message},1,True
+174,{service}:{port} open through proxy {proxy} {protocol},1,True
+173,"{server}: {action}, {sent} bytes ({sent_kb} KB) sent, {received} bytes received, lifetime {lifetime}",1,True
+149,"{server}:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes received, lifetime <{lifetime} sec>",1,True
+171,"{server}:5070 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kb_received} KB) received, lifetime <{lifetime} sec>",1,True
+170,"{website}:{port} {action}, {bytes_sent} bytes ({KB_sent} KB) sent, {bytes_received} bytes received, lifetime {duration}",1,True
+150,"{server}:{port} {action}, {bytes_sent} bytes sent, {bytes_received} bytes ({kb_received} KB) received, lifetime <{lifetime}>",1,True
+143,<application>:<port> <action> through proxy <proxy>:<proxy_port> <protocol>,1,True
+148,{IP Address}:{Port} {Log Level} : {Log Message},1,True
+147,"{client}:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {duration}",1,True
+127,"{server}: {port} {action}, {bytes_sent} bytes sent, {bytes_received} bytes ({kb_received} KB) received, lifetime {duration}",1,True
+126,"{IP}:443 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1,True
+125,"{server}: {action}, {sent} bytes ({size}), {received} bytes received, lifetime <{time}>",1,True
+124,{IP}:{PORT} open through proxy {PROXY}:{PROXY_PORT} {PROTOCOL},1,True
+123,"{IP}:{PORT} close, {BYTES_SENT} bytes ({KB_SENT} KB) sent, {BYTES_RECEIVED} bytes ({KB_RECEIVED} KB) received, lifetime {LIFETIME}",1,True
+122,"{server}: {port} {action}, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime <{lifetime} sec>",1,True
+121,"{source}:{port} {action}, {bytes_sent} bytes sent, {bytes_received} bytes ({size}) received, lifetime {duration}",1,True
+120,{hostname}:{port} {level} : {message},1,True
+119,"{server}:{port} {action}, {sent} bytes ({sent_kb} KB) sent, {received} bytes received, lifetime <{lifetime} sec>",1,True
+118,"{server}: {port} {action}, {sent} bytes sent, {received} bytes received, lifetime <{time}>",1,True
+117,"{server}:5070 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes received, lifetime <{lifetime} sec>",1,True
+116,"{server}: {port} {action}, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_mb} MB) received, lifetime {lifetime}",1,True
+115,"{server}:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime <{lifetime}>",1,True
+114,{source}: {protocol} open through proxy {proxy}: {proxy_port} {proxy_protocol},1,True
+113,"{service}.{app}.{domain}:{port} {action}, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1,True
+128,"{hostname}:{port} {status}, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1,True
+129,"{server}: {port} close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1,True
+130,"{server}:5070 close, {bytes_sent} bytes sent, {bytes_received} bytes ({KB_received} KB) received, lifetime {lifetime}",1,True
+139,"notifications.google.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1,True
+146,"{server}:{port} close, {sent_bytes} sent, {received_bytes} received, lifetime {lifetime}",1,True
+145,"{i7.baidu.com}:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1,True
+144,"upload.{server}:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1,True
+142,"{server}:{port} {action}, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime <{duration} sec>",1,True
+141,"{i9.baidu.com}:{port} close, {sent} bytes sent, {received} bytes received, lifetime {lifetime}",1,True
+140,"capi.grammarly.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1,True
+138,{service}.{app}.{domain}:{port} {action} through proxy {proxy}:{proxy_port} {protocol},1,True
+131,"{hostname}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1,True
+137,{IP}:{PORT} {LEVEL} : {MESSAGE} - {EXCEPTION},1,True
+136,"{application}.{server}:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1,True
+135,"{i.ytimg.com}:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1,True
+134,"<hostname>:<port> close, <bytes_sent> bytes sent, <bytes_received> bytes received, lifetime <duration>",1,True
+133,"{host}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime <{duration} sec>",1,True
+132,"{service}:{port} {action}, {bytes_sent} bytes sent, {bytes_received} bytes ({size}) received, lifetime {duration}",1,True
+185,"{server}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes ({size_received}) received, lifetime {lifetime}",1,True

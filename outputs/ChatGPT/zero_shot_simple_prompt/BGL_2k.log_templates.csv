@@ -1,0 +1,204 @@
+,EventTemplate,Occurrences,Type
+0,generating core.{id},468,True
+1,generating core.{core_id},126,True
+2,{number} floating point alignment exceptions,91,True
+3,"CE sym %d, at %p, mask %x",86,True
+4,{message},76,True
+5,data TLB error interrupt,60,True
+6,"{total_interrupts} total interrupts. {critical_input_interrupts} critical input interrupts. {total_critical_interrupt_time} microseconds total spent on critical input interrupts, {max_critical_interrupt_time} microseconds max time in a critical input interrupt.",55,True
+7,iar {var1} dear {var2},45,True
+8,{number} {string} alignment exceptions,45,True
+9,{microseconds} microseconds spent in the rbs signal handler during {calls} calls. {max_time} microseconds was the maximum time for a single instance of a correctable ddr.,42,True
+10,generating core.%d,41,True
+11,ciod: Error loading {file_path}: {error_message},39,True
+13,No log template can be extracted from this log message as it does not contain any meaningful information or context.,35,True
+12,{idoproxydb hit ASSERT condition: ASSERT expression={expression} Source file={source_file} Source line={source_line} Function={function}},35,True
+14,ciod: generated {core_files} core files for program {program_path},27,True
+15,iar {} dear {},26,True
+16,N/A (unable to determine log template without additional context or information),25,True
+17,N/A (The provided log message does not contain any meaningful information or context to determine a log template),23,True
+18,generating core.{process_id},23,True
+19,instruction address: {},21,True
+20,{timestamp} {log_level} {message},20,True
+21,generating core.{number},18,True
+22,"{number} ddr errors(s) detected and corrected on rank {number}, symbol {number}, bit {number}",18,True
+23,ciod: {message},17,True
+25,N/A (There is no discernible pattern or information in the provided log message),16,True
+26,"ciod: Received signal {signal}, code={code}, errno={errno}, address={address}",16,True
+24,generating core.{variable},16,True
+27,"{total_interrupts} total interrupts. {critical_input_interrupts} critical input interrupts. {total_time_critical_input_interrupts} microseconds total spent on critical input interrupts, {max_time_critical_input_interrupt} microseconds max time in a critical input interrupt.",13,True
+28,<number> floating point alignment exceptions,13,True
+29,total of {} ddr error(s) detected and corrected,13,True
+30,ciod: LOGIN chdir({directory}) failed: {error message},12,True
+31,generating core.{value},12,True
+32,N/A (There is no clear indication of what this log message is trying to convey),11,True
+33,{count} {type} alignment exceptions,10,True
+34,data store interrupt caused by {cause},10,True
+35,{microseconds} microseconds spent in the rbs signal handler during {calls} calls. {max_microseconds} microseconds was the maximum time for a single instance of a correctable ddr.,9,True
+36,N/A (There is no clear indication of what this log message represents or what information it is conveying),9,True
+39,ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to {IP}:{PORT}: {MESSAGE},7,True
+40,core configuration register: {},7,True
+37,{count} floating point alignment exceptions,7,True
+38,MACHINE CHECK DCR read timeout (mc=e08x iar 0x00000000 lr 0xc00045a4),7,True
+41,rts: kernel terminated for reason {},6,True
+42,{number} double-hummer alignment exceptions,6,True
+43,"{number} ddr error(s) detected and corrected on rank {number}, symbol {number} over {number} seconds",6,True
+44,{Node} card is not fully functional,6,True
+45,Can not get assembly information for node card,6,True
+57,Node card status: no ALERTs are active. Clock Mode is {Clock Mode}. Clock Select is {Clock Select}. Phy JTAG Reset is {Phy JTAG Reset}. ASIC JTAG Reset is {ASIC JTAG Reset}. Temperature Mask is {Temperature Mask}. No temperature error. Temperature Limit Error Latch is {Temperature Limit Error Latch}. PGOOD IS {PGOOD}. PGOOD ERROR LATCH IS {PGOOD ERROR LATCH}. MPGOOD IS {MPGOOD}. MPGOOD ERROR LATCH IS {MPGOOD ERROR LATCH}. The 2.5 volt rail is {2.5 volt rail}. The 1.5 volt rail is {1.5 volt rail}.,5,True
+56,Lustre mount FAILED : {server} : point {mount_point},5,True
+54,<timestamp> <log level> <message>,5,True
+58,{ID} {Message},5,True
+59,{severity} input interrupt (unit={unit} bit={bit}): {message},5,True
+55,machine check: i-fetch......................0,5,True
+53,{code} floating point alignment exceptions,5,True
+51,program interrupt: privileged instruction...{},5,True
+50,exception syndrome register: {},5,True
+49,program interrupt: illegal instruction......0,5,True
+48,program interrupt: imprecise exception......0,5,True
+47,generating core.{port_number},5,True
+52,generating core.{year},5,True
+46,data address space................{},5,True
+67,program interrupt: fp cr field .............0,4,True
+68,machine state register: {},4,True
+73,iar {id} dear {code},4,True
+72,generating core.{version},4,True
+71,{timestamp} {message},4,True
+70,"ciod: {message} on CioStream socket to {ip}:{port}, {additional_info}",4,True
+69,"""data address: {}""",4,True
+65,Not enough information provided to determine the log template.,4,True
+66,"ciod: Error reading message prefix on CioStream socket to {IP}:{PORT}, Connection reset by peer",4,True
+64,data address: {},4,True
+63,{component}.........................{value},4,True
+62,floating point instr. enabled.....{},4,True
+61,total of {} ddr error(s) detected and corrected over {} seconds,4,True
+60,<number> <string> alignment exceptions,4,True
+84,"CE sym {int}, at {hex}, mask {hex}",3,True
+86,"ciod: Error reading message prefix on CioStream socket to {IP}:{PORT}, Link has been severed",3,True
+85,ciod: pollControlDescriptors: {message},3,True
+79,ciod: Error creating node map from file {file_path}: {error_message},3,True
+87,iar {id} dear {hash},3,True
+88,<ID> <DESCRIPTION>,3,True
+82,Ido chip status changed: {chip_id} ip={ip_address} v={version} t={type} status={status} {timestamp},3,True
+83,{module} {description} detected. {action},3,True
+74,program interrupt: illegal instruction......1,3,True
+81,{program} interrupt,3,True
+80,"problem state (0=sup,1=usr).......{}",3,True
+78,"{total_interrupts} total interrupts. {critical_input_interrupts} critical input interrupts. {total_microseconds} microseconds total spent on critical input interrupts, {max_microseconds} microseconds max time in a critical input interrupt.",3,True
+77,<timestamp> <log level> <log message>,3,True
+76,disable store gathering..................{},3,True
+75,{module} {description} detected. {action} to {result}.,3,True
+109,"Error receiving packet on tree network, expecting type {type1} instead of type {type2} (softheader={softheader}) PSR0={psr0} PSR1={psr1} PRXF={prxf} PIXF={pixf}",2,True
+110,ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to {IP}:{PORT}: Link has been severed,2,True
+111,"Kernel detected {integer alignment exceptions} ({}) iar {}, dear {} ({}) iar {}, dear {} ({}) iar {}, dear {} ({}) iar {}, dear {} ({}) iar {}, dear {} ({}) iar {}, dear {} ({}) iar {}, dear {}",2,True
+115,ciod: LOGIN chdir(<directory>) failed: <error>,2,True
+112,ciod: LOGIN chdir({directory}) failed: {error},2,True
+113,"Node card VPD check: {node} node in processor card slot {slot} do not match. VPD ecid {ecid}, found {found_ecid}",2,True
+114,N/A (unable to determine log template from provided log message),2,True
+107,ciod: failed to read message prefix on control stream (CioStream socket to %s:%d),2,True
+116,"Kernel detected {integer alignment exceptions} ({}) iar {}, dear {} ({}) iar {}, dear {} ({}) iar {}, dear {} ({}) iar {}, dear {} ({}) iar {}, dear {} ({}) iar {}, dear {} ({})",2,True
+117,Lustre mount FAILED : {node} : point {mount_point},2,True
+118,N/A (There is not enough information to determine the log template),2,True
+119,ciod: generated {core files} for program {program path},2,True
+120,"ciod: Error reading message prefix on CioStream socket to {IP}:{PORT}, Connection timed out",2,True
+121,"CE sym {}, at {}, mask {}",2,True
+122,"Error receiving packet on tree network, expecting type {expected_type} instead of type {received_type} (softheader={softheader} PSR0={PSR0} PSR1={PSR1} PRXF={PRXF} PIXF={PIXF})",2,True
+123,<number> tree receiver <number> in re-synch state event(s) (dcr <hexadecimal>) detected,2,True
+108,store operation.............................{},2,True
+101,{timestamp} {module} {message},2,True
+106,<number> tree receiver <number> in re-synch state event(s) (dcr <hexadecimal>) detected over <number> seconds,2,True
+96,"Kernel detected {integer alignment exceptions} ({}) iar {hexadecimal address}, dear {hexadecimal address} ({}) iar {hexadecimal address}, dear {hexadecimal address} ({}) iar {hexadecimal address}, dear {hexadecimal address} ({}) iar {hexadecimal address}, dear {hexadecimal address} ({}) iar {hexadecimal address}, dear {hexadecimal address} ({}) iar {hexadecimal address}, dear {hexadecimal address} ({}) iar {hexadecimal address}, dear {hexadecimal address}",2,True
+105,ciod: LOGIN chdir(pwd) failed: {reason},2,True
+89,floating pt ex mode %d enable......%d,2,True
+90,debug wait enable.................{},2,True
+91,{component} {description}................{value},2,True
+92,{error_message}.....................{error_code},2,True
+94,{message} - stopping execution,2,True
+95,guaranteed instruction cache block touch.{0},2,True
+93,ciod: Missing or invalid fields on line {line_number} of node map file {file_path},2,True
+97,{number} torus receiver {direction} input pipe error(s) (dcr {hexadecimal_code}) detected and corrected,2,True
+98,program interrupt: {error_message}.{error_code},2,True
+99,floating pt ex mode %s enable......%s,2,True
+100,machine check enable..............{},2,True
+102,Ido chip status changed: {ido_chip} ip={ip_address} v={version} t={type} status={status} {timestamp},2,True
+103,New ido chip inserted into the database: {ido_chip} ip={ip_address} v={version} t={type},2,True
+104,force load/store alignment...............{},2,True
+173,ciod: Message code {} is not {} or {},1,True
+180,guaranteed data cache block touch........{},1,True
+179,{parameter}....................{value},1,True
+178,Lustre mount FAILED : {hostname} : {block_id} : {location},1,True
+177,wait state enable.................{},1,True
+176,2021-10-01 14:30:00 torus ERROR retransmission error(s) (dcr 0x02f9) detected and corrected over 268 seconds,1,True
+175,minus normalized number..................{},1,True
+174,2021-10-01 10:30:45.123 torus ERROR retransmission error(s) (dcr 0x02f9) detected and corrected over 198 seconds,1,True
+165,"ciod: Error loading {file_path}: program image too big, {size} > {max_size}",1,True
+172,"Node card VPD check: U11 node in processor card slot J10 do not match. VPD ecid {}, found {}",1,True
+171,"Node card VPD check: U11 node in processor card slot J04 do not match. VPD ecid {}, found {}",1,True
+170,"Error receiving packet on tree network, expecting type {type1} instead of type {type2} (softheader={header}) PSR0={psr0} PSR1={psr1} PRXF={prxf} PIXF={pixf}",1,True
+169,fpr29={hexadecimal value} {hexadecimal value} {hexadecimal value} {hexadecimal value},1,True
+168,{number} L3 EDRAM error(s) (dcr {hexadecimal}) detected and corrected,1,True
+167,{number} torus receiver z+ input pipe error(s) (dcr {hexadecimal code}) detected and corrected,1,True
+166,{number} L3 EDRAM error(s) (dcr {hexadecimal}) detected and corrected over {number} seconds,1,True
+182,"Kernel detected {integer alignment exceptions} ({}) iar {hexadecimal value}, dear {hexadecimal value} ({}) iar {hexadecimal value}, dear {hexadecimal value} ({}) iar {hexadecimal value}, dear {hexadecimal value} ({}) iar {hexadecimal value}, dear {hexadecimal value} ({}) iar {hexadecimal value}, dear {hexadecimal value} ({}) iar {hexadecimal value}, dear {hexadecimal value} ({}) iar {hexadecimal value}, dear {hexadecimal value}",1,True
+181,"Kernel detected {integer alignment exceptions} ({}) iar {hexadecimal address}, dear {hexadecimal address} ({}) iar {hexadecimal address}, dear {hexadecimal address} ({}) iar {hexadecimal address}, dear {hexadecimal address} ({}) iar {hexadecimal address}, dear {hexadecimal address} ({}) iar {hexadecimal address}, dear {hexadecimal address} ({}) iar {hexadecimal address}, dear {hexadecimal address} ({})",1,True
+190,"ciod: {message} on CioStream socket to {ip}:{port}, {cause}",1,True
+183,program interrupt: fp cr update.............{},1,True
+184,floating pt ex mode % enable......%,1,True
+201,"Node card VPD check: U11 node in processor card slot J18 do not match. VPD ecid {}, found {}",1,True
+200,program interrupt: trap instruction.........0,1,True
+199,"Kernel detected {integer alignment exceptions} (iar {hexadecimal value}), dear {hexadecimal value} (iar {hexadecimal value}), dear {hexadecimal value} (iar {hexadecimal value}), dear {hexadecimal value} (iar {hexadecimal value}), dear {hexadecimal value} (iar {hexadecimal value}), dear {hexadecimal value} (iar {hexadecimal value}), dear {hexadecimal value}",1,True
+198,"PrepareForService shutting down Node card(mLctn(%s), mCardSernum(%s), mLp(%s), mIp(%s), mType(%s)) as part of Service Action %s",1,True
+197,Lustre mount FAILED : {hostname} : {error_type} : {error_details},1,True
+196,size of scratchpad portion of L3.........{} ({}),1,True
+195,debug interrupt enable............{},1,True
+194,ciod: cpu {} at treeaddr {} sent unrecognized message {},1,True
+193,dbcr0=0x%s dbsr=0x%s ccr0=0x%s,1,True
+192,"""special purpose registers:""",1,True
+191,ciod: failed to read message prefix on control stream (CioStream socket to {IP}:{PORT}),1,True
+163,r24={r24} r25={r25} r26={r26} r27={r27},1,True
+189,<severity> input interrupt enable...0,1,True
+188,16736445 floating point alignment exceptions,1,True
+187,<date> <message>,1,True
+186,"CE sym {SYM}, at {ADDRESS}, mask {MASK}",1,True
+185,"<number> ddr error(s) detected and corrected on rank <number>, symbol <number> over <number> seconds",1,True
+164,Lustre mount FAILED : [node] : point [mount point],1,True
+155,N/A (There is no specific information in the log message to create a template),1,True
+162,ciod: generated {core_files} core files for program {program_name},1,True
+132,"NFS Mount failed on {server}, slept {seconds} seconds, retrying ({attempt})",1,True
+139,"NFS Mount failed on {server}, slept {seconds} seconds, retrying ({retry_count})",1,True
+138,generating core.{core_number},1,True
+137,39190074 double-hummer alignment exceptions,1,True
+136,"rts: kernel terminated for reason {reason}rts: bad message header: invalid cpu, type={type}, cpu={cpu}, index={index}, total={total}",1,True
+135,New ido chip inserted into the database: {ido_chip_id} ip={ip_address} v={version} t={type},1,True
+134,{Component} is not fully functional,1,True
+133,"No clear log template can be extracted from this log message as it appears to be a random string of characters. A log message typically contains information about an event or error that has occurred, and should include relevant details such as a timestamp, severity level, and a description of the event.",1,True
+131,generating core.%Y,1,True
+141,"Node card status: ALERT {alert_num}, Clock Mode is {clock_mode}, Clock Select is {clock_select}, Phy JTAG Reset is {phy_jtag_reset}, ASIC JTAG Reset is {asic_jtag_reset}, Temperature Mask is {temp_mask}, Temperature Limit Error Latch is {temp_limit_error}, PGOOD is {pgood}, MPGOOD is {mpgood}, The 2.5 volt rail is {volt_2_5}, The 1.5 volt rail is {volt_1_5}.",1,True
+130,"Node card VPD check: U01 node in processor card slot J14 do not match. VPD ecid {ecid}, found {found}",1,True
+129,{count} double-hummer alignment exceptions,1,True
+128,"PrepareForService shutting down NodeCard(mLctn({}), mCardSernum({}), mLp({}), mIp({}), mType({})) as part of Service Action 310",1,True
+127,N/A (There is no clear indication of what this log message represents or what information it is trying to convey),1,True
+126,rts tree/torus link training failed: wanted: {} {} {}+ {}- {}+ {}- {}+ {}- got: {} {} {}- {}- {}+ {}- {}+ {}-,1,True
+125,{number} torus receiver {axis} input pipe error(s) (dcr {hexadecimal_code}) detected and corrected,1,True
+124,"Node card VPD check: U11 node in processor card slot J16 do not match. VPD ecid {ecid}, found {found}",1,True
+140,Lustre mount FAILED : {server_name} : point {mount_point},1,True
+142,ciod: Z coordinate {Z_COORDINATE} exceeds physical dimension {PHYSICAL_DIMENSION} at line {LINE_NUMBER} of node map file {NODE_MAP_FILE},1,True
+161,"""exception syndrome register: {}""",1,True
+152,<timestamp> <module> <severity> <message>,1,True
+160,<timestamp> <log message>,1,True
+159,16604010 floating point alignment exceptions,1,True
+158,lr:{lr} cr:{cr} xer:{xer} ctr:{ctr},1,True
+157,instruction address space.........{},1,True
+156,<component>.........................<value>,1,True
+154,"ciod: In packet from node {node_id} ({node_name}), message code {message_code} is not {expected_code} or {unexpected_code} (softheader={softheader})",1,True
+153,generating {component}.{status_code},1,True
+151,rts: bad message header: expecting type {} instead of type {} (softheader={} {} {} {}) PSR0={} PSR1={} PRXF={} PIXF={},1,True
+143,ciod: Error loading [FILE_PATH]: [ERROR_MESSAGE],1,True
+150,"Node card VPD check: U01 node in processor card slot J08 do not match. VPD ecid {ecid}, found {found_ecid}",1,True
+149,"Node card VPD check: {node} node in processor card slot {slot} do not match. VPD ecid {vpd_ecid}, found {found_vpd_ecid}",1,True
+148,ciod: duplicate canonical-rank {rank} to logical-rank {rank} mapping at line {line} of node map file {file},1,True
+147,ciod: LOGIN chdir($directory) failed: $error,1,True
+146,ciod: Error creating node map from file [file path]: [error message],1,True
+145,iar {1} dear {2},1,True
+144,<error code> <error message>,1,True
+202,Machine State Register: {},1,True

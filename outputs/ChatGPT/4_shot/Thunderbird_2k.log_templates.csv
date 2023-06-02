@@ -1,0 +1,200 @@
+,EventTemplate,Occurrences
+0,session closed for user {username},24
+1,session opened for user {username} by (uid={uid}),19
+2,({user}) CMD ({command}),14
+3,data_thread() got not answer from any [{datasource}] datasource,622
+4,{function_name}() got not answer from any [{data_source}] datasource,171
+5,"synchronized to {ip}, stratum {stratum}",568
+6,[ib_sm_sweep.c:{process_id}]: ********************** NEW SWEEP ********************,62
+7,[ib_sm_sweep.c:{line_number}]: No topology change,22
+8,[ib_sm_sweep.c:{line_number}]: No configuration change required,56
+9,{function_name}() got not answer from any [{service}] datasource,26
+10,{reason} disconnected: {message}.,3
+11,connection lost: '{reason}',3
+12,[ib_sm_sweep.c:{process_id}]: No topology change,25
+13,unable to qualify my own domain name ({hostname}) -- using short name,10
+14,"{id}: from={sender}, size={size}, class={class}, nrcpts={recipients}, msgid=<{msgid}>, relay=#{relay}#@{host}",1
+15,"jA9J1UvC004306: to={to}, ctladdr={ctladdr} ({ctladdr_count}/{ctladdr_total}), delay={delay}, xdelay={xdelay}, mailer={mailer}, pri={pri}, relay=[{relay_ip}] [{relay_hostname}], dsn={dsn}, stat={stat}",1
+16,"jA9J1Wd7019391: from={sender}, size={size}, class={class}, nrcpts={nrcpts}, msgid={msgid}, relay={relay}",1
+17,"jA9J1Wd7019391: to={recipient}, ctladdr={sender} ({ctladdr}), delay={delay}, xdelay={xdelay}, mailer={mailer}, pri={pri}, relay={relay} [{relay_host}], dsn={dsn}, stat={status}",1
+18,"jA9J1WSU011176: from={sender}, size={size}, class={class}, nrcpts={nrcpts}, msgid={msgid}, relay={relay}",1
+19,"jA9J1WSU011176: to={to}, ctladdr={ctladdr} ({ctladdr_count}/{ctladdr_total}), delay={delay}, xdelay={xdelay}, mailer={mailer}, pri={pri}, relay=[{relay_ip}] [{relay_hostname}], dsn={dsn}, stat={stat}",1
+20,"jA9J1WFE024258: from={from}, size={size}, class={class}, nrcpts={nrcpts}, msgid=<{msgid}>, relay=#{relay}#@{hostname}",1
+21,"jA9J1WFE024258: to={to}, ctladdr={ctladdr} ({ctladdr_id}), delay={delay}, xdelay={xdelay}, mailer={mailer}, pri={pri}, relay=[{relay_ip}] [{relay_hostname}], dsn={dsn}, stat={stat}",1
+22,{dhcp_type} from {mac_address} via {interface},3
+23,DHCPOFFER on {ip} to {mac} via {interface},5
+24,"jA9J1dQ7016560: from={sender}, size={size}, class={class}, nrcpts={nrcpts}, msgid={msgid}, relay={relay}",1
+25,"jA9J1dQ7016560: to={recipient}, ctladdr={sender} ({ctladdr}), delay={delay}, xdelay={xdelay}, mailer={mailer}, pri={pri}, relay={relay} [{relay_host}] [{dsn}], stat={stat}",1
+26,DHCPDISCOVER from {mac_address} via {interface}: {network}: no free leases,11
+27,[ib_sm_sweep.c:{process_id}]: No configuration change required,4
+28,DHCPACK on {ip} to {mac} via {interface},3
+29,DHCPREQUEST for {requested_ip} ({server_ip}) from {mac_address} via {interface},3
+30,START: tftp pid={pid} from={ip},1
+31,DHCPREQUEST for {requested_ip} ({server_ip}) from {mac_address} via {interface}: {message},7
+32,{action} from {mac_address} via {interface},2
+33,{dhcp_action} from {mac_address} via {interface}: network {network_name}: {error_message},2
+34,{action} from {mac_address} via {interface}: network {network_name}: {error_message},2
+35,DHCPREQUEST for {ip} ({ip}) from {mac} via {interface}: {message},2
+36,[ib_sm_sweep.c:{line_number}]: {message},17
+37,RRD_update ({path}): illegal attempt to update using time {timestamp} when last update time is {timestamp} (minimum one second step),11
+38,kernel time sync disabled {code},1
+39,time reset {offset} s,1
+40,Received SNMP packet(s) from {source},1
+41,kernel time sync enabled {status},1
+42,({user}) CMD ({command} {argument}),2
+43,(root) CMD ({command} {argument}),1
+44,(root) CMD ({command} c),1
+45,(root) CMD ({path} {arg}),1
+46,My unqualified host name ({hostname}) unknown; sleeping for retry,5
+47,{os_name}-{os_version} (Kernel Module {module_name} key),1
+48,({supports}),1
+49,DSDT (v001 {manufacturer} {product} 0x{version} {oem} 0x{revision}) @ {memory_address},1
+50,{table} (v{version} {manufacturer} {product} 0x{flags_hex} {oem_id} 0x{oem_table_id}) @ {address},1
+51,HPET (v001 {manufacturer} {product_name} 0x{product_id} {oem_id} 0x{oem_revision}) @ {memory_address},1
+52,HPET id: {id} base: {base},1
+53,INT_SRC_OVR (bus {bus} bus_irq {bus_irq} global_irq {global_irq} dfl {dfl1} {dfl2}),1
+54,INT_SRC_OVR (bus {bus} bus_irq {bus_irq} global_irq {global_irq} {level} level),1
+55,IOAPIC (id[{id}] address[{address}] gsi_base[{gsi_base}]),3
+56,{message},8
+57,{action} enabled,1
+58,LAPIC (acpi_id[{acpi_id}] lapic_id[{lapic_id}] enabled),1
+59,LAPIC (acpi_id[0x{acpi_id}] lapic_id[0x{lapic_id}] enabled),3
+60,{event_type} (acpi_id[0x{acpi_id}] {edge_type} edge lint[0x{lint}]),3
+61,{event_type} (acpi_id[0x{acpi_id}] {edge_type} lint[0x{lint}]),1
+62,Local APIC address {address},1
+63,MADT (v001 {manufacturer} {product} 0x{revision} {oem_id} 0x{table_id}) @ {address},1
+64,MCFG (v{version} {manufacturer} {product} 0x{code} {company} 0x{company_code}) @ {address},1
+65,PCI Interrupt Link [LNKA] (IRQs {irqs}) *{number},1
+66,PCI Interrupt Link [LNKB] (IRQs {irqs}),1
+67,PCI Interrupt Link [LNKC] (IRQs {irqs}) *{number},1
+68,"PCI Interrupt Link [LNKD] (IRQs {irqs}) *{value}, {status}.",1
+69,"{device} Interrupt Link [{link}] (IRQs {irqs}) *{status}, {action}.",3
+70,"PCI Interrupt Link [LNKH] (IRQs {irqs}) *{status}, disabled.",1
+71,{pci_device} Interrupt Routing Table [{pci_path}],6
+72,{pci_device} Interrupt Routing Table [\{pci_path\}],1
+73,{pci_device} Interrupt Routing Table [\{pci_path}\],1
+74,{description} [\{path}],2
+75,{device_type} [{device_name}] ({device_id}),1
+76,"PCI interrupt {device}[{type}] -> GSI {gsi} ({trigger}, {polarity}) -> IRQ {irq}",10
+77,"PCI interrupt {pci_address} -> GSI {gsi} ({trigger_type}, {polarity}) -> IRQ {irq_number}",1
+78,{event} ({code}) [{status}],1
+79,Processor [CPU{cpu_number}] (supports {support_type}),2
+80,Processor [CPU{cpu_number}] (supports {support_level}),2
+81,{header} (v{version} {manufacturer} ) @ {address},1
+82,{header} (v{version} {manufacturer} {product} {revision} {oem_id} {oem_table_id}) @ {address},1
+83,{system} (v{version} {manufacturer} {model} 0x{serial_number} {os_manufacturer} 0x{os_version}) @ {memory_address},1
+84,Subsystem revision {revision},1
+85,Using {method} for interrupt routing,1
+86,{processor_brand},1
+87,L2 cache: {size},5
+88,Physical Processor ID: {id},5
+89,"Trace cache: {trace_cache} uops, L1 D cache: {l1_cache}",4
+90,"Trace cache: {trace_cache_size} uops, L1 D cache: {l1_cache_size}",1
+91,{colour} VGA+ {resolution},1
+92,mounted filesystem with ordered data mode.,3
+93,"{filename},v {version} {date} {time} {author} Exp $",1
+94,"apic_id {id}, version {version}, address {address}, GSI {gsi}",3
+95,"{description} hash table of {buckets} buckets, {memory}",1
+96,PCI Hot Plug PCI Core version: {version},1
+97,root={root} initrd={initrd} console={console1} console={console2} fastboot BOOT_IMAGE={boot_image},1
+98,Registered protocol family {family},5
+99,Using software bounce buffering for IO ({buffer_type}),1
+100,Probing PCI hardware (bus {bus}),1
+101,Transparent bridge - {device},1
+102,Using ACPI for IRQ routing,1
+103,Using MMCONFIG at {address},1
+104,Using configuration type {config_type},1
+105,Compressed image found at block {block_number},1
+106,{reason} at runtime.,1
+107,Initializing.,1
+108,Registering netfilter hooks,1
+109,Starting in {mode} mode,1
+110,Unregistering {module} hooks,1
+111,{action} (established {established} bind {bind}),1
+112,Direct-Access ANSI SCSI revision: {revision},1
+113,Processor ANSI SCSI revision: {revision},1
+114,{operation} quotas {module},1
+115,Mounted root ({filesystem} filesystem).,1
+116,MegaRAID Model: {model} {raid_level} {capacity} Rev: {revision},1
+117,{product} Model: {model} SCSI BP Rev: {revision},1
+118,initialized,1
+119,initializing netlink socket ({status}),1
+120,passed.,1
+121,{version} (YYYY-MM-DD) initialised: #{number}#@#{number}#,1
+122,allocating divert_blk for {interface},1
+123,allocating {block_type} for {interface},1
+124,not allocating divert_blk for non-ethernet device {device},2
+125,v{version}:USB HID core driver,1
+126,eth0: {function_name}: {device_name},1
+127,eth0: e1000_watchdog: NIC Link is Up {speed} Mbps {duplex},1
+128,eth{interface_number}: {driver_name}: {device_name},1
+129,no {device} controllers found,1
+130,{error_type} not detected,1
+131,Wait for ready failed before probe !,1
+132,Assuming {bus_speed} system bus speed for PIO modes; override with idebus={override},1
+133,Unknown cmd fd({fd}) cmd({cmd}){00} arg({arg}) on {device},1
+134,({text}),1
+135,(C) 2000-2002 Netfilter core team,3
+136,Installing public key data,1
+137,... autorun DONE.,2
+138,Autodetecting RAID arrays.,2
+139,autorun ...,2
+140,"{module} driver {version} MAX_MD_DEVS={max_md_devs}, MD_SB_DISKS={md_sb_disks}",1
+141,#{number}#-{name} (Release Date: {date}),1
+142,#{version_number}# (Release Date: {release_date}),1
+143,fw version:[{fw_version}] bios version:[{bios_version}],1
+144,probe new device {vendor_id}:{product_id}:{subsystem_vendor_id}:{subsystem_id}: bus {bus}:slot {slot}:func {func},1
+145,{device_type} device common for all {device_type_plural},1
+146,v{version} ({date}),1
+147,{process} startup succeeded,1
+148,{service} startup succeeded,3
+149,Starting {process}: {status},1
+150,Version {version} Starting,1
+151,{driver} driver,1
+152,scanning scsi channel {channel} [Phy {phy}] for non-raid devices,1
+153,scanning scsi channel {channel} [{type}] for logical drives,1
+154,asking for {data_type} data failed,1
+155,assuming drive cache: {cache_mode},1
+156,{disk} {disk} {disk} {disk},1
+157,Registering {module_type} module capability,1
+158,{device} AUX port at {port_address} irq {irq_number},1
+159,{device} port at {port_address} irq {irq_number},1
+160,{application} startup succeeded,1
+161,{application} version {version} starting,1
+162,Detected {frequency} MHz processor.,1
+163,Using {frequency} MHz HPET timer.,1
+164,Using HPET based timekeeping.,1
+165,Creating Topspin {device} entries:,1
+166,registered new driver {driver},4
+167,probe of {device} failed with error {error_code},1
+168,"connection from ""{source}""",2
+169,"User #{user_id}#, coming from #{source}#, authenticated.",2
+170,Now running on #{user}'s privileges.,2
+171,Mounting NFS filesystems: {status},1
+172,Mounting {filesystem}: failed,1
+173,Warning: we failed to resolve data source name {data_sources},31
+174,Warning: we failed to resolve data source name {data_source_names},2
+175,Warning: we failed to resolve data source name {source_names},1
+176,Warning: we failed to resolve trusted host name {hostname},1
+177,{status},2
+178,{event} listening on {ip} port {port}.,1
+179,error: Bind to port {port} on {ip} failed: {reason},1
+180,Cannot open file {file_path} for writing ({error_message}),1
+181,Changing permissions on special file {file_path},1
+182,Reading included configuration file: {file} [file={config_file}] [line={line_number}],1
+183,Reading included configuration file: {file} [file={file}] [line={line}],16
+184,Started working: {count} available service,1
+185,removing {service},14
+186,removing {variable},2
+187,{application} Version {version} started with {library} {option} options compiled in.,1
+188,"jA9JBVPb007417: from={sender}, size={size}, class={class}, nrcpts={nrcpts}, msgid={msgid}, relay={relay}",1
+189,"jA9JBVPb007417: to={to}, ctladdr={ctladdr} ({ctladdr_id}/{ctladdr_id}), delay={delay}, xdelay={xdelay}, mailer={mailer}, pri={pri}, relay=[{relay_ip}] [{relay_hostname}], dsn={dsn}, stat={stat}",1
+190,"jA9JBWxH019649: from={from}, size={size}, class={class}, nrcpts={nrcpts}, msgid={msgid}, relay={relay}",1
+191,"jA9JBWxH019649: to={to}, ctladdr={ctladdr} ({ctladdr_count}/{ctladdr_total}), delay={delay}, xdelay={xdelay}, mailer={mailer}, pri={pri}, relay=[{relay_ip}] [{relay_hostname}], dsn={dsn}, stat={stat}",1
+192,"jA9JBWEr014256: from={sender}, size={size}, class={class}, nrcpts={nrcpts}, msgid={msgid}, relay={relay}",1
+193,"jA9JBWEr014256: to={to}, ctladdr={ctladdr} ({ctladdr_count}/{ctladdr_total}), delay={delay}, xdelay={xdelay}, mailer={mailer}, pri={pri}, relay=[{relay_ip}] [{relay_hostname}], dsn={dsn}, stat={stat}",1
+194,"jA9JBXgf022479: from={from}, size={size}, class={class}, nrcpts={nrcpts}, msgid={msgid}, relay={relay}",1
+195,"jA9JBXgf022479: to={to}, ctladdr={ctladdr} ({ctladdr_id}/{ctladdr_id}), delay={delay}, xdelay={xdelay}, mailer={mailer}, pri={pri}, relay=[{relay_ip}] [{relay_hostname}], dsn={dsn}, stat={stat}",1
+196,"jA9JBXVI027337: from={sender}, size={size}, class={class}, nrcpts={nrcpts}, msgid={msgid}, relay={relay}",1
+197,"jA9JBXVI027337: to={to}, ctladdr={ctladdr} ({ctladdr_count}/{ctladdr_total}), delay={delay}, xdelay={xdelay}, mailer={mailer}, pri={pri}, relay=[{relay_ip}] [{relay_hostname}], dsn={dsn}, stat={stat}",1
+198,"Device: {device}, Temperature changed {old_temp} Celsius to {new_temp} Celsius since last report",1

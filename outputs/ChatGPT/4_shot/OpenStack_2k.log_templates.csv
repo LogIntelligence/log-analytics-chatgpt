@@ -1,0 +1,52 @@
+,EventTemplate,Occurrences
+0,"{ip_address} ""GET {endpoint}"" status: {status} len: {len} time: {time}",927
+1,[instance: {instance_id}] VM Started (Lifecycle Event),22
+2,[instance: {instance_id}] VM Paused (Lifecycle Event),22
+3,[instance: {instance_id}] During sync_power_state the instance has a pending task ({task}). Skip.,43
+4,image {instance} at ({path}): checking,82
+5,"image {instance} at ({path}): in use: on this node {count} local, {count} on other nodes sharing this instance storage",82
+6,Active base files: {path},82
+7,Creating event {event}: {instance},5
+8,"{ip_address} ""POST {endpoint}"" status: {status} len: {len} time: {time}",64
+9,[instance: {instance_id}] VM Resumed (Lifecycle Event),44
+10,[instance: {instance_id}] Instance spawned successfully.,22
+11,[instance: {instance_id}] Took {time} seconds to spawn the instance on the hypervisor.,22
+12,[instance: {instance_id}] Took {time} seconds to build instance.,22
+13,Auditing locally available compute resources for node {node},15
+14,"Total usable vcpus: {total_usable_vcpus}, total allocated vcpus: {total_allocated_vcpus}",15
+15,Final resource view: name={name} phys_ram={phys_ram}MB used_ram={used_ram}MB phys_disk={phys_disk}GB used_disk={used_disk}GB total_vcpus={total_vcpus} used_vcpus={used_vcpus} pci_stats={pci_stats},9
+16,Compute_service record updated for {hostname}:{hostname},15
+17,"{ip_address} ""DELETE {endpoint}"" status: {status} len: {len} time: {time}",21
+18,[instance: {instance_id}] Terminating instance,22
+19,[instance: {instance_id}] Instance destroyed successfully.,22
+20,[instance: {instance_id}] Deleting instance files {path},21
+21,[instance: {instance_id}] Deletion of {path} complete,21
+22,[instance: {instance_id}] Took {time} seconds to destroy the instance on the hypervisor.,21
+23,[instance: {instance_id}] Took {time} seconds to deallocate network for instance.,21
+24,Unknown base file: {path},30
+25,Removable base files: {path},30
+26,Removing base or swap file: {path},21
+27,HTTP exception thrown: No instances found for any event,21
+28,"[instance: {instance_id}] Attempting claim: memory {memory} MB, disk {disk} GB, vcpus {vcpus} CPU",21
+29,"[instance: {instance_id}] Total memory: {total_memory} MB, used: {used_memory} MB",21
+30,"[instance: {instance_id}] memory limit: {memory_limit} MB, free: {memory_free} MB",21
+31,"[instance: {instance_id}] Total disk: {total_disk} GB, used: {used_disk} GB",21
+32,"[instance: {instance_id}] disk limit not specified, defaulting to unlimited",21
+33,"[instance: {instance_id}] Total vcpu: {total_vcpu} VCPU, used: {used_vcpu} VCPU",21
+34,"[instance: {instance_id}] vcpu limit not specified, defaulting to unlimited",21
+35,[instance: {instance_id}] Claim successful,21
+36,[instance: {instance_id}] Creating image,21
+37,[instance: {instance_id}] VM Stopped (Lifecycle Event),21
+38,Creating event network-vif-plugged:{event_id} for instance {instance_id},13
+39,Successfully synced instances from host '{host}'.,2
+40,"{ip_addresses} ""GET {endpoint}"" status: {status} len: {len} time: {time}",2
+41,Running instance usage audit for host {host} from {start_time} to {end_time}. {count} instances.,1
+42,Creating event {event_type} for instance {instance_id},2
+43,Base or swap file too young to remove: {path},9
+44,Final resource view: name={name} phys_ram={phys_ram} used_ram={used_ram} phys_disk={phys_disk} used_disk={used_disk} total_vcpus={total_vcpus} used_vcpus={used_vcpus} pci_stats={pci_stats},6
+45,The instance sync for host '{host}' did not match. Re-created its InstanceList.,5
+46,Creating event {event}: {id} for instance {instance},1
+47,"""{ip_address} \""DELETE {endpoint}\"" status: {status} len: {len} time: {time}""",1
+48,"While synchronizing instance power states, found {num_db} instances in the database and {num_hypervisor} instances on the hypervisor.",1
+49,"{ip_address} ""{method} {endpoint} HTTP/1.1"" status: {status} len: {len} time: {time}",2
+50,Creating event {event} for instance {instance},1

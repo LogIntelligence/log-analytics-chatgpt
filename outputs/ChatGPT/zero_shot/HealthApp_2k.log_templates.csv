@@ -1,0 +1,94 @@
+,EventTemplate,Occurrences
+0,onStandStepChanged {step},254
+1,onExtend:{timestamp} {int1} {int2} {int3},3
+2,onReceive action: {action},34
+3,processHandleBroadcastAction action:{action},161
+4,flush sensor data,17
+5,getTodayTotalDetailSteps = {timestamp}##{var1}##{var2}##{var3}##{var4}##{var5},111
+6,setTodayTotalDetailSteps={timestamp}##{var1}##{var2}##{var3}##{var4}##{var5},212
+7,calculateCaloriesWithCache totalCalories={totalCalories},241
+8,calculateAltitudeWithCache totalAltitude={totalAltitude},241
+9,REPORT : {var1} {var2} {var3} {var4},131
+10,onExtend:{timestamp} {value1} {value2} {value3},158
+11,onExtend:{timestamp} {number1} {number2} {number3},112
+12,getTodayTotalDetailSteps = {timestamp}##{value1}##{value2}##{value3}##{value4}##{value5},98
+13,isScreenOn {boolean},1
+14,"screen status {status},think screen {action}",1
+15,onStandStepChanged {int},6
+16,REPORT : {int} {int} {int} {int},5
+17,flushTempCacheToDB by {variable},1
+18,Alarm uploadStaticsToDB totalSteps={totalSteps} Calories:{calories} Floor:{floor} Distance:{distance},1
+19,writeDataToDB size {size},1
+20,upLoadOneMinuteDataToEngine time={time},5
+21,getBinderPackageName packageName = {packageName},8
+22,"getAppContext() isAppValid {string} or {string}, packageName = {string}",2
+23,insertHiHealthData() checkAppType {0} appID = {1},1
+24,"insertHiHealthData() size = {size},app = {app},One Data Type = {dataType},packageName = {packageName},writeStatType = {writeStatType}",2
+25,"saveHealthDetailData() deviceID = {deviceID},clientID={clientID},id={id}",2
+26,"saveStatData() type ={type},time = {time},statClient = {statClient},who is {who}",4
+27,"new date ={date}, type={type},{value},old={old}",13
+28,"saveHealthDetailData() saveOneDetailData fail hiHealthData = {hiHealthData},type = {type}",2
+29,"bulkSaveDetailHiHealthData() size = {size},totalTime = {totalTime}",2
+30,startListenerChange subscribeList = [{subscribeList}],2
+31,"insertHiHealthData() bulkSaveDetailHiHealthData fail errorCode = {errorCode},errorMessage = {errorMessage}",1
+32,insertHiHealthData() end totalTime = {totalTime},2
+33,uploadStaticsToDB() onResult type = {type} obj={obj},1
+34,uploadStaticsToDB failed message={},1
+35,checkInsertStatus stepSum or calorieSum is enough,2
+36,checkInsertStatus {stepOrCalorie} is enough,2
+37,"stepSyncOrNot appSynTimes is {appSynTimes}, statsyncTimes is {statsyncTimes}",2
+38,"startInsertSportSync start auto sync,app is {app}",2
+39,"checkFirstSyncByType no such data in db ,type is {type} deviceCode is {deviceCode}",2
+40,"startInsertSportSync first {int} steps sync,{string} all sync",2
+41,"startSync hiSyncOption = HiSyncOption{syncAction=?, syncMethod=?, syncScope=?, syncDataType=?, syncModel=?, pushAction=?},app = ? who = ?",5
+42,insertHiHealthData() checkAppType {int} appID = {int},1
+43,needAutoSync {autoSyncSwitch} is {status},5
+44,"initDataPrivacy the {variable1} switch is {variable2}, start push health data!",5
+45,initDataPrivacy the dataPrivacy is {boolean},5
+46,"initUserPrivacy the {userPrivacy} switch is {status}, start push user data!",5
+47,initUserPrivacy the userPrivacy is {boolean},5
+48,if{variable1} not! {variable2} cloud version,5
+49,{}FailedBroadcast,5
+50,"new date ={date}, type={type},{value1},old={value2}",2
+51,"new date ={date}, type={type},{value},old={value}",1
+52,"new date ={date}, type={type},{new_value},old={old_value}",1
+53,"saveRealTimeHealthDatasStat() size = {size},totalTime = {totalTime}",1
+54,InsertCallBack() onSuccess type = {type} data={data},1
+55,InsertEvent {status} begin:{start_time} end:{end_time},1
+56,setWriteDBLastDataMinute={minute},1
+57,setWriteDBLastDataMinute {status},1
+58,flush2DB result {status},1
+59,getTodayTotalDetailSteps = {timestamp}##{num1}##{num2}##{num3}##{num4}##{num5},9
+60,"timeStamp back,extendReportTimeStamp={extendReportTimeStamp}",5
+61,startTimer start {process},3
+62,stepSyncOrNot appSynTimes is {variable},3
+63,getTodaySportData mStepsRecordManager={object},6
+64,setTodayTotalDetailSteps={timestamp}##{number1}##{number2}##{number3}##{number4}##{number5},6
+65,getTodayTotalDetailSteps = {timestamp}##{timezone}##{userId}##{deviceId}##{steps}##{otherData},1
+66,setTodayTotalDetailSteps={timestamp}##{value1}##{value2}##{value3}##{value4}##{value5},4
+67,theDayChanged {timestamp},1
+68,init{Environment},1
+69,get{Variable}Status,1
+70,getStepCounterStatus= {boolean},1
+71,re{Action}StepCounter,1
+72,registersensorsuccess: {},1
+73,{}(),1
+74,getTodayBasicStandardSteps= {timestamp}##{number}##{number},1
+75,tryToRecordAsBasicStepData bWrite {boolean},1
+76,getDiffTotalSteps= {timestamp}##{value},2
+77,setBasicStandardSteps basicStandardStep={basicStandardStep} restartSteps={restartSteps},1
+78,setDiffTotalSteps={},1
+79,getTodayBasicStandardSteps= {timestamp}##{number1}##{number2},1
+80,tryToReload{variable1}|{variable2}|{variable3}|{variable4},1
+81,reload : {num1} restar {num2},1
+82,setTodayTotalDetailSteps={timestamp}##{unknown}##{unknown}##{unknown}##{unknown}##{unknown},1
+83,next day:steps{steps}mLastReport{report_id},1
+84,setGoalNotifiShownRecord {timestamp} {boolean},1
+85,closeNotification...,1
+86,delete{Entity}Notification(),1
+87,getTodayTotalDetailSteps = {timestamp}##{unknown1}##{unknown2}##{unknown3}##{unknown4}##{unknown5},14
+88,setTodayTotalDetailSteps={timestamp}##{unknown1}##{unknown2}##{unknown3}##{unknown4}##{unknown5},16
+89,getTodayTotalDetailSteps = {timestamp}##{unknown1}##{unknown2}##{unknown3}##{unknown4}##{steps},8
+90,setTodayTotalDetailSteps={timestamp}##{unknown1}##{unknown2}##{unknown3}##{unknown4}##{steps},2
+91,getTodayTotalDetailSteps = {timestamp}##{number1}##{number2}##{number3}##{number4}##{number5},1
+92,"checkCurrentDay a new day comes , reset basicSyncCondition, currentDay is {currentDay} oldDay is {oldDay}",1

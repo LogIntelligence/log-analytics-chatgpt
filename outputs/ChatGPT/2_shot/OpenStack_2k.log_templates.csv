@@ -1,0 +1,106 @@
+,EventTemplate,Occurrences
+0,"""{ip} \""{request}\"" status: {status} len: {length} time: {time}""",222
+1,"""{ip} \""{method} {url} {protocol}\"" status: {status} len: {length} time: {time}""",415
+2,[instance: {id}] VM Started (Lifecycle Event),4
+3,[instance: {instance_id}] VM Paused (Lifecycle Event),10
+4,[instance: {id}] During sync_power_state the instance has a pending task ({task}). Skip.,10
+5,image {instance} at ({path}): checking,82
+6,"image {instance} at ({path}): in use: on this node {count} local, {count} on other nodes sharing this instance storage",82
+7,Active base files: {path},82
+8,"{ip} ""{request}"" status: {status} len: {length} time: {time}",167
+9,Creating event {event}: {instance},1
+10,[instance: {instance_id}] VM Resumed (Lifecycle Event),26
+11,[instance: {instance_id}] Instance spawned successfully.,19
+12,[instance: {instance_id}] Took {time} seconds to spawn the instance on the hypervisor.,21
+13,[instance: {instance_id}] Took {time} seconds to build instance.,18
+14,Auditing locally available compute resources for node {node},15
+15,"Total usable vcpus: {total_usable_vcpus}, total allocated vcpus: {total_allocated_vcpus}",9
+16,Final resource view: name={name} phys_ram={ram}MB used_ram={used_ram}MB phys_disk={disk}GB used_disk={used_disk}GB total_vcpus={vcpus} used_vcpus={used_vcpus} pci_stats={pci_stats},14
+17,Compute_service record updated for {hostname},15
+18,"""{ip_address} \""{request_type} {url} {http_version}\"" status: {status_code} len: {content_length} time: {response_time}""",13
+19,"""{ip_address} \""{http_method} {path} {protocol}\"" status: {status_code} len: {content_length} time: {response_time}""",36
+20,"IP1,IP2 ""GET {path} HTTP/1.1"" status: {status} len: {length} time: {time}",11
+21,"10.11.10.1 ""{method} {url} HTTP/1.1"" status: {status} len: {length} time: {time}",3
+22,"""{ip_address} \""{http_method} {endpoint} {http_version}\"" status: {status_code} len: {content_length} time: {response_time}""",8
+23,{instance}: Terminating instance,5
+24,[instance: {instance_id}] Instance destroyed successfully.,21
+25,[instance: {id}] Deleting instance files {path},11
+26,[instance: {id}] Deletion of {path}_del complete,5
+27,[instance: {instance_id}] Took {time} seconds to destroy the instance on the hypervisor.,19
+28,[instance: {instance_id}] Took {time} seconds to deallocate network for instance.,21
+29,"IP ""{method} {url} {protocol}"" status: {status} len: {length} time: {time}",30
+30,Unknown base file: {path},30
+31,Removable base files: {path},30
+32,Removing base or swap file: {path},21
+33,HTTP exception thrown: No instances found for any event,3
+34,"[instance: {instance_id}] Attempting claim: memory {memory} MB, disk {disk} GB, vcpus {vcpus} CPU",20
+35,"[instance: {instance_id}] Total memory: {total_memory} MB, used: {used_memory} MB",20
+36,"[instance: {instance_id}] memory limit: {memory_limit} MB, free: {memory_free} MB",21
+37,"[instance: {instance_id}] Total disk: {total_disk} GB, used: {used_disk} GB",21
+38,"[instance: {id}] disk limit not specified, defaulting to unlimited",5
+39,"[instance: {instance_id}] Total vcpu: {total_vcpu} VCPU, used: {used_vcpu} VCPU",20
+40,"[instance: {id}] vcpu limit not specified, defaulting to unlimited",1
+41,[instance: {instance_id}] Claim successful,17
+42,"10.11.10.1 ""GET /v2/{version}/servers/{id} HTTP/1.1"" status: {status} len: {length} time: {time}",6
+43,[instance: {instance_id}] Creating image,20
+44,[instance: {instance_id}] VM Stopped (Lifecycle Event),11
+45,[instance: {instance_id}] VM Started (Lifecycle Event),17
+46,[instance: {instance_id}] During sync_power_state the instance has a pending task ({task}). Skip.,31
+47,Creating event network-vif-plugged:{event_id} for instance {instance_id},20
+48,[instance: {id}] Took {time} seconds to build instance.,4
+49,Successfully synced instances from host '{host}'.,2
+50,"10.11.10.1 ""{method} {version}/v2/{uuid}/servers/{id} HTTP/1.1"" status: {status} len: {length} time: {time}",11
+51,[instance: {instance_id}] Terminating instance,16
+52,Running instance usage audit for host {host} from {start_time} to {end_time}. {count} instances.,1
+53,[instance: {instance_id}] Deleting instance files {path},10
+54,[instance: {instance_id}] Deletion of {path}_del complete,13
+55,"{ip} ""{method} {url} {protocol}"" status: {status} len: {length} time: {time}",36
+56,HTTP exception thrown: {message},18
+57,"{instance} disk limit not specified, defaulting to unlimited",4
+58,"{instance} vcpu limit not specified, defaulting to unlimited",1
+59,[instance: {id}] Claim successful,4
+60,"""{ip_address} \""{http_method} {url} {http_version}\"" status: {status_code} len: {content_length} time: {response_time}""",12
+61,"""{ip1},{ip2} ""{method} {path} {protocol}"" status: {status} len: {length} time: {time}""",8
+62,"IP ""{method} {url} HTTP/1.1"" status: {status} len: {length} time: {time}",7
+63,Base or swap file too young to remove: {path},9
+64,"[instance: {instance_id}] disk limit not specified, defaulting to unlimited",12
+65,"[instance: {instance_id}] vcpu limit not specified, defaulting to unlimited",19
+66,"10.11.10.1 ""GET {url} HTTP/1.1"" status: {status} len: {length} time: {time}",9
+67,[instance: {id}] VM Paused (Lifecycle Event),12
+68,[instance: {id}] VM Resumed (Lifecycle Event),18
+69,[instance: {id}] Instance spawned successfully.,3
+70,"IP_ADDRESS ""{method} {url} HTTP/1.1"" status: {status} len: {length} time: {time}",1
+71,[instance: {id}] VM Stopped (Lifecycle Event),9
+72,"""{ip_address} \""{request_type} {url} {protocol}\"" status: {status_code} len: {content_length} time: {response_time}""",1
+73,"Total usable vcpus: {usable_vcpus}, total allocated vcpus: {allocated_vcpus}",6
+74,[instance: {id}] Deletion of {path}/{id}_del complete,1
+75,[instance: {id}] Took {time} seconds to destroy the instance on the hypervisor.,2
+76,{instance}: Creating image,1
+77,"10.11.10.1 ""{method} {version}/v2/{uuid}/servers/{server_id} HTTP/1.1"" status: {status} len: {length} time: {time}",3
+78,The instance sync for host '{host}' did not match. Re-created its InstanceList.,5
+79,"10.11.21.129,10.11.10.1 ""{method} {url} {protocol}"" status: {status} len: {length} time: {time}",1
+80,"""{ip} \""{method} {endpoint} HTTP/{http_version}\"" status: {status_code} len: {response_length} time: {response_time}""",1
+81,"IP ""{method} {path} HTTP/1.1"" status: {status} len: {length} time: {time}",1
+82,"{instance} Total vcpu: {total_vcpu} VCPU, used: {used_vcpu} VCPU",1
+83,"""{ip_address} \""{request_type} {path} {protocol}\"" status: {status_code} len: {length} time: {time}""",3
+84,"10.11.10.1 ""{method} {version}/v2/{uuid}/servers/{id} HTTP/1.1"" status: {status} len: {length} time: {time}""",1
+85,[instance: {instance_id}] Deletion of {path} complete,2
+86,"""{ip} ""{method} {url} {protocol}"" status: {status} len: {length} time: {time}""",1
+87,[instance: {id}] Took {time} seconds to spawn the instance on the hypervisor.,1
+88,[instance: {id}] {event} (Lifecycle Event),1
+89,{instance} VM Started (Lifecycle Event),1
+90,"""{ip} \""{method} {path} {protocol}\"" status: {status} len: {length} time: {time}""",1
+91,"While synchronizing instance power states, found {num_db} instances in the database and {num_hypervisor} instances on the hypervisor.",1
+92,"10.11.10.1 ""GET {path} HTTP/1.1"" status: {status} len: {length} time: {time}",3
+93,"""{ip_address} \""{request_method} {request_path} {protocol}\"" status: {status_code} len: {content_length} time: {response_time}""",1
+94,"""{ip_address} \""{request_type} {path} {protocol}\"" status: {status_code} len: {content_length} time: {response_time}""",1
+95,"10.11.10.1 ""{method} {url} HTTP/1.1"" status: {status} len: {length} time: {time}""",2
+96,"{instance} Attempting claim: memory {memory} MB, disk {disk} GB, vcpus {vcpus} CPU",1
+97,[instance: {instance_id}] During sync_power_state the instance has a pending task ({task}). {action}.,2
+98,"{instance} Total memory: {total_memory} MB, used: {used_memory} MB",1
+99,"10.11.10.1 ""{method} {version} status: {status} len: {length} time: {time}""",1
+100,Final resource view: name={name} phys_ram={phys_ram}MB used_ram={used_ram}MB phys_disk={phys_disk}GB used_disk={used_disk}GB total_vcpus={total_vcpus} used_vcpus={used_vcpus} pci_stats={pci_stats},1
+101,Creating event {event} for instance {instance},1
+102,"{ip}, ""{request}"" status: {status} len: {length} time: {time}",1
+103,[instance: {id}] Terminating instance,1
+104,[instance: {id}] Instance destroyed successfully.,1

@@ -1,0 +1,65 @@
+,EventTemplate,Occurrences
+0,"%<*> ""%<*> %<*> %<*>"" status: %<*> len: %<*> time: %<*>",674
+1,"<*>,<*> ""<*> <*> HTTP/<*>"" status: <*> len: <*> time: <*>",94
+2,image <*> at (<*>): <*>,82
+3,"image <*> at (<*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage",82
+4,Active base files: <*>,82
+5,"%<*> ""%<*> %<*> HTTP/%<*>"" status: %<*> len: %<*> time: %<*>",71
+6,[instance: <*>] <*>,69
+7,[instance: <*>] <*> (Lifecycle Event),61
+8,"<*>,<*> ""<*> <*> <*>"" status: <*> len: <*> time: <*>",48
+9,[instance: <*>] During sync_power_state the instance has a pending task (<*>). Skip.,43
+10,"%<*>,%<*> ""%<*> %<*> HTTP/%<*>"" status: %<*> len: %<*> time: %<*>",38
+11,"<*> ""<*> <*> HTTP/1.<*>"" status: <*> len: <*> time: <*>",30
+12,Unknown base file: <*>,30
+13,Removable base files: <*>,30
+14,"%<*> ""%<*> %<*> %<*>/%<*>"" status: %<*> len: %<*> time: %<*>",24
+15,Creating event network-vif-plugged:<*> for instance <*>,22
+16,[instance: <*>] Took <*> seconds to spawn the instance on the hypervisor.,22
+17,[instance: <*>] Took <*> seconds to build instance.,22
+18,[instance: <*>] Instance destroyed successfully.,22
+19,[instance: <*>] Deleting instance files <*>,21
+20,[instance: <*>] Deletion of <*> complete,21
+21,[instance: <*>] Took <*> seconds to destroy the instance on the hypervisor.,21
+22,Removing base or swap file: <*>,21
+23,HTTP exception thrown: <*>,21
+24,"[instance: <*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",21
+25,"[instance: <*>] Total memory: <*> MB, used: <*> MB",21
+26,"[instance: <*>] memory limit: <*> MB, free: <*> MB",21
+27,"[instance: <*>] disk limit not specified, defaulting to unlimited",21
+28,"[instance: <*>] Total vcpu: <*> VCPU, used: <*> VCPU",21
+29,[instance: <*>] Took <*> seconds to deallocate network for instance.,19
+30,"[instance: <*>] Total disk: <*> GB, used: <*> GB",19
+31,[instance: <*>] <*> (<*>),19
+32,[instance: <*>] Terminating instance,17
+33,"Total usable vcpus: <*>, total allocated vcpus: <*>",15
+34,Final resource view: name=<*> phys_ram=<*> used_ram=<*> phys_disk=<*> used_disk=<*> total_vcpus=<*> used_vcpus=<*> pci_stats=<*>,15
+35,Compute_service record updated for <*>,15
+36,Auditing locally available compute resources for node <*>.,13
+37,[instance: <*>] VM Paused (Lifecycle Event),11
+38,"[instance: <*>] vcpu limit not specified, defaulting to unlimited",10
+39,[instance: <*>] Instance spawned successfully.,9
+40,Base or swap file too young to remove: <*>,9
+41,[instance: <*>] VM Resumed (Lifecycle Event),7
+42,"<*> ""<*> <*> <*>"" status: <*> len: <*> time: <*>",7
+43,[instance: <*>] VM Stopped (Lifecycle Event),7
+44,"<IP address>,<IP address> ""<HTTP method> <*> HTTP/<*>"" status: <status code> len: <*> time: <response time>",6
+45,"<IP address>,<IP address> ""<HTTP method> <*> HTTP/<*>"" status: <status code> len: <length of response> time: <response time>",6
+46,The instance sync for host '<*>' did not match. Re-created its InstanceList.,5
+47,"<*>, <*> ""<*> <*> HTTP/<*>"" status: <*> len: <*> time: <*>",4
+48,[instance: <*>] VM <*> (Lifecycle Event),4
+49,"<IP address>,<IP address> ""<HTTP method> <*> <HTTP version>"" status: <status code> len: <length of response> time: <response time>",3
+50,"<IP address>,<IP address> ""<HTTP method> <*> HTTP/<*>"" status: <status code> len: <response length> time: <response time>",3
+51,[instance: <*>] Took <*> seconds to <*> <*> for instance.,2
+52,"[instance: <*>] Total disk: <*>, used: <*>",2
+53,[instance: <*>] Claim successful,2
+54,Successfully synced instances from host '<*>'.,2
+55,"<IP Address> ""<HTTP Method> <*> HTTP/<HTTP Version>"" status: <Status Code> len: <Response Length> time: <Response Time>",2
+56,"<*>,<*> ""<*> <*> HTTP/1.<*>"" status: <*> len: <*> time: <*>",2
+57,Auditing locally available compute resources for node <*>,2
+58,"%h,%h ""%r"" status: <*> len: <*> time: %T",2
+59,"%h,%h ""%r"" status: <*> len: <*> time: %D",1
+60,Running instance usage audit for host <*> from <*> to <*>. <*> instances.,1
+61,"<*> ""<*> <*> HTTP/<*>"" status: <*> len: <*> time: <*>",1
+62,"While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor.",1
+63,"%<*>,%<*> ""%<*> %<*> %<*>"" status: %<*> len: %<*> time: %<*>",1

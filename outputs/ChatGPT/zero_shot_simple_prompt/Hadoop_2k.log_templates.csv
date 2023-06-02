@@ -1,0 +1,129 @@
+,EventTemplate,Occurrences,Type
+0,Address change detected. Old: {old_address} New: {new_address},476,True
+1,Failed to renew lease for [{}] for {} seconds. Will retry shortly ...,326,True
+2,Progress of TaskAttempt {{task_attempt_id}} is : {{progress}},167,True
+3,Retrying connect to server: {server_name}:{port}. Already tried {retry_count} time(s); retry policy is {retry_policy},146,True
+4,{LOG_LEVEL} IN CONTACTING RM.,144,True
+5,"Recalculating schedule, headroom=<memory:{}, vCores:{}>",131,True
+6,Reduce slow start threshold not met. completedMapsForReduceSlowstart {},130,True
+7,Progress of TaskAttempt %s is : %f,97,True
+8,Resolved {hostname} to {ip_address},39,True
+9,Progress of TaskAttempt %s is : %s,17,True
+10,task_{task_id} Task Transitioned from {old_state} to {new_state},16,True
+11,Opening proxy : {proxy_address}:{port_number},13,True
+12,Processing the event EventType: {eventType} for container {containerId} taskAttempt {taskAttemptId},12,True
+13,After Scheduling: PendingReds:{PendingReds} ScheduledMaps:{ScheduledMaps} ScheduledReds:{ScheduledReds} AssignedMaps:{AssignedMaps} AssignedReds:{AssignedReds} CompletedMaps:{CompletedMaps} CompletedReds:{CompletedReds} ContAlloc:{ContAlloc} ContRel:{ContRel} HostLocal:{HostLocal} RackLocal:{RackLocal},12,True
+14,attempt_{job_id}_{task_attempt_id} TaskAttempt Transitioned from {old_state} to {new_state},10,True
+15,Got allocated containers {},10,True
+16,JVM with ID : {} asked for a task,10,True
+17,Auth successful for job_{job_id} (auth:{auth_type}),10,True
+18,Shuffle port returned by ContainerManager for attempt_{task_attempt_id} : {port_number},10,True
+19,ATTEMPT_START task_{task_id},10,True
+20,attempt_{job_id}_{task_attempt_id}_{task_attempt_type} TaskAttempt Transitioned from {old_state} to {new_state},9,True
+21,JVM with ID: {} given task: {},9,True
+22,Registering class {} for class {},9,True
+24,Assigned container {} to attempt_{}_{}_{}_{},8,True
+23,Progress of TaskAttempt attempt_{task_attempt_id} is : {progress},8,True
+26,attempt_{job_id}_{attempt_id}_{task_type}_{task_id}_{attempt_num} TaskAttempt Transitioned from {old_state} to {new_state},7,True
+25,TaskAttempt: [attempt_{task_attempt_id}] using containerId: [container_{container_id} on NM: [{node_manager_host}:{node_manager_port}],7,True
+27,attempt_{job_id}_{task_id}_{attempt_id} TaskAttempt Transitioned from {old_state} to {new_state},6,True
+28,Launching attempt_{job_id}_{task_type}_{task_attempt}_{attempt_number},6,True
+29,"getResources() for application_{application_id}: ask={ask} release={release} newContainers={new_containers} finishedContainers={finished_containers} resourcelimit=<memory:{memory}, vCores:{vcores}> knownNMs={known_nms}",6,True
+30,Before Scheduling: PendingReds:{PendingReds} ScheduledMaps:{ScheduledMaps} ScheduledReds:{ScheduledReds} AssignedMaps:{AssignedMaps} AssignedReds:{AssignedReds} CompletedMaps:{CompletedMaps} CompletedReds:{CompletedReds} ContAlloc:{ContAlloc} ContRel:{ContRel} HostLocal:{HostLocal} RackLocal:{RackLocal},5,True
+31,Diagnostics report from attempt_{task_attempt_id}: Error: {error_message}; For more details see: {link_to_wiki},4,True
+32,"getResources() for application_{application_id}: ask={ask} release={release} newContainers={new_containers} finishedContainers={finished_containers} resourcelimit=<memory:{memory_limit}, vCores:{vcores_limit}> knownNMs={known_nms}",4,True
+36,job_{job_id}Job Transitioned from {old_state} to {new_state},3,True
+38,TaskAttempt: [attempt_{task_attempt_id}] using containerId: [container_{container_id} on NM: [{node_manager_host}:{node_manager_port}]],3,True
+41,attempt_{job_id}_{task_attempt_id}_{task_attempt_type} TaskAttempt Transitioned from {previous_state} to {current_state},3,True
+40,attempt_{job_id}_{attempt_id}_{task_type}_{transition_from}_to_{transition_to},3,True
+39,KILLING attempt_{job_id}_{task_type}_{task_id}_{attempt_id},3,True
+34,ERROR IN CONTACTING RM.,3,True
+37,"Default file system [{}]
+",3,True
+35,attempt_{job_id}_{attempt_id}_{task_type}_{task_id}_{attempt_num} TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,3,True
+33,Launching attempt_{job_id}_{task_type}_{task_attempt}_{task_attempt_id},3,True
+53,Task cleanup failed for attempt {{attempt_id}},2,True
+51,"getResources() for application_{appId}: ask={ask} release={release} newContainers={newContainers} finishedContainers={finishedContainers} resourcelimit=<memory:{memory}, vCores:{vCores}> knownNMs={knownNMs}",2,True
+52,{task_id} Task Transitioned from {old_state} to {new_state},2,True
+49,{number of failures} failures on node {node name},2,True
+54,{variable} is {value},2,True
+55,Processing the event EventType: {},2,True
+50,Task: ${task_id} - exited : ${exception_message}; For more details see: ${link},2,True
+45,Using callQueue class {},2,True
+48,IPC Server listener on {}: starting,2,True
+42,adding path spec: {},2,True
+46,Added filter {FILTER_NAME} (class={FILTER_CLASS}) to context {CONTEXT_NAME},2,True
+44,Received completed container {},2,True
+43,IPC Server Responder: {},2,True
+47,Task Transitioned from SCHEDULED to RUNNING,2,True
+107,Diagnostics report from attempt_{task_attempt_id}: {log_message},1,True
+106,Task succeeded with attempt {{attempt_id}},1,True
+105,Added {attempt_id} to list of failed maps,1,True
+104,Processing the event EventType: {EventType} for container {container} taskAttempt {taskAttempt},1,True
+103,JVM with ID: {jvm_id} given task: {task_id},1,True
+102,Container complete event for unknown container id {},1,True
+101,{Log message},1,True
+99,DFSOutputStream ResponseProcessor exception for block BP-{block_id}:{block_name},1,True
+100,Error Recovery for block BP-{block_id} in pipeline {pipeline}: bad datanode {datanode},1,True
+109,Starting Socket Reader #1 for port {},1,True
+98,<task_id> Task Transitioned from <old_state> to <new_state>,1,True
+97,Num completed Tasks: {},1,True
+96,Scheduling a redundant attempt for task {task_id},1,True
+95,{Action} {Description}.,1,True
+94,All maps assigned. Ramping up all remaining reduces:{reduce_count},1,True
+93,Added attempt_{job_id}_{task_type}_{task_id}_{attempt_num} to list of failed {task_type}s,1,True
+108,Thread {} threw an Exception.,1,True
+112,Instantiated MRClientService at {hostname}/{ip}:{port},1,True
+110,Adding protocol {} to the server,1,True
+120,attempt_{job_id}_{attempt_id}_{task_id}_{task_attempt_id} TaskAttempt Transitioned from {old_state} to {new_state},1,True
+91,Error writing History Event: {event details},1,True
+125,Launching attempt_{job_id}_{task_type}_{task_id}_{attempt_num},1,True
+124,"Cannot assign container Container: [ContainerId: {}, NodeId: {}, NodeHttpAddress: {}, Resource: <memory:{}, vCores:{}>, Priority: {}, Token: Token { kind: ContainerToken, service: {} }, ] for a map as either  container memory less than required <memory:{}, vCores:{}> or no pending map tasks - maps.isEmpty=true",1,True
+123,DefaultSpeculator.addSpeculativeAttempt -- we are speculating {task_id},1,True
+122,"Slow ReadProcessor read fields took {duration}ms (threshold={threshold}ms); ack: seqno: {seqno} status: {status} status: {status} downstreamAckTimeNanos: {downstreamAckTimeNanos}, targets: [{targets}]",1,True
+121,We launched {speculations} speculations. Sleeping {milliseconds} milliseconds.,1,True
+119,"MRAppMaster launching normal, non-uberized, multi-container job job_{job_id}.",1,True
+111,Done acknowledgement from attempt_{job_attempt_id}_{task_attempt_id}_{task_attempt_num}_{task_attempt_tracker},1,True
+118,Created MRAppMaster for application {},1,True
+117,Jetty bound to port {},1,True
+116,Input size for job {job_id} = {input_size}. Number of splits = {num_splits},1,True
+115,Added global filter '{filter_name}' (class={filter_class}),1,True
+114,Http request log for {service} is not defined,1,True
+113,Logging to {} via {},1,True
+92,Number of reduces for job job_{job_id} = {num_reduces},1,True
+63,Executing with tokens:,1,True
+90,Extract jar:{jar_path} to {destination_path},1,True
+64,"Kind: {kind}, Service: {service}, Ident: ({ident})",1,True
+70,{component} metrics system started,1,True
+69,Scheduled snapshot period at {time}.,1,True
+68,loaded properties from hadoop-metrics2.properties,1,True
+67,Emitting job history data to the timeline server is not enabled,1,True
+66,OutputCommitter is {},1,True
+65,"reduceResourceRequest:<memory:{}, vCores:{}>",1,True
+62,Adding #0 tokens and #1 secret keys for NM use for launching container,1,True
+72,Adding job token for {} to jobTokenSecretManager,1,True
+61,There is no log template provided in this log message. It appears to be just a version number for the Jetty web server.,1,True
+60,Started HttpServer2$SelectChannelConnectorWithSafeStartup@0.0.0.0:62267,1,True
+59,Assigned container {container_id} to {attempt_id},1,True
+58,task_{task_id}_r_{attempt_id} Task Transitioned from {old_state} to {new_state},1,True
+57,Putting shuffle token in serviceData,1,True
+56,Size of containertokens_dob is {},1,True
+71,Using mapred newApiCommitter.,1,True
+73,"mapResourceRequest:<memory:{}, vCores:{}>",1,True
+89,Processing the event EventType: JOB_SETUP,1,True
+82,The job-jar file on the remote FS is hdfs://{hostname}:{port}/tmp/hadoop-yarn/staging/{username}/.staging/job_{jobid}/job.jar,1,True
+88,Web app /mapreduce started at {},1,True
+87,yarn.client.max-cached-nodemanagers-proxies : {},1,True
+86,Upper limit on the thread pool size is {},1,True
+85,Assigned container {} to attempt_{}_{}_{}_{}_{},1,True
+84,Connecting to ResourceManager at {hostname}:{port},1,True
+83,queue: {},1,True
+81,"There is no clear log template provided in the given log message. It is just a key-value pair indicating that the feature of node blacklisting is enabled with a value of true. A log template usually includes information such as the timestamp, severity level, source, and message.",1,True
+74,"Event Writer setup for JobId: {}, File: {}",1,True
+80,JOB_CREATE {},1,True
+79,Registered webapp guice modules,1,True
+78,Not uberizing {job_id} because: {reason},1,True
+77,"maxContainerCapability: <memory:{}, vCores:{}>",1,True
+76,{Action} set in config {Value},1,True
+75,Starting Socket Reader #1 for port {port_number},1,True
+126,The job-conf file on the remote FS is {}.,1,True

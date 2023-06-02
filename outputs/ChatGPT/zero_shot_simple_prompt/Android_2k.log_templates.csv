@@ -1,0 +1,181 @@
+,EventTemplate,Occurrences,Type
+0,"ready={},policy={},wakefulness={},wksummary={},uasummary={},bootcompleted={},boostinprogress={},waitmodeenable={},mode={},manual={},auto={},adj={},userId={}",199,True
+2,N/A (There is no context or information provided in the log message to create a log template),181,False
+1,"setSystemUiVisibility vis=%d mask=%d oldVal=%d newVal=%d diff=%d fullscreenStackVis=%d dockedStackVis=%d, fullscreenStackBounds=%s, dockedStackBounds=%s",181,True
+3,HBM brightnessOut ={},85,True
+4,"Animating brightness: target={}, rate={}",85,True
+5,HBM brightnessIn ={},76,True
+6,<method name>: <log message>,70,True
+7,"userActivityNoUpdateLocked: eventTime=%d, event=%d, flags=%#x, uid=%d",69,True
+8,"updateClipping isOverlap:{}, getTopPadding={}, Translation={}",65,True
+9,updateDimmedActivatedHideSensitive overlap:{boolean},65,True
+10,"Skipping, withExcluded: {}, tr.intent:{}",56,True
+13,shouldBlockLocation running ...,37,True
+12,getTasks: caller %s does not hold REAL_GET_TASKS; limiting output,37,True
+11,shouldBlockLocation  ret:{},37,True
+14,{action},36,True
+15,"Acquiring suspend blocker ""{blocker_name}"".",33,True
+16,"Releasing suspend blocker ""{blocker_name}"".",33,True
+17,"acquire lock={}, flags={}, tag=""{}"", name={}, ws={}, uid={}, pid={}",26,True
+18,Destroying surface Surface(name={}) called by {}.,22,True
+19,"{action}Notification,index:{index}",20,True
+20,"cancelNotificationWithTag pid %d,uid = %d,tag = %s,pkg =%s,id =%d",20,True
+21,"release:lock={}, flg={}, tag=""{}"", name=""{}"", ws={}, uid={}, pid={}",19,True
+22,cancelPeek: {},18,True
+23,querySoundEffectsEnabled...,17,True
+25,There is no log template provided in the given log message.,16,False
+24,"notifyUiVisibilityChanged:vis=%s, SystemUiVisibility=%s",16,True
+26,"getRecentTasks: num={},flags={},totalTasks={}",14,True
+27,"setSystemUiVisibility vis=%s mask=%s oldVal=%s newVal=%s diff=%s fullscreenStackVis=%s dockedStackVis=%s, fullscreenStackBounds=%s, dockedStackBounds=%s",14,True
+28,"interceptKeyBeforeQueueing: key {}, result : {}",14,True
+29,interceptKeyTq keycode=%d interactive=%b keyguardActive=%b policyFlags=%x down %b canceled %b,14,True
+30,"overlapAmount:{}, previousNotificationEnd:{}, newYTranslation:{}, location:{}, i:{}, getTopPadding:{}, getLocationOnScreen():{}",13,True
+31,"updateNotificationShade: total={}, active={}",13,True
+32,isMusicActive...,12,True
+33,getRunningAppProcesses: caller %d does not hold REAL_GET_TASKS; limiting output,11,True
+34,There is no log template provided in this log message.,10,False
+35,playSoundEffect   effectType: {},10,True
+38,getRecentTasks: topActivity=ComponentInfo{<package_name>/<activity_name>},9,True
+37,HBM brightnessIn ={brightnessIn},9,True
+36,getLastAudibleStreamVolume  treamType: {},9,True
+39,{action} called,8,True
+40,"animateCollapsePanels:flags=%d, force=%b, delayed=%b, mExpandedVisible=%b",8,True
+41,"Skipping, withExcluded: false, tr.intent:Intent { act=com.android.contacts.action.CHOOSE_SUB dat=tel:xxxxxxxxxxx flg=0x10808000 cmp=com.android.contacts/.ChooseSubActivity (has extras) }",7,True
+42,"release:lock=%d, flg=%#x, tag=""%s"", name=""%s"", ws=%s, uid=%d, pid=%d",7,True
+43,There is not enough information to determine the log template from the provided log message.,7,False
+44,"state.clipTopAmount:{}, i:{}",7,True
+50,"""The change in focus caused us to need to do a layout end""",6,True
+53,cleanUpApplicationRecord -- {},6,True
+52,logNotificationVisibilityChanges runInThread start,6,True
+51,"cleanUpApplicationRecordLocked, pid: {}, restart: {}",6,True
+47,"cleanUpApplicationRecordLocked, reset pid: {}, euid: {}",6,True
+49,logNotificationVisibilityChanges {variable},6,True
+45,stopWifiDisplayScanLocked mWifiDisplayScanRequestCount=%d,6,True
+46,The change in focus caused us to need to do a layout begin,6,True
+48,"updateLightsLocked,mInCall = %s,mScreenOn = %s,ledNotification == null?%s",6,True
+59,{log_message},5,True
+63,There is not enough information to determine the log template from the given log message. A log template typically includes placeholders for variables or values that will be inserted into the log message at runtime.,5,False
+61,"updateLightsLocked,turn off notificationLight",5,True
+60,"setSystemUiVisibility vis=%d mask=%x oldVal=%x newVal=%x diff=%x fullscreenStackVis=%d dockedStackVis=%d, fullscreenStackBounds=%s, dockedStackBounds=%s",5,True
+62,"state.clipTopAmount:{clipTopAmount}, i:{i}",5,True
+58,{Action} is {Status},5,True
+57,There is not enough information provided in the given log message to extract a log template.,5,False
+56,getRecentTasks: topActivity=ComponentInfo{PACKAGE_NAME/ACTIVITY_NAME},5,True
+55,getNeighboringCellInfo calling app is {},5,True
+54,stopWifiDisplayScanLocked record.mWifiDisplayScanRequested={},5,True
+64,"Taking screenshot from Surface with crop:[Rect(%d, %d - %d, %d)], width:[%d], height:[%d], minLayer:[%d], maxLayer:[%d], inRotation:[%s], rot:[%d]",4,True
+65,makeExpandedInvisible: mExpandedVisible={},4,True
+66,<details>,4,True
+67,Skipping AppWindowToken{} -- going to hide,4,True
+68,received broadcast {intent},4,True
+76,{action} is blocked by permission manager. callingPackage = {package},3,True
+81,"rotationForOrientationLw(orient=?, last=?); user=? USER_ROTATION_LOCKED",3,True
+80,"notifyUiVisibilityChanged:vis=%vis%, SystemUiVisibility=%SystemUiVisibility%",3,True
+79,scheduleTimeTickEvent triggerAtTime = {},3,True
+78,<error_type>: <error_message>,3,True
+77,There is not enough information to determine a log template from the given log message.,3,False
+72,getRingerMode...,3,True
+75,disable: < expand ICONS* alerts SYSTEM_INFO* back home recent clock navigationbar search quick_settings >,3,True
+73,"cancelNotification,index:{index}",3,True
+71,{action} not in {context}.,3,True
+70,Received {ALARM_TYPE} alarm; rescheduling,3,True
+69,disable: < * >,3,True
+74,There is no log template provided in this log message. It is simply a log message indicating the action of canceling autohide.,3,False
+99,"cancelNotification,cancelNotificationLocked,callingUid = %d,callingPid = %d",2,True
+96,"onInterceptTouchEvent MotionEvent { action=?, actionButton=?, id[0]=?, x[0]=?, y[0]=?, toolType[0]=?, buttonState=?, metaState=?, flags=?, edgeFlags=?, pointerCount=?, historySize=?, eventTime=?, downTime=?, deviceId=?, source=? }, mBlockTouches=?",2,True
+97,setWiredDeviceConnectionState  type: {type}  state: {state},2,True
+94,RefreshBatteryInfo isBatteryLow: {},2,True
+98,"onInterceptTouchEvent MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=?, x[0]=?, y[0]=?, toolType[0]=?, buttonState=?, metaState=?, flags=?, edgeFlags=?, pointerCount=?, historySize=?, eventTime=?, downTime=?, deviceId=?, source=? }, mBlockTouches=?",2,True
+102,"ACTIVITY check resid: %s, size=%d",2,True
+100,"There is no log template provided in this log message. It is simply a log message indicating the action of canceling autohide. A log template would typically include placeholders for specific information such as timestamps, error codes, or user IDs.",2,True
+101,enqueueNotificationInternal: pkg=%s id=%d notification=%s,2,True
+103,handleTimeUpdate,2,True
+104,Destroying surface Surface(name={}) called by {},2,True
+105,Sending non-protected broadcast {broadcast_name} from system {system_id}:{system_name}/{user_id} pkg {package_name},2,True
+95,"{action} called, tell the app, reason = {reason}",2,True
+90,enqueueNotificationInternal: n.getKey = %s|%s|%s|%s|%s,2,True
+93,"Application requested orientation {}, got rotation {} which has compatible metrics",2,True
+86,"flingToHeight: vel={}, expand={}, target={}, collapseSpeedUpFactor={}, expandBecauseOfFalsing={}",2,True
+82,Marking notification as seen {int}|{string}|{int}|{null}|{int},2,True
+83,getDevicesForStream  streamType: {},2,True
+84,getRingtonePlayer...,2,True
+85,"cancelNotificationLocked,remove ={package_name}",2,True
+92,removeNotification:{int}|{string}|{int}|{null}|{int},2,True
+87,applyOptionsLocked: Unknown animationType={},2,True
+89,addNotification key={}|{}|{}|{}|{},2,True
+91,cancelNotificationLocked:{int}|{string}|{int}|{null}|{int},2,True
+88,remove(PendingIntent{}) changed bounds; rebatching,2,True
+152,"ActivityRecord info: ActivityInfo{<package_name>.<activity_name>}, euid: <euid_value>",1,True
+159,"onReceive, action:{action}",1,True
+158,"START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.android.notepad/.NotePadActivity bnds=[8,820][184,1011]} from uid %uid% on display %display%",1,True
+157,There is no clear log template that can be extracted from this single log message. More context and information about the system and the purpose of the log message would be needed to determine an appropriate log template.,1,True
+156,Start proc %d:%s:%s for service %s,1,True
+155,"new Process app=ProcessRecord{<process_id> <user_id>:<package_name>:<process_name>/<uid>}, name: <package_name>:<process_name>, euid: <euid>",1,True
+154,Scheduling restart of crashed service {service_name} in {time}ms,1,True
+153,{function_name} is blocked by permission manager uid:{uid} pid:{pid},1,True
+150,"ActivityRecord info: ActivityInfo{<activity_info>}, euid: <euid>",1,True
+151,START u0 {flg=0x24000000 cmp=com.tencent.mm/.ui.LauncherUI (has extras)} from uid %d on display %d,1,True
+149,"sending alarm Alarm{<id> type <type> when <time> PendingIntent{<pendingIntent>}},repeatInterval = <interval>,listenerTag =<tag>",1,True
+148,"There is no log template provided in this log message. It is just a single key-value pair indicating the value of ""cancelPeek"" is false. A log template typically includes more information such as a timestamp, log level, and a message describing the event or error being logged.",1,True
+161,"[HSM] stayAwake false uid: {}, pid: {}",1,True
+147,ACTION_BATTERY_CHANGED pluggedType: %d,1,True
+146,handleBatteryUpdate,1,True
+145,ChargingSpeed Wattage: {wattage} ST: {st} --> {new_wattage},1,True
+160,battery changed pluggedType: {},1,True
+166,"onTouchEvent::1, x={}, y={}",1,True
+162,ApStaDisabledState what=,1,True
+163,onTrackingStopped: {},1,True
+178,updateChargingLocked: charging={},1,True
+177,"Application requested orientation {orientation}, got rotation {rotation} which has compatible metrics.",1,True
+176,ACTION_BATTERY_CHANGED AMP: {}; Volt: {},1,True
+175,"updateIsPoweredLocked: wasPowered={}, mIsPowered={}, oldPlugType={}, mPlugType={}, mBatteryLevel={}",1,True
+174,getStreamVolume  treamType: {},1,True
+173,"setDataSource({arg1}, {arg2}, {arg3})",1,True
+172,isWiredHeadsetOn...,1,True
+171,"sending alarm Alarm{d type when PendingIntent{}},repeatInterval = ,listenerTag =",1,True
+170,Pid:{pid} {message},1,True
+169,"ActivityRecord info: ActivityInfo{<package_name>}, euid: <euid_value>",1,True
+168,"START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tencent.mobileqq/.activity.SplashActivity bnds=[360,820][536,1011]} from uid %uid% on display %display%",1,True
+167,"There is not enough information to determine the log template from the given log message. A log template typically includes placeholders for variables or values that will be inserted into the log message at runtime. Without additional context or examples of log messages, it is impossible to determine the log template.",1,True
+143,"sending alarm Alarm{<id> type <type> when <time> PendingIntent{<pending_intent>}},repeatInterval = <interval>,listenerTag =<tag>",1,True
+165,Bad activity token: {},1,True
+164,{function_name} {variable_name} is null or empty,1,True
+144,DefaultState what=,1,True
+137,"sending alarm Alarm{<alarm_id> type <alarm_type> when <alarm_time> PendingIntent{<pending_intent_id>: PendingIntentRecord{<pending_intent_record_id> android broadcastIntent}}},repeatInterval = <repeat_interval>,listenerTag =<listener_tag>",1,True
+142,Process {processName} (pid {processId}) has died,1,True
+122,"{functionName},{action}",1,True
+120,<error_type>: <error_description>,1,True
+119,[PhoneIntfMgr] getDataEnabled: subId={} retVal={},1,True
+118,Killing %d:%s (adj %d): %s for %ds,1,True
+117,{action}Animation {status},1,True
+116,unregisterAudioFocusListener...,1,True
+115,{action} {status},1,True
+114,Screen frozen for +{duration} due to {window_info},1,True
+113,visible is system.message.count gt 0,1,True
+112,visible is system.call.count gt 0,1,True
+111,visible is {}.,1,True
+110,{variable} is {module}.{function},1,True
+109,register callback for com.android.systemui.statusbar.policy.KeyguardMonitor@%s,1,True
+108,*** unregister callback for %s,1,True
+107,"{action} is complete, call {method}",1,True
+106,visible is {}.show,1,True
+121,"onTouchEvent::0, x={}, y={}",1,True
+123,N/A (There is not enough information in the provided log message to determine a log template),1,True
+141,[PhoneIntfMgr] getDataEnabled: subId=%d phoneId=%d,1,True
+124,Destroying surface Surface(name=) called by com.android.server.wm.WindowStateAnimator.destroySurface:2060 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:913 com.android.server.wm.WindowState.removeLocked:1554 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2739 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2702 com.android.server.wm.WindowManagerService.removeWindowLocked:2691 com.android.server.wm.WindowManagerService.removeWindowLocked:2560 com.android.server.wm.Wi,1,True
+140,"sending alarm Alarm{c1705d3 type %d when %d PendingIntent{%d: PendingIntentRecord{%s}}},repeatInterval = %d,listenerTag =%s",1,True
+139,stopWifiDisplayScanLocked record.mWifiDisplayScanRequested=%s,1,True
+138,"printFreezingDisplayLogsopening app wtoken = AppWindowToken{token=Token{ActivityRecord{ u0 }}, allDrawn= , startingDisplayed = , startingMoved = , isRelaunching = }",1,True
+136,setSpeakerphoneOn on:{},1,True
+135,setSpeakerphoneOn  on: {},1,True
+134,Unable to determine log template as the provided log message is incomplete.,1,True
+133,isBluetoothScoOn...,1,True
+132,Unable to determine log template as the provided log message does not contain any information about the context or variables being logged.,1,True
+131,"Start dump, calling from : pid={}, uid={}",1,True
+130,unregister callback for com.android.systemui.statusbar.policy.KeyguardMonitor@{parameter},1,True
+129,"There is not enough information to determine the log template from the given log message. A log template typically includes placeholders for variables or values that will be inserted into the log message at runtime. Without additional context or examples of log messages, it is impossible to determine the log template for this message.",1,True
+128,"ActivityRecord info: ActivityInfo{<package_name>}, euid: <euid>",1,True
+127,START u0 {act=com.tencent.mobileqq.action.MAINACTIVITY flg=0x14000000 cmp=com.tencent.mobileqq/.activity.SplashActivity (has extras)} from uid %uid on display %display,1,True
+126,{log message},1,True
+125,Unable to start service Intent { act= [ACTION] cmp= [COMPONENT] } U=0: not found,1,True
+179,startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { flg=0x24000000 cmp=com.tencent.mm/.ui.LauncherUI (has extras) },1,True

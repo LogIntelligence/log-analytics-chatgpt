@@ -1,0 +1,37 @@
+,EventTemplate,Occurrences
+0,Failed password for <*> from <*> port <*> <*>,378
+1,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*> user=<*>,375
+2,Received disconnect from <*>: <*>: Bye Bye [preauth],358
+3,pam_unix(sshd:auth): check pass; user <*>,135
+4,Invalid user <*> from <*>,113
+5,input_userauth_request: invalid user <*> [preauth],113
+6,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*>,103
+7,Failed password for <*> from <*> port <*> ssh2,103
+8,reverse mapping checking getaddrinfo for <*> [<*>] failed - <*>,80
+9,Received disconnect from <*>: <*>: <*> [preauth],55
+10,error: Received disconnect from <*>: <*>: No more user authentication methods available. [preauth],45
+11,Failed password for invalid user <*> from <*> port <*> ssh2,36
+12,Connection closed by <*> [preauth],34
+13,Did not receive identification string from <*>,10
+14,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>,9
+15,pam_unix(sshd:auth): authentication failure; logname= <*> uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*>,7
+16,PAM service(<*>) ignoring max retries; <*> > <*>,7
+17,PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*>,6
+18,reverse mapping checking getaddrinfo for <*> [<*>] failed - POSSIBLE BREAK-IN ATTEMPT!,5
+19,Received disconnect from <*>: <*>: Closed due to <*>. [preauth],5
+20,Disconnecting: Too many authentication failures for <*> [preauth],3
+21,message repeated <*> times: [ Failed password for <*> from <*> port <*> ssh2],2
+22,PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>,2
+23,error: Received disconnect from <*>: <*>: <*> [preauth],2
+24,Received disconnect from <*>: <*>: <*>. [preauth],2
+25,PAM <*> more authentication failure; logname= uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*>,2
+26,Failed none for <*> user <*> from <*> port <*> ssh2,1
+27,Failed none for invalid user <*> from <*> port <*> ssh2,1
+28,Failed none for <*> from <*> port <*> ssh2,1
+29,Failed password for sshd from <*> port <*> ssh2,1
+30,Accepted password for <*> from <*> port <*> ssh2,1
+31,pam_unix(sshd:session): session opened for user <*> by (uid=<*>),1
+32,Received disconnect from <*>: <*>: disconnected by user,1
+33,pam_unix(sshd:session): session closed for user <*>,1
+34,Failed none for <*> user <*> from <*> port <*> <*>,1
+35,fatal: Write failed: <*> [preauth],1

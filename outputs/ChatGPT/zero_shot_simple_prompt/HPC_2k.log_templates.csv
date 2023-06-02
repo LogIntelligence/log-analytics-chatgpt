@@ -1,0 +1,94 @@
+,EventTemplate,Occurrences,Type
+0,ambient={value},292,True
+1,{message},226,True
+2,{Event} event interval expired,218,True
+3,warning,205,True
+4,{Event} event {Interval} expired,176,True
+5,running,162,True
+6,There is no log template provided in the given log message.,120,True
+7,normal,91,True
+9,boot  (command {}),66,True
+8,wait  (command {}),66,True
+10,Fan speeds ( 3552 3534 3375 **** 3515 3479 ),52,True
+11,NIFF: node node-{node_id} has detected an available network connection on network {network_address} via interface {interface_name},35,True
+12,ClusterFileSystem: ServerFileSystem domain {domain} is no longer served by node {node},33,True
+13,ClusterFileSystem: There is no server for ServerFileSystem domain {domain},32,True
+14,NIFF: node {{node_name}} has detected an available network connection on network {{network_address}} via interface {{interface_name}},18,True
+15,Not enough information provided in the log message to determine a log template.,17,True
+16,{action},15,True
+17,Fan speeds ( 3552 3534 3391 **** 3515 3479 ),15,True
+19,ServerFileSystem: ServerFileSystem domain {domain} is full,12,True
+18,{error_type} error,12,True
+20,"Component State Change: Component ""{component_name}"" is in the {state} state (HWID={hwid})",11,True
+21,Fan speeds ( {} {} {} **** {} {} ),10,True
+22,{Action} in reset,9,True
+23,Fan speeds ( {} {} {} {} {} {} ),8,True
+24,psu failure\ ambient={ambient},5,True
+25,Link {},5,True
+26,Link error on broadcast tree {interconnect},4,True
+27,NIFF: node node-<node_id> has detected an available network connection on network <network_address> via interface <interface_name>,3,True
+28,Targeting domains:node-{domain} and nodes:node-[{node_range}] child of command {command_id},3,True
+29,Not enough information provided in the log message to extract a log template.,3,True
+30,NIFF: node {{node}} has detected an available network connection on network {{network}} via interface {{interface}},3,True
+31,Fan speeds ( {} ),3,True
+37,NIFF: node node-{{node_id}} has detected an available network connection on network {{network}} via interface {{interface}},2,True
+40,ClusterFileSystem: ServerFileSystem domain root_domain is no longer served by node {},2,True
+39,halt  (command {}),2,True
+38,Targeting domains:{domain} and nodes:{node},2,True
+33,Fan speeds ( 3552 3552 3391 **** 3515 3497 ),2,True
+36,NIFF: node node-{{node_id}} has detected an available network connection on network {{network_address}} via interface {{interface_name}},2,True
+34,clusterAddMember (command {}),2,True
+32,bootGenvmunix (command {}),2,True
+35,Temperature ({}) exceeds warning threshold,2,True
+80,NIFF: node node-150 has detected an available network connection on network {network} via interface {interface},1,True
+69,NIFF: node node-69 has detected an available network connection on network {network} via interface {interface},1,True
+70,NIFF: node node-208 has detected an available network connection on network {network} via interface {interface},1,True
+71,NIFF: node node-163 has detected an available network connection on network {network} via interface {interface},1,True
+72,NIFF: node node-155 has detected an available network connection on network {network} via interface {interface},1,True
+73,NIFF: node node-237 has detected an available network connection on network {network} via interface {interface},1,True
+74,NIFF: node node-151 has detected an available network connection on network {network} via interface {interface},1,True
+75,NIFF: node node-255 has detected an available network connection on network {network} via interface {interface},1,True
+76,NIFF: node node-73 has detected an available network connection on network {network} via interface {interface},1,True
+77,NIFF: node node-187 has detected an available network connection on network {network} via interface {interface},1,True
+78,NIFF: node node-212 has detected an available network connection on network {network} via interface {interface},1,True
+79,NIFF: node node-183 has detected an available network connection on network {network} via interface {interface},1,True
+82,NIFF: node node-204 has detected an available network connection on network {network} via interface {interface},1,True
+81,NIFF: node node-182 has detected an available network connection on network {network} via interface {interface},1,True
+83,NIFF: node node-240 has detected an available network connection on network {network} via interface {interface},1,True
+84,NIFF: node node-29 has detected an available network connection on network {network} via interface {interface},1,True
+85,NIFF: node node-190 has detected an available network connection on network {network} via interface {interface},1,True
+86,NIFF: node node-233 has detected an available network connection on network {network} via interface {interface},1,True
+87,NIFF: node node-113 has detected an available network connection on network {network} via interface {interface},1,True
+88,NIFF: node node-203 has detected an available network connection on network {network} via interface {interface},1,True
+89,NIFF: node node-188 has detected an available network connection on network {network} via interface {interface},1,True
+90,NIFF: node node-252 has detected an available network connection on network {network} via interface {interface},1,True
+91,NIFF: node node-120 has detected an available network connection on network {network} via interface {interface},1,True
+67,Targeting domains:node-D[0\ 5] and nodes:node-[27\ 191],1,True
+68,There is not enough information in the provided log message to determine a log template.,1,True
+46,Targeting domains:node-D0 and nodes:node-[8-31] child of command {},1,True
+66,NIFF: node node-214 has detected an available network connection on network {network} via interface {interface},1,True
+65,risBoot  (command {}),1,True
+41,inconsistent nodesets {node} {hex_value} <ok> {node} {hex_value} <ok> {node} {hex_value} <ok> {node} {hex_value} <ok>,1,True
+42,NIFF: node node-241 has detected an available network connection on network {network} via interface {interface},1,True
+43,halt (command {}),1,True
+44,boot (command {}),1,True
+45,Targeting domains:node-{node} and nodes:node-[{nodes}],1,True
+47,Targeting domains:node-D2 and nodes:node-[64-95] child of command {},1,True
+48,NIFF: node {{node_name}} detected a failed network connection on network {{network_address}} via interface {{interface_name}},1,True
+49,NIFF: node node-{node_id} detected a failed network connection on network {network} via interface {interface},1,True
+50,ServerFileSystem: An ServerFileSystem domain panic has occurred on {storage},1,True
+51,{Action} has been aborted,1,True
+52,ClusterFileSystem: ServerFileSystem domain root{domain}_local is no longer served by node {node},1,True
+53,"Sorry, I cannot provide a log template for the given log message as it does not contain enough information to determine the context or purpose of the log. A log template typically includes placeholders for specific information such as timestamps, error codes, or user actions. Please provide a more detailed log message for me to extract the log template.",1,True
+54,inconsistent nodesets node-{} {} <{}> node-{} {} <{}> node-{} {} <{}> node-{} {} <{}>,1,True
+55,inconsistent nodesets node-# # <ok>,1,True
+56,starting,1,True
+57,inconsistent nodesets node-# # <ok> node-# # <ok> node-# # <ok> node-# # <ok> node-# # <ok>,1,True
+58,risBoot (command {}) Error: Timed out while waiting for SRM prompt: <ABORT code completed>,1,True
+59,boot (command {command_id}) Error: {error_message},1,True
+60,Failed subcommands {},1,True
+61,NIFF: node node-24 has detected an available network connection on network {network} via interface {interface},1,True
+62,NIFF: node node-232 has detected an available network connection on network {network} via interface {interface},1,True
+63,{problem_type}/{issue_type} problem,1,True
+64,Component State Change: Component \042{component_name}\042 is in the {state} state (HWID={hwid}),1,True
+92,NIFF: node node-171 has detected an available network connection on network {network} via interface {interface},1,True

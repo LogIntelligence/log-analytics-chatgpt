@@ -1,0 +1,100 @@
+,EventTemplate,Occurrences
+0,PacketResponder {responder_id} for block {block} terminating,283
+1,BLOCK* NameSystem.addStoredBlock: blockMap updated: {ip}:{port} is added to {block} size {size},260
+2,Received block {block} of size {size} from {source},292
+3,Receiving block {block} src: {source} dest: {destination},292
+4,BLOCK* NameSystem.allocateBlock: {path} {block},115
+5,Verification succeeded for {block},20
+6,Deleting block {block} file {path},129
+7, {ip_address} Served block {block} to {destination},5
+8, {ip}:{port} Served block {block} to {destination},53
+9, {source} Served block {block} to {destination},17
+10,10.251.30.85:50010:Got exception while serving {block} to /{ip}:,2
+11,10.251.126.255:50010:Got exception while serving {block} to /{ip}:,3
+12,10.251.123.132:50010:Got exception while serving {block} to /{ip}:,2
+13,10.250.13.188:50010:Got exception while serving {block} to /{ip}:,1
+14,10.251.199.19:50010:Got exception while serving {block} to /{destination}:,1
+15, {ip}:{port}:Got exception while serving {block} to {destination},4
+16,10.251.202.134:50010:Got exception while serving {block} to /{ip_address}:,1
+17,10.250.6.214:50010 Served block {block} to {destination},1
+18,10.250.14.196:50010:Got exception while serving {block} to /{ip}:,1
+19,10.251.107.227:50010:Got exception while serving {block} to /{ip}:,1
+20,10.251.90.64:50010:Got exception while serving {block} to /{ip}:,1
+21,10.250.10.144:50010:Got exception while serving {block} to /{ip}:,1
+22,10.251.71.146:50010:Got exception while serving {block} to /{ip},1
+23,10.251.67.113:50010:Got exception while serving {block} to /{ip}:,1
+24,10.251.74.79:50010:Got exception while serving {block} to /{ip}:,1
+25,10.251.214.112:50010:Got exception while serving {block} to /10.251.214.112:,1
+26,10.251.43.210:50010:Got exception while serving {block} to /{ip},1
+27,10.251.73.220:50010:Got exception while serving {block} to /{ip},1
+28,10.251.73.188:50010:Got exception while serving {block} to /{ip}:,1
+29,10.251.35.1:50010:Got exception while serving {block} to /{ip},1
+30,10.251.90.134:50010:Got exception while serving {block} to /{ip}:,1
+31,PacketResponder 0 for block {block} terminating,22
+32,BLOCK* NameSystem.addStoredBlock: blockMap updated: {datanode} is added to {block} size {size},14
+33,BLOCK* NameSystem.addStoredBlock: blockMap updated: {node} is added to {block} size {size},34
+34,BLOCK* NameSystem.delete: {block} is added to invalidSet of {ip}:{port},224
+35,10.251.67.225:50010:Got exception while serving {block} to /{ip}:,1
+36,10.251.31.5:50010:Got exception while serving {block} to /{ip}:,1
+37,10.251.26.8:50010:Got exception while serving {block} to /{ip}:,3
+38,10.250.10.6:50010 Served block {block} to /{destination},1
+39,10.250.19.16:50010 Served block {block} to {destination},1
+40,10.251.38.214:50010:Got exception while serving {block} to /{ip}:,1
+41,10.251.42.246:50010:Got exception while serving {block} to /{ip}:,2
+42,10.251.111.130:50010:Got exception while serving {block} to /{ip}:,1
+43,10.251.123.1:50010:Got exception while serving {block} to /10.251.198.33:,1
+44,10.251.90.239:50010:Got exception while serving {block} to /{ip}:,1
+45,10.251.66.102:50010:Got exception while serving {block} to /10.251.66.102:,1
+46,10.251.31.5:50010:Got exception while serving {block} to /10.251.123.1:,1
+47,10.250.17.225:50010:Got exception while serving {block} to /{ip},1
+48,10.251.215.70:50010:Got exception while serving {block} to /{ip}:,2
+49,10.250.15.198:50010:Got exception while serving {block} to /{ip}:,1
+50,10.251.198.33:50010:Got exception while serving {block} to /{ip},1
+51,10.250.19.227:50010:Got exception while serving {block} to /{ip}:,1
+52,10.251.70.112:50010:Got exception while serving {block} to /{destination}:,1
+53,10.251.215.16:50010:Got exception while serving {block} to /{ip},1
+54,10.251.107.50:50010:Got exception while serving {block} to /{destination}:,1
+55, {ip}:{port}:Got exception while serving {block} to /{destination},1
+56,10.251.70.211:50010:Got exception while serving {block} to /{ip_address}:,1
+57,10.251.126.22:50010:Got exception while serving {block} to /{ip}:,1
+58,10.250.6.191:50010 Served block {block} to {destination},1
+59,10.251.70.211:50010:Got exception while serving {block} to /{ip}:,1
+60,10.251.125.193:50010:Got exception while serving {block} to /{ip}:,1
+61,Deleting block {block} file {file},134
+62,PacketResponder {responder} for block {block} terminating,2
+63,10.251.70.5:50010:Got exception while serving {block} to /{ip_address}:,1
+64,10.251.74.79:50010:Got exception while serving {block} to /{ip_address}:,1
+65,10.250.13.188:50010:Got exception while serving {block} to /{ip_address}:,1
+66,10.251.42.16:50010:Got exception while serving {block} to /{ip}:,1
+67,10.251.71.240:50010:Got exception while serving {block} to /{ip}:,1
+68,10.251.122.38:50010:Got exception while serving {block} to /{ip}:,1
+69,10.251.197.226:50010:Got exception while serving {block} to /{ip}:,1
+70,10.251.26.177:50010:Got exception while serving {block} to /{ip_address}:,1
+71,10.251.39.179:50010:Got exception while serving {block} to /{ip},1
+72,10.251.70.37:50010:Got exception while serving {block} to /{ip_address}:,1
+73,10.251.214.130:50010:Got exception while serving {block} to /{ip}:,1
+74,10.251.195.33:50010:Got exception while serving {block} to /10.251.195.33:,1
+75,10.250.11.53:50010:Got exception while serving {block} to /{ip}:,1
+76,10.250.10.223:50010:Got exception while serving {block} to /{ip}:,1
+77,10.251.107.50:50010:Got exception while serving {block} to /{ip_address}:,1
+78,10.250.14.196:50010:Got exception while serving {block} to /{ip_address}:,1
+79,10.250.10.223:50010:Got exception while serving {block} to /10.250.5.161:,1
+80,10.251.39.179:50010:Got exception while serving {block} to /{ip}:,1
+81,10.251.127.243:50010:Got exception while serving {block} to /{ip}:,1
+82,{source} Starting thread to transfer block {block} to {destination},1
+83,BLOCK* ask {ip}:{port} to delete {block},2
+84,BLOCK* NameSystem.addStoredBlock: blockMap updated: {ip_address} is added to {block} size {size},4
+85,PacketResponder 1 for block {block} terminating,4
+86,BLOCK* NameSystem.addStoredBlock: blockMap updated: {ip} is added to {block} size {size},2
+87,10.251.75.143:50010:Got exception while serving {block} to /{ip}:,1
+88,10.251.126.227:50010:Got exception while serving {block} to /{ip},1
+89, {ip} Served block {block} to {destination},1
+90,10.250.7.230:50010:Got exception while serving {block} to /{ip}:,1
+91,10.251.214.175:50010:Got exception while serving {block} to /10.251.105.189:,1
+92,10.251.39.144:50010:Got exception while serving {block} to /{ip}:,1
+93,10.250.7.32:50010:Got exception while serving {block} to /{ip}:,1
+94,10.251.107.98:50010:Got exception while serving {block} to /{ip}:,1
+95,Received block {block} src: {source} dest: {destination} of size {size},2
+96,BLOCK* ask {ip} to delete {blocks},2
+97,BLOCK* ask {source} to replicate {block} to datanode(s) {destination},1
+98,BLOCK* ask {ip}:{port} to delete {blocks},1

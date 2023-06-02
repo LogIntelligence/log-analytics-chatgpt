@@ -1,0 +1,38 @@
+,EventTemplate,Occurrences
+0,PacketResponder {responder} for block {block} terminating,311
+1,BLOCK* NameSystem.addStoredBlock: blockMap updated: {ip_address} is added to {block_name} size {block_size},284
+2,Received block {block} of size {size} from {source},292
+3,Receiving block {block} src: {source} dest: {destination},292
+4,BLOCK* NameSystem.allocateBlock: {file_path}. {block},103
+5,Verification succeeded for {block},20
+6,BLOCK* NameSystem.addStoredBlock: blockMap updated: {ip_address} is added to {block} size {size},27
+7,Deleting block {block} file {file},263
+8, {ip_address} Served block {block} to {destination},41
+9, {ip}:{port} Served block {block} to {destination},38
+10, {ip_address}:50010:Got exception while serving {block} to /{destination_ip}:,60
+11,10.251.123.132:50010:Got exception while serving {block} to /{destination}:,1
+12, {ip}:{port}:Got exception while serving {block} to {destination},4
+13,"""{ip}:{port}:Got exception while serving {block} to {destination}""",4
+14,10.251.74.79:50010:Got exception while serving {block} to /{destination}:,1
+15, {ip}:{port}:Got exception while serving {block} to /{destination}:,3
+16,10.251.73.220:50010:Got exception while serving {block} to /{destination}:,1
+17,10.251.35.1:50010:Got exception while serving {block} to /{destination}:,1
+18,BLOCK* NameSystem.allocateBlock: /user/root/randtxt/_temporary/_task_200811092030_0003_m_001377_0/part-01377. {block},1
+19,BLOCK* NameSystem.delete: {block} is added to invalidSet of {ip},26
+20,10.251.107.50:50010:Got exception while serving {block} to /{destination}:,1
+21,10.251.70.211:50010:Got exception while serving {block} to /{destination}:,1
+22,BLOCK* NameSystem.delete: {block} is added to invalidSet of {ip}:{port},198
+23,10.251.70.5:50010:Got exception while serving {block} to /{destination}:,1
+24,10.251.74.79:50010:Got exception while serving blk_{block} to /{destination}:,1
+25,BLOCK* NameSystem.allocateBlock: {file_path} {block_id},1
+26, {ip_address}:{port}:Got exception while serving {block} to {destination},1
+27, {source}:50010 Starting thread to transfer block {block} to {destination}:50010,1
+28,BLOCK* ask {ip_address} to delete {block},2
+29,BLOCK* NameSystem.allocateBlock: {file}. {block},9
+30, {ip_address}:{port} Served block {block} to {destination},1
+31,BLOCK* NameSystem.addStoredBlock: blockMap updated: {ip}:{port} is added to {block} size {size},3
+32,Received block {block} src: {source} dest: {destination} of size {size},2
+33,BLOCK* ask {ip} to delete {blocks},2
+34,BLOCK* ask {source}:50010 to replicate {block} to datanode(s) {destination}:50010,1
+35,BLOCK* NameSystem.allocateBlock: {path}. {block},1
+36,BLOCK* ask {ip_address} to delete {blocks},1

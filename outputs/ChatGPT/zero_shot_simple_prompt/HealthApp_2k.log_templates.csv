@@ -1,0 +1,101 @@
+,EventTemplate,Occurrences,Type
+0,onExtend:{timestamp} {value1} {value2} {value3},271,True
+1,onStandStepChanged {},242,True
+2,calculateCaloriesWithCache totalCalories={totalCalories},241,True
+3,setTodayTotalDetailSteps={timestamp}##{value1}##{value2}##{value3}##{value4}##{value5},223,True
+4,calculateAltitudeWithCache totalAltitude={altitude},214,True
+5,processHandleBroadcastAction action:{action},161,True
+6,getTodayTotalDetailSteps = {timestamp}##{value1}##{value2}##{value3}##{value4}##{value5},151,True
+7,REPORT : {} {} {} {},84,True
+8,getTodayTotalDetailSteps = {}##{}##{}##{}##{}##{},70,True
+9,REPORT : {int} {int} {int} {int},45,True
+10,calculateAltitudeWithCache totalAltitude={},24,True
+12,onReceive action: %s,17,True
+11,onReceive action: {action},17,True
+13,"new date ={}, type={},{},old={}",16,True
+14,onStandStepChanged {step_number},16,True
+15,setTodayTotalDetailSteps={timestamp}##{unknown1}##{unknown2}##{unknown3}##{unknown4}##{unknown5},15,True
+16,flush sensor data,9,True
+17,getTodayTotalDetailSteps = {timestamp}##{unknown1}##{unknown2}##{unknown3}##{unknown4}##{unknown5},9,True
+18,getBinderPackageName packageName = {},8,True
+19,getTodayTotalDetailSteps = {timestamp}##{unknown}##{unknown}##{unknown}##{unknown}##{unknown},7,True
+20,REPORT : {int1} {int2} {int3} {int4},7,True
+25,{action} {parameter} is {status},5,True
+27,"initDataPrivacy the dataPrivacy switch is open, start push health data!",5,True
+26,initDataPrivacy the dataPrivacy is {},5,True
+24,"initUserPrivacy the userPrivacy switch is open, start push user data!",5,True
+22,getTodaySportData mStepsRecordManager=,5,True
+21,"startSync hiSyncOption = HiSyncOption{syncAction=?, syncMethod=?, syncScope=?, syncDataType=?, syncModel=?, pushAction=?},app = ? who = ?",5,True
+23,initUserPrivacy the userPrivacy is {},5,True
+28,{action} sensor data,4,True
+29,getTodayTotalDetailSteps = {}##{}##{}##{}##{},4,True
+30,<action> not! <reason>,4,True
+31,"There is no log template provided in this log message. It is simply a log statement indicating that a ""sendSyncFailedBroadcast"" event occurred.",4,True
+32,"saveStatData() type ={},time = {},statClient = {},who is {}",4,True
+36,There is no log template provided in the given log message.,3,True
+37,"timeStamp back,extendReportTimeStamp={}",3,True
+39,calculateAltitudeWithCache totalAltitude={totalAltitude},3,True
+38,There is no log template provided in this log message.,3,True
+34,upLoadOneMinuteDataToEngine time={time},3,True
+35,stepSyncOrNot appSynTimes is {},3,True
+33,startTimer {action} autoSync,3,True
+53,setTodayTotalDetailSteps={timestamp}##{unknown}##{unknown}##{unknown}##{unknown}##{unknown},2,True
+51,getDiffTotalSteps= ##,2,True
+52,insertHiHealthData() end totalTime = {},2,True
+48,"insertHiHealthData() size = {},app = {},One Data Type = {},packageName = {},writeStatType = {}",2,True
+54,onExtend:{timestamp} {integer1} {integer2} {integer3},2,True
+55,"stepSyncOrNot appSynTimes is {}, statsyncTimes is {}",2,True
+56,"startInsertSportSync start auto sync,app is %d",2,True
+49,"startInsertSportSync first {steps} steps sync,do all sync",2,True
+50,{log message},2,True
+47,{Action} stepSum or calorieSum is enough,2,True
+45,"upLoadOneMinuteDataToEngine time={},{},{},{},{}",2,True
+44,startListenerChange subscribeList = [],2,True
+43,"{function_name} {error_message}, type is {type_value} deviceCode is {device_code_value}",2,True
+42,{action} stepStatSum or calorieStatSum is enough,2,True
+41,"getAppContext() isAppValid health or wear, packageName = {}",2,True
+40,"bulkSaveDetailHiHealthData() size = {},totalTime = {}",2,True
+46,"saveHealthDetailData() deviceID = {},clientID={},id={}",2,True
+83,Alarm uploadStaticsToDB totalSteps={} Calories:{} Floor:{} Distance:{},1,True
+86,"N/A (This is a log message for a function call, not an informational log message)",1,True
+85,tryToReloadTodayBasicSteps{}|{}|{}|{},1,True
+84,N/A (This log message does not contain enough information to determine a specific log template),1,True
+80,setDiffTotalSteps={value},1,True
+82,setBasicStandardSteps basicStandardStep={basicStandardStep} restartSteps={restartSteps},1,True
+81,getTodayBasicStandardSteps= ##0##,1,True
+88,reload : {} restar {},1,True
+87,getTodayBasicStandardSteps= ## ##,1,True
+92,"checkCurrentDay a new day comes , reset basicSyncCondition, currentDay is {currentDay} oldDay is {oldDay}",1,True
+89,next day:steps{}mLastReport{},1,True
+90,getTodayTotalDetailSteps = {timestamp}##{unknown1}##{unknown2}##{unknown3}##{unknown4},1,True
+91,{log_message},1,True
+78,setTodayTotalDetailSteps={timestamp}##{var1}##{var2}##{var3}##{var4}##{var5},1,True
+93,{action} by {user},1,True
+94,N/A (There is no context or information provided in the log message to determine a specific log template),1,True
+95,setGoalNotifiShownRecord {timestamp} {boolean},1,True
+96,Not enough information provided to determine the log template.,1,True
+97,onStandStepChanged {parameter},1,True
+98,"screen status {status},think screen {action}",1,True
+79,registersensorsuccess: {},1,True
+74,insertHiHealthData() checkAppType  {appType} appID = {appID},1,True
+77,getStepCounterStatus= {},1,True
+65,{action} failed message={message},1,True
+57,"saveHealthDetailData() saveOneDetailData fail hiHealthData = {timestamp},type = {type}",1,True
+58,{functionName}() onResult  type = {type} obj={obj},1,True
+59,InsertCallBack() onSuccess  type = {} data={},1,True
+60,"{functionName}() {action} fail errorCode = {errorCode},errorMessage = {errorMessage}",1,True
+61,"new date ={date}, type={type},{value},old={old}",1,True
+62,"saveHealthDetailData() saveOneDetailData fail hiHealthData = {},type = {}",1,True
+63,insertHiHealthData() checkAppType  {variable} appID = {variable},1,True
+64,"saveRealTimeHealthDatasStat() size = {},totalTime = {}",1,True
+66,writeDataToDB size {},1,True
+76,onStandStepChanged {standStep},1,True
+67,{Action} success,1,True
+68,theDayChanged {timestamp},1,True
+69,InsertEvent success begin:{begin} end:{end},1,True
+70,getTodaySportData mStepsRecordManager={variable},1,True
+71,setWriteDBLastDataMinute={value},1,True
+72,"timeStamp back,extendReportTimeStamp={timestamp}",1,True
+73,{Action} result {Status},1,True
+75,"timeStamp back,extendReportTimeStamp=",1,True
+99,ifCanSync not! {reason},1,True

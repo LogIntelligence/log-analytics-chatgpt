@@ -1,0 +1,370 @@
+,EventTemplate,Occurrences
+0,proxy.cse.cuhk.edu.hk:<*> open through proxy <*> HTTPS,457
+1,<*> open through proxy <*> <*>,318
+2,"proxy.cse.cuhk.edu.hk:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",110
+3,"proxy.cse.cuhk.edu.hk:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",103
+4,"proxy.cse.cuhk.edu.hk:<*> close, <*> bytes sent, <*> bytes received, lifetime <*> sec>",56
+5,"proxy.cse.cuhk.edu.hk:<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>",56
+6,"proxy.cse.cuhk.edu.hk:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",37
+7,"proxy.cse.cuhk.edu.hk:<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*> sec>",29
+8,<*> open through proxy <*> HTTPS,27
+9,"proxy.cse.cuhk.edu.hk:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*> sec>",24
+10,"proxy.cse.cuhk.edu.hk:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*> sec>",23
+11,"<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",22
+12,"<*>.google.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",18
+13,api.github.com:<*> open through proxy <*> <*>,14
+14,"api.github.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",14
+15,get.sogou.com:<*> open through proxy <*> <*>,13
+16,www.<*> open through proxy <*> <*>,12
+17,"block.dropbox.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*> sec>",12
+18,www.google.com:<*> open through proxy <*> <*>,11
+19,"get.sogou.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*> sec>",10
+20,"www.google.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",10
+21,"client-cf.dropbox.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",10
+22,bolt.dropbox.com:<*> error : Could not connect to proxy <*> - connection attempt failed with error <*>,10
+23,"<*>.google.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>",9
+24,"www.evernote.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",9
+25,www.evernote.com:<*> open through proxy <*> <*>,9
+26,"proxy.cse.cuhk.edu.hk:<*> close, <*> bytes sent, <*> bytes received, lifetime <*> sec",8
+27,<*>.baidu.com:<*> open through proxy <*> <*>,8
+28,"<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",7
+29,oimagea5.ydstatic.com:<*> error : A connection request was <*> before the <*>.,7
+30,"<*>.baidu.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",7
+31,"short.weixin.qq.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*> sec>",7
+32,"play.google.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",7
+33,"<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",7
+34,<*>.client-channel.google.com:<*> error : Could not connect to proxy <*> - connection attempt failed with error <*>,7
+35,"<*>.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",6
+36,"mtalk.google.com:<*> error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code <*>",6
+37,"hostname:port close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",6
+38,"safebrowsing.googleapis.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",5
+39,csi.gstatic.com:<*> open through proxy <*> HTTPS,5
+40,"hostname:port close, <*> bytes sent, <*> bytes received, lifetime <*>",5
+41,"long.open.weixin.qq.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>",5
+42,"www.googleapis.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",5
+43,"fonts.gstatic.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",5
+44,"security.ie.sogou.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*> sec>",5
+45,info.<*> open through proxy <*>://<*> <*>,5
+46,"proxy.cse.cuhk.edu.hk:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> MB) received, lifetime <*>",4
+47,oimagea5.ydstatic.com:<*> error : A connection request was canceled before the completion.,4
+48,"ss.bdimg.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",4
+49,"www.<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",4
+50,"hostname:port close, <*> bytes (<*> KB) sent, <*> bytes (<*> MB) received, lifetime <*>",4
+51,"info.pinyin.sogou.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",4
+52,"www.google.com.hk:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",4
+53,notifications.google.com:<*> open through proxy <*> <*>,4
+54,"user-images.githubusercontent.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",4
+55,"d.dropbox.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",4
+56,<*> open through proxy <*> <*> <*>,4
+57,www.google.com:<*> error : Could not connect to proxy <*> - connection attempt failed with error <*>,4
+58,c.<*> open through proxy <*> <*>,3
+59,"www.<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",3
+60,comment.<*>.com:<*> open through proxy <*> <*>,3
+61,apis.google.com:<*> open through proxy <*> <*>,3
+62,f-log-extension.grammarly.io:<*> open through proxy <*> HTTPS,3
+63,"mtalk.google.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",3
+64,"hostname:port close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",3
+65,"people-pa.clients6.google.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",3
+66,"f-log-extension.grammarly.io:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",3
+67,security.ie.sogou.com:<*> open through proxy <*> <*>,3
+68,ss.bdimg.com:<*> error : Could not connect to proxy <*> - Could not resolve <*> error <*>,3
+69,"f12.baidu.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",3
+70,"www.gstatic.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",3
+71,"puui.qpic.cn:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*> sec>",3
+72,safebrowsing.googleapis.com:<*> open through proxy <*> HTTPS,3
+73,"qd-update.qq.com:<*> error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code <*>",3
+74,"client-cf.dropbox.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*> sec>",3
+75,<*> open through proxy <*> SOCKS5,2
+76,"<*>.tencent.com:<*> <*>, <*> bytes sent, <*> bytes received, lifetime <*> sec>",2
+77,"<*>.tencent.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*> sec>",2
+78,oimagec7.ydstatic.com:<*> error : A connection request was canceled before the completion.,2
+79,IP_ADDRESS:error : MESSAGE - REASON,2
+80,oimagec1.ydstatic.com:<*> error : A connection request was canceled before the completion.,2
+81,oimageb8.ydstatic.com:<*> error : A connection request was canceled before the completion.,2
+82,"get.sogou.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",2
+83,"b1.bdstatic.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",2
+84,"pos.baidu.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",2
+85,"dup.baidustatic.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",2
+86,"d.dropbox.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",2
+87,static.doubleclick.net:<*> open through proxy <*> HTTPS,2
+88,"suggestion.baidu.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",2
+89,"eclick.baidu.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>",2
+90,news.<*>.com:<*> open through proxy <*> HTTPS,2
+91,app.<*> open through proxy <*> HTTPS,2
+92,video.<*> open through proxy <*> <*>,2
+93,"cpro.baidustatic.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",2
+94,"notifications.google.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",2
+95,"client-channel.google.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",2
+96,"<*>.baidu.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",2
+97,"ubmcmm.baidustatic.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",2
+98,"client-lb.dropbox.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*> sec>",2
+99,<*>.google.com:<*> open through proxy <*> <*>,2
+100,"js.passport.qihucdn.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",2
+101,hm.baidu.com:<*> error : A connection request was canceled before the completion.,2
+102,config.<*> open through proxy <*> <*>,2
+103,www.gstatic.com:<*> open through proxy <*> <*>,2
+104,"www.google-analytics.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",2
+105,www.google-analytics.com:<*> open through proxy <*> <*>,2
+106,"zhihu-web-analytics.zhihu.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",2
+107,"pubads.g.doubleclick.net:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",2
+108,"<*>.google.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",2
+109,"csi.gstatic.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",2
+110,"collector.githubapp.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",2
+111,live.github.com:<*> open through proxy <*> <*>,2
+112,"github.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",2
+113,"ssl.gstatic.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",2
+114,log.getdropbox.com:<*> open through proxy <*> HTTPS,2
+115,"c.trello.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",2
+116,<*> error : <*> - Could not resolve <*> error <*>,2
+117,"mtalk.google.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",2
+118,s1.bdstatic.com:<*> error : Could not connect to proxy <*> - Could not resolve <*> error <*>,2
+119,csdnimg.cn:<*> error : A connection request was canceled before the completion.,2
+120,"csdnimg.cn:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",2
+121,"engine.adzerk.net:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",2
+122,"googleads.g.doubleclick.net:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",2
+123,<*> error : Could not connect to proxy <*> - Could not resolve <*> error <*>,2
+124,"ping.pinyin.sogou.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",2
+125,"puui.qpic.cn:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",2
+126,"pubads.g.doubleclick.net:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",2
+127,"local-p2p.qq.com:<*> error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code <*>",2
+128,"security.ie.sogou.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",2
+129,"pagead2.googlesyndication.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",2
+130,clientservices.googleapis.com:<*> open through proxy <*> HTTPS,2
+131,"bolt.dropbox.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*> sec>",2
+132,"<*>.google.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",2
+133,"tc.dl.pinyin.sogoucdn.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*> sec>",2
+134,qa.sockets.stackexchange.com:<*> error : Could not connect to proxy <*> - connection attempt failed with error <*>,2
+135,"pv.mini.sohu.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",2
+136,"proxy.cse.cuhk.edu.hk:<*> close, <*> sent, <*> received, lifetime <*> sec",1
+137,"tcpconn.<*> close, <*> bytes sent, <*> bytes received, lifetime <*> sec>",1
+138,<*>.tencent.com:<*> error : <*>,1
+139,<*>.tencent.com:<*> error : Could not connect through proxy <*> - Proxy closed the connection unexpectedly.,1
+140,"cgi.qqweb.qq.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*> sec>",1
+141,cgi.qqweb.qq.com:<*> open through proxy <*> <*>,1
+142,"qqmail.tencent.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+143,"showxml.qq.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*> sec>",1
+144,"<*>.flash2-http.qq.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*> sec>",1
+145,"impservice.dictapp.youdao.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+146,"formi.baidu.com:<*> error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code <*>",1
+147,"<*>.gateway.messenger.live.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+148,<*> error : Could not connect through proxy <*> - Proxy closed the connection unexpectedly.,1
+149,oimageb3.ydstatic.com:<*> error : A connection request was canceled before the completion.,1
+150,oimageb1.ydstatic.com:<*> error : A connection request was canceled before the completion.,1
+151,oimagea3.ydstatic.com:<*> error : A connection request was <*> before the <*>.,1
+152,<*>.ydstatic.com:<*> error : <*>,1
+153,"oimageb7.ydstatic.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+154,oimageb2.ydstatic.com:<*> error : A connection request was canceled before the completion.,1
+155,oimageb4.ydstatic.com:<*> error : A connection request was canceled before the completion.,1
+156,oimagec4.ydstatic.com:<*> error : A connection request was canceled before the completion.,1
+157,"oimageb6.ydstatic.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+158,"oimagea7.ydstatic.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+159,"oimagec3.ydstatic.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+160,"sestat.baidu.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+161,"xin.<*>.cn:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+162,"newsimg.<*>.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+163,"comment.<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+164,"m.news.<*>.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+165,api.share.baidu.com:<*> open through proxy <*> <*>,1
+166,"timg.baidu.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+167,"www.googletagservices.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>",1
+168,"odr.mookie1.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+169,"i.ytimg.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+170,"odr.mookie1.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+171,"c.baidu.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*> sec>",1
+172,"timg.baidu.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+173,"<*>.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+174,"z13.cnzz.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+175,"f10.baidu.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+176,"cm.g.doubleclick.net:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+177,"cnzz.mmstat.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*> sec>",1
+178,hm.baidu.com:<*> error : <*>,1
+179,"app.<*>.cn:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+180,"www.youtube.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+181,"www.qulishi.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+182,"w.cnzz.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+183,"get.sogou.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+184,"clientservices.googleapis.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>",1
+185,IP_ADDRESS:PORT error : MESSAGE - <*> - <*>,1
+186,"client-<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+187,"lh6.googleusercontent.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+188,"ocsp.digicert.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+189,"static.adobelogin.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+190,"block-edge.dropbox.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+191,"capi.grammarly.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+192,ogs.google.com:<*> open through proxy <*> <*>,1
+193,"cidian.youdao.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+194,newsapp.<*>.com:<*> open through proxy <*> <*>,1
+195,"cbjs.baidu.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+196,"bdimg.share.baidu.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+197,"s1.<*>.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+198,"c.cnzz.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+199,"dj1.baidu.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>",1
+200,"sclick.baidu.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>",1
+201,"s1.bdstatic.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+202,www.<*>.com:<*> open through proxy <*> <*>,1
+203,img.<*>.com:<*> open through proxy <*> HTTPS,1
+204,"changyan.sohu.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+205,"<*>.baidu.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+206,"www.<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>",1
+207,"upload.<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+208,"update.googleapis.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*> sec>",1
+209,"dl-debug.dropbox.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+210,"www.google.com.hk:<*> close, <*> bytes sent, <*> bytes received, lifetime <*> sec>",1
+211,"lh4.googleusercontent.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+212,"ping.pinyin.sogou.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>",1
+213,"api.github.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+214,"notifications.google.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+215,"live.github.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>",1
+216,"www.gmail.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+217,"plus.google.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+218,<*>.client-channel.google.com:<*> open through proxy <*> HTTPS,1
+219,"apis.google.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+220,www.zhihu.com:<*> open through proxy <*> <*>,1
+221,"<*>.zhimg.com:<*> close, <*> bytes sent, <*> bytes (<*>) received, lifetime <*>",1
+222,"content.googleapis.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>",1
+223,"<*>.google.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*> sec>",1
+224,"<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*> sec>",1
+225,api.weibo.com:<*> open through proxy <*> HTTPS,1
+226,"www.zhihu.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+227,"d0.sina.com.cn:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*> sec>",1
+228,"contentrecommend-out.uve.weibo.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+229,"rs.sinajs.cn:<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>",1
+230,"news.sina.com.cn:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+231,"strip.alicdn.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+232,"strip.alicdn.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+233,"rm.api.weibo.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+234,www.weibo.com:<*> open through proxy <*> <*>,1
+235,"www.weibo.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>",1
+236,"www.weibo.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+237,"notifications.google.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+238,"data.grammarly.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+239,"github.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+240,"assets-cdn.github.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+241,"icauh.youdao.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+242,"dict.youdao.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+243,"p3p.sogou.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+244,"assets-cdn.github.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+245,"apis.google.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*> sec>",1
+246,"live.github.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+247,assets-cdn.github.com:<*> open through proxy <*> HTTPS,1
+248,"drive-thirdparty.googleusercontent.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+249,"csi.gstatic.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+250,video-<*>-<*>.xx.fbcdn.net:<*> open through proxy <*> HTTPS,1
+251,"pixel.facebook.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+252,bolt.dropbox.com:<*> open through proxy <*> HTTPS,1
+253,"<*>.githubusercontent.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>",1
+254,"dblp.uni-trier.de:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+255,"<*>.githubusercontent.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+256,"accounts.google.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+257,avatars.githubusercontent.com:<*> open through proxy <*> HTTPS,1
+258,"avatars.githubusercontent.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+259,www.googletagmanager.com:<*> open through proxy <*> <*>,1
+260,"secure.quantserve.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+261,<*>.teamviewer.com:<*> open through proxy <*> <*>,1
+262,"c.trello.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+263,mtalk.google.com:<*> error : Could not connect to proxy <*> - Could not resolve <*> error <*>,1
+264,www.google.com:<*> error : Could not connect to proxy <*> - Could not resolve <*> error <*>,1
+265,awqiizxequsixgr:<*> error : Could not connect to proxy <*> - Could not resolve <*> error <*>,1
+266,www.<*> error : <*> - Could not resolve <*> error <*>,1
+267,c.<*> error : Could not connect to proxy <*> - Could not resolve <*> error <*>,1
+268,<*>.google.com:<*> error : Could not connect to proxy <*> - Could not resolve <*> error <*>,1
+269,bolt.dropbox.com:<*> error : Could not connect to proxy <*> - Could not resolve <*> error <*>,1
+270,wpad:<*> error : Could not connect to proxy <*> - Could not resolve <*> error <*>,1
+271,www.qq.com:<*> error : Could not connect to proxy <*> - Could not resolve <*> error <*>,1
+272,"dj1.baidu.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+273,"update.hicloud.com:<*> error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code <*>",1
+274,"c.csdnimg.cn:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+275,"avatar.csdn.net:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+276,"cpro.baidustatic.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+277,"intf.zsall.mobilem.<*>.cn:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+278,"dc.csdn.net:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+279,beacon.tingyun.com:<*> open through proxy <*> <*>,1
+280,"blog.csdn.net:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+281,"static.blog.csdn.net:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+282,"dc.csdn.net:<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>",1
+283,"eclick.baidu.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+284,"wn.pos.baidu.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+285,"beacon.tingyun.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>",1
+286,"c.csdnimg.cn:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+287,"csdnimg.cn:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+288,"engine.adzerk.net:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+289,"ogs.google.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+290,"sb.scorecardresearch.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+291,"c.trello.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+292,"www.google.com.hk:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+293,"play.google.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>",1
+294,"trello.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>",1
+295,"qa.sockets.stackexchange.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>",1
+296,get.sogou.com:<*> error : Could not connect to proxy <*> - Could not resolve <*> error <*>,1
+297,"short.weixin.qq.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*> sec>",1
+298,"securepubads.g.doubleclick.net:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+299,"d.agkn.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+300,"log.getdropbox.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*> sec>",1
+301,"hangouts.google.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+302,"fs-conn-doctor.qq.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*> sec>",1
+303,"fs-conn-doctor.qq.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+304,"suggestion.baidu.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>",1
+305,www.googleadservices.com:<*> open through proxy <*> <*>,1
+306,"f-log-extension.grammarly.io:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+307,"s.youtube.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+308,"tc.dl.pinyin.sogoucdn.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+309,"tc.dl.pinyin.sogoucdn.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+310,"p3p.sogou.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*> sec>",1
+311,"g.msn.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+312,"ogs.google.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+313,"www.googletagservices.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+314,"static.doubleclick.net:<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>",1
+315,securepubads.g.doubleclick.net:<*> open through proxy <*> <*>,1
+316,"plus.google.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+317,static.zhihu.com:<*> open through proxy <*> HTTPS,1
+318,"fonts.gstatic.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+319,"www.zhihu.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+320,"server:port close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+321,"video-<*>.fbcdn.net:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> MB) received, lifetime <*>",1
+322,"ssl.google-analytics.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+323,"<*>.githubusercontent.com:<*> close, <*> bytes sent, <*> bytes (<*>) received, lifetime <*>",1
+324,"<*>.githubusercontent.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+325,"<*> close, <*> bytes sent, <*> bytes received, lifetime <*> sec>",1
+326,go.microsoft.com:<*> open through proxy <*> <*>,1
+327,"go.microsoft.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+328,"info.pinyin.sogou.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes received, lifetime <*>",1
+329,config.pinyin.sogou.com:<*> error : Could not connect through proxy <*> - Proxy closed the connection unexpectedly.,1
+330,client.dropbox.com:<*> error : Could not connect to proxy <*> - Could not resolve <*> error <*>,1
+331,client-<*> error : <*>,1
+332,hangouts.google.com:<*> open through proxy <*> <*>,1
+333,"client-lb.dropbox.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+334,"dict.youdao.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+335,"config.pinyin.sogou.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+336,"www.googleadservices.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+337,"qa.sockets.stackexchange.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+338,client-<*> error : <*> - connection attempt failed with error <*>,1
+339,mtalk.google.com:<*> error : Could not connect to proxy <*> - connection attempt failed with error <*>,1
+340,client-lb.dropbox.com:<*> error : Could not connect to proxy <*> - connection attempt failed with error <*>,1
+341,"bolt.dropbox.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+342,"info.pinyin.sogou.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+343,"client-cf.dropbox.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+344,"p2.qhimg.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+345,www.googleapis.com:<*> open through proxy <*> HTTPS,1
+346,"www.evernote.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+347,src.<*>.cn:<*> open through proxy <*> <*>,1
+348,"pv.mini.sohu.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+349,"pv.mini.sohu.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+350,"css.sohu.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+351,"p.inte.sogou.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+352,"i2.itc.cn:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+353,crl.microsoft.com:<*> open through proxy <*> <*>,1
+354,"cdn.<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+355,"i2.itc.cn:<*> error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code <*>",1
+356,"v.admaster.com.cn:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+357,"s2.googleusercontent.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+358,"cidian.youdao.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+359,"qdun-data.qq.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*> sec>",1
+360,"www.gstatic.com:<*> close, <*> bytes (<*> KB) sent, <*> bytes (<*> KB) received, lifetime <*>",1
+361,r8---sn-<*>.googlevideo.com:<*> open through proxy <*> HTTPS,1
+362,"yt3.ggpht.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*> sec>",1
+363,drive-thirdparty.googleusercontent.com:<*> open through proxy <*> <*>,1
+364,"f-log-extension.grammarly.io:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+365,"www.zhihu.com:<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",1
+366,"zhstatic.zhihu.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+367,"imgsrc.baidu.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1
+368,"wn.pos.baidu.com:<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",1

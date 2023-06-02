@@ -1,0 +1,30 @@
+,EventTemplate,Occurrences
+0,PacketResponder {responder_id} for block {block} terminating,200
+1,PacketResponder 0 for block {block} terminating,95
+2,BLOCK* NameSystem.addStoredBlock: blockMap updated: {ip_address} is added to {path} size {size},82
+3,{process} {id} for block {block} terminating,9
+4,BLOCK* NameSystem.addStoredBlock: blockMap updated: {ip_address} is added to {block} size {size},231
+5,Received block {block} of size {size} from {source},291
+6,Receiving block {block} src: {source} dest: {destination},292
+7,BLOCK* NameSystem.allocateBlock: {path} {block},115
+8,Verification succeeded for {block},20
+9,Deleting block {block} file {path},263
+10,{ip_address}:50010 Served block {block} to /{destination},57
+11,{ip_address}:Got exception while serving {block} to {destination}:,20
+12,{ip_address}:50010:Got exception while serving {path} to {destination}:,13
+13,{ip_address}:Got exception while serving {path} to {destination}:,29
+14,{ip_address}:50010 Served block {block} to {destination},9
+15,{ip_address}:{port} Served block {block} to {destination},14
+16,{ip_address}:50010:Got exception while serving {block} to {destination}:,14
+17,{ip_address}:50010:Got exception while serving {path} to /{destination}:,4
+18,PacketResponder 1 for block {block} terminating,2
+19,BLOCK* NameSystem.delete: {block} is added to invalidSet of {ip_address}:{port},217
+20,BLOCK* NameSystem.delete: {block} is added to invalidSet of {ip_address}:50010,7
+21,{process} {thread} for block {block} terminating,5
+22,BLOCK* NameSystem.addStoredBlock: blockMap updated: {destination} is added to {block} size {size},1
+23,{source_ip}:50010 Starting thread to transfer block {block} to {destination_ip}:50010,1
+24,BLOCK* ask {ip_address} to delete {block},2
+25,Received block {block} src: {source} dest: {destination} of size {size},2
+26,BLOCK* ask {ip_address} to delete {blocks},3
+27,Received block {block} of size {size} from {ip_address},1
+28,BLOCK* ask {source}:50010 to replicate {block} to datanode(s) {destination}:50010,1

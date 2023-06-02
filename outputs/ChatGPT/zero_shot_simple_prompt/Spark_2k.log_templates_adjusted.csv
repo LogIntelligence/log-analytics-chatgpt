@@ -1,0 +1,39 @@
+,EventTemplate,Occurrences
+0,"Times: total = <*>, boot = <*>, init = <*>, finish = <*>",375
+1,Got assigned task <*>,305
+2,Running task <*> in stage <*> (TID <*>),301
+3,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver.,264
+4,Found block <*> locally,257
+5,"Block <*> stored as bytes in memory (estimated size <*>, free <*>)",109
+6,"Partition <*> not found, computing it",75
+7,Input split: hdfs://<*>/<*>+<*>,45
+8,Started reading broadcast variable <*>,37
+9,Reading broadcast variable <*> took <*> ms,37
+10,"Block <*> stored as values in memory (estimated size <*>, free <*>)",37
+11,Finished task <*> in stage <*> (TID <*>). <*> result sent to driver.,35
+12,File Output Committer Algorithm version is <*>,30
+13,Saved output of task '<*>' to <*>,30
+14,<*>,24
+15,<*>: <*>,6
+16,"<*> is deprecated. Instead, use <*>",5
+17,Running task <*> in stage <*>. (TID <*>),4
+18,Changing view acls to: <*>,2
+19,"Changing modify acls to: <*>,<*>",2
+20,"SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)",2
+21,Successfully started service '<*>' on port <*>.,2
+22,Registered signal handlers for [<*>],1
+23,Slf4jLogger started,1
+24,Starting remoting,1
+25,Remoting started; listening on addresses :[akka.tcp://<*>@<*>],1
+26,Created local directory at <*>,1
+27,MemoryStore started with capacity <*>.,1
+28,Connecting to driver: spark://<*>@<*>,1
+29,Successfully registered with driver,1
+30,Starting executor ID <*> on host <*>,1
+31,Server created on <*>,1
+32,Trying to register BlockManager,1
+33,<*> BlockManager,1
+34,"Block broadcast_0_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+35,"Block broadcast_4_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+36,"Block broadcast_2_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+37,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,1

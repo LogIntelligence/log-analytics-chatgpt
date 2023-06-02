@@ -1,0 +1,209 @@
+,EventTemplate,Occurrences
+0,"Times: total = <*>, boot = <*>, init = <*>, finish = <*>",375
+1,Got assigned task <*>,305
+2,Running task <*> in stage <*> (TID <*>),305
+3,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,300
+4,Found block <*> locally,257
+5,"Partition <*> not found, computing it",62
+6,Input split: hdfs://<*>/<*>+<*>,45
+7,Started reading broadcast variable <*>,37
+8,Reading broadcast variable <*> took <*> ms,37
+9,File Output Committer Algorithm version is <*>,30
+10,Saved output of task '<*>' to <*>,30
+11,"Partition <*> found, computing it",9
+12,"Block <*> stored as bytes in memory (estimated size <*> B, free <*> KB)",7
+13,<*>: Committed,3
+14,Changing view acls to: <*>,2
+15,"Changing modify acls to: <*>,<*>",2
+16,SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(<*>); users with modify permissions: Set(<*>),2
+17,<*>,2
+18,"Registered signal handlers for [TERM, HUP, INT]",1
+19,Slf4jLogger started,1
+20,Starting remoting,1
+21,Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@<*>],1
+22,Successfully started service 'sparkExecutorActorSystem' on port <*>.,1
+23,Created local directory at <*>,1
+24,MemoryStore started with capacity <*>,1
+25,Connecting to driver: spark://<*>,1
+26,Successfully registered with driver,1
+27,Starting executor ID <*> on host <*>,1
+28,Successfully started service '<*>' on port <*>.,1
+29,Server created on <*>,1
+30,Trying to register BlockManager,1
+31,Registered BlockManager,1
+32,"Block broadcast_9_piece0 stored as bytes in memory (estimated size <*> KB, free <*> KB)",1
+33,"Block broadcast_9 stored as values in memory (estimated size <*>, free <*>)",1
+34,"Block broadcast_8_piece0 stored as bytes in memory (estimated size <*> KB, free <*> KB)",1
+35,"Block broadcast_8 stored as values in memory (estimated size <*> KB, free <*> KB)",1
+36,"mapred.tip.id is deprecated. Instead, use mapreduce.task.id",1
+37,"mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id",1
+38,"mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap",1
+39,"mapred.job.id is deprecated. Instead, use mapreduce.job.id",1
+40,"mapred.task.partition is deprecated. Instead, use mapreduce.task.partition",1
+41,"Block broadcast_0_piece0 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+42,"Block broadcast_0 stored as values in memory (estimated size <*> B, free <*> KB)",1
+43,"Block broadcast_4_piece0 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+44,"Block broadcast_4 stored as values in memory (estimated size <*> B, free <*> KB)",1
+45,"Block broadcast_3_piece0 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+46,"Block broadcast_3 stored as values in memory (estimated size <*> B, free <*> KB)",1
+47,"Block broadcast_1_piece0 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+48,"Block broadcast_1 stored as values in memory (estimated size <*> B, free <*> KB)",1
+49,"Block broadcast_2_piece0 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+50,"Block broadcast_2 stored as values in memory (estimated size <*> B, free <*> KB)",1
+51,"Block rdd_2_2 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+52,"Block rdd_2_1 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+53,"Block rdd_2_0 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+54,"Block rdd_2_4 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+55,"Block broadcast_10_piece0 stored as bytes in memory (estimated size <*> KB, free <*> KB)",1
+56,"Block broadcast_10 stored as values in memory (estimated size <*>, free <*>)",1
+57,"Block broadcast_11_piece0 stored as bytes in memory (estimated size <*> KB, free <*> KB)",1
+58,"Block broadcast_11 stored as values in memory (estimated size <*> KB, free <*> KB)",1
+59,"Block broadcast_12_piece0 stored as bytes in memory (estimated size <*> KB, free <*> KB)",1
+60,"Block broadcast_12 stored as values in memory (estimated size <*>, free <*>)",1
+61,"Block rdd_6_4 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+62,"Block rdd_6_3 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+63,"Block rdd_6_1 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+64,"Block rdd_6_2 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+65,"Block rdd_6_0 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+66,"Block broadcast_13_piece0 stored as bytes in memory (estimated size <*> KB, free <*> KB)",1
+67,"Block broadcast_13 stored as values in memory (estimated size <*>, free <*>)",1
+68,"Block broadcast_14_piece0 stored as bytes in memory (estimated size <*> KB, free <*> KB)",1
+69,"Block broadcast_14 stored as values in memory (estimated size <*>, free <*>)",1
+70,"Block broadcast_15_piece0 stored as bytes in memory (estimated size <*> KB, free <*> KB)",1
+71,"Block broadcast_15 stored as values in memory (estimated size <*>, free <*>)",1
+72,"Block broadcast_16_piece0 stored as bytes in memory (estimated size <*> KB, free <*> KB)",1
+73,"Block broadcast_16 stored as values in memory (estimated size <*> KB, free <*> KB)",1
+74,"Partition rdd_11_0 not found, computing it",1
+75,"Block rdd_11_0 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+76,"Block rdd_11_3 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+77,"Block rdd_11_2 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+78,"Block rdd_11_1 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+79,"Block broadcast_17_piece0 stored as bytes in memory (estimated size <*> KB, free <*> KB)",1
+80,"Block broadcast_17 stored as values in memory (estimated size <*>, free <*>)",1
+81,"Block broadcast_18_piece0 stored as bytes in memory (estimated size <*> KB, free <*> KB)",1
+82,"Block broadcast_18 stored as values in memory (estimated size <*> KB, free <*> KB)",1
+83,"Block broadcast_19_piece0 stored as bytes in memory (estimated size <*> KB, free <*> KB)",1
+84,"Block broadcast_19 stored as values in memory (estimated size <*> KB, free <*> KB)",1
+85,"Block broadcast_20_piece0 stored as bytes in memory (estimated size <*> KB, free <*> KB)",1
+86,"Block broadcast_20 stored as values in memory (estimated size <*>, free <*>)",1
+87,"Partition rdd_16_0 not found, computing it",1
+88,"Block rdd_16_4 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+89,"Block rdd_16_0 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+90,"Block rdd_16_3 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+91,"Block rdd_16_2 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+92,"Block rdd_16_1 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+93,"Block broadcast_21_piece0 stored as bytes in memory (estimated size <*> KB, free <*> KB)",1
+94,"Block broadcast_21 stored as values in memory (estimated size <*> KB, free <*> KB)",1
+95,"Block broadcast_22_piece0 stored as bytes in memory (estimated size <*> KB, free <*> KB)",1
+96,"Block broadcast_22 stored as values in memory (estimated size <*> KB, free <*> KB)",1
+97,"Block broadcast_23_piece0 stored as bytes in memory (estimated size <*> KB, free <*> KB)",1
+98,"Block broadcast_23 stored as values in memory (estimated size <*> KB, free <*> KB)",1
+99,"Block broadcast_24_piece0 stored as bytes in memory (estimated size <*> KB, free <*> KB)",1
+100,"Block broadcast_24 stored as values in memory (estimated size <*> KB, free <*> KB)",1
+101,"Block rdd_21_1 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+102,"Block rdd_21_4 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+103,"Block rdd_21_3 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+104,"Block rdd_21_2 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+105,"Block rdd_21_0 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+106,"Block broadcast_25_piece0 stored as bytes in memory (estimated size <*> KB, free <*> KB)",1
+107,"Block broadcast_25 stored as values in memory (estimated size <*>, free <*>)",1
+108,"Block broadcast_26_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+109,"Block broadcast_26 stored as values in memory (estimated size <*>, free <*>)",1
+110,"Block broadcast_27_piece0 stored as bytes in memory (estimated size <*> KB, free <*> KB)",1
+111,"Block broadcast_27 stored as values in memory (estimated size <*> KB, free <*> KB)",1
+112,"Block broadcast_28_piece0 stored as bytes in memory (estimated size <*> KB, free <*> KB)",1
+113,"Block broadcast_28 stored as values in memory (estimated size <*>, free <*>)",1
+114,"Block rdd_26_0 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+115,"Block rdd_26_4 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+116,"Block rdd_26_1 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+117,"Block broadcast_29_piece0 stored as bytes in memory (estimated size <*> KB, free <*> KB)",1
+118,"Block broadcast_29 stored as values in memory (estimated size <*>, free <*>)",1
+119,"Block broadcast_30_piece0 stored as bytes in memory (estimated size <*> KB, free <*> KB)",1
+120,"Block broadcast_30 stored as values in memory (estimated size <*>, free <*>)",1
+121,"Block broadcast_31_piece0 stored as bytes in memory (estimated size <*> KB, free <*> KB)",1
+122,"Block broadcast_31 stored as values in memory (estimated size <*>, free <*>)",1
+123,"Partition rdd_30_1 not found, computing it",1
+124,"Block rdd_30_0 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+125,"Block rdd_30_1 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+126,"Block rdd_30_2 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+127,"Block rdd_30_4 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+128,"Block rdd_30_3 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+129,"Block broadcast_32_piece0 stored as bytes in memory (estimated size <*> KB, free <*> KB)",1
+130,"Block broadcast_32 stored as values in memory (estimated size <*>, free <*>)",1
+131,"Block broadcast_33_piece0 stored as bytes in memory (estimated size <*> KB, free <*> KB)",1
+132,"Block broadcast_33 stored as values in memory (estimated size <*> KB, free <*> KB)",1
+133,attempt_201706092018_0024_m_000002_998: Committed,1
+134,attempt_201706092018_0024_m_000003_1012: Committed,1
+135,attempt_201706092018_0024_m_000001_984: Committed,1
+136,attempt_201706092018_0024_m_000000_970: Committed,1
+137,attempt_201706092018_0024_m_000044_1129: Committed,1
+138,attempt_201706092018_0024_m_000043_1128: Committed,1
+139,attempt_201706092018_0024_m_000042_1127: Committed,1
+140,attempt_201706092018_0024_m_000083_1138: Committed,1
+141,attempt_201706092018_0024_m_000084_1141: Committed,1
+142,attempt_201706092018_0024_m_000080_1135: Committed,1
+143,attempt_201706092018_0024_m_000082_1137: Committed,1
+144,attempt_201706092018_0024_m_000081_1136: Committed,1
+145,attempt_201706092018_0024_m_000124_1151: Committed,1
+146,attempt_201706092018_0024_m_000120_1145: Committed,1
+147,attempt_YYYYMMDDHHMMSS_xxxx_m_xxxxxx_xxxx: Committed,1
+148,attempt_201706092018_0024_m_000123_1150: Committed,1
+149,attempt_201706092018_0024_m_000160_1155: Committed,1
+150,attempt_201706092018_0024_m_000163_1158: Committed,1
+151,attempt_201706092018_0024_m_000164_1159: Committed,1
+152,attempt_201706092018_0024_m_000161_1156: Committed,1
+153,"Block broadcast_34_piece0 stored as bytes in memory (estimated size <*> KB, free <*> KB)",1
+154,"Block broadcast_34 stored as values in memory (estimated size <*> KB, free <*> KB)",1
+155,attempt_201706092018_0025_m_000004_1199: Committed,1
+156,attempt_201706092018_0025_m_000003_1198: Committed,1
+157,attempt_201706092018_0025_m_000000_1166: Committed,1
+158,attempt_201706092018_0025_m_000002_1194: Committed,1
+159,attempt_201706092018_0025_m_000001_1180: Committed,1
+160,"Block broadcast_37_piece0 stored as bytes in memory (estimated size <*> KB, free <*> KB)",1
+161,"Block broadcast_37 stored as values in memory (estimated size <*>, free <*>)",1
+162,"Partition rdd_42_0 not found, computing it",1
+163,"Block broadcast_36_piece0 stored as bytes in memory (estimated size <*>, free <*>)",1
+164,"Block broadcast_36 stored as values in memory (estimated size <*> KB, free <*> KB)",1
+165,"Block rdd_42_0 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+166,"Block rdd_42_4 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+167,"Block rdd_42_2 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+168,"Block rdd_42_1 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+169,"Block rdd_42_3 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+170,"Block rdd_42_5 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+171,"Block rdd_42_6 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+172,"Block rdd_42_9 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+173,"Block rdd_42_8 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+174,"Block rdd_42_7 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+175,"Block rdd_42_10 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+176,"Block rdd_42_11 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+177,"Block rdd_42_13 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+178,"Block rdd_42_12 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+179,"Block rdd_42_14 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+180,"Block rdd_42_15 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+181,"Block rdd_42_16 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+182,"Block rdd_42_17 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+183,"Block rdd_42_19 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+184,"Block rdd_42_18 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+185,"Block rdd_42_20 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+186,"Block rdd_42_22 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+187,"Block rdd_42_21 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+188,"Block rdd_42_23 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+189,"Block rdd_42_25 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+190,"Block rdd_42_27 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+191,"Block rdd_42_26 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+192,"Block rdd_42_28 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+193,"Block rdd_42_29 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+194,"Block rdd_42_30 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+195,"Block rdd_42_31 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+196,"Block rdd_42_32 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+197,"Block rdd_42_34 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+198,"Block rdd_42_33 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+199,"Block rdd_42_35 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+200,"Block rdd_42_37 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+201,"Block rdd_42_38 stored as bytes in memory (estimated size <*> B, free <*> KB)",1
+202,"Block broadcast_38_piece0 stored as bytes in memory (estimated size <*> KB, free <*> KB)",1
+203,"Block broadcast_38 stored as values in memory (estimated size <*> KB, free <*> KB)",1
+204,"Block broadcast_39_piece0 stored as bytes in memory (estimated size <*> KB, free <*> KB)",1
+205,"Block broadcast_39 stored as values in memory (estimated size <*> KB, free <*> KB)",1
+206,"Block broadcast_40_piece0 stored as bytes in memory (estimated size <*> KB, free <*> KB)",1
+207,"Block broadcast_40 stored as values in memory (estimated size <*>, free <*> KB)",1

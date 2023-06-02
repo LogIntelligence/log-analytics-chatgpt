@@ -1,0 +1,56 @@
+,EventTemplate,Occurrences
+0,Received connection request <*>,299
+1,Interrupted while waiting for message on <*>,290
+2,"Connection broken for id <*>, my id = <*>, error =",289
+3,Interrupting <*>,266
+4,Send <*> leaving <*>,262
+5,Cannot open channel to <*> at election address <*>,86
+6,Established session <*> with negotiated timeout <*> for client <*>,50
+7,Accepted socket connection from <*>,48
+8,Processed session termination for sessionid: <*>,47
+9,Closed socket connection for client <*> which had sessionid <*>,44
+10,Client attempting to establish new session at <*>,41
+11,"Expiring session <*>, timeout of <*> exceeded",40
+12,Notification time out: <*>,37
+13,caught <*> exception,37
+14,Connection request from old client <*>; will be dropped if server is in r-o mode,33
+15,Interrupted while waiting for message on queue,24
+16,******* GOODBYE <*> ********,19
+17,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), <*> (n.state), <*> (n.sid), <*> (n.peerEPoch), <*> (my state)",12
+18,Unexpected exception causing shutdown while <*> still open,12
+19,Connection request from old client <*>; will be dropped if server is in <*> mode,6
+20,LOOKING,4
+21,Closed socket connection for client <*> (no session established for client),4
+22,Client attempting to renew session <*> at <*>,3
+23,Revalidating client: <*>,3
+24,Exception causing close of session <*> due to <*>: <*>,3
+25,autopurge.purgeInterval set to <*>,3
+26,FOLLOWING,2
+27,FOLLOWING - LEADER ELECTION TOOK - <*>,2
+28,Server environment:java.vendor=<*>,2
+29,Server environment:user.name=<*>,2
+30,Server environment:os.name=<*>,2
+31,"Connection broken for id <*>, my id = <*>, error = <*>",2
+32,Snapshotting: <*> to <*>,2
+33,Getting a snapshot from leader,2
+34,minSessionTimeout set to <*>,2
+35,Unexpected Exception:,1
+36,Server environment:user.dir=<*>,1
+37,My election bind port: <*>/<*>,1
+38,"Have smaller server identifier, so dropping the connection: (<*>, <*>)",1
+39,"New election. My id = <*>, proposed zxid=<*>",1
+40,Server environment:host.name=<*>,1
+41,autopurge.snapRetainCount set to <*>,1
+42,Server environment:zookeeper.version=<*>--<*> GMT,1
+43,tickTime set to <*>,1
+44,Got user-level KeeperException when processing sessionid:<*> type:<*> cxid:<*> zxid:<*> txntype:<*> reqpath:<*> Error Path:<*> Error:<*>,1
+45,Starting <*> peer,1
+46,Follower sid: <*> : <*> : <*>,1
+47,maxSessionTimeout set to <*>,1
+48,Server environment:java.class.path=<*>,1
+49,Have quorum of supporters; starting up and setting last processed zxid: <*>,1
+50,shutdown of <*> complete,1
+51,First is <*>,1
+52,Reading snapshot <*>,1
+53,Sending <*>,1
+54,Server environment:java.home=<*>,1

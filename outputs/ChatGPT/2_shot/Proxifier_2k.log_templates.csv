@@ -1,0 +1,76 @@
+,EventTemplate,Occurrences
+0,{host} open through proxy {proxy_server} HTTPS,457
+1,"{host} close, {sent_bytes} bytes sent, {received_bytes} bytes received, lifetime {lifetime}",147
+2,"{host} close, {sent_bytes} bytes sent, {received_bytes} bytes received, lifetime <{lifetime} sec>",88
+3,"{host} close, {sent_bytes} bytes sent, {received_bytes} bytes ({received_kb} KB) received, lifetime <{lifetime} sec>",25
+4,"{host} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",113
+5,"{host} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes received, lifetime <{lifetime} sec>",29
+6,"{host} close, {sent_bytes} bytes sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",38
+7,"{host} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes received, lifetime {lifetime}",61
+8,"{host} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime <{lifetime} sec>",25
+9,"{host} close, {sent_bytes} bytes sent, {received_bytes} bytes ({received_kb}), lifetime <{lifetime}> sec",1
+10,{ip_address} open through proxy {host} SOCKS5,2
+11,"{host} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_mb} MB) received, lifetime {lifetime}",4
+12,"{host}:{port} close, {sent_bytes} bytes sent, {received_bytes} bytes received, lifetime <{lifetime} sec>",16
+13,{host} error : A connection request was canceled before the completion.,1
+14,{host}:{port} error : Could not connect through proxy {proxy_server} - Proxy closed the connection unexpectedly.,2
+15,"{host} close, {sent_bytes} bytes sent, {received_bytes} bytes ({received_kb} KB) received, lifetime <{lifetime}> sec",1
+16,"{ip_address}:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+17,{ip_address}:{port} open through proxy {host} {protocol},6
+18,{host}:{port} open through proxy {proxy_server} {protocol},401
+19,{host}:443 open through proxy {proxy_server} HTTPS,82
+20,"{host}:{port} close, {sent_bytes} bytes sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",63
+21,"{host}:{port} close, {sent_bytes} bytes sent, {received_bytes} bytes ({received_kb} KB) received, lifetime <{lifetime} sec>",5
+22,"{host} close, {sent_bytes} bytes sent, {received_bytes} bytes ({size}), lifetime {lifetime}",1
+23,"{host}:{port} close, {sent_bytes} bytes sent, {received_bytes} bytes received, lifetime {lifetime}",78
+24,{host}:{port} error : A connection request was canceled before the completion.,4
+25,"{host} error : Could not connect through proxy {proxy_server} - Proxy server cannot establish a connection with the target, status code {code}",10
+26,"{ip_address}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1
+27,"{ip_address}:{port} close, {sent_bytes} bytes sent, {received_bytes} bytes received, lifetime {lifetime}",4
+28,{ip_address}:{port} error : Could not connect through proxy {proxy_server} - Proxy closed the connection unexpectedly.,1
+29,"{host} close, {sent_bytes} bytes sent, {received_bytes} bytes ({received_kb}), lifetime {lifetime}",1
+30,{host}:80 error : A connection request was canceled before the completion.,12
+31,"{ip_address}:{port} error : Could not connect through proxy {proxy_server} - Proxy server cannot establish a connection with the target, status code {code}",3
+32,{host}:{port} error : {message},11
+33,"{host}:{port} close, {sent_bytes} bytes sent, {received_bytes} bytes ({received_kb}), lifetime {lifetime}",1
+34,"{host}:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",128
+35,"{host}:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes received, lifetime {lifetime}",27
+36,"{host}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes ({size_received}) received, lifetime {lifetime}",7
+37,"{host}:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_mb} MB) received, lifetime {lifetime}",5
+38,"{host}:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes received, lifetime <{lifetime} sec>",1
+39,"{host}:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",6
+40,"{host}:{port} {status}, {sent_bytes} bytes sent, {received_bytes} bytes received, lifetime <{lifetime} sec>",15
+41,"{host}:{port} {status}, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",20
+42,"{host}:{port} {status}, {sent_bytes} bytes sent, {received_bytes} bytes ({size}), lifetime {lifetime}",4
+43,"{host}:{port} {status}, {bytes_sent} bytes sent, {bytes_received} bytes ({size_received}), lifetime {lifetime}",1
+44,"{host}:{port} close, {sent_bytes} bytes sent, {received_bytes} bytes ({size}), lifetime {lifetime}",10
+45,{host}:443 open through proxy {proxy_server}:5070 HTTPS,5
+46,"{host} close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime <{lifetime} sec>",1
+47,"{host}:{port} {status}, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes received, lifetime {lifetime}",3
+48,"{host}:{port} close, {sent_bytes} bytes sent, {received_bytes} bytes ({size} {unit}) received, lifetime {lifetime}",1
+49,"{host}:{port} {action}, {sent_bytes} bytes sent, {received_bytes} bytes received, lifetime {lifetime}",2
+50,"{host}:{port} {action}, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+51,{ip_address}:{port} error : Could not connect to proxy {proxy_server} - Could not resolve {proxy_server} error {error_code},4
+52,{host} error : Could not connect to proxy {proxy_server} - Could not resolve {proxy_server} error {code},1
+53,{host}:{port} error : Could not connect to proxy {proxy_server} - {error_message},1
+54,{host}:{port} error : Could not connect to proxy {proxy_server} - Could not resolve {proxy_server} error {code},1
+55,{host}:{port} error : Could not connect to proxy {proxy_server} - Could not resolve {proxy_server} error {error_code},12
+56,{host}:443 error : Could not connect to proxy {proxy_server} - Could not resolve {proxy_server} error {code},1
+57,"{host}:{port} error : Could not connect through proxy {proxy_server} - Proxy server cannot establish a connection with the target, status code {code}",2
+58,csdnimg.cn:80 error : A connection request was canceled before the completion.,2
+59,"{host}:{port} {action}, {sent_bytes} bytes sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+60,"{host}:{port} {status}, {sent_bytes} bytes sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",3
+61,"{host}:443 error : Could not connect through proxy {proxy_server} - Proxy server cannot establish a connection with the target, status code {code}",2
+62,"{host}:443 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1
+63,{ip_address}:{port} open through proxy {host}:{proxy_port} {protocol},2
+64,"{host}:443 close, {sent_bytes} bytes sent, {received_bytes} bytes received, lifetime {lifetime}",1
+65,"{ip_address}:{port} close, {sent_bytes} bytes sent, {received_bytes} bytes received, lifetime <{lifetime} sec>",1
+66,"{host}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes ({kb_received} KB) received, lifetime {lifetime}",1
+67,{host}:443 error : A connection request was canceled before the completion.,1
+68,"{host}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes ({size_received}) received, lifetime <{lifetime}> sec",2
+69,{host}:443 error : Could not connect to proxy {proxy_server} - connection attempt failed with error {error_code},9
+70,{host}:{port} error : Could not connect to proxy {proxy_server} - connection attempt failed with error {error_code},16
+71,{host} error : Could not connect to proxy {proxy_server} - connection attempt failed with error {error_code},1
+72,"{host}:443 close, {sent_bytes} bytes sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+73,{host}:80 open through proxy {proxy_server}:5070 HTTPS,1
+74,"{host}:{port} {status}, {sent_bytes} bytes sent, {received_bytes} bytes received, lifetime {lifetime}",1

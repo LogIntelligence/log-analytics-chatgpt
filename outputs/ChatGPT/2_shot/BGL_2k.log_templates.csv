@@ -1,0 +1,273 @@
+,EventTemplate,Occurrences
+0,instruction cache parity error corrected,42
+1,63543 double-hummer alignment exceptions,1
+2,162 double-hummer alignment exceptions,1
+3,141 double-hummer alignment exceptions,1
+4,"CE sym {sym}, at {address}, mask {mask}",86
+5,ciod: failed to read message prefix on control stream (CioStream socket to {ip}:{port},3
+6,generating core.{code},657
+7,generating core.{pid},53
+8,force load/store alignment...............{code},2
+9,ciod: cpu {cpu} at treeaddr {treeaddr} sent unrecognized message {message},1
+10,generating core.{year},3
+11,ciod: LOGIN chdir({directory}) failed: {error},17
+12,"1 ddr errors(s) detected and corrected on rank {rank}, symbol {symbol}, bit {bit}",12
+13,"CE sym {sym_num}, at {address}, mask {mask}",6
+14,data TLB error interrupt,60
+15,ciod: Message code {code} is not {value} or {value},1
+16,data storage interrupt,30
+17,instruction address: {address},21
+18,data address: {address},8
+19,machine check: i-fetch......................{code},5
+20,program interrupt: illegal instruction......{code},8
+21,exception syndrome register: {register},6
+22,data store interrupt caused by dcbf.........{code},5
+23,program interrupt: privileged instruction...{code},5
+24,program interrupt: trap instruction.........{code},1
+25,program interrupt: imprecise exception......{code},5
+26,store operation.............................{code},2
+27,machine state register: {register},2
+28,data store interrupt caused by icbi.........{code},5
+29,"problem state (0=sup,1=usr).......{state}",3
+30,floating point instr. enabled.....{code},4
+31,auxiliary processor.........................{code},5
+32,machine check enable..............{code},2
+33,floating pt ex mode {mode} enable......{value},5
+34,program interrupt: unimplemented operation..{code},2
+35,debug interrupt enable............{code},1
+36,byte ordering exception.....................{code},2
+37,data address space................{code},5
+38,core configuration register: {value},7
+39,program interrupt: fp cr update.............{code},1
+40,guaranteed instruction cache block touch.{block},2
+41,program interrupt: fp cr field .............{value},4
+42,guaranteed data cache block touch........{code},1
+43,icache prefetch depth....................{depth},1
+44,machine state register: {register_value},2
+45,icache prefetch threshold................{value},2
+46,wait state enable.................{code},1
+47,critical input interrupt enable...{code},1
+48,special purpose registers:,1
+49,lr:{lr} cr:{cr} xer:{xer} ctr:{ctr},1
+50,rts internal error,1
+51,debug wait enable.................{code},2
+52,instruction address space.........{code},1
+53,disable store gathering..................{code},3
+54,total of {count} ddr error(s) detected and corrected,13
+55,ciod: Error loading {file_path}: {error_message},28
+56,ciod: Error creating node map from file {file_path}: No child processes,1
+57,199680 double-hummer alignment exceptions,1
+58,1969920 double-hummer alignment exceptions,1
+59,2576000 double-hummer alignment exceptions,2
+60,6182400 double-hummer alignment exceptions,3
+61,3091200 double-hummer alignment exceptions,3
+62,23431872 double-hummer alignment exceptions,1
+63,259966605 double-hummer alignment exceptions,1
+64,255244071 double-hummer alignment exceptions,1
+65,259822751 double-hummer alignment exceptions,1
+66,program interrupt,3
+67,Node card is not fully functional,6
+68,344040 double-hummer alignment exceptions,3
+69,generating core.{process_id},8
+70,ciod: Error creating node map from file {file}: Bad file descriptor,1
+71,Ido chip status changed: {mac} ip={ip} v={version} t={type} status={status} {timestamp},4
+72,Can not get assembly information for node card,6
+73,1146800 double-hummer alignment exceptions,27
+74,458720 double-hummer alignment exceptions,8
+75,ciod: Missing or invalid fields on line {line} of node map file {file},2
+76,1 torus receiver z+ input pipe error(s) (dcr {code}) detected and corrected,1
+77,632431728 double-hummer alignment exceptions,1
+78,634368144 double-hummer alignment exceptions,1
+79,632254896 double-hummer alignment exceptions,1
+80,633283776 double-hummer alignment exceptions,1
+81,ciod: duplicate canonical-rank {rank} to logical-rank {rank} mapping at line {line} of node map file {file},1
+82,ciod: Error creating node map from file {file_path}: Block device required,1
+83,{timestamp} double-hummer alignment exceptions,4
+84,rts panic! - stopping execution,2
+85,118661512 double-hummer alignment exceptions,1
+86,112099344 double-hummer alignment exceptions,1
+87,113170696 double-hummer alignment exceptions,1
+88,117400328 double-hummer alignment exceptions,1
+89,112762744 double-hummer alignment exceptions,1
+90,{number} double-hummer alignment exceptions,6
+91,113622512 double-hummer alignment exceptions,1
+92,114091808 double-hummer alignment exceptions,1
+93,{code} double-hummer alignment exceptions,2
+94,113982272 double-hummer alignment exceptions,1
+95,113355952 double-hummer alignment exceptions,1
+96,111990296 double-hummer alignment exceptions,1
+97,112625368 double-hummer alignment exceptions,1
+98,116249832 double-hummer alignment exceptions,1
+99,112481672 double-hummer alignment exceptions,1
+100,116332728 double-hummer alignment exceptions,1
+101,ciod: Error creating node map from file {file_path}: Permission denied,1
+102,ciod: Z coordinate {coord} exceeds physical dimension {dim} at line {line} of node map file {file},1
+103,"rts: kernel terminated for reason {code}rts: bad message header: invalid cpu, type={type}, cpu={cpu}, index={index}, total={total}",1
+104,8 floating point alignment exceptions,37
+105,15 floating point alignment exceptions,14
+106,5 floating point alignment exceptions,22
+107,685 floating point alignment exceptions,4
+108,{code} floating point alignment exceptions,11
+109,New ido chip inserted into the database: {ido} ip={ip} v={version} t={type},3
+110,NodeCard is not fully functional,1
+111,"Node card status: ALERT {alert_0}, ALERT {alert_1}, ALERT {alert_2}, ALERT {alert_3} is (are) active. Clock Mode is {clock_mode}. Clock Select is {clock_select}. Phy JTAG Reset is {phy_jtag_reset}. ASIC JTAG Reset is not {asic_jtag_reset}. Temperature Mask is not {temperature_mask}. No temperature error. Temperature Limit Error Latch is clear. PGOOD is {pgood}. PGOOD error latch is {pgood_error_latch}. MPGOOD is {mpgood}. MPGOOD error latch is {mpgood_error_latch}. The 2.5 volt rail is OK. The 1.5 volt rail is OK.",1
+112,"Node card VPD check: U11 node in processor card slot {slot} do not match. VPD ecid {ecid}, found {found}",5
+113,idoproxydb hit ASSERT condition: ASSERT expression={expression} Source file={file} Source line={line} Function={function},35
+114,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The {volt} volt rail is OK. The {volt} volt rail is OK.,5
+115,"Node card VPD check: U01 node in processor card slot {slot} do not match. VPD ecid {ecid}, found {found}",2
+116,"PrepareForService shutting down NodeCard(mLctn({location}), mCardSernum({serial}), mLp({lp}), mIp({ip}), mType({type})) as part of Service Action {action}",1
+117,rts tree/torus link training failed: wanted: {axis1} {axis2} X+ X- Y+ Y- {axis3} {axis4} got: {axis1} {axis2} X- Y- {axis3} {axis4},1
+118,1 tree receiver {count} in re-synch state event(s) (dcr {hex_code}) detected,1
+119,"ciod: Error loading {path}: invalid or missing program image, Exec format error",8
+120,ciod: LOGIN chdir(pwd) failed: No such file or directory,2
+121,"ciod: Error loading {file_path}: invalid or missing program image, {error_message}",11
+122,ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to {ip}:{port}: Link has been severed,9
+123,rts: kernel terminated for reason {code},6
+124,ciod: generated 64 core files for program {program},5
+125,ciod: generated {num} core files for program {program},1
+126,ciod: generated 128 core files for program {program_path},8
+127,iar {address} dear {address},91
+128,iar {address1} dear {address2},39
+129,2201500 double-hummer alignment exceptions,2
+130,{count} double-hummer alignment exceptions,1
+131,773760 double-hummer alignment exceptions,1
+132,iar {hex1} dear {hex2},32
+133,156055738 double-hummer alignment exceptions,1
+134,147337410 double-hummer alignment exceptions,1
+135,139632470 double-hummer alignment exceptions,1
+136,155918940 double-hummer alignment exceptions,1
+137,28298332 double-hummer alignment exceptions,1
+138,23768676 double-hummer alignment exceptions,1
+139,34253552 double-hummer alignment exceptions,1
+140,35050330 double-hummer alignment exceptions,1
+141,35418742 double-hummer alignment exceptions,1
+142,47332148 double-hummer alignment exceptions,1
+143,39190074 double-hummer alignment exceptions,1
+144,30646810 double-hummer alignment exceptions,1
+145,36833864 double-hummer alignment exceptions,1
+146,24669022 double-hummer alignment exceptions,1
+147,38029258 double-hummer alignment exceptions,1
+148,39309752 double-hummer alignment exceptions,1
+149,27901852 double-hummer alignment exceptions,1
+150,41097026 double-hummer alignment exceptions,1
+151,54600944 double-hummer alignment exceptions,1
+152,32888202 double-hummer alignment exceptions,1
+153,"NFS Mount failed on {server}, slept {seconds} seconds, retrying ({attempt})",2
+154,"3 ddr errors(s) detected and corrected on rank {rank}, symbol {symbol}, bit {bit}",1
+155,ciod: generated 64 core files for program IMB-MPI1.2MB_perf,1
+156,Lustre mount FAILED : {node} : point {path},3
+157,Lustre mount FAILED : {server} : point {path},3
+158,"4 ddr errors(s) detected and corrected on rank {rank}, symbol {symbol}, bit {bit}",3
+159,Lustre mount FAILED : {server} : point {mount_point},3
+160,1 torus receiver x+ input pipe error(s) (dcr {code}) detected and corrected,1
+161,ciod: pollControlDescriptors: Detected the debugger died.,3
+162,"ciod: In packet from node {node} ({location}), message code {code} is not 3 or 4294967295 (softheader={header})",1
+163,1 torus receiver y+ input pipe error(s) (dcr {code}) detected and corrected,1
+164,suppressing further interrupts of same type,2
+165,Ido chip status changed: {chip_id} ip={ip_address} v={version} t={type} status={status} {timestamp},1
+166,"Node card VPD check: U{unit} node in processor card slot {slot} do not match. VPD ecid {ecid}, found {found}",1
+167,rts: bad message header: expecting type 57 instead of type 3 (softheader={header}) PSR0={psr0} PSR1={psr1} PRXF={prxf} PIXF={pixf},1
+168,ciod: generated 128 core files for program {program},9
+169,ciod: generated {num} core files for program {path},4
+170,critical input interrupt (unit={unit} bit={bit}): warning for torus {direction} wire,1
+171,ciod: Error loading {path}: {error},2
+172,4 tree receiver {num} in re-synch state event(s) (dcr {hex}) detected,1
+173,ciod: generated 58 core files for program {program_path},1
+174,data cache search parity error detected. attempting to correct,6
+175,shutdown complete,1
+176,ciod: generated 64 core files for program {program_path},1
+177,ciod: Error loading {program_name}: {error_message},1
+178,critical input interrupt (unit={unit} bit={bit}): warning for torus z- wire,1
+179,16 tree receiver {num} in re-synch state event(s) (dcr {hex}) detected,1
+180,"Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=0064588e 8aff0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007",1
+181,{number} floating point alignment exceptions,23
+182,iar {code} dear {code},42
+183,487476 floating point alignment exceptions,2
+184,2354412 floating point alignment exceptions,1
+185,{count} floating point alignment exceptions,6
+186,iar {address} dear {data},4
+187,441348 floating point alignment exceptions,1
+188,"2 ddr errors(s) detected and corrected on rank {rank}, symbol {symbol}, bit {bit}",2
+189,"Error receiving packet on tree network, expecting type {type} instead of type {type2} (softheader={header}) PSR0={psr0} PSR1={psr1} PRXF={prxf} PIXF={pixf}",1
+190,5 torus receiver z+ input pipe error(s) (dcr {code}) detected and corrected,1
+191,3 L3 EDRAM error(s) (dcr {dcr}) detected and corrected,1
+192,"Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader={header}) PSR0={psr0} PSR1={psr1} PRXF={prxf} PIXF={pixf}",2
+193,"Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=00ce22e8 e6200003 00000002 00000000) PSR0=20021f01 PSR1=00000000 PRXF=00000002 PIXF=00000007",1
+194,"critical input interrupt (unit={unit} bit={bit}): warning for torus z+ wire, suppressing further interrupts of same type",2
+195,"ciod: Error loading {path}: invalid or missing program image, {error}",3
+196,18507114 torus sender z- retransmission error(s) (dcr {code}) detected and corrected over {time} seconds,1
+197,26741629 torus sender z- retransmission error(s) (dcr {code}) detected and corrected over {time} seconds,1
+198,"ciod: Received signal {signal}, code={code}, errno={errno}, address={address}",16
+199,Lustre mount FAILED : {server} : block_id : {location},2
+200,MACHINE CHECK DCR read timeout (mc={mc} iar {iar} lr {lr}),7
+201,"ciod: Error reading message prefix on CioStream socket to {ip}:{port}, Connection timed out",2
+202,"ciod: Error reading message prefix on CioStream socket to {ip}:{port}, Connection reset by peer",4
+203,dbcr0={dbcr0} dbsr={dbsr} ccr0={ccr0},1
+204,"ciod: Error reading message prefix on CioStream socket to {ip}:{port}, Link has been severed",8
+205,r24={reg1} r25={reg2} r26={reg3} r27={reg4},1
+206,13 tree receiver {number} in re-synch state event(s) (dcr {hex}) detected over {seconds} seconds,1
+207,"Node card VPD check: U{unit} node in processor card slot J{slot} do not match. VPD ecid {ecid}, found {found}",1
+208,0 microseconds spent in the rbs signal handler during {calls} calls. {time} microseconds was the maximum time for a single instance of a correctable ddr.,51
+209,"10722 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",7
+210,"10740 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",3
+211,"10744 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",3
+212,"10700 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",1
+213,"10732 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",2
+214,"10655 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",1
+215,"10650 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",1
+216,"10686 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",2
+217,"10674 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",1
+218,"10730 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",2
+219,"10692 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",1
+220,"10660 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",1
+221,"10752 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",3
+222,"10676 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",4
+223,"10728 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",1
+224,"10712 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",2
+225,"10718 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",2
+226,"10644 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",2
+227,"10738 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",3
+228,"10646 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",1
+229,"10710 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",1
+230,"10706 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",1
+231,"10765 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",1
+232,"10698 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",3
+233,"10684 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",3
+234,"10652 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",1
+235,"1966 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",1
+236,"10714 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",2
+237,"10666 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",2
+238,"10663 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",1
+239,"10766 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",1
+240,"10680 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",1
+241,"10616 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",1
+242,"10754 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",1
+243,"10668 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",1
+244,"10708 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",1
+245,"10640 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",1
+246,"10636 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",1
+247,"10664 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",1
+248,"10736 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",1
+249,"720 total interrupts. {num} critical input interrupts. {time} microseconds total spent on critical input interrupts, {max_time} microseconds max time in a critical input interrupt.",2
+250,"1 ddr error(s) detected and corrected on rank {rank}, symbol {symbol} over {time} seconds",2
+251,"PrepareForService shutting down Node card(mLctn({location}), mCardSernum({serial}), mLp({lp}), mIp({ip}), mType({type})) as part of Service Action {action}",1
+252,"Kernel detected {count} integer alignment exceptions ({number}) iar {hex1}, dear {hex2} ({number}) iar {hex3}, dear {hex4} ({number}) iar {hex5}, dear {hex6} ({number}) iar {hex7}, dear {hex8} ({number}) iar {hex9}, dear {hex10} ({number}) iar {hex11}, dear {hex12} ({number}) iar {hex13}, dear {hex14}",1
+253,1 tree receiver 1 in re-synch state event(s) (dcr {hex}) detected over {time} seconds,1
+254,"159 ddr error(s) detected and corrected on rank {rank}, symbol {symbol} over {time} seconds",1
+255,total of {count} ddr error(s) detected and corrected over {time} seconds,4
+256,minus normalized number..................{number},1
+257,fraction rounded.........................{value},1
+258,"critical input interrupt (unit={unit} bit={bit}): warning for tree {tree} wire, suppressing further interrupts of same type",1
+259,size of scratchpad portion of L3.........{size} ({unit}),1
+260,"Kernel detected {num} integer alignment exceptions ({num}) iar {hex}, dear {hex} ({num}) iar {hex}, dear {hex} ({num}) iar {hex}, dear {hex} ({num}) iar {hex}, dear {hex} ({num}) iar {hex}, dear {hex} ({num}) iar {hex}, dear {hex} ({num}) iar {hex}, dear {hex} ({num})",2
+261,"Kernel detected {num} integer alignment exceptions ({num}) iar {hex}, dear {hex} ({num}) iar {hex}, dear {hex} ({num}) iar {hex}, dear {hex} ({num}) iar {hex}, dear {hex} ({num}) iar {hex}, dear {hex} ({num}) iar {hex}, dear {hex} ({num}) iar {hex}, dear {hex} ({num}) iar {hex}, dear {hex} ({num})",3
+262,"Kernel detected {num} integer alignment exceptions ({num}) iar {hex}, dear {hex} ({num}) iar {hex}, dear {hex} ({num}) iar {hex}, dear {hex} ({num}) iar {hex}, dear {hex} ({num}) iar {hex}, dear {hex} ({num}) iar {hex}, dear {hex} ({num}) iar {hex}, dear {hex} ({num}) iar {hex}, dear {hex}",2
+263,"Kernel detected {count} integer alignment exceptions ({num1}) iar {hex1}, dear {hex2} ({num2}) iar {hex1}, dear {hex2} ({num2}) iar {hex1}, dear {hex2} ({num2}) iar {hex1}, dear {hex2} ({num2}) iar {hex1}, dear {hex2} ({num2}) iar {hex1}, dear {hex2} ({num2}) iar {hex1}, dear {hex2} ({count}) iar {hex1}, dear {hex2}",1
+264,"ciod: Error loading {file_path}: invalid or missing program image, No such file or directory",4
+265,"28 ddr error(s) detected and corrected on rank {rank}, symbol {symbol} over {time} seconds",1
+266,"2 ddr error(s) detected and corrected on rank {rank}, symbol {symbol} over {time} seconds",2
+267,"5 ddr error(s) detected and corrected on rank {rank}, symbol {symbol} over {time} seconds",1
+268,2 L3 EDRAM error(s) (dcr {dcr}) detected and corrected over {time} seconds,1
+269,"ciod: Error loading {file_path}: program image too big, {size} > {max_size}",1
+270,fpr29={value} {value} {value} {value},1
+271,Machine State Register: {register_value},1

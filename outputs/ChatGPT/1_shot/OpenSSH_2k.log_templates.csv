@@ -1,0 +1,50 @@
+,EventTemplate,Occurrences
+0,reverse mapping checking getaddrinfo for {domain} [{ip}] failed - POSSIBLE BREAK-IN ATTEMPT!,2
+1,Invalid user {user} from {ip},113
+2,input_userauth_request: invalid user {user} [preauth],113
+3,pam_unix(sshd:auth): check pass; user {user},135
+4,pam_unix(sshd:auth): authentication failure; logname= uid={uid} euid={euid} tty={tty} ruser={ruser} rhost={rhost},103
+5,Failed password for invalid user {user} from {ip} port {port} ssh2,36
+6,Connection closed by {host} [preauth],25
+7,pam_unix(sshd:auth): authentication failure; logname= {logname} uid={uid} euid={euid} tty={tty} ruser={ruser} rhost={rhost},7
+8,Received disconnect from {source_ip}: {code}: Bye Bye [preauth],15
+9,Failed password for {user} from {ip} port {port} ssh2,103
+10,Received disconnect from {host}: {code}: Bye Bye [preauth],2
+11,pam_unix(sshd:auth): authentication failure; logname= uid={uid} euid={euid} tty={tty} ruser={ruser} rhost={rhost} user={user},375
+12,Failed password for {user} from {ip} port {port} {protocol},378
+13,message repeated {count} times: [ Failed password for {user} from {ip} port {port} ssh2],1
+14,Disconnecting: Too many authentication failures for {user} [preauth],3
+15,PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost={ip_address} user={user},2
+16,PAM service({service}) ignoring max retries; {retries} > {max_retries},7
+17,Received disconnect from {source_ip}: {code}: {reason} [preauth],19
+18,Received disconnect from {source IP}: {code}: {reason} [preauth],35
+19,Received disconnect from {ip}: {code}: Bye Bye [preauth],83
+20,Did not receive identification string from {ip_address},2
+21,Did not receive identification string from {ip},8
+22,Received disconnect from {source IP}: {code}: Bye Bye [preauth],258
+23,reverse mapping checking getaddrinfo for {hostname} [{ip}] failed - POSSIBLE BREAK-IN ATTEMPT!,3
+24,error: Received disconnect from {ip}: {code}: {reason} [preauth],2
+25,Received disconnect from {source_ip}: {code}: {reason}. [preauth],1
+26,Failed none for {auth_method} user {user} from {source_ip} port {source_port} ssh2,1
+27,Failed none for invalid user {user} from {ip} port {port} ssh2,1
+28,PAM 4 more authentication failures; logname= uid={uid} euid={euid} tty={tty} ruser={ruser} rhost={rhost},4
+29,Connection closed by {ip} [preauth],9
+30,PAM 1 more authentication failure; logname= uid={uid} euid={euid} tty={tty} ruser={ruser} rhost={rhost},2
+31,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost={ip_address} user={user},9
+32,Received disconnect from {host}: {code}: Closed due to {reason}. [preauth],2
+33,Received disconnect from {host}: {code}: {reason}. [preauth],1
+34,message repeated 5 times: [ Failed password for {user} from {ip} port {port} ssh2],1
+35,Failed none for {user} from {ip} port {port} ssh2,1
+36,PAM 2 more authentication failures; logname= uid={uid} euid={euid} tty={tty} ruser={ruser} rhost={rhost},1
+37,error: Received disconnect from {ip}: {code}: No more user authentication methods available. [preauth],45
+38,Failed password for sshd from {ip} port {port} ssh2,1
+39,reverse mapping checking getaddrinfo for {host} [{ip}] failed - {message},80
+40,Received disconnect from {source_ip}: {code}: Closed due to {reason}. [preauth],3
+41,Accepted password for {user} from {ip} port {port} ssh2,1
+42,pam_unix(sshd:session): session opened for user {user} by (uid={uid}),1
+43,Received disconnect from {ip}: {code}: disconnected by user,1
+44,pam_unix(sshd:session): session closed for user {user},1
+45,Failed none for {auth_method} user {user} from {source_ip} port {source_port} {protocol},1
+46,PAM 5 more authentication failures; logname= uid={uid} euid={euid} tty={tty} ruser={ruser} rhost={rhost},1
+47,Received disconnect from {host}: {code}: {reason} [preauth],1
+48,fatal: Write failed: {error_message} [preauth],1

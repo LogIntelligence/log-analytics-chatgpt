@@ -1,0 +1,74 @@
+,EventTemplate,Occurrences
+0,Session: <*> initialized by client WindowsUpdateAgent.,608
+1,"Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState:<*>",558
+2,Warning: Unrecognized packageExtended attribute.,280
+3,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM],224
+4,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM],224
+5,Failed to internally open package. [HRESULT = <*> - CBS_E_INVALID_PACKAGE],18
+6,<*>@2016/9/28:<*> WcpInitialize (wcp.dll version <*>) called (stack @<*> @<*> @<*> @<*> @<*> @<*>),3
+7,Loaded Servicing Stack v6.<*> with Core: C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_6.<*>.23505_none_681aa442f6fed7f0\cbscore.dll,2
+8,Ending TrustedInstaller initialization.,2
+9,Starting the TrustedInstaller main loop.,2
+10,TrustedInstaller service starts successfully.,2
+11,SQM: Initializing online with Windows opt-in: <*>,2
+12,SQM: Cleaning up report files older than <*> days.,2
+13,SQM: Requesting upload of all unsent reports.,2
+14,"SQM: Failed to start upload with file pattern: <*>, flags: <*> [HRESULT = <*> - E_FAIL]",2
+15,SQM: Failed to start standard sample upload. [HRESULT = <*> - E_FAIL],2
+16,"SQM: Queued <*> file(s) for upload with pattern: C:\Windows\servicing\sqm\*_all.sqm, flags: 0x6",2
+17,SQM: Warning: Failed to upload all unsent reports. [HRESULT = <*> - E_FAIL],2
+18,"No startup processing required, TrustedInstaller service was not set as autostart, or else a reboot is still pending.",2
+19,NonStart: Checking to ensure startup processing was not required.,2
+20,"<*> Creating NT transaction (seq <*>), objectname [<*>]""(<*>)""",2
+21,"NonStart: Success, startup processing not required as expected.",2
+22,Startup processing thread terminated normally,2
+23,Failed to create backup log cab. [HRESULT = <*> - ERROR_INVALID_FUNCTION],2
+24,"Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'.",2
+25,Unloading offline registry hive: <*>,2
+26,<*>@2016/9/27:<*> WcpInitialize (wcp.dll version <*>) called (stack @0x7fed806eb5d @0x7fef9fb9b6d @0x7fef9f8358f @0xff83e97c @0xff83d799 @0xff83db2f),1
+27,<*>@2016/9/27:<*> WcpInitialize (wcp.dll version <*>) called (stack @<*> @<*> @<*> @<*> @<*> @<*>),1
+28,<*>@2016/9/27:<*> WcpInitialize (wcp.dll version <*>) called (stack @0x7fed806eb5d @0x7fefa1c8728 @0x7fefa1c8856 @0xff83e474 @0xff83d7de @0xff83db2f),1
+29,"<*> IAdvancedInstallerAwareStore_ResolvePendingTransactions (call <*>) (flags = <*>, progress = <*>, phase = <*>, pdwDisposition = @0xb6fd90",1
+30,"<*> Created NT transaction (seq <*>) result <*>, handle @<*>",1
+31,<*>@2016/9/27:<*> CSI perf trace:,1
+32,<*> CSI Store <*> (0x00000000004c29e0) initialized,1
+33,Reboot mark refs incremented to: <*>,1
+34,Scavenge: Starts,1
+35,"<*>@2016/9/27:<*> CSI Transaction @0x47e9e0 initialized for deployment engine <*> with flags <*> and client id [<*>]""TI6.0_0:0/""",1
+36,Scavenge: Begin CSI Store,1
+37,0000000a Performing <*> operations; <*> are not lock/unlock and follow:,1
+38,"0000000b Store coherency cookie matches last scavenge cookie, skipping scavenge.",1
+39,0000000c ICSITransaction::Commit calling IStorePendingTransaction::Apply - coldpatching=<*> applyflags=<*>,1
+40,"0000000d Creating NT transaction (seq <*>), objectname [<*>]""(<*>)""",1
+41,"0000000e Created NT transaction (seq <*>) result <*>, handle @0xb8",1
+42,0000000f@2016/9/27:<*> CSI perf trace:,1
+43,"Scavenge: Completed, disposition: 0X1",1
+44,<*>@2016/9/27:<*> CSI Transaction @0x47e9e0 destroyed,1
+45,Reboot mark refs: <*>,1
+46,Idle processing thread terminated normally,1
+47,Ending the TrustedInstaller main loop.,1
+48,Starting TrustedInstaller finalization.,1
+49,Ending TrustedInstaller finalization.,1
+50,Starting TrustedInstaller initialization.,1
+51,"<*> IAdvancedInstallerAwareStore_ResolvePendingTransactions (call <*>) (flags = <*>, progress = <*>, phase = <*>, pdwDisposition = @0x116fa70",1
+52,"<*> Created NT transaction (seq <*>) result <*>, handle @0x218",1
+53,<*>@2016/9/28:<*> CSI perf trace:,1
+54,"Loading offline registry hive: SOFTWARE, into registry key '<*>' from path '<*>'.",1
+55,"Loading offline registry hive: SYSTEM, into registry key '<*>' from path '<*>'.",1
+56,"Loading offline registry hive: SECURITY, into registry key '<*>' from path '<*>'.",1
+57,"Loading offline registry hive: SAM, into registry key '<*>' from path '<*>'.",1
+58,"Loading offline registry hive: COMPONENTS, into registry key '<*>' from path '<*>'.",1
+59,"Loading offline registry hive: ntuser.dat, into registry key '<*>' from path '<*>'.",1
+60,Offline image is: read-only,1
+61,"Disabling manifest caching, because the image is not writeable.",1
+62,<*>@2016/9/28:<*> PopulateComponentFamiliesKey - Begin,1
+63,<*>@2016/9/28:<*> PopulateComponentFamiliesKey - End,1
+64,0000000a CSI Store <*> (0x000000000105d5b0) initialized,1
+65,Session: <*> initialized by client <*>.,1
+66,Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SOFTWARE,1
+67,Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SYSTEM,1
+68,Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SAM,1
+69,Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/DEFAULT,1
+70,Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Users/default/ntuser.dat,1
+71,Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/system32/smi/store/Machine/schema.dat,1
+72,0000000b CSI Store <*> (0x00000000002ec640) initialized,1

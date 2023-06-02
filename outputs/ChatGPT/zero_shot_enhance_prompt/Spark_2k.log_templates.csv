@@ -1,0 +1,86 @@
+,EventTemplate,Occurrences
+0,Registered signal handlers for [{signals}],1
+1,Changing view acls to: {view_acls},2
+2,"Changing modify acls to: {user1},{user2}",2
+3,"SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set({user1}, {user2}); users with modify permissions: Set({user1}, {user2})",2
+4,Slf4jLogger started,1
+5,Starting remoting,1
+6,Remoting started; listening on addresses :[{address}],1
+7,Successfully started service '{service}' on port {port}.,1
+8,Created local directory at {directory_path},1
+9,MemoryStore started with capacity {capacity},1
+10,Connecting to driver: spark://{scheduler}@{ip}:{port},1
+11,Successfully registered with driver,1
+12,Starting executor ID {executor_id} on host {host_name},1
+13,Successfully started service '{service_name}' on port {port_number}.,1
+14,Server created on {port},1
+15,Trying to register {component},1
+16,Registered BlockManager,1
+17,Got assigned task {task_number},230
+18,Running task {task} in stage {stage} (TID {tid}),250
+19,Running task {task_id} in stage {stage_id} (TID {tid}),13
+20,Started reading broadcast variable {variable},37
+21,"Block {block_name} stored as bytes in memory (estimated size {size}, free {free_size})",1
+22,Reading broadcast variable {variable} took {time} ms,32
+23,"Block {block_name} stored as values in memory (estimated size {size}, free {free_space})",34
+24,"Partition {partition_name} not found, computing it",22
+25,Input split: hdfs://{ip_address}:{port}/{directory}/{filename}:{line_number}+{offset},34
+26,Input split: hdfs://{ip_address}:{port}/{directory}/{filename}:{start_byte}+{end_byte},1
+27,Input split: {hdfs_path}:{start_line}+{end_line},1
+28,Input split: hdfs://{ip_address}:{port}/{directory}/{file_name}:{line_number}+{byte_offset},3
+29,"Block {block_name} stored as bytes in memory (estimated size {size}, free {free_space})",11
+30,"mapred.tip.id is deprecated. Instead, use {new_variable}",1
+31,"mapred.task.id is deprecated. Instead, use {new_variable}",1
+32,"mapred.task.is.map is deprecated. Instead, use mapreduce.task.{ismap}",1
+33,"mapred.job.id is deprecated. Instead, use mapreduce.job.id",1
+34,"mapred.task.partition is deprecated. Instead, use mapreduce.task.partition",1
+35,"Block {block_name} stored as bytes in memory (estimated size {size}, free {free_memory})",28
+36,Reading broadcast variable {var} took {time} ms,5
+37,"Times: total = {total}, boot = {boot}, init = {init}, finish = {finish}",375
+38,"Block {block_name} stored as bytes in memory (estimated size {size} B, free {free_memory} KB)",15
+39,Finished task {task} in stage {stage} (TID {tid}). {bytes} bytes result sent to driver,205
+40,Finished task {task_id} in stage {stage_id} (TID {tid}). {result_size} bytes result sent to driver,88
+41,Running task {task_number} in stage {stage_number} (TID {tid}),41
+42,Found block {block_name} locally,257
+43,"Block {block_name}_piece{piece_number} stored as bytes in memory (estimated size {size_estimate}, free {free_memory})",1
+44,"Block {block_name}_piece{piece_number} stored as bytes in memory (estimated size {size}, free {free_memory})",6
+45,Finished task {task_num} in stage {stage_num} (TID {tid}). {result_size} bytes result sent to driver,5
+46,Finished task {task_id} in stage {stage_id} (TID {tid}). {result_size} result sent to driver,1
+47,"Block {block_name}_piece{piece_number} stored as bytes in memory (estimated size {size}, free {free_space})",7
+48,"Partition {rdd}_{num} not found, computing it",33
+49,"Partition {rdd}_{num1}_{num2} not found, computing it",17
+50,"Block {block_name} stored as bytes in memory (estimated size {size} B, free {memory} KB)",4
+51,Got assigned task {task_id},75
+52,"Block {block_name} stored as values in memory (estimated size {size}, free {free_memory})",2
+53,"Block broadcast_{num}_piece{piece_num} stored as bytes in memory (estimated size {size}, free {free_space})",4
+54,"Block {block_name} stored as values in memory (estimated size {size} KB, free {free_memory} KB)",1
+55,File Output Committer Algorithm version is {version},30
+56,Saved output of task '{task_id}' to {output_location},22
+57,Saved output of task '{task_id}' to {hdfs_path},8
+58,attempt_{date}_{job_id}_{task_type}_{task_num}_{attempt_num}: Committed,2
+59,attempt_{date}_{task}_m_{attempt}_998: Committed,1
+60,attempt_{date}_{job_id}_m_{task_id}_{attempt_id}: Committed,10
+61,attempt_{date}_{job_id}_{task_type}_{task_num}_{status}: {message},1
+62,attempt_{date}_{job_id}_m_{task_id}_{task_attempt}: Committed,3
+63,attempt_{date}_{task_type}_{task_id}_{attempt_num}: Committed,3
+64,attempt_{date}_{task_type}_{task_id}_{attempt_num}_{status}: {message},2
+65,attempt_{date}_{time}_{attempt_num}_m_{task_num}_{status}: {message},4
+66,attempt_{date}_{time}_{attempt_num}_m_{task_num}_{task_attempt}: Committed,1
+67,attempt_{date}_{job_id}_{task_type}_{task_id}_{status}: {message},1
+68,Finished task {task_id} in stage {stage} (TID {tid}). {result_size} bytes result sent to driver,1
+69,attempt_{date}_{task_type}_{task_id}_{attempt_id}_{status}: {message},1
+70,attempt_{date}_{task_type}_{task_id}_{attempt_num}_{duration}: {message},1
+71,Input split: {hdfs_path}:{start_offset}+{end_offset},1
+72,"Partition {rdd}_{num}_not found, computing it",1
+73,Input split: hdfs://{ip_address}:{port}/pjhe/logs/{file_name}:{start_line}+{end_line},1
+74,"Block broadcast_{piece_num}_piece{piece_id} stored as bytes in memory (estimated size {size} KB, free {free} KB)",1
+75,"Block {rdd}_{num} stored as bytes in memory (estimated size {size} B, free {memory} KB)",8
+76,"Block {rdd}_{num1}_{num2} stored as bytes in memory (estimated size {size} B, free {free} KB)",24
+77,Input split: {hdfs_path}:{line_number}+{byte_offset},1
+78,Input split: {hdfs_path}:{timestamp}+{size},1
+79,Input split: hdfs://{ip_address}:{port}/{directory}/{filename}:{offset}+{length},2
+80,"Block {rdd}_{num1}_{num2} stored as bytes in memory (estimated size {size} B, free {memory} KB)",1
+81,"Block {rdd}_{num} stored as bytes in memory (estimated size {size} B, free {free} KB)",1
+82,"Partition {rdd_id}_{partition_num} not found, computing it",1
+83,"Partition {rdd_id} not found, computing it",1
+84,Running task {task_num} in stage {stage_num} (TID {tid}),1

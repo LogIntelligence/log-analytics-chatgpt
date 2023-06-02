@@ -1,0 +1,155 @@
+,EventTemplate,Occurrences,Type
+0,connection from {} () at {},563,True
+1,connection from %s (%s) at %s,226,True
+2,session closed for user {},123,True
+3,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,80,True
+4,N/A (This log message does not contain enough information to determine a specific log template),78,True
+5,session opened for user {} by (uid={}),54,True
+6,authentication failure; logname= uid= euid= tty= ruser= rhost=,51,True
+7,connection from %IP% (%HOSTNAME%) at %DATE%,46,True
+8,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=,44,True
+9,session opened for user {username} by (uid={uid}),43,True
+10,ALERT exited abnormally with [],43,True
+11,connection from %IP% (%HOST%) at %TIME% %DATE%,42,True
+12,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost= %{IP:client_ip}  user=root,42,True
+13,authentication failure; logname= uid= euid= tty= ruser= rhost=  user=,41,True
+14,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost= user=,40,True
+15,N/A (There is no clear indication of what type of log this is or what information it is trying to convey),39,True
+16,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=IP_ADDRESS  user=USERNAME,32,True
+17,session opened for user {user} by (uid={uid}),25,True
+18,connection from %IP% () at %DATE_TIME%,24,True
+19,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,23,True
+20,{Action} authentication failed,23,True
+21,notify question section contains no SOA,16,True
+22,Authentication failed from {IP address}: {Reason},15,True
+27,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.137.205.253  user=root,10,True
+30,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=<IP address>  user=root,10,True
+29,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=p15105218.pureserver.info  user=root,10,True
+28,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.9.58.217  user=root,10,True
+26,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=massive.merukuru.org,10,True
+24,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost= %{IP}  user=root,10,True
+23,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.214.161.141  user=root,10,True
+25,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=zummit.com,10,True
+31,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.22.3.51  user=root,9,True
+32,{application} startup succeeded,8,True
+33,connection from [IP address] ([hostname]) at [timestamp],8,True
+34,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=  user=,8,True
+35,{action}.,7,True
+36,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost= {IP_ADDRESS}  user=root,7,True
+37,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.16.122.48  user=root,5,True
+38,authentication failure; logname= uid= euid= tty= ruser= rhost= user=,5,True
+40,<function_name> (<module_name>): <error_message>,4,True
+43,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost= {hostname}  user=root,4,True
+45,<Action> from <IP Address>: <Error Message>,4,True
+44,{process} shutdown succeeded,4,True
+39,creating device node '{device_node}',4,True
+42,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=212.0.132.20  user=,4,True
+41,removing device node '{device_node}',4,True
+46,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=ip-216-69-169-168.ip.secureserver.net,3,True
+47,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=csnsu.nsuok.edu  user=root,3,True
+56,warning: can't get client address: Connection reset by peer,2,True
+55,BIOS-e820: {start_address} - {end_address} ({description}),2,True
+53,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost= %{host}  user=%{user},2,True
+57,<Action> failed from <IP Address> (<Hostname>): <Reason>,2,True
+54,Authentication failed from {IP address}: Permission denied in replay cache code,2,True
+52,<module>: <message>,2,True
+50,{service} shutdown succeeded,2,True
+49,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=%{HOSTNAME}  user=%{USERNAME},2,True
+51,"ANONYMOUS FTP LOGIN FROM <IP_ADDRESS>, (<USERNAME>)",2,True
+48,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost= %s  user=%s,2,True
+106,{size} LOWMEM available.,1,True
+119,Initializing random number generator:  {},1,True
+127,CPU: L2 cache: {},1,True
+126,NET: Registered protocol family {},1,True
+125,PCI: Using configuration type {},1,True
+124,"PCI: PCI BIOS revision {revision} entry at {address}, last bus={last_bus}",1,True
+123,mtrr: v2.0 ({version}),1,True
+122,ACPI: Subsystem revision {},1,True
+121,ACPI: Interpreter disabled.,1,True
+120,<Application/Service> <Version> (c) <Author>,1,True
+117,Checking '{instruction}' instruction... {status}.,1,True
+118,"CPU: L1 I cache: {}, L1 D cache: {}",1,True
+129,<log message>,1,True
+116,Setting network parameters:  {},1,True
+115,rpc.idmapd startup succeeded,1,True
+114,Enabling unmasked SIMD FPU exception support... done.,1,True
+113,"Dentry cache hash table entries: %d (order: %d, %d bytes)",1,True
+112,Enabling fast FPU save and restore... done.,1,True
+111,"Inode-cache hash table entries: %d (order: %d, %d bytes)",1,True
+110,CPU: {CPU model} stepping {stepping number},1,True
+109,{message},1,True
+108,Starting pcmcia:  {},1,True
+128,{kerneld} startup succeeded,1,True
+132,PCI: Invalid ACPI-PCI IRQ routing table,1,True
+130,{application} v{version} started,1,True
+143,pci_hotplug: PCI Hot Plug PCI Core version: {},1,True
+152,isapnp: Scanning for PnP cards...,1,True
+151,Initializing Cryptographic API,1,True
+150,SELinux: Registering netfilter hooks,1,True
+149,"Dquot-cache hash table entries: %d (order %d, %d bytes)",1,True
+148,VFS: Disk quotas dquot_{version},1,True
+147,isapnp: {message},1,True
+146,selinux_register_security: Registering secondary module capability,1,True
+145,Bringing up loopback interface:  {},1,True
+144,"Total HugeTLB memory allocated, {}",1,True
+142,Real Time Clock Driver v{version},1,True
+131,ACPI: ACPI tables contain no PCI IRQ routing entries,1,True
+141,audit({timestamp}:{number}): initialized,1,True
+140,HCI daemon ver {version} started,1,True
+139,kernel.core_uses_pid = {},1,True
+138,audit: initializing netlink socket (disabled),1,True
+137,apm: BIOS version {version} Flags {flags} (Driver version {driver_version}),1,True
+136,PCI: Using IRQ router PIIX/ICH [${vendor_id}/${device_id}] at ${address},1,True
+135,Transparent bridge - {},1,True
+134,PCI: Probing PCI hardware (bus {}),1,True
+133,PCI: {message},1,True
+107,Capability {} initialized,1,True
+77,{size} HIGHMEM available.,1,True
+105,Intel machine check reporting enabled on CPU#%d.,1,True
+104,"""There is already a security framework initialized, register_security failed.""",1,True
+79,On node {} totalpages: {},1,True
+78,There is no log template provided in the given log message.,1,True
+76,BIOS-e820: {start_address} - {end_address} ({type}),1,True
+75,BIOS-e820: {start_address} - {end_address} ({status}),1,True
+74,BIOS-e820: %s - %s (%s),1,True
+73,"""BIOS-provided physical RAM map:""",1,True
+72,Linux version {version} ({compiler}) ({gcc version}) #{number} {date},1,True
+71,"DMA zone: %d pages, LIFO batch:%d",1,True
+70,User {username} timed out after {timeout} seconds at {timestamp},1,True
+69,"klogd {version}, log source = {source} started.",1,True
+68,N/A (This is a simple log message with no variables or additional information to extract),1,True
+67,{component} LOGIN ON {terminal},1,True
+66,session opened for user {} by LOGIN(uid={}),1,True
+65,imps2: Auto-detected intellimouse PS/2,1,True
+64,*** info [mice.c(1766)]:,1,True
+63,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=195.129.24.210  user=root,1,True
+62,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=209.152.168.249  user=guest,1,True
+61,Received SNMP packet(s) from {IP address},1,True
+60,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=<> user=root,1,True
+59,{error_message},1,True
+58,"Mount-cache hash table entries: {} (order: {}, {} bytes)",1,True
+80,{Action} registering capabilities with the kernel,1,True
+81,{process} startup succeeded,1,True
+82,Detected {frequency} MHz processor.,1,True
+94,"Normal zone: {} pages, LIFO batch:{}",1,True
+103,SELinux: Starting in permissive mode,1,True
+102,SELinux: Initializing.,1,True
+101,Security Scaffold v{version} initialized,1,True
+100,Calibrating delay loop... {BogoMIPS} BogoMIPS,1,True
+99,"Memory: {}k/{}k available ({}k kernel code, {}k reserved, {}k data, {}k init, {}k highmem)",1,True
+98,Console: colour VGA+ 80x25,1,True
+97,rpc.statd startup {status},1,True
+96,Using tsc for high-res timesource,1,True
+95,Version {version} Starting,1,True
+93,PID hash table entries: {} (order {}: {} bytes),1,True
+83,"{Zone}: {Pages} pages, LIFO batch:{Batch}",1,True
+92,{service} startup succeeded,1,True
+91,"CPU 0 irqstacks, hard=%s soft=%s",1,True
+90,Initializing CPU#{},1,True
+89,mapped {} trampoline to {}.,1,True
+88,Kernel command line: {command line options},1,True
+87,Built {number} zonelists,1,True
+86,N/A (This is not a complete log message and does not contain enough information to determine a log template),1,True
+85,ACPI disabled because your bios is from {year} and too old,1,True
+84,DMI {version} present.,1,True
+153,Linux agpgart interface v0.100 (c) Dave Jones,1,True

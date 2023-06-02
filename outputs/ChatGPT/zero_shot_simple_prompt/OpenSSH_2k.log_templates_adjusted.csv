@@ -1,0 +1,47 @@
+,EventTemplate,Occurrences
+0,Failed password for <*> from <*> port <*> <*>,373
+1,Received disconnect from <*>: <*>: <*> <*>,360
+2,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost= <*> user=<*>,230
+3,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>,152
+4,pam_unix(sshd:auth): check pass; user unknown,135
+5,input_userauth_request: invalid user <*> <*>,113
+6,Invalid user <*> from <*>,110
+7,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>,110
+8,reverse mapping checking getaddrinfo for <*> [<*>] failed - POSSIBLE BREAK-IN ATTEMPT!,85
+9,Failed password for invalid user <*> from <*> port <*> <*>,80
+10,Failed password for invalid user <*> from <*> port <*> ssh2,55
+11,error: Received disconnect from <*>: <*>: <*>. [<*>],45
+12,Received disconnect from %h: <*>: <*> <*>,40
+13,Connection closed by [IP address] <*>,15
+14,Received disconnect from %h: %e <*>,15
+15,Connection closed by <*> [<*>],10
+16,Did not receive identification string from <*>,10
+17,PAM service(<*>) ignoring max retries; <*> > <*>,7
+18,Failed none for invalid user <*> from <*> port <*> ssh2,4
+19,Connection closed by <*>.,4
+20,PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>,4
+21,Failed password for <*> from <IP address> port <port number> ssh2,4
+22,Disconnecting: Too many authentication failures for <*> [<*>],3
+23,Connection closed by <*> <*>,3
+24,Failed password for ftp from <*> port <*> ssh2,3
+25,Received disconnect from <*>: <*>: <*>,3
+26,PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*> user=<*>,2
+27,error: Received disconnect from <*>: <*>: <*>,2
+28,Invalid user <*> from <*>.,2
+29,PAM <*> more authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>,2
+30,Received disconnect from <*>: <*>: Closed due to user request. [<*>],2
+31,PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*>,2
+32,Connection closed by <*>. [<*>],2
+33,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.dynamic-dsl-ip.<*> user=<*>,1
+34,message repeated <*> times: [ Failed password for <*> from <*> port <*> <*>],1
+35,Received disconnect from <*>: <*>: <*> [<*>],1
+36,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost= %<*> user=%<*>,1
+37,Failed password for <*> from <IP address> port <port number> <*>,1
+38,Failed password for <*> from <*> port <*> ssh2,1
+39,Failed password for sshd from <*> port <*> ssh2,1
+40,Accepted password for <*> from <*> port <*> ssh2,1
+41,pam_unix(sshd:session): session opened for user <*> by (uid=<*>),1
+42,pam_unix(sshd:session): session closed for user <*>,1
+43,Invalid user boot from <*>,1
+44,<*>: <*>,1
+45,Failed password for sshd from <*> port <*> <*>,1

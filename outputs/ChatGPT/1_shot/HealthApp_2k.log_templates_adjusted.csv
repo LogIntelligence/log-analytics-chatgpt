@@ -1,0 +1,77 @@
+,EventTemplate,Occurrences
+0,onExtend:<*> <*> <*> <*>,273
+1,onStandStepChanged <*>,260
+2,getTodayTotalDetailSteps = <*>#<*><*><*><*>#<*>,242
+3,setTodayTotalDetailSteps=<*>#<*><*><*><*>#<*>,241
+4,calculateCaloriesWithCache totalCalories=<*>,241
+5,calculateAltitudeWithCache totalAltitude=<*>,241
+6,processHandleBroadcastAction action:<*>,161
+7,REPORT : <*> <*> <*> <*>,136
+8,onReceive action: android.intent.action.SCREEN_ON,17
+9,flush sensor data,17
+10,onReceive action: <*>,17
+11,"new date =<*>, type=<*>,<*>,old=<*>",16
+12,getBinderPackageName packageName = <*>,8
+13,"upLoadOneMinuteDataToEngine time=<*>,<*>,<*>,<*>,<*>",5
+14,"startSync hiSyncOption = HiSyncOption{syncAction=<*>, syncMethod=<*>, syncScope=<*>, syncDataType=<*>, syncModel=<*>, pushAction=<*>},app = <*> who = <*>",5
+15,needAutoSync autoSyncSwitch is open,5
+16,"initDataPrivacy the dataPrivacy switch is open, start push health data!",5
+17,initDataPrivacy the dataPrivacy is <*>,5
+18,"initUserPrivacy the userPrivacy switch is open, start push user data!",5
+19,initUserPrivacy the userPrivacy is <*>,5
+20,ifCanSync not! no cloud version,5
+21,sendSyncFailedBroadcast,5
+22,"timeStamp back,extendReportTimeStamp=<*>",5
+23,"saveStatData() type =<*>,time = <*>,statClient = <*>,who is <*>",4
+24,startTimer start autoSync,3
+25,stepSyncOrNot appSynTimes is <*>,3
+26,getTodaySportData mStepsRecordManager=com.huawei.health.g.c@<*>,3
+27,getTodaySportData mStepsRecordManager=<*>,3
+28,"getAppContext() isAppValid health or wear, packageName = <*>",2
+29,insertHiHealthData() checkAppType <*> appID = <*>,2
+30,"insertHiHealthData() size = <*>,app = <*>,One Data Type = <*>,packageName = <*>,writeStatType = <*>",2
+31,"saveHealthDetailData() deviceID = <*>,clientID=<*>,id=<*>",2
+32,"saveHealthDetailData() saveOneDetailData fail hiHealthData = <*>,type = <*>",2
+33,"bulkSaveDetailHiHealthData() size = <*>,totalTime = <*>",2
+34,startListenerChange subscribeList = [<*>],2
+35,insertHiHealthData() end totalTime = <*>,2
+36,checkInsertStatus <*> or <*> is enough,2
+37,checkInsertStatus stepStatSum or calorieStatSum is enough,2
+38,"stepSyncOrNot appSynTimes is <*>, statsyncTimes is <*>",2
+39,"startInsertSportSync start auto sync,app is <*>",2
+40,"checkFirstSyncByType no such data in db ,type is <*> deviceCode is <*>",2
+41,"startInsertSportSync first <*> steps sync,<*> all sync",2
+42,getTodayBasicStandardSteps= <*><*><*>,2
+43,getDiffTotalSteps= <*>##<*>,2
+44,isScreenOn <*>,1
+45,"screen status unknown,think screen on",1
+46,flushTempCacheToDB by <*>,1
+47,Alarm uploadStaticsToDB totalSteps=<*> Calories:<*> Floor:<*> Distance:<*>,1
+48,writeDataToDB size <*>,1
+49,"insertHiHealthData() bulkSaveDetailHiHealthData fail errorCode = <*>,errorMessage = <*>",1
+50,uploadStaticsToDB() onResult type = <*> obj=<*>,1
+51,uploadStaticsToDB failed message=<*>,1
+52,"new date =<*>, type=<*>,<*>,<*>,old=<*>",1
+53,"saveRealTimeHealthDatasStat() size = <*>,totalTime = <*>",1
+54,InsertCallBack() onSuccess type = <*> data=<*>,1
+55,InsertEvent success begin:<*> end:<*>,1
+56,setWriteDBLastDataMinute=<*>,1
+57,setWriteDBLastDataMinute success,1
+58,<*> <*> <*>,1
+59,theDayChanged <*>,1
+60,initEnviroument,1
+61,getStepCounterStatus,1
+62,getStepCounterStatus= <*>,1
+63,reStartStepCounter,1
+64,registersensorsuccess: <*>,1
+65,<*>(),1
+66,tryToRecordAsBasicStepData <*> <*>,1
+67,setBasicStandardSteps basicStandardStep=<*> restartSteps=<*>,1
+68,setDiffTotalSteps=<*>,1
+69,<*>|<*>|<*>|<*>,1
+70,reload : <*> <*> <*>,1
+71,next day:<*>,1
+72,setGoalNotifiShownRecord <*> <*>,1
+73,closeNotification...,1
+74,deleteHealthNotification(),1
+75,"checkCurrentDay a new day comes , reset basicSyncCondition, currentDay is <*> oldDay is <*>",1

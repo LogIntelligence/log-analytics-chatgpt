@@ -1,0 +1,188 @@
+,EventTemplate,Occurrences
+0,"printFreezingDisplayLogsopening app wtoken = AppWindowToken{{token} ActivityRecord{{activityRecord} {packageName} {activityName} {taskId}}}, allDrawn= {allDrawn}, startingDisplayed =  {startingDisplayed}, startingMoved =  {startingMoved}, isRelaunching =  {isRelaunching}",1
+1,"acquire lock={lock}, flags={flags}, tag=""{tag}"", name={name}, ws={ws}, uid={uid}, pid={pid}",18
+2,"ready={ready},policy={policy},wakefulness={wakefulness},wksummary={wksummary},uasummary={uasummary},bootcompleted={bootcompleted},boostinprogress={boostinprogress},waitmodeenable={waitmodeenable},mode={mode},manual={manual},auto={auto},adj={adj},userId={userId}",199
+3,Skipping AppWindowToken{<placeholder> token=Token{<placeholder> ActivityRecord{<placeholder>}}} -- going to hide,2
+4,visible is {system}.{time}.{showampm},1
+5,mVisiblity.getValue is {boolean},5
+6,visible is {variable},1
+7,visible is system.call.count {comparison_operator} {integer_value},1
+8,visible is system.message.count {comparison_operator} {integer},1
+9,visible is {variable1}.show,1
+10,"release:lock={lock}, flg={flg}, tag=""{tag}"", name=""{name}"", ws={ws}, uid={uid}, pid={pid}",26
+11,"updateClipping isOverlap:{}, getTopPadding={}, Translation={}",31
+12,updateDimmedActivatedHideSensitive overlap:{boolean},65
+13,getRunningAppProcesses: caller {caller} does not hold REAL_GET_TASKS; limiting output,81
+14,"setSystemUiVisibility vis={vis} mask={mask} oldVal={oldVal} newVal={newVal} diff={diff} fullscreenStackVis={fullscreenStackVis} dockedStackVis={dockedStackVis}, fullscreenStackBounds={fullscreenStackBounds}, dockedStackBounds={dockedStackBounds}",200
+15,cancelAutohide,15
+16,"notifyUiVisibilityChanged:vis={vis}, SystemUiVisibility={SystemUiVisibility}",19
+17,Destroying surface Surface(name={name}) called by {caller}:942 {method1}:3407 {method2}:225 {method3}:398 {method4}:136 {method5}:565 <bottom of call stack> <bottom of call stack>,1
+18,Destroying surface Surface(name={name}) called by {caller},24
+19,"userActivityNoUpdateLocked: eventTime={eventTime}, event={event}, flags={flags}, uid={uid}",69
+20,"orientation change is complete, call stopFreezingDisplayLocked",1
+21,Screen frozen for {duration} due to {window},1
+22,startAnimation {action},1
+23,startAnimation {variable} end,1
+24,remove(PendingIntent{{placeholder}: PendingIntentRecord{{placeholder} {placeholder} {placeholder}}} changed bounds; rebatching),1
+25,"rotationForOrientationLw(orient={orient}, last={last}); user={user} USER_ROTATION_LOCKED",3
+26,"Application requested orientation {orientation}, got rotation {rotation} which has compatible metrics",3
+27,shouldBlockLocation running ...,37
+28,shouldBlockLocation  ret:{boolean},37
+29,getNeighboringCellInfo calling app is {app},5
+30,"Releasing suspend blocker ""{placeholder}"".",33
+31,HBM brightnessIn ={brightnessIn},83
+32,HBM brightnessOut ={brightness},85
+33,"Animating brightness: target={target}, rate={rate}",85
+34,suspendAutohide,23
+35,interceptKeyTq keycode={keycode} interactive={interactive} keyguardActive={keyguardActive} policyFlags={policyFlags} down {down} canceled {canceled},14
+36,"interceptKeyBeforeQueueing: key {key} , result : {result}",14
+37,resume{action}Autohide,10
+38,querySoundEffectsEnabled...,17
+39,"acquire lock={lock}, flags={flags}, tag=""{tag}"", name={name}, ws={WorkSource}, uid={uid}, pid={pid}",8
+40,"Acquiring suspend blocker ""{placeholder}"".",33
+41,Skipping AppWindowToken{{placeholder} token=Token{{placeholder} ActivityRecord{{placeholder} {placeholder} {placeholder} {placeholder} {placeholder}}} -- going to hide,1
+42,Bad activity token: {activity_token},1
+43,java.lang.ClassCastException: {dynamic_variable} cannot be cast to com.android.server.am.ActivityRecord$Token,1
+44,Skipping AppWindowToken{{token} -- going to hide},1
+45,"onTouchEvent::{int}, x={float}, y={float}",2
+46,schedulePeek,1
+47,getRingtonePlayer...,2
+48,disable: < expand {ICONS}* alerts {SYSTEM_INFO}* back home recent clock navigationbar search quick_settings >,3
+49,"updateLightsLocked,mInCall ={mInCall},mScreenOn ={mScreenOn},ledNotification ={ledNotification}",2
+50,"updateLightsLocked,turn off {notificationLight}",6
+51,"overlapAmount:{}, previousNotificationEnd:{}, newYTranslation:{}, location:{}, i:{}, getTopPadding:{}, getLocationOnScreen():{}",13
+52,"state.clipTopAmount:{clipTopAmount}, i:{i}",13
+53,"updateClipping isOverlap:{bool}, getTopPadding={float}, Translation={float}",13
+54,on{Event}Started,2
+55,onTrackingStarted,1
+56,"updateClipping isOverlap:{bool}, getTopPadding:{float}, Translation:{float}",21
+57,cancelPeek: {boolean},20
+58,"flingToHeight: vel={vel}, expand={expand}, target={target}, collapseSpeedUpFactor={collapseSpeedUpFactor}, expandBecauseOfFalsing={expandBecauseOfFalsing}",2
+59,onTrackingStopped: {boolean},1
+60,onExpandingFinished,1
+61,Sending non-protected broadcast {broadcast_name} from system {system_id}:{system_name}/{user_id} pkg {package_name},2
+62,logNotificationVisibilityChanges {variable1} {variable2},6
+63,onNotificationVisibilityChanged called,6
+64,logNotificationVisibilityChanges {variable1} {variable2} {variable3},6
+65,isSimPinSecure mSimDatas is {nullOrEmpty},1
+66,registerCallback not in UI.,3
+67,android.util.AndroidRuntimeException: Must execute in UI,3
+68,*** register callback for {class}@{address},1
+69,*** unregister callback for {variable},1
+70,[PhoneIntfMgr] getDataEnabled: subId={subId} phoneId={phoneId},1
+71,[PhoneIntfMgr] getDataEnabled: subId={subId} retVal={retVal},1
+72,"onInterceptTouchEvent MotionEvent { action={action}, actionButton={actionButton}, id[0]={id0}, x[0]={x0}, y[0]={y0}, toolType[0]={toolType0}, buttonState={buttonState}, metaState={metaState}, flags={flags}, edgeFlags={edgeFlags}, pointerCount={pointerCount}, historySize={historySize}, eventTime={eventTime}, downTime={downTime}, deviceId={deviceId}, source={source} }, mBlockTouches={mBlockTouches}",4
+73,playSoundEffect   effectType: {effectType},10
+74,"animateCollapsePanels:flags={flags}, force={force}, delayed={delayed}, mExpandedVisible={mExpandedVisible}",7
+75,START u0 {act=ACTIVITY_NAME flg=FLAGS cmp=COMPONENT_NAME (has extras)} from uid USER_ID on display DISPLAY_ID,1
+76,"ActivityRecord info: ActivityInfo{{packageName} {activityName}}, euid: {euid}",2
+77,onNotificationClick called,2
+78,"cancelNotification,index:{index}",23
+79,"cancelNotification,cancelNotificationLocked,callingUid = {callingUid},callingPid = {callingPid}",2
+80,"cancelNotificationLocked called,tell the app,reason = {reason}",2
+81,cancelNotificationLocked:{int}|{string}|{int}|{null}|{int},2
+82,"cancelNotificationLocked,remove ={packageName}",2
+83,applyOptionsLocked: Unknown animationType={animationType},2
+84,"Taking screenshot from Surface with crop:[Rect({int}, {int} - {int}, {int})], width:[{int}], height:[{int}], minLayer:[{int}], maxLayer:[{int}], inRotation:[{bool}], rot:[{int}]",4
+85,"updateLightsLocked,mInCall ={boolean},mScreenOn ={boolean},ledNotification ={boolean}",2
+86,removeNotification:{int}|{string}|{int}|{null}|{int},2
+87,"updateNotificationShade: total={total}, active={active}",13
+88,"animateCollapsePanels:flags={flag}, force={force}, delayed={delayed}, mExpandedVisible={visible}",1
+89,The change in {variable1} caused us to need to do a {variable2} begin,3
+90,The {dynamic_variable} caused us to need to do a layout end,5
+91,setLightsOn({boolean}),181
+92,removeNotificationChildren,12
+93,on{Action}Finished,1
+94,"Skipping, withExcluded: {boolean}, tr.intent:Intent { flg={hexadecimal} cmp={component} bnds=[{integer},{integer}][{integer},{integer}] }",13
+95,"Skipping, withExcluded: {boolean}, tr.intent:Intent { act={string} flg={hex} cmp={string} (has extras) }",12
+96,"Skipping, withExcluded: {boolean}, tr.intent:Intent { flg={hexadecimal} cmp={component} (has extras) }",21
+97,"Skipping, withExcluded: {boolean}, tr.intent:Intent { act={string} dat={string} flg={hex} cmp={string} (has extras) }",7
+98,"Skipping, withExcluded: {boolean}, tr.intent:Intent { act={string} dat={string} typ={string} flg={hex} cmp={string} (has extras) }",7
+99,"getRecentTasks: num={num},flags={flags},totalTasks={totalTasks}",14
+100,getRecentTasks: topActivity=ComponentInfo{{packageName}}/{{activityName}}},14
+101,"cancelNotificationWithTag pid {pid},uid = {uid},tag = {tag},pkg ={pkg},id ={id}",20
+102,makeExpandedInvisible: mExpandedVisible={boolean},4
+103,closeQs,12
+104,instantCollapse,9
+105,disable: < expand icons* {module1}* {module2}* {module3}* {module4}* {module5}* {module6}* {module7}* {module8}* >,3
+106,*** unregister callback for com.android.systemui.statusbar.policy.KeyguardMonitor@{variable},1
+107,getTasks: caller {caller} does not hold {permission}; limiting output,33
+108,isMusicActive{status},12
+109,"Start dump, calling from : pid={pid}, uid={uid}",1
+110,setWiredDeviceConnectionState  type: {type}  state: {state},2
+111,"ActivityManagerService,attachApplication,callingPid = {callingPid}",4
+112,isBluetoothA2dpOn...,1
+113,isBluetoothScoOn...,1
+114,getLastAudibleStreamVolume  treamType: {streamType},9
+115,getDevicesForStream  streamType: {streamType},2
+116,cleanUpApplicationRecord -- {recordId},5
+117,"cleanUpApplicationRecordLocked, pid: {pid}, restart: {restart}",6
+118,"cleanUpApplicationRecordLocked, reset pid: {pid}, euid: {euid}",6
+119,stopWifiDisplayScanLocked record.mWifiDisplayScanRequested={boolean},6
+120,stopWifiDisplayScanLocked mWifiDisplayScanRequestCount={count},6
+121,getMode{...},1
+122,setSpeakerphoneOn  on: {boolean},1
+123,setSpeakerphoneOn on:{boolean},1
+124,"sending alarm Alarm{<var1> type <var2> when <var3> PendingIntent{<var4>: PendingIntentRecord{<var5> android broadcastIntent}}},repeatInterval = <var6>,listenerTag =<var7>",1
+125,Received {ALARM_TYPE} alarm; rescheduling,3
+126,scheduleTimeTickEvent triggerAtTime = {triggerAtTime},2
+127,received broadcast {intent} android.intent.action.TIME_TICK,3
+128,handleTimeUpdate,3
+129,"sending alarm Alarm{{type} when {time} PendingIntent{{{pendingIntent}}}},repeatInterval = {interval},listenerTag ={tag}",1
+130,Killing {pid}:{process}/{user} (adj {adj}): empty for {duration}s,1
+131,HBM brightnessIn ={brightness},2
+132,"sending alarm Alarm{{type} when {when} PendingIntent{{{pendingIntent}: PendingIntentRecord{{{record} android broadcastIntent}}}}},repeatInterval = {repeatInterval},listenerTag ={listenerTag}",1
+133,remove(PendingIntent{{placeholder}: PendingIntentRecord{{placeholder} com.android.phone broadcastIntent}}) changed bounds; rebatching,1
+134,Unable to start service Intent { act={action} cmp={component} } U={user_id}: not found,1
+135,unregisterAudioFocusListener...,1
+136,abandonAudioFocus,1
+137,"[HSM] stayAwake {boolean} uid: {number}, pid: {number}",1
+138,Pid:{pid} MediaPlayer destructor,1
+139,Process {process_name} (pid {process_id}) has died,1
+140,Scheduling restart of crashed service {service_name} in {delay}ms,1
+141,"new Process app=ProcessRecord{{pid} {uid}:{processName}}, name: {processName}, euid: {euid}",1
+142,Start proc {pid}:{process_name}:{process_args} for service {service_name},1
+143,The {variable1} caused us to need to do a {variable2} begin,2
+144,The {variable} caused us to need to do a {variable} end,1
+145,"Skipping, withExcluded: {boolean}, tr.intent:Intent { flg={hexadecimal} cmp={component} bnds=[{int},{int}][{int},{int}] }",1
+146,cleanUpApplicationRecord -- {id},1
+147,enqueueNotificationInternal: pkg={pkg} id={id} notification={notification},1
+148,enqueueNotificationInternal: n.getKey = {key}|{app}|{id}|{type}|{code},1
+149,getRingerMode...,3
+150,"updateLightsLocked,mInCall ={boolean},mScreenOn = {boolean},ledNotification ={boolean}",2
+151,addNotification key={key}|{app}|{userId}|{message}|{errorCode},1
+152,mHeadsUpExistenceChangedRunnable,4
+153,Marking notification as seen {int}|{string}|{int}|{null}|{int},2
+154,onNotificationExpansionChanged called,2
+155,START u0 {act=%s cat=%s flg=%s cmp=%s bnds=%s} from uid %s on display %s,2
+156,"ACTIVITY check resid: {package_name}, size={size}",2
+157,getTasks: caller {caller_id} does not hold {permission}; limiting output,4
+158,"ActivityRecord info: ActivityInfo{{activity} {activity_name}}, euid: {euid}",1
+159,The {dynamic_variable} caused us to need to do a layout begin,1
+160,"Skipping, withExcluded: {boolean}, tr.intent:Intent { act={string} flg={hexadecimal} cmp={string} (has extras) }",2
+161,getAllCellInfo is blocked by permission manager . callingPackage = {callingPackage},3
+162,getCellLocation is blocked by permission manager uid:{uid} pid:{pid},1
+163,"sending alarm Alarm{<variable1> type <variable2> when <variable3> PendingIntent{<variable4>: PendingIntentRecord{<variable5> android broadcastIntent}}},repeatInterval = <variable6>,listenerTag =<variable7>",1
+164,scheduleTimeTickEvent triggerAtTime = {time},1
+165,isWiredHeadsetOn...,1
+166,"setDataSource({int}, {int}, {long})",1
+167,getStreamVolume  treamType: {streamType},1
+168,"updateIsPoweredLocked: wasPowered={bool}, mIsPowered={bool}, oldPlugType={int}, mPlugType={int}, mBatteryLevel={int}",1
+169,received broadcast {intent} android.intent.action.BATTERY_CHANGED,1
+170,ACTION_BATTERY_CHANGED AMP: {amp}; Volt: {volt},1
+171,updateChargingLocked: charging={charging},1
+172,"onReceive, action:{action}",1
+173,ACTION_BATTERY_CHANGED pluggedType: {pluggedType},1
+174,ApStaDisabledState what={},1
+175,DefaultState what={variable},1
+176,battery changed pluggedType: {pluggedType},1
+177,RefreshBatteryInfo isBatteryLow: {batteryLevel},2
+178,ChargingSpeed  Wattage: {wattage} ST: {start_time} --> {end_time},1
+179,handleBatteryUpdate,1
+180,enqueueNotificationInternal: pkg={pkg} id={id} notification=Notification(pri={pri} contentView={contentView} vibrate={vibrate} sound={sound} tick defaults={defaults} flags={flags} color={color} category={category} vis={vis}),1
+181,enqueueNotificationInternal: n.getKey = {key}|{app}|{id}|{tag}|{userId},1
+182,addNotification key={key}|{package}|{type}|{extra}|{id},1
+183,"sending alarm Alarm{<variable1> type <variable2> when <variable3> PendingIntent{<variable4>: PendingIntentRecord{<variable5>}},repeatInterval = <variable6>,listenerTag =<variable7>}",1
+184,START u0 {flg=<flag> cmp=<component> (has extras)} from uid <uid> on display <display>,1
+185,"ActivityRecord info: ActivityInfo{{activity_name}}, euid: {euid}",1
+186,startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { flg={flag} cmp={component} (has extras) },1

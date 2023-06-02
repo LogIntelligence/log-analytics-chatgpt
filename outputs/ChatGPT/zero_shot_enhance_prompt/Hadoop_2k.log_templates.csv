@@ -1,0 +1,148 @@
+,EventTemplate,Occurrences
+0,Created MRAppMaster for application {application_id},1
+1,Executing with tokens: {tokens},1
+2,"Kind: YARN_AM_RM_TOKEN, Service: , Ident: (appAttemptId { application_id { id: {id} cluster_timestamp: {cluster_timestamp} } attemptId: {attemptId} } keyId: {keyId})",1
+3,Using mapred {committerType}.,1
+4,OutputCommitter set in config {config},1
+5,OutputCommitter is {committer},1
+6,Registering class {class_name} for class {handler_class},2
+7,Registering class {class_name} for class {class_type},2
+8,Registering class {class_name} for class {dispatcher_class},1
+9,Registering class {class_name} for class {event_dispatcher},1
+10,Registering class {class_name} for class {class_name},2
+11,Default file system [{filesystem}],3
+12,Emitting job history data to the timeline server is not enabled,1
+13,Registering class {class1} for class {class2},1
+14,loaded properties from {file},1
+15,Scheduled snapshot period at {time} second(s).,1
+16,MRAppMaster metrics system started,1
+17,Adding job token for {job_id} to jobTokenSecretManager,1
+18,Not uberizing {job_id} because: not enabled; too many maps; too much input;,1
+19,Input size for job {job_id} = {input_size}. Number of splits = {num_splits},1
+20,Number of reduces for job {job_id} = {num_reduces},1
+21,job_{timestamp}_Job Transitioned from {status1} to {status2},1
+22,"MRAppMaster launching normal, non-uberized, multi-container job {job_id}.",1
+23,Using callQueue class {class},2
+24,Starting Socket Reader #{number} for port {port},2
+25,Adding protocol {protocol} to the server,1
+26,Instantiated MRClientService at {hostname}/{ip}:{port},1
+27,IPC Server Responder: {status},2
+28,IPC Server listener on {port}: starting,2
+29,Logging to org.slf4j.impl.Log4jLoggerAdapter({}) via org.mortbay.log.Slf4jLog,1
+30,Http request log for {httpEndpoint} is not defined,1
+31,Added global filter '{filter_name}' (class={filter_class}),1
+32,Added filter {FILTER_NAME} (class={FILTER_CLASS}) to context {CONTEXT_NAME},1
+33,Added filter {FILTER_NAME} (class={FILTER_CLASS}) to context static,1
+34,adding path spec: {path},1
+35,adding path spec: {path_spec},1
+36,Jetty bound to port {port},1
+37,jetty-{version},1
+38,Extract jar:{jar_path} to {destination_path},1
+39,Started HttpServer2$SelectChannelConnectorWithSafeStartup@{IP}:{PORT},1
+40,Web app /mapreduce started at {timestamp},1
+41,Registered webapp guice modules,1
+42,JOB_CREATE {job_id},1
+43,nodeBlacklistingEnabled:{boolean},1
+44,maxTaskFailuresPerNode is {value},1
+45,blacklistDisablePercent is {value},1
+46,Connecting to ResourceManager at {hostname}/{ip}:8030,1
+47,"maxContainerCapability: <memory:{memory}, vCores:{vCores}>",1
+48,queue: {queue_name},1
+49,Upper limit on the thread pool size is {limit},1
+50,yarn.client.max-cached-nodemanagers-proxies : {value},1
+51,job_{timestamp}_Job Transitioned from {old_state} to {new_state},2
+52,Processing the event EventType: {eventType},3
+53,Resolved {hostname} to {ip_address},39
+54,task_{timestamp}_m_{task_id} Task Transitioned from {old_state} to {new_state},21
+55,task_{timestamp}_r_{attempt} Task Transitioned from {old_state} to {new_state},1
+56,attempt_{timestamp}_{{attempt_id}}_m_{task_id}_0 TaskAttempt Transitioned from NEW to UNASSIGNED,4
+57,attempt_{timestamp}_{{attempt_id}}_m_{task_id}_{{attempt_num}}_{{transition}} TaskAttempt Transitioned from {{old_state}} to {{new_state}},1
+58,attempt_{timestamp}_{{attempt_id}}_m_{task_id}_{{task_attempt_transition}} TaskAttempt Transitioned from NEW to UNASSIGNED,1
+59,attempt_{timestamp}_{{attempt_id}}_m_{task_id}_{attempt_num}_ TaskAttempt Transitioned from {old_state} to {new_state},1
+60,attempt_{timestamp}_{{attempt_id}}_m_{task_id}_{attempt_num} TaskAttempt Transitioned from {old_state} to {new_state},4
+61,attempt_{timestamp}_r_{task}_TaskAttempt Transitioned from {oldState} to {newState},1
+62,"mapResourceRequest:<memory:{memory}, vCores:{vCores}>",1
+63,"Event Writer setup for JobId: {JobId}, File: {FilePath}",1
+64,"reduceResourceRequest:<memory:{memory}, vCores:{vCores}>",1
+65,Before Scheduling: PendingReds:{int} ScheduledMaps:{int} ScheduledReds:{int} AssignedMaps:{int} AssignedReds:{int} CompletedMaps:{int} CompletedReds:{int} ContAlloc:{int} ContRel:{int} HostLocal:{int} RackLocal:{int},1
+66,"getResources() for application_{appId}: ask={ask} release={release} newContainers={newContainers} finishedContainers={finishedContainers} resourcelimit=<memory:{memory}, vCores:{vCores}> knownNMs={knownNMs}",12
+67,"Recalculating schedule, headroom=<memory:{memory}, vCores:{vCores}>",131
+68,Reduce slow start threshold not met. completedMapsForReduceSlowstart {variable},130
+69,Got allocated containers {num_containers},10
+70,Assigned container {container_id} to {attempt_id},10
+71,After Scheduling: PendingReds:{int} ScheduledMaps:{int} ScheduledReds:{int} AssignedMaps:{int} AssignedReds:{int} CompletedMaps:{int} CompletedReds:{int} ContAlloc:{int} ContRel:{int} HostLocal:{int} RackLocal:{int},7
+72,The job-jar file on the remote FS is {file_path},1
+73,The job-conf file on the remote FS is {file_path},1
+74,Adding {num_tokens} tokens and {num_keys} secret keys for NM use for launching container,1
+75,Size of containertokens_dob is {size},1
+76,Putting shuffle token in {serviceData},1
+77,attempt_{timestamp}_{{attempt_id}}_m_{task_id}_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,3
+78,Processing the event EventType: {eventType} for container {containerId} taskAttempt {taskAttemptId},13
+79,Launching attempt_{timestamp}_{job_id}_m_{task_id}_{attempt_id},1
+80,Opening proxy : {proxy_address},1
+81,Shuffle port returned by ContainerManager for {attempt_id} : {port_number},10
+82,TaskAttempt: [attempt_{dynamic1}_m_000000_0] using containerId: [container_{dynamic2}_01_000002 on NM: [{dynamic3}:{dynamic4}],1
+83,attempt_{timestamp}_{{attempt_id}}_m_{task_id}_0 TaskAttempt Transitioned from ASSIGNED to RUNNING,4
+84,ATTEMPT_START task_{task_id}_m_{mapper_id},1
+85,attempt_{timestamp}_{{attempt_id}}_m_{task_id}_{{task_attempt_transition}} TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,3
+86,Launching attempt_{timestamp}_{job_id}_m_{task_id}_{attempt_num},3
+87,Opening proxy : {proxy_address}:{port},4
+88,TaskAttempt: [attempt_{dynamic1}_m_{dynamic2}_{dynamic3}] using containerId: [container_{dynamic4}_{dynamic5}_{dynamic6}_{dynamic7} on NM: [{dynamic8}:{dynamic9}],2
+89,attempt_{timestamp}_{{attempt_id}}_m_{task_id}_{{task_attempt_transition}},1
+90,ATTEMPT_START task_{task_id},9
+91,Launching attempt_{timestamp}_{task_type}_{task_id}_{attempt_num},1
+92,attempt_{timestamp}_{{attempt_id}}_m_{task_id}_{task_attempt} TaskAttempt Transitioned from {old_state} to {new_state},3
+93,Auth successful for job_{job_id} (auth:{auth_type}),10
+94,JVM with ID : {jvm_id} asked for a task,10
+95,JVM with ID: {jvm_id} given task: {task_id},10
+96,Progress of TaskAttempt {task_attempt_id} is : {progress},289
+97,attempt_{timestamp}_{{attempt_id}}_m_{task_id}_{attempt_num} TaskAttempt Transitioned from {prev_state} to {new_state},1
+98,Launching attempt_{timestamp}_{job_id}_{task_type}_{task_id}_{attempt_num},1
+99,Opening proxy : {proxy},8
+100,TaskAttempt: [attempt_{dynamic}_m_{dynamic}_{dynamic}] using containerId: [container_{dynamic}_{dynamic}_{dynamic}_{dynamic} on NM: [{dynamic}:{dynamic}],2
+101,attempt_{timestamp}_{{attempt_id}}_m_{task_id}_{attempt_num} TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,2
+102,Launching attempt_{timestamp}_{task_type}_{task_id}_{attempt_num}_{node_num},4
+103,TaskAttempt: [attempt_{dynamic}_m_{dynamic}_{dynamic}] using containerId: [{dynamic} on NM: [{dynamic}:{dynamic}],2
+104,attempt_{timestamp}_{{task_attempt}} TaskAttempt Transitioned from {old_state} to {new_state},2
+105,attempt_{timestamp}_{{attempt_id}}_m_{task_id}_{{attempt_num}} TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,1
+106,TaskAttempt: [attempt_{dynamic}_m_{dynamic}_0] using containerId: [container_{dynamic}_01_{dynamic} on NM: [{dynamic}:{dynamic}],3
+107,After Scheduling: PendingReds:{PendingReds} ScheduledMaps:{ScheduledMaps} ScheduledReds:{ScheduledReds} AssignedMaps:{AssignedMaps} AssignedReds:{AssignedReds} CompletedMaps:{CompletedMaps} CompletedReds:{CompletedReds} ContAlloc:{ContAlloc} ContRel:{ContRel} HostLocal:{HostLocal} RackLocal:{RackLocal},5
+108,"Cannot assign container Container: [ContainerId: {container_id}, NodeId: {node_id}, NodeHttpAddress: {node_http_address}, Resource: <memory:{memory}, vCores:{vcores}>, Priority: {priority}, Token: Token { kind: ContainerToken, service: {service} }, ] for a map as either  container memory less than required <memory:{memory}, vCores:{vcores}> or no pending map tasks - maps.isEmpty={maps_is_empty}",1
+109,Received completed container {container_id},2
+110,Container complete event for unknown container id {container_id},1
+111,Done acknowledgement from attempt_{attempt_id}_{task_type}_{task_attempt_num}_{task_attempt_id},1
+112,attempt_{timestamp}_{{attempt_id}}_m_{task_id}_{attempt_num}_0 TaskAttempt Transitioned from {old_state} to {new_state},1
+113,KILLING attempt_{timestamp}_{task_type}_{task_id}_{attempt_num}_{node_id},3
+114,attempt_{timestamp}_{{attempt_id}}_m_{task_id}_0 TaskAttempt Transitioned from {previous_state} to {current_state},4
+115,Task succeeded with attempt {attempt_id},1
+116,Num completed Tasks: {num},1
+117,Before Scheduling: PendingReds:{PendingReds} ScheduledMaps:{ScheduledMaps} ScheduledReds:{ScheduledReds} AssignedMaps:{AssignedMaps} AssignedReds:{AssignedReds} CompletedMaps:{CompletedMaps} CompletedReds:{CompletedReds} ContAlloc:{ContAlloc} ContRel:{ContRel} HostLocal:{HostLocal} RackLocal:{RackLocal},4
+118,Reduce slow start threshold reached. Scheduling reduces.,1
+119,All maps assigned. Ramping up all remaining reduces:{num_reduces},1
+120,DefaultSpeculator.addSpeculativeAttempt -- we are speculating {task_id},1
+121,We launched {num} speculations. Sleeping {time} milliseconds.,1
+122,Scheduling a redundant attempt for task {task_id},1
+123,attempt_{timestamp}_{attempt_id}_{task_type}_{task_id}_{attempt_num} TaskAttempt Transitioned from {old_state} to {new_state},1
+124,Diagnostics report from attempt_{dynamic}_m_{dynamic}_{dynamic}: Container killed by the ApplicationMaster.,1
+125,Address change detected. Old: {old_address} New: {new_address},476
+126,Failed to renew lease for {lease_id} for {retry_time} seconds. Will retry shortly ...,166
+127,Failed to renew lease for [{dynamic_variable}] for {dynamic_variable} seconds. Will retry shortly ...,158
+128,"Slow ReadProcessor read fields took {time}ms (threshold={threshold}ms); ack: seqno: {seqno} status: {status} status: {status} downstreamAckTimeNanos: {downstreamAckTimeNanos}, targets: [{targets}]",1
+129,DFSOutputStream ResponseProcessor exception for block {block_id},1
+130,Error Recovery for block {block_id} in pipeline {pipeline}: bad datanode {datanode},1
+131,DataStreamer Exception,1
+132,ERROR IN CONTACTING {SERVICE_NAME}.,147
+133,Retrying connect to server: {serverName}:{port}. Already tried {retryCount} time(s); retry policy is {retryPolicy},146
+134,Task: {task_id} - exited : {error_message}; For more details see: {error_details},2
+135,Diagnostics report from attempt_{attempt_id}: Error: java.net.NoRouteToHostException: No Route to Host from {source_ip} to {destination_host}:{destination_port} failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see:  http://wiki.apache.org/hadoop/NoRouteToHost,4
+136,Task cleanup failed for attempt {attempt_id},2
+137,attempt_{timestamp}_{{attempt_id}}_m_{task_id}_{{task_attempt_transition}} TaskAttempt Transitioned from FAIL_TASK_CLEANUP to FAILED,1
+138,Error writing History Event: {event},1
+139,"Thread Thread[{threadName},{threadPriority},{threadGroup}] threw an Exception.",1
+140,{number} failures on node {node_name},2
+141,Added {attempt}_{timestamp}_{node}_{task}_{status} to list of failed {type},1
+142,attempt_{timestamp}_{{attempt_id}}_m_{task_id}_{{attempt_num}}_{{transition}},1
+143,attempt_{timestamp}_{{attempt_id}}_m_{task_id}_{{attempt_num}}_{{transition_from}} TaskAttempt Transitioned from {{transition_from}} to {{transition_to}},1
+144,attempt_{timestamp}_{attempt_id}_{task_type}_{task_attempt_number}_{transition} TaskAttempt Transitioned from {old_state} to {new_state},1
+145,Added {attempt_id} to list of failed maps,1
+146,Failed to renew lease for {lease_id} for {duration} seconds. Will retry shortly ...,2

@@ -1,0 +1,204 @@
+,EventTemplate,Occurrences
+0,session closed for user {username},24
+1,session opened for user {username} by (uid={uid}),19
+2,(root) CMD (run-parts /etc/cron.hourly),7
+3,(root) CMD ({command}),7
+4,data_thread() got not answer from any {datasource} datasource,788
+5,"synchronized to {ip_address}, stratum {stratum_level}",566
+6,[ib_sm_sweep.c:{line_number}]: ********************** NEW SWEEP ********************,62
+7,[ib_sm_sweep.c:{line_number}]: No topology change,62
+8,[ib_sm_sweep.c:{line_number}]: No configuration change required,62
+9,Local disconnected: {Reason}.,3
+10,connection lost: '{reason}',3
+11,unable to qualify my own domain name ({domain_name}) -- using short name,8
+12,"{:id}: from={:from}, size={:size}, class={:class}, nrcpts={:nrcpts}, msgid={:msgid}, relay={:relay}",9
+13,"to={to}, ctladdr={ctladdr}, delay={delay}, xdelay={xdelay}, mailer={mailer}, pri={pri}, relay={relay}, dsn={dsn}, stat={stat}",3
+14,unable to qualify my own domain name ({hostname}) -- using short name,2
+15,"jA9J1Wd7019391: to={to}, ctladdr={ctladdr} ({ctladdr_count}/{ctladdr_total}), delay={delay}, xdelay={xdelay}, mailer={mailer}, pri={pri}, relay=[{relay_ip}] [{relay_hostname}], dsn={dsn}, stat={stat}",1
+16,"{}: from={}, size={}, class={}, nrcpts={}, msgid={}, relay={}",1
+17,"jA9J1WSU011176: to={to}, ctladdr={ctladdr} ({ctladdr_count}/{ctladdr_total}), delay={delay}, xdelay={xdelay}, mailer={mailer}, pri={pri}, relay=[{relay_ip}] [{relay_hostname}], dsn={dsn}, stat={stat}",1
+18,"jA9J1WFE024258: to={to}, ctladdr={ctladdr} ({ctladdr_count}/{ctladdr_total}), delay={delay}, xdelay={xdelay}, mailer={mailer}, pri={pri}, relay=[{relay_ip}] [{relay_hostname}], dsn={dsn}, stat={stat}",1
+19,data_thread() got not answer from any {datasource},31
+20,DHCPDISCOVER from {mac_address} via {interface},5
+21,DHCPOFFER on {IP} to {MAC} via {interface},5
+22,DHCPDISCOVER from {mac_address} via {interface}: network {network_name}: no free leases,15
+23,DHCPACK on {IP} to {MAC} via {interface},3
+24,DHCPREQUEST for {IP} ({IP}) from {MAC} via {interface},3
+25,START: tftp pid={pid} from={ip},1
+26,DHCPREQUEST for {IP} ({IP}) from {MAC} via {interface}: unknown lease {IP}.,9
+27,RRD_update ({rrd_path}): illegal attempt to update using time {update_time} when last update time is {last_update_time} (minimum one second step),11
+28,kernel time sync disabled {variable},1
+29,time reset {time} s,1
+30,Received SNMP packet(s) from {device_id},1
+31,"synchronized to LOCAL({int}), stratum {int}",1
+32,kernel time sync enabled {timestamp},1
+33,"synchronized to #{int}#, stratum {int}",1
+34,(root) CMD ({path} {arg}),4
+35,(root) CMD (/projects/tbird/temps/get_temps {variable}),1
+36,My unqualified host name ({hostname}) unknown; sleeping for retry,5
+37,CentOS-4 ({dynamic_variable}),1
+38,(supports {state1} {state2} {state3}),1
+39,DSDT (v001 {string1} {string2} 0x{hex1} {string3} 0x{hex2}) @ 0x{hex3},1
+40,FADT (v{version} {manufacturer} {product} 0x{revision} {oem_id} 0x{creator_id}) @ 0x{memory_address},1
+41,HPET (v{version} {manufacturer} {model} 0x{code} {os} 0x{os_version}) @ 0x{memory_address},1
+42,HPET id: {id} base: {base},1
+43,INT_SRC_OVR (bus {bus} bus_irq {bus_irq} global_irq {global_irq} dfl dfl),1
+44,INT_SRC_OVR (bus {bus} bus_irq {bus_irq} global_irq {global_irq} {level}),1
+45,IOAPIC (id[{id}] address[{address}] gsi_base[{gsi_base}]),3
+46,IRQ{IRQ_number} used by override.,2
+47,IRQ{number} used by {source}.,1
+48,Interpreter enabled,1
+49,LAPIC (acpi_id[{acpi_id}] lapic_id[{lapic_id}] enabled),4
+50,LAPIC_NMI (acpi_id[{acpi_id}] high edge lint[{lint}]),4
+51,Local APIC address {address},1
+52,MADT (v{version} {manufacturer} {product} 0x{code1} {code2} 0x{code3}) @ 0x{address},1
+53,MCFG (v{version} {manufacturer} {model} 0x{revision} {os} 0x{os_version}) @ 0x{memory_address},1
+54,PCI Interrupt Link [LNKA] (IRQs {IRQs}) *{number},1
+55,PCI Interrupt Link [LNKB] (IRQs {var1} {var2} {var3} {var4} {var5} *{var6} {var7} ),1
+56,PCI Interrupt Link [LNKC] (IRQs {IRQs}) *{value},1
+57,"PCI Interrupt Link [LNKD] (IRQs {IRQs}) *{value}, disabled.",1
+58,"PCI Interrupt Link [LNKE] (IRQs {IRQs}) *{number}, disabled.",1
+59,"PCI Interrupt Link [LNKF] (IRQs {IRQs}) *{number}, {status}.",1
+60,"PCI Interrupt Link [LNKG] (IRQs {IRQs}) *{number}, {status}.",1
+61,"PCI Interrupt Link [LNKH] (IRQs {IRQs}) *{value}, disabled.",1
+62,PCI Interrupt Routing Table [{pci_address}],10
+63,PCI Root Bridge [PCI{var1}] ({var2}:{var3}),1
+64,"PCI interrupt {device}[{type}] -> GSI {gsi} ({trigger}, {polarity}) -> IRQ {irq}",7
+65,"PCI interrupt {device}[{status}] -> GSI {signal} ({type}, {level}) -> IRQ {number}",2
+66,"PCI interrupt {device}[{status}] -> GSI {number} ({type}, {level}) -> IRQ {code}",1
+67,"PCI interrupt {device}[{subdevice}] -> GSI {gsi} ({trigger}, {polarity}) -> IRQ {irq}",1
+68,Power Button ({button_code}) [{button_action}],1
+69,Processor [{CPU}] (supports {C-state}),4
+70,RSDP (v000 {manufacturer} ) @ {memory_address},1
+71,RSDT (v{version} {manufacturer} {model} 0x{code} {company} 0x{code}) @ 0x{address},1
+72,SPCR (v{version} {manufacturer} {model} 0x{code} {company} 0x{code}) @ 0x{address},1
+73,Subsystem revision {revision},1
+74,Using IOAPIC for interrupt routing,1
+75,Intel(R) Xeon(TM) CPU {frequency}GHz stepping {step},1
+76,L2 cache: {cache_size},5
+77,Physical Processor ID: {id},5
+78,"Trace cache: {trace_cache} uops, L1 D cache: {l1_d_cache}",5
+79,colour VGA+ {resolution},1
+80,mounted filesystem with ordered data mode.,3
+81,"sys_ia32.c,v {version} {date} {time} ak Exp $",1
+82,"apic_id {apic_id}, version {version}, address {address}, GSI {GSI}",2
+83,"apic_id {apic_id}, version {version}, address {address}, GSI {GSI_range}",1
+84,"routing cache hash table of {int} buckets, {int}Kbytes",1
+85,PCI Hot Plug PCI Core version: {version},1
+86,root={root} initrd={initrd} console={console} fastboot BOOT_IMAGE={boot_image},1
+87,Registered protocol family {integer},3
+88,Registered protocol family {number},2
+89,Using software bounce buffering for IO (SWIOTLB),1
+90,Probing PCI hardware (bus {bus_number}),1
+91,Transparent bridge - {device},1
+92,Using ACPI for IRQ routing,1
+93,Using MMCONFIG at {address},1
+94,Using configuration type {config_type},1
+95,Compressed image found at block {block_number},1
+96,Disabled at {runtime}.,1
+97,Initializing.,1
+98,Registering netfilter hooks,1
+99,Starting in permissive mode,1
+100,Unregistering netfilter hooks,1
+101,Hash tables configured (established {established} bind {bind}),1
+102,Direct-Access ANSI SCSI revision: {revision},1
+103,Processor ANSI SCSI revision: {revision},1
+104,Disk quotas {dquot_version},1
+105,Mounted root ({filesystem} filesystem).,1
+106,MegaRAID Model: LD {logical_drive_number} {raid_level} {drive_capacity} Rev: {revision_number},1
+107,PE/PV Model: {model} SCSI BP Rev: {revision},1
+108,initialized,1
+109,initializing netlink socket ({status}),1
+110,passed.,1
+111,x.x.x-ioctl (yyyy-mm-dd) initialised: #{placeholder}#@#{placeholder}#,1
+112,allocating divert_blk for {interface},2
+113,not allocating divert_blk for non-{device_type} device {device_name},1
+114,v{version}:USB HID core driver,1
+115,eth0: e1000_probe: {network_adapter},1
+116,eth0: e1000_watchdog: NIC Link is Up {speed} Mbps {duplex},1
+117,eth1: e1000_probe: {network_adapter},1
+118,no {device} controllers found,1
+119,RNG not detected,1
+120,Wait for ready failed before {action} !,6
+121,Assuming {system_bus_speed} system bus speed for PIO modes; override with idebus={xx},1
+122,Unknown cmd fd({fd}) cmd({cmd}){code} arg({arg}) on {device},1
+123,(C) {year_start}-{year_end} Netfilter core team,3
+124,({string}) {int}-{int} {string} {string} {string},1
+125,Installing public key data,1
+126,... autorun {STATUS}.,2
+127,Autodetecting RAID arrays.,2
+128,autorun ...,2
+129,"md driver {version} MAX_MD_DEVS={max_md_devs}, MD_SB_DISKS={md_sb_disks}",1
+130,#{number}#-rh1 (Release Date: {date} EST {year}),1
+131,#{release_number}# (Release Date: {date}),1
+132,fw version:[{fw_version}] bios version:[{bios_version}],1
+133,probe new device {device_id}: bus {bus_num}:slot {slot_num}:func {func_num},1
+134,PS/2 mouse device common for all mice,1
+135,v{version} ({date}),1
+136,rpc.statd {startup_result} succeeded,1
+137,portmap startup succeeded,1
+138,Starting ts_fixup: {status},1
+139,Version {version} Starting,1
+140,LSI Logic MegaRAID driver,1
+141,scanning scsi channel {channel} [Phy {phy}] for non-raid devices,1
+142,scanning scsi channel {channel_number} [{type}] for logical drives,1
+143,asking for cache data {status},1
+144,assuming drive cache: {cache_type},1
+145,{disk1} {disk2} {disk3} {disk4},1
+146,Registering secondary module capability,1
+147,"i8042 AUX port at {hex},{hex} irq {number}",1
+148,"i8042 KBD port at {hex},{hex} irq {number}",1
+149,syslog-ng startup succeeded,1
+150,syslog-ng version {version} starting,1
+151,Detected {frequency} MHz processor.,1
+152,Using {frequency} MHz HPET timer.,1
+153,Using {timekeeping_method} based timekeeping.,1
+154,Creating Topspin {device} entries:,1
+155,registered new driver {driver_name},1
+156,registered new driver hub,1
+157,registered new driver {driver},2
+158,probe of {device} failed with error {error_code},1
+159,"connection from ""{variable}""",2
+160,"User {user_id}, coming from {location}, authenticated.",2
+161,Now running on {user}'s privileges.,2
+162,Mounting NFS filesystems: {status},1
+163,Mounting other filesystems: {status},1
+164,Warning: we failed to resolve data source name {an1} {an2} {an3} {an4} {an5} {an6} {an7} {an8} {an9} {an10} {an11} {an12} {an13} {an14} {an15} {an16} {an17} {an18} {an19} {an20} {an21} {an22} {an23} {an24} {an25} {an26} {an27} {an28} {an29} {an30} {an31} {an32} {an33} {an34} {an35} {an36} {an37} {an38} {an39} {an40} {an41} {an42} {an43} {an44} {an45} {an46} {an47} {an48} {an49} {an50} {an51} {an52} {an53} {an54} {an55} {an56} {an57} {an58} {an59} {an60} {an61} {an62} {an63} {an64} {an65} {an66} {an67} {an68} {an69} {an70} {an71} {an72} {an73} {an74} {an75} {an76} {an77} {an78} {an79} {an80} {an81} {an82} {an83} {an84} {an85} {an86} {an87} {an88} {an89} {an90} {an91} {an92} {an93} {an94} {an95} {an96} {an97} {an98} {an99} {an100} {an101} {an102} {an103} {an104} {an105} {an106} {an107} {an108} {an109} {an110} {an111} {an112} {an113} {an114} {an115} {an116} {an117} {an118} {an119},2
+165,Warning: we failed to resolve data source name {an1} {an2} {an3} {an4} {an5} {an6} {an7} {an8} {an9} {an10} {an11} {an12} {an13} {an14} {an15} {an16} {an17} {an18} {an19} {an20} {an21} {an22} {an23} {an24} {an25} {an26} {an27} {an28} {an29} {an30} {an31} {an32} {an33} {an34} {an35} {an36} {an37} {an38} {an39} {an40} {an41} {an42} {an43} {an44} {an45} {an46} {an47} {an48} {an49} {an50} {an51} {an52} {an53} {an54} {an55} {an56} {an57} {an58} {an59} {an60} {an61} {an62} {an63} {an64} {an65} {an66} {an67} {an68} {an69} {an70} {an71} {an72} {an73} {an74} {an75} {an76} {an77} {an78} {an79} {an80} {an81} {an82} {an83} {an84} {an85} {an86} {an87} {an88} {an89} {an90} {an91} {an92} {an93} {an94} {an95} {an96} {an97} {an98} {an99} {an100} {an101} {an102} {an103} {an104} {an105} {an106} {an107} {an108} {an109} {an110} {an111} {an112} {an113} {an114} {an115} {an116} {an117} {an118} {an119} {an120} {an121} {an122} {an123} {an124} {an125} {an126} {an127} {an128} {an129} {an130} {an131} {an132} {an133} {an134} {an135} {an136} {an137} {an138} {an139} {an140} {an141} {an142} {an143} {an144} {an145} {an146} {an147} {an148} {an149} {an150} {an151} {an152} {an153} {an154} {an155} {an156} {an157} {an158} {an159} {an160} {an161} {an162} {an163} {an164} {an165} {an166} {an167} {an168} {an169} {an170} {an171} {an172} {an173} {an174} {an175} {an176} {an177} {an178} {an179} {an180} {an181} {an182} {an183} {an184} {an185} {an186} {an187} {an188} {an189} {an190} {an191} {an192} {an193} {an194} {an195} {an196} {an197} {an198} {an199} {an200} {an201} {an202} {an203} {an204} {an205} {an206} {an207} {an208} {an209} {an210} {an211} {an212} {an213} {an214} {an215} {an216} {an217} {an218} {an219} {an220} {an221} {an222} {an223} {an224} {an225} {an226} {an227} {an228} {an229} {an230} {an231} {an232} {an233} a,1
+166,Warning: we failed to resolve data source name {anXXX},1
+167,Warning: we failed to resolve data source name {an398} {an399} {an400} {an401} {an402} {an403} {an404} {an405} {an406} {an407} {an408} {an409} {an410} {an411} {an412} {an413} {an414} {an415} {an416} {an417} {an418} {an419} {an420} {an421} {an422} {an423} {an424} {an425} {an426} {an427} {an428} {an429} {an430} {an431} {an432} {an433} {an434} {an435} {an436} {an437} {an438} {an439} {an440} {an441} {an442} {an443} {an444} {an445} {an446} {an447} {an448} {an449} {an450} {an451} {an452} {an453} {an454} {an455} {an456} {an457} {an458} {an459} {an460} {an461} {an462} {an463} {an464} {an465} {an466} {an467} {an468} {an469} {an470} {an471} {an472} {an473} {an474} {an475} {an476} {an477} {an478} {an479} {an480} {an481} {an482} {an483} {an484} {an485} {an486} {an487} a,1
+168,Warning: we failed to resolve data source name {data_sources},4
+169,Warning: we failed to resolve data source name {an654} {an655} {an656} {an657} {an658} {an659} {an660} {an661} {an662} {an663} {an664} {an665} {an666} {an667} {an668} {an669} {an670} {an671} {an672} {an673} {an674} {an675} {an676} {an677} {an678} {an679} {an680} {an681} {an682} {an683} {an684} {an685} {an686} {an687} {an688} {an689} {an690} {an691} {an692} {an693} {an694} {an695} {an696} {an697} {an698} {an699} {an700} {an701} {an702} {an703} {an704} {an705} {an706} {an707} {an708} {an709} {an710} {an711} {an712} {an713} {an714} {an715} {an716} {an717} {an718} {an719} {an720} {an721} {an722} {an723} {an724} {an725} {an726} {an727} {an728} {an729} {an730} {an731} {an732} {an733} {an734} {an735} {an736} {an737} {an738} {an739} {an740} {an741} {an742} {an743} {an744} {an745} a,1
+170,Warning: we failed to resolve data source name {data_source_names},18
+171,Warning: we failed to resolve data source name {an_number},1
+172,Warning: we failed to resolve data source name {source_names},2
+173,Warning: we failed to resolve data source name {bn_num},1
+174,Warning: we failed to resolve data source name {cn_num} c,1
+175,Warning: we failed to resolve data source name {dn},1
+176,Warning: we failed to resolve trusted host name {hostname1} {hostname2},1
+177,gmetad startup succeeded,1
+178,not allocating divert_blk for non-ethernet device {device},1
+179,succeeded,2
+180,Server listening on {ip_address} port {port_number}.,1
+181,error: Bind to port {port} on {ip_address} failed: {error_message}.,1
+182,Cannot open file {file_path} for writing ({error_message}),1
+183,Changing permissions on special file {file_path},1
+184,xinetd startup succeeded,1
+185,Reading included configuration file: {file_path} [file={file_name}] [line={line_number}],9
+186,Reading included configuration file: {file} [file={file}] [line={line}],8
+187,Started working: {number} available service,1
+188,removing chargen,2
+189,removing {variable},6
+190,removing {service_name},1
+191,removing {service},2
+192,removing {process},1
+193,removing {module},1
+194,removing printer,1
+195,removing rsync,1
+196,removing telnet,1
+197,xinetd Version {version} started with {options} options compiled in.,1
+198,"jA9JBVPb007417: to={to}, ctladdr={ctladdr} ({ctladdr_count}/{ctladdr_total}), delay={delay}, xdelay={xdelay}, mailer={mailer}, pri={pri}, relay=[{relay_ip}] [{relay_hostname}], dsn={dsn}, stat={stat}",1
+199,"jA9JBWxH019649: to={to}, ctladdr={ctladdr} ({ctladdr_count}/{ctladdr_total}), delay={delay}, xdelay={xdelay}, mailer={mailer}, pri={pri}, relay=[{relay_ip}] [{relay_hostname}], dsn={dsn}, stat={stat}",1
+200,"jA9JBWEr014256: to={to}, ctladdr={ctladdr} ({ctladdr_count}/{ctladdr_total}), delay={delay}, xdelay={xdelay}, mailer={mailer}, pri={pri}, relay=[{relay_ip}] [{relay_hostname}], dsn={dsn}, stat={stat}",1
+201,"jA9JBXVI027337: to={to}, ctladdr={ctladdr} ({ctladdr_count}/{ctladdr_total}), delay={delay}, xdelay={xdelay}, mailer={mailer}, pri={pri}, relay=[{relay_ip}] [{relay_hostname}], dsn={dsn}, stat={stat}",1
+202,"Device: {device}, Temperature changed {old_temp} Celsius to {new_temp} Celsius since last report",1

@@ -1,0 +1,199 @@
+,EventTemplate,Occurrences
+0,session closed for user {username},24
+1,session opened for user {username} by (uid={uid}),19
+2,({user}) CMD ({command}),15
+3,data_thread() got not answer from any [{datasource}] datasource,616
+4,"synchronized to {server}, stratum {stratum}",403
+5,"synchronized to {server}, stratum {level}",163
+6,[{file}:{line}]: {message},47
+7,data_thread() got not answer from any [{service}] datasource,203
+8,[{}]: {},32
+9,[{}:{}]: {},107
+10,Local disconnected: Connection closed.,3
+11,connection lost: '{reason}',3
+12,unable to qualify my own domain name ({hostname}) -- using short name,10
+13,"jA9J1UvC004306: from={from}, size={size}, class={class}, nrcpts={nrcpts}, msgid={msgid}, relay={relay}",1
+14,"jA9J1UvC004306: to={to}, ctladdr={ctladdr} ({ctladdr_count}/{ctladdr_total}), delay={delay}, xdelay={xdelay}, mailer={mailer}, pri={pri}, relay=[{relay_ip}] [{relay_hostname}], dsn={dsn}, stat={stat}",1
+15,"jA9J1Wd7019391: from={from}, size={size}, class={class}, nrcpts={nrcpts}, msgid={msgid}, relay={relay}",1
+16,"jA9J1Wd7019391: to={to}, ctladdr={ctladdr} ({ctladdr_count}/{ctladdr_total}), delay={delay}, xdelay={xdelay}, mailer={mailer}, pri={pri}, relay=[{relay_ip}] [{relay_hostname}], dsn={dsn}, stat={stat}",1
+17,"jA9J1WSU011176: from={from}, size={size}, class={class}, nrcpts={nrcpts}, msgid={msgid}, relay={relay}",1
+18,"jA9J1WSU011176: to={to}, ctladdr={ctladdr} ({ctladdr_count}/{ctladdr_total}), delay={delay}, xdelay={xdelay}, mailer={mailer}, pri={pri}, relay=[{relay_ip}] [{relay_hostname}], dsn={dsn}, stat={stat}",1
+19,"jA9J1WFE024258: from={sender}, size={size}, class={class}, nrcpts={nrcpts}, msgid={msgid}, relay={relay}",1
+20,"jA9J1WFE024258: to={to}, ctladdr={ctladdr} ({ctladdr_count}/{ctladdr_total}), delay={delay}, xdelay={xdelay}, mailer={mailer}, pri={pri}, relay=[{relay_ip}] [{relay_hostname}], dsn={dsn}, stat={stat}",1
+21,DHCPDISCOVER from {mac_address} via {interface},5
+22,DHCPOFFER on {ip} to {mac} via {interface},5
+23,"jA9J1dQ7016560: from={from}, size={size}, class={class}, nrcpts={nrcpts}, msgid={msgid}, relay={relay}",1
+24,"jA9J1dQ7016560: to={to}, ctladdr={ctladdr} ({ctladdr_count}/{ctladdr_total}), delay={delay}, xdelay={xdelay}, mailer={mailer}, pri={pri}, relay=[{relay_ip}] [{relay_hostname}], dsn={dsn}, stat={stat}",1
+25,DHCPDISCOVER from {mac_address} via {interface}: network {network_name}: {error_message},13
+26,DHCPACK on {ip_address} to {mac_address} via {interface},3
+27,DHCPREQUEST for {requested_ip} ({server_ip}) from {mac_address} via {interface},3
+28,START: tftp pid={pid} from={ip},1
+29,DHCPREQUEST for {requested_ip} ({server_ip}) from {mac_address} via {interface}: {message},8
+30,DHCPREQUEST for {requested_ip} ({server_ip}) from {client_mac} via {interface}: {message},1
+31,DHCPDISCOVER from {mac_address} via {interface}: {network}: no free leases,2
+32,RRD_update ({path}): illegal attempt to update using time {timestamp} when last update time is {timestamp} (minimum one second step),11
+33,kernel time sync disabled {code},1
+34,time reset {offset} s,1
+35,Received SNMP packet(s) from {source},1
+36,"synchronized to LOCAL(0), stratum {stratum}",1
+37,kernel time sync enabled {value},1
+38,"synchronized to #{server}#, stratum {stratum}",1
+39,({user}) CMD ({command} {argument}),3
+40,({user}) CMD ({command} {arguments}),1
+41,My unqualified host name ({hostname}) unknown; sleeping for retry,5
+42,CentOS-4 (Kernel Module GPG key),1
+43,({options}),1
+44,DSDT (v001 {manufacturer} {product} 0x{version} {oem} 0x{revision}) @ {address},1
+45,FADT (v001 {manufacturer} {product} 0x{revision} {oem} 0x{creator}) @ {address},1
+46,HPET (v001 DELL PE BKC 0x{hex1} MSFT 0x{hex2}) @ 0x{hex3},1
+47,HPET id: {id} base: {base},1
+48,INT_SRC_OVR (bus {bus} bus_irq {bus_irq} global_irq {global_irq} {dfl1} {dfl2}),1
+49,INT_SRC_OVR (bus {bus} bus_irq {bus_irq} global_irq {global_irq} high level),1
+50,IOAPIC (id[{id}] address[{address}] gsi_base[{gsi_base}]),3
+51,IRQ{number} used by override.,2
+52,IRQ{number} used by {cause}.,1
+53,Interpreter enabled,1
+54,LAPIC (acpi_id[{acpi_id}] lapic_id[{lapic_id}] enabled),4
+55,LAPIC_NMI (acpi_id[{acpi_id}] high edge lint[{lint}]),4
+56,Local APIC address {address},1
+57,MADT (v001 {manufacturer} {product} 0x{revision} {oem_id} 0x{oem_table_id}) @ {address},1
+58,MCFG (v001 {manufacturer} {product} 0x{version} {vendor} 0x{efi_version}) @ {address},1
+59,PCI Interrupt Link [LNKA] (IRQs {irqs}) *{number},1
+60,PCI Interrupt Link [LNKB] (IRQs {irqs}),1
+61,PCI Interrupt Link [LNKC] (IRQs {irqs}) *{number},1
+62,"PCI Interrupt Link [LNKD] (IRQs {irqs}) *{status}, disabled.",1
+63,"PCI Interrupt Link [LNKE] (IRQs {irqs}) *{status}, disabled.",1
+64,"PCI Interrupt Link [LNKF] (IRQs {irqs}) *{status}, disabled.",1
+65,"PCI Interrupt Link [LNKG] (IRQs {irqs}) *{status}, disabled.",1
+66,"PCI Interrupt Link [LNKH] (IRQs {irqs}) *{status}, disabled.",1
+67,PCI Interrupt Routing Table [\{path}],7
+68,PCI Interrupt Routing Table [\{path\}],2
+69,{table_name} [\{table_path}],1
+70,PCI Root Bridge [PCI0] (00:00),1
+71,"PCI interrupt {device}[{subdevice}] -> GSI {gsi} ({trigger}, {polarity}) -> IRQ {irq}",5
+72,"PCI interrupt {device}[{type}] -> GSI {gsi} ({trigger}, {polarity}) -> IRQ {irq}",6
+73,Power Button ({button_code}) [{button_action}],1
+74,Processor [CPU{number}] (supports {state}),3
+75,Processor [{processor}] (supports {support}),1
+76,RSDP (v000 {manufacturer} ) @ {address},1
+77,RSDT (v001 {manufacturer} {product} 0x{revision} {oem} 0x{checksum}) @ {address},1
+78,SPCR (v001 {manufacturer} {product} 0x{version} {vendor} 0x{vendor_version}) @ {address},1
+79,Subsystem revision {revision},1
+80,Using IOAPIC for interrupt routing,1
+81,Intel(R) Xeon(TM) CPU {frequency}GHz stepping {step},1
+82,L2 cache: {size},5
+83,Physical Processor ID: {id},5
+84,"Trace cache: {trace_size} uops, L1 D cache: {l1d_size}",5
+85,colour {mode},1
+86,mounted filesystem with ordered data mode.,3
+87,"sys_ia32.c,v {version} {date} {time} {author} {action} $",1
+88,"apic_id {id}, version {version}, address {address}, GSI {gsi}",3
+89,"routing cache hash table of {buckets} buckets, {memory}",1
+90,PCI Hot Plug PCI Core version: {version},1
+91,root={root} initrd={initrd} console={console1} console={console2} fastboot BOOT_IMAGE={boot_image},1
+92,Registered protocol family 1,1
+93,Registered protocol family 16,1
+94,Registered protocol family {number},1
+95,Registered protocol family 2,1
+96,Using software bounce buffering for IO ({method}),1
+97,Probing PCI hardware (bus {bus}),1
+98,Transparent bridge - {device},1
+99,Using ACPI for IRQ routing,1
+100,Using MMCONFIG at {address},1
+101,Using configuration type {config_type},1
+102,Compressed image found at block {block_number},1
+103,Disabled at runtime.,1
+104,Initializing.,1
+105,Registering netfilter hooks,1
+106,Starting in permissive mode,1
+107,Unregistering netfilter hooks,1
+108,Hash tables configured (established {established} bind {bind}),1
+109,Direct-Access ANSI SCSI revision: {revision},1
+110,Processor {type} revision: {revision},1
+111,Disk quotas {module},1
+112,Mounted root ({filesystem} filesystem).,1
+113,MegaRAID Model: {model} RAID{level} {size} Rev: {revision},1
+114,PE/PV Model: {model} SCSI BP Rev: {revision},1
+115,initialized,1
+116,initializing netlink socket ({status}),1
+117,passed.,1
+118,4.1.0-ioctl (YYYY-MM-DD) initialised: #{number}#@#{number}#,1
+119,allocating divert_blk for {interface},2
+120,not allocating divert_blk for non-ethernet device lo,1
+121,v2.0:{module} core driver,1
+122,eth0: {function}: {description},1
+123,eth0: e1000_watchdog: NIC Link is Up {speed} Mbps {duplex},1
+124,eth1: {function}: {description},1
+125,no {device} controllers found,1
+126,RNG not detected,1
+127,Wait for ready failed before probe !,4
+128,Wait for {status} failed before {action} !,2
+129,Assuming {bus_speed} system bus speed for PIO modes; override with idebus={xx},1
+130,Unknown cmd fd({fd}) cmd({cmd}){{00}} arg({arg}) on {device},1
+131,() {copyright},4
+132,Installing public key data,1
+133,... autorun DONE.,2
+134,Autodetecting RAID arrays.,2
+135,autorun ...,2
+136,"md driver {version} MAX_MD_DEVS={max_devs}, MD_SB_DISKS={sb_disks}",1
+137,#{number}#-{server} (Release Date: {date}),1
+138,#39# (Release Date: {date}),1
+139,fw version:[{fw_version}] bios version:[{bios_version}],1
+140,probe new device {vendor_id}:{product_id}:{subsystem_vendor_id}:{subsystem_id}: bus {bus}:slot {slot}:func {func},1
+141,PS/2 mouse device common for all mice,1
+142,v2.0 ({version}),1
+143,rpc.statd startup succeeded,1
+144,portmap startup succeeded,1
+145,Starting ts_fixup: succeeded,1
+146,Version {version} Starting,1
+147,LSI Logic MegaRAID driver,1
+148,scanning scsi channel {channel} [Phy {phy}] for non-raid devices,1
+149,scanning scsi channel {channel} [{type}] for logical drives,1
+150,asking for cache data failed,1
+151,assuming drive cache: {cache_mode},1
+152,{disk} {disk} {disk} {disk},1
+153,Registering secondary module capability,1
+154,i8042 AUX port at {port_address} irq {irq_number},1
+155,i8042 KBD port at {port} irq {irq},1
+156,syslog-ng startup succeeded,1
+157,syslog-ng version {version} starting,1
+158,Detected {frequency} MHz processor.,1
+159,Using {frequency} MHz HPET timer.,1
+160,Using HPET based timekeeping.,1
+161,Creating Topspin {device} entries:,1
+162,registered new driver {driver},4
+163,probe of {device} failed with error {error_code},1
+164,"connection from ""{source}""",2
+165,"User #{user_id}#, coming from #{source}#, authenticated.",2
+166,Now running on {user}'s privileges.,2
+167,Mounting NFS filesystems: {status},1
+168,Mounting other filesystems: {status},1
+169,Warning: we failed to resolve data source name {data_sources},32
+170,Warning: we failed to resolve data source name {data_source_names},2
+171,Warning: we failed to resolve trusted host name {hostname},1
+172,gmetad startup succeeded,1
+173,Registered protocol family 10,1
+174,not allocating divert_blk for non-ethernet device {device},1
+175,succeeded,2
+176,Server listening on :: port {port}.,1
+177,error: Bind to port {port} on {ip_address} failed: Address already in use.,1
+178,Cannot open file {file_path} for writing ({error_message}),1
+179,Changing permissions on special file {file_path},1
+180,xinetd startup succeeded,1
+181,Reading included configuration file: {file} [file={config_file}] [line={line_number}],1
+182,Reading included configuration file: {file} [file={file}] [line={line}],16
+183,Started working: {count} available service,1
+184,removing {service},14
+185,removing {variable},2
+186,xinetd Version {version} started with {options} options compiled in.,1
+187,"jA9JBVPb007417: from={from}, size={size}, class={class}, nrcpts={nrcpts}, msgid={msgid}, relay={relay}",1
+188,"jA9JBVPb007417: to={to}, ctladdr={ctladdr} ({ctladdr_count}/{ctladdr_total}), delay={delay}, xdelay={xdelay}, mailer={mailer}, pri={pri}, relay=[{relay_ip}] [{relay_hostname}], dsn={dsn}, stat={stat}",1
+189,"jA9JBWxH019649: from={from}, size={size}, class={class}, nrcpts={nrcpts}, msgid={msgid}, relay={relay}",1
+190,"jA9JBWxH019649: to={to}, ctladdr={ctladdr} ({ctladdr_count}/{ctladdr_total}), delay={delay}, xdelay={xdelay}, mailer={mailer}, pri={pri}, relay=[{relay_ip}] [{relay_hostname}], dsn={dsn}, stat={stat}",1
+191,"jA9JBWEr014256: from={from}, size={size}, class={class}, nrcpts={nrcpts}, msgid={msgid}, relay={relay}",1
+192,"jA9JBWEr014256: to={to}, ctladdr={ctladdr} ({ctladdr_count}/{ctladdr_total}), delay={delay}, xdelay={xdelay}, mailer={mailer}, pri={pri}, relay=[{relay_ip}] [{relay_hostname}], dsn={dsn}, stat={stat}",1
+193,"jA9JBXgf022479: from={from}, size={size}, class={class}, nrcpts={nrcpts}, msgid={msgid}, relay={relay}",1
+194,"jA9JBXgf022479: to={to}, ctladdr={ctladdr} ({ctladdr_count}/{ctladdr_total}), delay={delay}, xdelay={xdelay}, mailer={mailer}, pri={pri}, relay=[{relay_ip}] [{relay_hostname}], dsn={dsn}, stat={stat}",1
+195,"jA9JBXVI027337: from={sender}, size={size}, class={class}, nrcpts={nrcpts}, msgid={msgid}, relay={relay}",1
+196,"jA9JBXVI027337: to={to}, ctladdr={ctladdr} ({ctladdr_count}/{ctladdr_total}), delay={delay}, xdelay={xdelay}, mailer={mailer}, pri={pri}, relay=[{relay_ip}] [{relay_hostname}], dsn={dsn}, stat={stat}",1
+197,"Device: {device}, Temperature changed {old_temp} Celsius to {new_temp} Celsius since last report",1

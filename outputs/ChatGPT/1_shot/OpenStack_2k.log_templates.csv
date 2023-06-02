@@ -1,0 +1,164 @@
+,EventTemplate,Occurrences
+0," {ip_address} ""GET {endpoint} HTTP/1.1"" status: {status} len: {len} time: {time}",350
+1,"10.11.10.1 ""GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1"" status: 200 len: 1893 time: 0.2580249",1
+2,"{ip_address} ""GET {endpoint}"" status: {status} len: {len} time: {time}",353
+3,[instance: {instance_id}] VM Started (Lifecycle Event),7
+4,[instance: {instance_id}] {event_type} ({event_subtype}),27
+5,[{instance_id}] During sync_power_state the instance has a pending task ({task}). {action}.,15
+6,image {image_id} at ({path}): {status},62
+7,"image {image_id} at ({path}): in use: on this node {local_count} local, {other_count} on other nodes sharing this instance storage",76
+8,Active base files: {file_path},82
+9,Creating event {event_type} for instance {instance_id},10
+10,"{ip_address} ""POST {endpoint}"" status: {status} len: {len} time: {time}""",52
+11,[instance: {instance_id}] {event_type} (Lifecycle Event),6
+12,[{instance_id}] Instance spawned successfully.,20
+13,[{instance_id}] Took {time} seconds to spawn the instance on the hypervisor.,20
+14,[instance: {instance_id}] {event} ({lifecycle_event}),27
+15,[instance: {instance_id}] Took {time} seconds to build instance.,4
+16,Auditing locally available compute resources for node {node_name},15
+17,"Total usable vcpus: {usable_vcpus}, total allocated vcpus: {allocated_vcpus}",15
+18,Final resource view: name={name} phys_ram={phys_ram} used_ram={used_ram} phys_disk={phys_disk} used_disk={used_disk} total_vcpus={total_vcpus} used_vcpus={used_vcpus} pci_stats={pci_stats},12
+19,Compute_service record updated for {server}:{server},10
+20," {ip_address},{ip_address} ""GET {endpoint} HTTP/1.1"" status: {status} len: {len} time: {time}",53
+21,"{ip_address} ""GET {endpoint} HTTP/1.1"" status: {status} len: {len} time: {time}",37
+22," {ip_address} ""DELETE {endpoint}"" status: {status} len: {len} time: {time}",12
+23," {ip_address},{ip_address} ""GET {endpoint}"" status: {status} len: {len} time: {time}",30
+24,[{instance_id}] Terminating instance,8
+25,[{instance_id}] Instance destroyed successfully.,18
+26,[{instance_id}] Deleting instance files {file_path},3
+27,[{instance}: {action} of {path} {status}],1
+28,[instance: {instance_id}] Took {time} seconds to destroy the instance on the hypervisor.,4
+29,[{instance_id}] Took {time} seconds to deallocate network for instance.,21
+30,Unknown base file: {file_path},30
+31,Removable base files: {file_path},30
+32,Removing base or swap file: {file_path},21
+33,HTTP exception thrown: No instances found for any event,21
+34,"{ip_address} ""POST {endpoint}"" status: {status} len: {len} time: {time}",12
+35," [instance: {instance_id}] Attempting claim: memory {memory} MB, disk {disk} GB, vcpus {vcpus} CPU",10
+36,"[{instance_id}] Total memory: {total_memory} MB, used: {used_memory} MB",19
+37,"[{instance_id}] memory limit: {memory_limit} MB, free: {free_memory} MB",18
+38,"[{instance_id}] Total disk: {total_disk}, used: {used_disk}",18
+39,"[{instance_id}] disk limit not specified, defaulting to unlimited",19
+40,"[{instance_id}] Total vcpu: {total_vcpu} VCPU, used: {used_vcpu} VCPU",21
+41,[{instance_id}] {message},40
+42," {ip_address} ""GET {endpoint}"" status: {status} len: {len} time: {time}",3
+43,[instance: {instance_id}] {message},12
+44,"10.11.10.1 ""GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1"" status: 200 len: 1893 time: 0.2600410",1
+45,[{instance_id}] VM Started (Lifecycle Event),4
+46,[{instance_id}] {event_type} ({event}),2
+47,[{instance_id}] During sync_power_state the instance has a pending task ({task}). Skip.,5
+48,image {image_id} at ({path}): checking,14
+49,[{instance_id}] {event_type} ({event_subtype}),2
+50,Successfully synced instances from host '{hostname}'.,2
+51," {ip_address}, {ip_address} ""GET {endpoint} HTTP/1.1"" status: {status} len: {len} time: {time}",1
+52," {ip_address}, {ip_address} ""GET {endpoint}"" status: {status} len: {len} time: {time}",5
+53,[instance: {instance_id}] Terminating instance,12
+54,Running instance usage audit for host {host} from {start_time} to {end_time}. {num_instances} instances.,1
+55,[instance: {instance_id}] Deleting instance files {file_path},10
+56,[{instance_id}] Deletion of {file_path} complete,15
+57,[{instance_id}] Took {time} seconds to destroy the instance on the hypervisor.,17
+58,"[{instance_id}] vcpu limit not specified, defaulting to unlimited",9
+59,[instance: {instance_id}] Claim successful,2
+60,[instance: {instance_id}] {event_type} ({event_name}),20
+61,[instance: {instance_id}] During sync_power_state the instance has a pending task ({task}). Skip.,13
+62,[{instance_id}] Took {time} seconds to build instance.,18
+63,[{instance_id}] Deletion of {path} complete,3
+64,Base or swap file too young to remove: {file_path},9
+65,"[{instance_id}] Attempting claim: memory {memory} MB, disk {disk} GB, vcpus {vcpus} CPU",10
+66,"{ip_address} ""GET {endpoint}"" status: {status} len: {len} time: {time}""",11
+67,"10.11.10.1 ""GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1"" status: 200 len: 1893 time: 0.2648559",1
+68,"10.11.10.1 ""GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1"" status: 200 len: 1893 time: 0.2649550",1
+69,Final resource view: name={name} phys_ram={phys_ram}MB used_ram={used_ram}MB phys_disk={phys_disk}GB used_disk={used_disk}GB total_vcpus={total_vcpus} used_vcpus={used_vcpus} pci_stats={pci_stats},3
+70,Compute_service record updated for {compute_service},5
+71,image {image_id} at ({path}): {message},6
+72,"10.11.21.125,10.11.10.1 ""GET /openstack/2012-08-10/meta_data.json HTTP/1.1"" status: 200 len: 264 time: 0.2202821",1
+73,"10.11.21.125,10.11.10.1 ""GET /openstack/2013-10-17 HTTP/1.1"" status: {status} len: {len} time: {time}",1
+74,"10.11.21.125,10.11.10.1 ""GET {endpoint}"" status: {status} len: {len} time: {time}",2
+75,"{ip_address} ""DELETE {endpoint}"" status: {status} len: {len} time: {time}",7
+76,[{instance}: {instance_id}] Deleting instance files {file_path},8
+77,[{instance}: {instance_id}] {action} of {path} complete,1
+78,"[{instance_id}] Attempting claim: memory {memory} MB, disk {disk} GB, vcpus {vcpus} CPU]",1
+79,Creating event {event}: {event_id} for instance {instance_id},9
+80,"10.11.21.126,10.11.10.1 ""GET {endpoint}"" status: {status} len: {len} time: {time}",2
+81,"10.11.21.126,10.11.10.1 ""GET /latest/meta-data/block-device-mapping/ HTTP/1.1"" status: 200 len: 124 time: 0.4023941",1
+82,"{ip_address} ""DELETE {endpoint}"" status: {status} len: {len} time: {time}""",3
+83,[instance: {instance_id}] Instance destroyed successfully.,2
+84,"image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): in use: on this node 1 local, 0 on other nodes sharing this instance storage",6
+85,[{instance_id}] Claim successful,3
+86,"10.11.10.1 ""GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1"" status: 200 len: 1893 time: 0.2571011",1
+87,[instance: {instance_id}] Instance spawned successfully.,2
+88,"10.11.21.127,10.11.10.1 ""GET {endpoint}"" status: {status} len: {len} time: {time}",1
+89,[{instance}: {instance_id}] {message},2
+90, [instance: {instance_id}] During sync_power_state the instance has a pending task ({task}). Skip.,6
+91,"10.11.10.1 ""GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1"" status: 200 len: 1893 time: 0.2566571",1
+92,"10.11.10.1 ""GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1"" status: 200 len: 1893 time: 0.2586780",1
+93,"10.11.21.128,10.11.10.1 ""GET /openstack/2012-08-10/meta_data.json HTTP/1.1"" status: 200 len: 264 time: 0.2413990",1
+94,"10.11.21.128,10.11.10.1 ""GET {endpoint}"" status: {status} len: {len} time: {time}",1
+95,"[instance: {instance_id}] memory limit: {memory_limit} MB, free: {free_memory} MB",3
+96,"[{instance_id}] Total disk: {total_disk} GB, used: {used_disk} GB",3
+97,[instance: {instance_id}] {event} ({event_type}),6
+98,[{instance_id}: {message}],3
+99,The template for the given log message cannot be determined as it does not contain any variables to abstract.,5
+100,"10.11.21.129,10.11.10.1 ""GET /openstack/2012-08-10/meta_data.json HTTP/1.1"" status: 200 len: 264 time: 0.2234900",1
+101,"10.11.21.129,10.11.10.1 ""GET /openstack/2013-10-17 HTTP/1.1"" status: 200 len: 157 time: 0.2278371",1
+102,"10.11.21.129,10.11.10.1 ""GET {endpoint}"" status: {status} len: {len} time: {time}",3
+103,"10.11.21.129,10.11.10.1 ""GET /openstack/2013-10-17/user_data HTTP/1.1"" status: 404 len: 176 time: 0.0006950",1
+104,"10.11.21.129,10.11.10.1 ""GET /latest/meta-data/ HTTP/1.1"" status: {status} len: {len} time: {time}",1
+105,"10.11.21.129,10.11.10.1 ""GET /latest/meta-data/block-device-mapping/ HTTP/1.1"" status: 200 len: 124 time: 0.0010171",1
+106,"10.11.21.129,10.11.10.1 ""GET /latest/meta-data/block-device-mapping/root HTTP/1.1"" status: {status} len: {len} time: {time}",1
+107,"10.11.10.1 ""GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1"" status: 200 len: 1893 time: 0.2517381",1
+108,[instance: {instance_id}] {event} ({lifecycle}),5
+109,"10.11.10.1 ""GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1"" status: 200 len: 1893 time: 0.2714450",1
+110,"10.11.21.130,10.11.10.1 ""GET {endpoint} HTTP/1.1"" status: {status} len: {len} time: {time}",3
+111,[{instance_id}] {event} ({lifecycle_event}),2
+112,"10.11.10.1 ""GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1"" status: 200 len: 1893 time: 0.2647748",1
+113,"10.11.10.1 ""GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1"" status: 200 len: 1893 time: 0.2457120",1
+114,"10.11.10.1 ""GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1"" status: 200 len: 1893 time: 0.2585871",1
+115,Creating event {event}: {id} for instance {instance},3
+116,"10.11.21.131,10.11.10.1 ""GET /openstack/2012-08-10/meta_data.json HTTP/1.1"" status: 200 len: 264 time: 0.2973430",1
+117,"10.11.21.131,10.11.10.1 ""GET /openstack/2013-10-17 HTTP/1.1"" status: {status} len: {len} time: {time}",1
+118,"10.11.21.131,10.11.10.1 ""GET {endpoint}"" status: {status} len: {len} time: {time}",3
+119,[instance: {instance_id}] Took {time} seconds to spawn the instance on the hypervisor.,2
+120,"10.11.21.132,10.11.10.1 ""GET /openstack/2012-08-10/meta_data.json HTTP/1.1"" status: 200 len: 264 time: 0.2316251",1
+121,"10.11.21.132,10.11.10.1 ""GET /openstack/2013-10-17/vendor_data.json HTTP/1.1"" status: 200 len: 124 time: 0.2239330",1
+122,"[instance: {instance_id}] Total memory: {total_memory} MB, used: {used_memory} MB",2
+123,"10.11.21.133,10.11.10.1 ""GET /openstack/2013-10-17/vendor_data.json HTTP/1.1"" status: 200 len: 124 time: 0.2253911",1
+124,"""{ip_address1},{ip_address2} \""GET {endpoint} HTTP/1.1\"" status: {status} len: {len} time: {time}""",1
+125,"10.11.10.1 ""GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1"" status: 200 len: 1893 time: 0.2646151",1
+126,"10.11.21.134,10.11.10.1 ""GET /openstack/2012-08-10/meta_data.json HTTP/1.1"" status: 200 len: 264 time: 0.2398081",1
+127,"10.11.10.1 ""GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1"" status: 200 len: 1893 time: 0.2596231",1
+128,"10.11.21.135,10.11.10.1 ""GET /openstack/2013-10-17 HTTP/1.1"" status: 200 len: 157 time: 0.2177148",1
+129,"10.11.21.135,10.11.10.1 ""GET {endpoint}"" status: {status} len: {len} time: {time}",1
+130,"10.11.21.135,10.11.10.1 ""GET /latest/meta-data/block-device-mapping/ HTTP/1.1"" status: 200 len: 124 time: 0.2319629",1
+131,"10.11.21.135,10.11.10.1 ""GET /latest/meta-data/reservation-id HTTP/1.1"" status: {status} len: {len} time: {time}",1
+132,"10.11.10.1 ""GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1"" status: 200 len: 1893 time: 0.2563291",1
+133,"While synchronizing instance power states, found {num_instances_db} instances in the database and {num_instances_hypervisor} instances on the hypervisor.",1
+134,"10.11.21.136,10.11.10.1 ""GET {endpoint}"" status: {status} len: {len} time: {time}",2
+135,"10.11.21.136,10.11.10.1 ""GET {endpoint} HTTP/1.1"" status: {status} len: {len} time: {time}",1
+136,"10.11.21.136,10.11.10.1 ""GET /latest/meta-data/block-device-mapping/ HTTP/1.1"" status: 200 len: 124 time: 0.2300491",1
+137,"10.11.10.1 ""GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1"" status: 200 len: 1893 time: 0.2691131",1
+138,"10.11.21.137,10.11.10.1 ""GET /openstack/2012-08-10/meta_data.json HTTP/1.1"" status: 200 len: 264 time: 0.2397351",1
+139,"10.11.21.137,10.11.10.1 ""GET {endpoint}"" status: {status} len: {len} time: {time}",2
+140,"10.11.21.137,10.11.10.1 ""GET /openstack/2013-10-17/user_data HTTP/1.1"" status: 404 len: 176 time: 0.2108901",1
+141,"10.11.21.137,10.11.10.1 ""GET /latest/meta-data/ HTTP/1.1"" status: {status} len: {len} time: {time}",1
+142,[{instance}: {message}],1
+143,[instance: {instance_id}] {event_type} ({event_category}),1
+144,"10.11.21.139,10.11.10.1 ""GET /openstack/2012-08-10/meta_data.json HTTP/1.1"" status: 200 len: 264 time: 0.2261620",1
+145,"10.11.21.139,10.11.10.1 ""GET /openstack/2013-10-17 HTTP/1.1"" status: 200 len: 157 time: 0.0006461",1
+146,"10.11.21.139,10.11.10.1 ""GET {endpoint} HTTP/1.1"" status: {status} len: {len} time: {time}",2
+147,"10.11.21.139,10.11.10.1 ""GET /latest/meta-data/ HTTP/1.1"" status: 200 len: 328 time: 0.0009460",1
+148,"10.11.21.139,10.11.10.1 ""GET /latest/meta-data/block-device-mapping/ HTTP/1.1"" status: 200 len: 124 time: 0.2223170",1
+149,[{instance}: {id}] {message},2
+150,"10.11.21.140,10.11.10.1 ""GET /openstack/2013-10-17 HTTP/1.1"" status: 200 len: 157 time: 0.2332909",1
+151,"10.11.21.140,10.11.10.1 ""GET {endpoint} HTTP/1.1"" status: {status} len: {len} time: {time}",4
+152,"10.11.21.140,10.11.10.1 ""GET /openstack/2013-10-17/user_data HTTP/1.1"" status: 404 len: 176 time: 0.0012619",1
+153,"10.11.21.141,10.11.10.1 ""GET {endpoint}"" status: {status} len: {len} time: {time}",1
+154,"10.11.21.141,10.11.10.1 ""GET /latest/meta-data/ HTTP/1.1"" status: {status} len: {len} time: {time}",1
+155,"10.11.10.1 ""GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1"" status: 200 len: 1893 time: 0.2462721",1
+156,"10.11.21.142,10.11.10.1 ""GET {endpoint}"" status: {status} len: {len} time: {time}",2
+157,"10.11.21.142,10.11.10.1 ""GET /openstack/2013-10-17/meta_data.json HTTP/1.1"" status: 200 len: 967 time: 0.2257652",1
+158,"10.11.21.142,10.11.10.1 ""GET /openstack/2013-10-17/meta_data.json HTTP/1.1"" status: 200 len: 967 time: 0.2429230",1
+159,"10.11.10.1 ""GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1"" status: 200 len: 1893 time: 0.2551649",1
+160,"10.11.21.143,10.11.10.1 ""GET {endpoint}"" status: {status} len: {len} time: {time}",3
+161,"10.11.21.143,10.11.10.1 ""GET /openstack/2013-10-17/user_data HTTP/1.1"" status: 404 len: 176 time: 0.2187860",1
+162,"10.11.21.143,10.11.10.1 ""GET {endpoint} HTTP/1.1"" status: {status} len: {len} time: {time}",3

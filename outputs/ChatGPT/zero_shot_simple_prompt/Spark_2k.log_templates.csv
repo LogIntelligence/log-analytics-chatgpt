@@ -1,0 +1,75 @@
+,EventTemplate,Occurrences,Type
+0,"Times: total = {}, boot = {}, init = {}, finish = {}",375,True
+1,Got assigned task {},302,True
+2,Finished task {task_id} in stage {stage_id} (TID {tid}). {result_size} bytes result sent to driver.,192,True
+3,Running task {}.0 in stage {}.0 (TID {}),183,True
+4,Found block {block_id} locally,150,True
+5,Running task {task_number} in stage {stage_number} (TID {tid}),93,True
+6,Found block rdd_{id}_{number} locally,88,True
+7,Finished task {task_number} in stage {stage_number} (TID {tid}). {result_size} bytes result sent to driver.,46,True
+8,"Block {rdd_id} stored as bytes in memory (estimated size {size}, free {free_memory})",40,True
+9,Started reading broadcast variable {},37,True
+10,"Block {block_name} stored as values in memory (estimated size {size}, free {free_space})",36,True
+11,Finished task {task_id} in stage {stage_id} (TID {tid}). {result_size} result sent to driver.,34,True
+12,Input split: hdfs://{IP}:{PORT}/{PATH}:{OFFSET}+{LENGTH},34,True
+13,"Partition {partition_name} not found, computing it",34,True
+14,"Block {rdd_name} stored as bytes in memory (estimated size {size}, free {free_memory})",33,True
+15,File Output Committer Algorithm version is {},30,True
+16,Saved output of task '{TASK_ID}' to {OUTPUT_PATH},30,True
+18,Reading broadcast variable {} took {} ms,24,True
+17,attempt_{job_id}_{task_type}_{task_attempt}_Committed,24,True
+19,"Block {block_name} stored as bytes in memory (estimated size {size}, free {free_space})",21,True
+20,Finished task {task_number} in stage {stage_number} (TID {TID}). {result_size} bytes result sent to driver.,19,True
+21,Found block {block_name} locally,19,True
+22,"Partition {rdd}_{number} not found, computing it",17,True
+23,Running task {task_id} in stage {stage_id} (TID {tid}),13,True
+24,Reading broadcast variable {variable_id} took {time} ms,10,True
+26,Running task {}.{} in stage {}.{} (TID {}),9,True
+25,"Partition {rdd_name} not found, computing it",9,True
+27,"Partition {rdd_name}_{partition_number} not found, computing it",8,True
+28,Finished task {task_number} in stage {stage_number} (TID {task_id}). {result_size} bytes result sent to driver.,7,True
+29,Input split: hdfs://{IP_ADDRESS}:{PORT}/{FILE_PATH}:{OFFSET}+{LENGTH},7,True
+30,attempt_{job_id}_{task_type}_{task_attempt}_: {message},5,True
+31,"Block {block_name} stored as bytes in memory (estimated size {size}, free {free_memory})",5,True
+32,"Block broadcast_{piece_number} stored as bytes in memory (estimated size {size}, free {free_memory})",4,True
+33,Running task {}.{} in stage {}. (TID {}),4,True
+36,Reading broadcast variable {variable_number} took {time_in_ms} ms,3,True
+37,"Partition {rdd_id} not found, computing it",3,True
+35,Got assigned task {task_number},3,True
+34,Input split: hdfs://{IP_ADDRESS}:{PORT}/{FILE_PATH}:{START_OFFSET}+{LENGTH},3,True
+43,"Changing modify acls to: {user1},{user2}",2,True
+47,Changing view acls to: {},2,True
+46,"Block broadcast_{piece_number} stored as bytes in memory (estimated size {size}, free {free_space})",2,True
+45,"{old_variable} is deprecated. Instead, use {new_variable}",2,True
+44,"{message} is deprecated. Instead, use {new_message}",2,True
+42,Running task {}.{} in stage {} (TID {}),2,True
+41,"Block broadcast_{piece_number} stored as bytes in memory (estimated size {size_estimate}, free {free_memory})",2,True
+40,"Block {rdd_name} stored as bytes in memory (estimated size {size}, free {memory})",2,True
+39,"SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)",2,True
+38,Successfully started service '{service_name}' on port {port_number}.,2,True
+67,Finished task {task_number} in stage {stage_number} (TID {TID}). {result_size} result sent to driver.,1,True
+63,Successfully registered with driver,1,True
+64,Trying to register BlockManager,1,True
+65,Starting remoting,1,True
+66,Created local directory at {},1,True
+72,"Block broadcast_2_piece0 stored as bytes in memory (estimated size {size}, free {free})",1,True
+68,Running task {task} in stage {stage} (TID {tid}),1,True
+69,"Block broadcast_4_piece0 stored as bytes in memory (estimated size {size}, free {free})",1,True
+70,"{old_message} is deprecated. Instead, use {new_message}",1,True
+71,MemoryStore started with capacity {capacity}.,1,True
+61,{Action} BlockManager,1,True
+62,Connecting to driver: spark://{scheduler}@{ip}:{port},1,True
+55,"Partition {rdd}_{number}_{number} not found, computing it",1,True
+60,Remoting started; listening on addresses :[akka.tcp://{system}@{host}:{port}],1,True
+59,Server created on {},1,True
+58,Starting executor ID {} on host {},1,True
+57,attempt_{job_id}_{task_type}_{task_attempt}: {message},1,True
+56,"Partition {rdd_id}_{partition_id} not found, computing it",1,True
+54,Input split: hdfs://{IP}:{PORT}/{PATH}:{LINE_NUMBER}+{LENGTH},1,True
+53,Finished task {}.0 in stage {}.0 (TID {}). {} bytes result sent to driver,1,True
+52,"Partition {rdd}_{num1}_{num2} not found, computing it",1,True
+51,Not enough information provided to determine the log template.,1,True
+50,"Block broadcast_{block_number} stored as values in memory (estimated size {size}, free {free_space})",1,True
+49,"Block broadcast_0_piece0 stored as bytes in memory (estimated size {size}, free {free})",1,True
+48,"Partition {rdd}_{num} not found, computing it",1,True
+73,Registered signal handlers for [%s],1,True

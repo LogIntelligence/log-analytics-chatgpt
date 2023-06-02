@@ -1,0 +1,46 @@
+,EventTemplate,Occurrences
+0,Linkerror event interval expired,394
+1,ambient=<*>,292
+2,normal,206
+3,warning,205
+4,running,162
+5,configured out,91
+6,NIFF: node <*> has detected an available network connection on network <*> via interface <*>,91
+7,Fan speeds ( <*> <*> <*> **** <*> <*> ),79
+8,boot (command <*>),67
+9,wait (command <*>),66
+10,<*>,61
+11,link errors remain current,56
+12,ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*>,36
+13,ClusterFileSystem: There is no server for ServerFileSystem domain <*>,32
+14,critical,20
+15,blocked,15
+16,Link error,13
+17,Link ok,13
+18,Component State Change: Component <*> is in the <*> state (HWID=<*>),12
+19,ServerFileSystem: ServerFileSystem domain <*> is full,12
+20,Fan speeds ( <*> <*> <*> <*> <*> <*> ),11
+21,Command has completed successfully,10
+22,Link in reset,9
+23,Targeting domains:<*> and nodes:<*> child of command <*>,5
+24,psu failure\ ambient=<*>,5
+25,active,5
+26,Link error on broadcast tree <*>,4
+27,halt (command <*>),3
+28,Targeting domains:<*> and nodes:<*>,3
+29,inconsistent nodesets <*> <*> <ok>,3
+30,clusterAddMember (command <*>),2
+31,bootGenvmunix (command <*>),2
+32,Temperature (<*>) exceeds warning threshold,2
+33,NIFF: node <*> detected a failed network connection on network <*> via interface <*>,2
+34,risBoot (command <*>),1
+35,Targeting domains:node-<*> and nodes:node-<*>,1
+36,ServerFileSystem: An ServerFileSystem domain panic has occurred on <*>,1
+37,Command has been aborted,1
+38,power/<*> problem,1
+39,starting,1
+40,closing,1
+41,inconsistent nodesets <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok> <*> <*> <ok>,1
+42,risBoot (command <*>) Error: Timed out while waiting for SRM prompt: <ABORT code completed>,1
+43,boot (command <*>) Error: HALT asserted\ cannot continue,1
+44,Failed subcommands <*>,1

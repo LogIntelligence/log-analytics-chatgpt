@@ -1,0 +1,55 @@
+,EventTemplate,Occurrences
+0,reverse mapping checking getaddrinfo for {domain} [{ip}] failed - POSSIBLE BREAK-IN ATTEMPT!,2
+1,Invalid user {username} from {IP_address},13
+2,input_userauth_request: invalid user {username} [preauth],102
+3,pam_unix(sshd:auth): check pass; user {unknown},135
+4,pam_unix(sshd:auth): authentication failure; logname={logname} uid={uid} euid={euid} tty={tty} ruser={ruser} rhost={rhost},110
+5,Failed password for invalid user {username} from {ip_address} port {port_number} ssh2,108
+6,Connection closed by {IP} [preauth],34
+7,Received disconnect from {IP}: {code}: Bye Bye [preauth],413
+8,Invalid user {username} from {ip_address},79
+9,Failed password for invalid user {username} from {ip_address} port {port} ssh2,9
+10,pam_unix(sshd:auth): authentication failure; logname={logname} uid={uid} euid={euid} tty={tty} ruser={ruser} rhost={rhost} user={user},380
+11,Failed password for {user} from {ip} port {port} {protocol},368
+12,message repeated {count} times: [ Failed password for {user} from {ip} port {port} {protocol}],2
+13,Disconnecting: Too many authentication failures for {user} [preauth],3
+14,PAM {count} more authentication failures; logname= {logname} uid={uid} euid={euid} tty={tty} ruser={ruser} rhost={rhost} user={user},2
+15,PAM service({service}) ignoring max retries; {retry_count} > {max_retries},7
+16,Did not receive identification string from {IP},10
+17,reverse mapping checking getaddrinfo for {hostname} [{ip_address}] failed - POSSIBLE BREAK-IN ATTEMPT!,83
+18,Invalid user {username} from {IP},10
+19,Failed password for invalid user {username} from {ip_address} port {port_number} {protocol},3
+20,error: Received disconnect from {IP}: {code}: {message},2
+21,Failed password for {username} from {ip_address} port {port_number} {protocol},5
+22,Failed password for invalid user {username} from {IP_address} port {port_number} ssh2,4
+23,Received disconnect from {IP}: {code}: {reason}. [preauth],1
+24,Failed password for invalid user {username} from {IP} port {port} ssh2,1
+25,Invalid user {user_id} from {ip_address},10
+26,input_userauth_request: invalid user {user_id} [preauth],10
+27,Failed {reason} for {user_type} user {user_id} from {ip_address} port {port} {protocol},3
+28,Failed password for invalid user {user} from {ip} port {port} ssh2,1
+29,Failed none for invalid user {username} from {ip_address} port {port} ssh2,1
+30,Failed password for invalid user {username} from {ip_address} port {port} {protocol},9
+31,PAM {count} more authentication failures; logname= {logname} uid={uid} euid={euid} tty={tty} ruser={ruser} rhost={rhost},5
+32,PAM 4 more authentication failures; logname={logname} uid={uid} euid={euid} tty={tty} ruser={ruser} rhost={rhost},1
+33,PAM {count} more authentication failure; logname={logname} uid={uid} euid={euid} tty={tty} ruser={ruser} rhost={rhost},1
+34,Failed password for ftp from {ip_address} port {port_number} ssh2,2
+35,Received disconnect from {IP}: {code}: Closed due to {reason}. [preauth],3
+36,Failed password for {username} from {IP_address} port {port_number} ssh2,1
+37,Received disconnect from {IP}: {reason}. [{auth}],1
+38,pam_unix(sshd:auth): authentication failure; logname= uid={uid} euid={euid} tty={tty} ruser={ruser} rhost={rhost} user={user},4
+39,error: Received disconnect from {IP}: {code}: {message}. [{auth}],44
+40,error: Received disconnect from {IP}: {code}: No more user authentication methods available. [preauth],1
+41,Failed password for sshd from {IP} port {port} ssh2,2
+42,PAM 1 more authentication failure; logname={logname} uid={uid} euid={euid} tty={tty} ruser={ruser} rhost={rhost},1
+43,Failed password for {username} from {ip_address} port {port_number} ssh2,2
+44,Failed password for ftp from {ip_address} port {port} ssh2,1
+45,Received disconnect from {IP}: {code}: Closed due to {reason}. [{auth}],2
+46,Failed password for {username} from {IP_address} port {port_number} {protocol},2
+47,input_userauth_request: invalid user {USERNAME} [preauth],1
+48,Accepted password for {username} from {ip_address} port {port} ssh2,1
+49,pam_unix(sshd:session): session opened for user {username} by (uid={uid}),1
+50,Received disconnect from {IP}: {reason}: disconnected by user,1
+51,pam_unix(sshd:session): session closed for user {username},1
+52,Invalid user boot from {IP},1
+53,fatal: Write failed: {reason} [preauth],1

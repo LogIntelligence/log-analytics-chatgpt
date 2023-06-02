@@ -1,0 +1,183 @@
+,EventTemplate,Occurrences
+0,data_thread() got not answer from any <*> datasource,788
+1,"synchronized to <*>, stratum <*>",567
+2,[ib_sm_sweep.c:<*>]: ********************** NEW SWEEP ********************,62
+3,[ib_sm_sweep.c:<*>]: No topology change,62
+4,[ib_sm_sweep.c:<*>]: No configuration change required,62
+5,data_thread() got not answer from any <*>,31
+6,Warning: we failed to resolve data source name <*>,28
+7,session closed for user <*>,24
+8,session opened for user <*> by (uid=<*>),19
+9,Reading included configuration file: <*> [file=<*>] [line=<*>],17
+10,DHCPDISCOVER from <*> via <*>: network <*>: no free leases,15
+11,RRD_update (<*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step),11
+12,"PCI interrupt <*>[<*>] -> GSI <*> (<*>, <*>) -> IRQ <*>",11
+13,removing <*>,11
+14,unable to qualify my own domain name (<*>) -- using short name,10
+15,"<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>",10
+16,PCI Interrupt Routing Table [<*>],10
+17,DHCPREQUEST for <*> (<*>) from <*> via <*>: unknown lease <*>.,9
+18,(<*>) CMD (run-parts <*>),7
+19,(<*>) CMD (<*>),7
+20,Wait for ready failed before <*> !,6
+21,DHCPDISCOVER from <*> via <*>,5
+22,DHCPOFFER on <*> to <*> via <*>,5
+23,(<*>) CMD (<*> <*>),5
+24,My unqualified host name (<*>) unknown; sleeping for retry,5
+25,L2 cache: <*>,5
+26,Physical Processor ID: <*>,5
+27,"Trace cache: <*> uops, L1 D cache: <*>",5
+28,Registered protocol family <*>,5
+29,LAPIC (acpi_id[<*>] lapic_id[<*>] enabled),4
+30,LAPIC_NMI (acpi_id[<*>] high edge lint[<*>]),4
+31,Processor [<*>] (supports <*>),4
+32,Local disconnected: <*>.,3
+33,connection lost: '<*>',3
+34,"to=<*>, ctladdr=<*>, delay=<*>, xdelay=<*>, mailer=<*>, pri=<*>, relay=<*>, dsn=<*>, stat=<*>",3
+35,DHCPACK on <*> to <*> via <*>,3
+36,DHCPREQUEST for <*> (<*>) from <*> via <*>,3
+37,IOAPIC (id[<*>] address[<*>] gsi_base[<*>]),3
+38,mounted filesystem with ordered data mode.,3
+39,"apic_id <*>, version <*>, address <*>, GSI <*>",3
+40,(C) <*>-<*> Netfilter core team,3
+41,registered new driver <*>,3
+42,<*> used by override.,2
+43,allocating divert_blk for <*>,2
+44,... autorun <*>.,2
+45,Autodetecting RAID arrays.,2
+46,autorun ...,2
+47,"connection from ""<*>""",2
+48,"User <*>, coming from <*>, authenticated.",2
+49,Now running on <*>'s privileges.,2
+50,Warning: we failed to resolve data source name <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,2
+51,succeeded,2
+52,removing chargen,2
+53,"jA9J1Wd7019391: to=<*>, ctladdr=<*> (<*>/<*>), delay=<*>, xdelay=<*>, mailer=<*>, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>",1
+54,"jA9J1WSU011176: to=<*>, ctladdr=<*> (<*>/<*>), delay=<*>, xdelay=<*>, mailer=<*>, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>",1
+55,"jA9J1WFE024258: to=<*>, ctladdr=<*> (<*>/<*>), delay=<*>, xdelay=<*>, mailer=<*>, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>",1
+56,START: tftp pid=<*> from=<*>,1
+57,kernel time sync disabled <*>,1
+58,time reset <*> s,1
+59,Received SNMP packet(s) from <*>,1
+60,"synchronized to LOCAL(<*>), stratum <*>",1
+61,kernel time sync enabled <*>,1
+62,CentOS-<*> (<*>),1
+63,(supports <*> <*> <*>),1
+64,DSDT (v001 <*> <*> <*> <*> <*>) @ <*>,1
+65,FADT (<*> <*> <*> <*> <*> <*>) @ <*>,1
+66,HPET (<*> <*> <*> <*> <*> <*>) @ <*>,1
+67,HPET id: <*> base: <*>,1
+68,INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> dfl dfl),1
+69,INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> <*>),1
+70,<*> used by <*>.,1
+71,Interpreter enabled,1
+72,Local APIC address <*>,1
+73,MADT (<*> <*> <*> <*> <*> <*>) @ <*>,1
+74,MCFG (<*> <*> <*> <*> <*> <*>) @ <*>,1
+75,PCI Interrupt Link [LNKA] (IRQs <*>) <*>,1
+76,PCI Interrupt Link [LNKB] (IRQs <*> <*> <*> <*> <*> <*> <*> ),1
+77,PCI Interrupt Link [LNKC] (IRQs <*>) <*>,1
+78,"PCI Interrupt Link [LNKD] (IRQs <*>) <*>, disabled.",1
+79,"PCI Interrupt Link [LNKE] (IRQs <*>) <*>, disabled.",1
+80,"PCI Interrupt Link [LNKF] (IRQs <*>) <*>, <*>.",1
+81,"PCI Interrupt Link [LNKG] (IRQs <*>) <*>, <*>.",1
+82,"PCI Interrupt Link [LNKH] (IRQs <*>) <*>, disabled.",1
+83,PCI <*> Bridge [<*>] (<*>),1
+84,Power Button (<*>) [<*>],1
+85,RSDP (v000 <*> ) @ <*>,1
+86,RSDT (<*> <*> <*> <*> <*> <*>) @ <*>,1
+87,SPCR (<*> <*> <*> <*> <*> <*>) @ <*>,1
+88,Subsystem revision <*>,1
+89,Using IOAPIC for interrupt routing,1
+90,Intel(R) Xeon(TM) CPU <*> stepping <*>,1
+91,colour VGA+ <*>,1
+92,"sys_ia32.c,v <*> <*> <*> ak Exp $",1
+93,"routing cache hash table of <*> buckets, <*>",1
+94,PCI Hot Plug PCI Core version: <*>,1
+95,<*>=<*> initrd=<*> console=<*> fastboot BOOT_IMAGE=<*>,1
+96,Using software bounce buffering for IO (SWIOTLB),1
+97,Probing PCI hardware (bus <*>),1
+98,Transparent bridge - <*>,1
+99,Using ACPI for IRQ routing,1
+100,Using MMCONFIG at <*>,1
+101,Using configuration type <*>,1
+102,Compressed image found at block <*>,1
+103,Disabled at <*>.,1
+104,Initializing.,1
+105,Registering netfilter hooks,1
+106,Starting in permissive mode,1
+107,Unregistering netfilter hooks,1
+108,Hash tables configured (established <*> bind <*>),1
+109,Direct-Access ANSI SCSI revision: <*>,1
+110,Processor ANSI SCSI revision: <*>,1
+111,Disk quotas <*>,1
+112,Mounted <*> (<*> filesystem).,1
+113,MegaRAID Model: LD <*> <*> <*> Rev: <*>,1
+114,PE/PV Model: <*> SCSI BP Rev: <*>,1
+115,initialized,1
+116,initializing netlink socket (<*>),1
+117,passed.,1
+118,x.x.x-ioctl (yyyy-mm-dd) initialised: <*>@<*>,1
+119,not allocating divert_blk for non-<*> device <*>,1
+120,<*>:USB HID core driver,1
+121,eth0: e1000_probe: <*>,1
+122,eth0: e1000_watchdog: NIC Link is Up <*> Mbps <*>,1
+123,eth1: e1000_probe: <*>,1
+124,no <*> controllers found,1
+125,RNG not detected,1
+126,Assuming <*> system bus speed for PIO modes; override with idebus=<*>,1
+127,Unknown cmd fd(<*>) cmd(<*>)<*> arg(<*>) on <*>,1
+128,(<*>) <*>-<*> <*> <*> <*>,1
+129,Installing public key data,1
+130,"md driver <*> MAX_MD_DEVS=<*>, MD_SB_DISKS=<*>",1
+131,<*>-rh1 (Release Date: <*> EST <*>),1
+132,<*> (Release Date: <*>),1
+133,fw version:[<*>] bios version:[<*>],1
+134,probe new device <*>: bus <*>:slot <*>:func <*>,1
+135,PS/2 mouse device common for all mice,1
+136,<*> (<*>),1
+137,rpc.statd <*> succeeded,1
+138,portmap startup succeeded,1
+139,Starting ts_fixup: <*>,1
+140,Version <*> Starting,1
+141,LSI Logic MegaRAID driver,1
+142,scanning scsi channel <*> [Phy <*>] for non-raid devices,1
+143,scanning scsi channel <*> [<*>] for logical drives,1
+144,asking for cache data <*>,1
+145,assuming drive cache: <*>,1
+146,<*> <*> <*> <*>,1
+147,Registering secondary module capability,1
+148,"i8042 AUX port at <*>,<*> irq <*>",1
+149,"i8042 KBD port at <*>,<*> irq <*>",1
+150,syslog-ng startup succeeded,1
+151,syslog-ng version <*> starting,1
+152,Detected <*> MHz processor.,1
+153,Using <*> MHz HPET timer.,1
+154,Using <*> based timekeeping.,1
+155,Creating Topspin <*> entries:,1
+156,registered new driver hub,1
+157,probe of <*> failed with error <*>,1
+158,Mounting NFS filesystems: <*>,1
+159,Mounting other filesystems: <*>,1
+160,Warning: we failed to resolve data source name <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> a,1
+161,Warning: we failed to resolve data source name <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> a,1
+162,Warning: we failed to resolve data source name <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> a,1
+163,Warning: we failed to resolve data source name <*> c,1
+164,Warning: we failed to resolve trusted host name <*> <*>,1
+165,gmetad startup succeeded,1
+166,not allocating divert_blk for non-ethernet device <*>,1
+167,Server listening on <*> port <*>.,1
+168,error: Bind to port <*> on <*> failed: <*>.,1
+169,Cannot open file <*> for writing (<*>),1
+170,Changing permissions on special file <*>,1
+171,xinetd startup succeeded,1
+172,Started working: <*> available service,1
+173,removing printer,1
+174,removing rsync,1
+175,removing telnet,1
+176,xinetd Version <*> started with <*> options compiled in.,1
+177,"jA9JBVPb007417: to=<*>, ctladdr=<*> (<*>/<*>), delay=<*>, xdelay=<*>, mailer=<*>, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>",1
+178,"jA9JBWxH019649: to=<*>, ctladdr=<*> (<*>/<*>), delay=<*>, xdelay=<*>, mailer=<*>, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>",1
+179,"jA9JBWEr014256: to=<*>, ctladdr=<*> (<*>/<*>), delay=<*>, xdelay=<*>, mailer=<*>, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>",1
+180,"jA9JBXVI027337: to=<*>, ctladdr=<*> (<*>/<*>), delay=<*>, xdelay=<*>, mailer=<*>, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>",1
+181,"Device: <*>, Temperature changed <*> Celsius to <*> Celsius since last report",1

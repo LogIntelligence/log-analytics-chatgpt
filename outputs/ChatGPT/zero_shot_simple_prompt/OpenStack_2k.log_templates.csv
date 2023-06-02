@@ -1,0 +1,114 @@
+,EventTemplate,Occurrences,Type
+0,"%{IP:client} ""%{WORD:verb} %{URIPATHPARAM:request} %{WORD:httpversion}"" status: %{NUMBER:status} len: %{NUMBER:length} time: %{NUMBER:response_time}",595,True
+1,"{client_ip},{server_ip} ""{http_method} {endpoint} HTTP/{http_version}"" status: {status_code} len: {response_length} time: {response_time}",92,True
+2,Active base files: {},82,True
+4,image {image_id} at ({path}): {message},82,True
+3,"image {image_id} at ({path}): in use: on this node {local_count} local, {other_count} on other nodes sharing this instance storage",82,True
+5,[instance: {instance_id}] {event_type} (Lifecycle Event),60,True
+6,[instance: {instance_id}] {message},58,True
+7,"%{IP:client} ""%{WORD:verb} %{URIPATHPARAM:request} HTTP/%{NUMBER:httpversion}"" status: %{NUMBER:status} len: %{NUMBER:length} time: %{NUMBER:response_time}",45,True
+8,Removable base files: {},30,True
+9,Unknown base file: {},30,True
+10,[instance: <instance_id>] During sync_power_state the instance has a pending task (<task>). Skip.,26,True
+11,"%{IP} ""%{WORD} %{URIPATHPARAM} %{WORD}/%{NUMBER}"" status: %{NUMBER} len: %{NUMBER} time: %{NUMBER}",24,True
+12,"{IP} ""{METHOD} {ENDPOINT} HTTP/1.1"" status: {STATUS} len: {LENGTH} time: {TIME}",24,True
+13,"{client_ip},{server_ip} ""{http_method} {endpoint} {http_version}"" status: {status_code} len: {response_length} time: {response_time}",22,True
+18,"[instance: {instance_id}] disk limit not specified, defaulting to unlimited",21,True
+21,"[instance: {instance_id}] memory limit: {memory_limit} MB, free: {free_memory} MB",21,True
+20,"[instance: {instance_id}] Attempting claim: memory {memory} MB, disk {disk} GB, vcpus {vcpus} CPU",21,True
+19,"%{IP:client} ""%{WORD:method} %{URIPATHPARAM:request} %{HTTPVERSION}"" status: %{NUMBER:status} len: %{NUMBER:len} time: %{NUMBER:time}",21,True
+15,HTTP exception thrown: {exception message},21,True
+17,Removing base or swap file: {},21,True
+16,[instance: {instance_id}] Deletion of {file_path} complete,21,True
+14,"%{IP:client} ""%{WORD:verb} %{URIPATHPARAM:request} %{WORD:httpversion}"" status: %{NUMBER:status} len: %{NUMBER:len} time: %{NUMBER:time}",21,True
+22,"[instance: {instance_id}] Total disk: {total_disk} GB, used: {used_disk} GB",19,True
+23,[instance: <instance_id>] Took <time> seconds to destroy the instance on the hypervisor.,19,True
+24,[instance: {instance_id}] Deleting instance files {file_path},19,True
+25,[instance: <instance_id>] Took <time> seconds to deallocate network for instance.,18,True
+26,[instance: {instance_id}] Instance destroyed successfully.,18,True
+30,"[instance: {instance_id}] Total vcpu: {total_vcpu} VCPU, used: {used_vcpu} VCPU",17,True
+29,[instance: {instance_id}] During sync_power_state the instance has a pending task ({task}). Skip.,17,True
+28,[instance: <instance_id>] Took <time> seconds to spawn the instance on the hypervisor.,17,True
+27,"<IP address>,<IP address> ""HTTP method URL HTTP version"" status: <status code> len: <length of response> time: <response time>",17,True
+31,[instance: {instance_id}] Terminating instance,16,True
+32,"%{IP:client} ""%{WORD:method} %{URIPATHPARAM:request} %{WORD:protocol}"" status: %{NUMBER:status} len: %{NUMBER:length} time: %{NUMBER:response_time}",16,True
+33,[instance: {instance_id}] Took {time} seconds to build instance.,16,True
+34,Final resource view: name={name} phys_ram={phys_ram} used_ram={used_ram} phys_disk={phys_disk} used_disk={used_disk} total_vcpus={total_vcpus} used_vcpus={used_vcpus} pci_stats={pci_stats},15,True
+35,"Total usable vcpus: {}, total allocated vcpus: {}",15,True
+36,[instance: {instance_id}] {event_type} ({event_description}),14,True
+37,Compute_service record updated for {compute_service_name}:{compute_service_name},14,True
+38,"[instance: {instance_id}] Total memory: {total_memory} MB, used: {used_memory} MB",13,True
+39,Auditing locally available compute resources for node {}.,13,True
+40,"%{IP:client} ""%{WORD:method} %{URIPATHPARAM:request} %{HTTPVERSION}"" status: %{NUMBER:status} len: %{NUMBER:length} time: %{NUMBER:response_time}",11,True
+41,"%{IP} ""%{WORD} %{DATA} HTTP/%{NUMBER}"" status: %{NUMBER} len: %{NUMBER} time: %{NUMBER}",11,True
+42,"%{IP:client},%{IP:server} ""%{WORD:verb} %{URIPATHPARAM:request} HTTP/%{NUMBER:httpversion}"" status: %{NUMBER:status} len: %{NUMBER:length} time: %{NUMBER:response_time}",11,True
+45,"%{IP:client},%{IP:server} ""%{WORD:method} %{URIPATHPARAM:request} HTTP/%{NUMBER:httpversion}"" status: %{NUMBER:status} len: %{NUMBER:length} time: %{NUMBER:response_time}",10,True
+43,"[instance: {instance_id}] vcpu limit not specified, defaulting to unlimited",10,True
+44,"%{IP:client},%{IP:server} ""%{WORD:method} %{URIPATHPARAM:request} HTTP/%{NUMBER:http_version}"" status: %{NUMBER:status} len: %{NUMBER:length} time: %{NUMBER:response_time}",10,True
+46,Base or swap file too young to remove: {},9,True
+47,[instance: {instance_id}] {log_message},9,True
+48,"{client_ip},{server_ip} ""{http_method} {endpoint} {http_version}"" status: {status_code} len: {content_length} time: {response_time}",9,True
+49,"[instance: <instance_id>] Total memory: <total_memory> MB, used: <used_memory> MB",8,True
+50,[instance: {instance_id}] Instance spawned successfully.,7,True
+51,"%{IP} ""%{WORD} %{URIPATHPARAM} HTTP/%{NUMBER}"" status: %{NUMBER} len: %{NUMBER} time: %{NUMBER}",7,True
+52,[instance: <instance_id>] VM Stopped (Lifecycle Event),7,True
+53,[instance: <instance_id>] VM Resumed (Lifecycle Event),7,True
+54,Creating event network-vif-plugged:{instance_id} for instance {instance_uuid},7,True
+59,"<IP address>,<IP address> ""<HTTP method> <URL> HTTP/<version>"" status: <status code> len: <length of response> time: <response time>",6,True
+58,Creating event network-vif-plugged:{instance_id} for instance {instance_id},6,True
+56,[instance: {instance_id}] VM Paused (Lifecycle Event),6,True
+57,[instance: <instance_id>] Took <time> seconds to build instance.,6,True
+55,"%{IP:client},%{IP:server} ""%{WORD:method} %{URIPATHPARAM:request} HTTP/%{NUMBER:http_version}"" status: %{NUMBER:status_code} len: %{NUMBER:response_length} time: %{NUMBER:response_time}",6,True
+60,"<IP> ""<HTTP_METHOD> <URI> HTTP/1.1"" status: <STATUS_CODE> len: <RESPONSE_LENGTH> time: <RESPONSE_TIME>",5,True
+61,"%{IP} ""%{WORD} %{URIPATH} HTTP/%{NUMBER}"" status: %{NUMBER} len: %{NUMBER} time: %{NUMBER}",5,True
+62,[instance: {instance_id}] Took {time} seconds to spawn the instance on the hypervisor.,5,True
+63,"%{IP:client} ""%{WORD:verb} %{URIPATHPARAM:request} %{HTTPVERSION}"" status: %{NUMBER:status} len: %{NUMBER:length} time: %{NUMBER:response_time}",5,True
+64,[instance: <instance_id>] VM Paused (Lifecycle Event),5,True
+65,[instance: {instance_id}] {event_type} ({event_category}),5,True
+66,The instance sync for host '{host}' did not match. Re-created its InstanceList.,5,True
+70,[instance: {instance_id}] VM {event} (Lifecycle Event),4,True
+72,"<IP address>,<IP address> ""<HTTP method> <URL> HTTP/<version>"" status: <status code> len: <length> time: <response time>",4,True
+71,"<IP> ""<HTTP_METHOD> <PATH> <HTTP_VERSION>"" status: <STATUS_CODE> len: <RESPONSE_LENGTH> time: <RESPONSE_TIME>",4,True
+69,[instance: <instance_id>] Instance destroyed successfully.,4,True
+68,"[instance: <instance_id>] Total vcpu: <total_vcpu> VCPU, used: <used_vcpu> VCPU",4,True
+67,"{client_ip}, {server_ip} ""{http_method} {endpoint} HTTP/{http_version}"" status: {status_code} len: {response_length} time: {response_time}",4,True
+73,"<IP address>,<IP address> ""<HTTP method> <endpoint> HTTP/<version>"" status: <status code> len: <response length> time: <response time>",3,True
+74,"<IP address>,<IP address> ""<HTTP method> <URL> <HTTP version>"" status: <status code> len: <length of response> time: <response time>",3,True
+75,Creating event network-vif-plugged:{uuid} for instance {uuid},3,True
+76,"{IP} ""{METHOD} {ENDPOINT} {PROTOCOL}"" status: {STATUS} len: {LENGTH} time: {TIME}",3,True
+93,"%{IP:client} ""%{WORD:verb} %{URIPATHPARAM:path} %{WORD:protocol}"" status: %{NUMBER:status} len: %{NUMBER:length} time: %{NUMBER:response_time}",2,True
+92,[instance: <instance_id>] Deleting instance files <file_path>,2,True
+91,[instance: {instance_id}] Took {time} seconds to destroy the instance on the hypervisor.,2,True
+90,"<IP Address> ""<HTTP Method> <Endpoint> HTTP/<HTTP Version>"" status: <Status Code> len: <Response Length> time: <Response Time>",2,True
+89,Creating event network-vif-plugged:{instance_id} for instance {instance_name},2,True
+88,"%{IP:client} ""%{WORD:method} %{URIPATHPARAM:request} HTTP/%{NUMBER:http_version}"" status: %{NUMBER:status} len: %{NUMBER:length} time: %{NUMBER:response_time}",2,True
+87,"{client_ip},{server_ip} ""{http_method} {endpoint} HTTP/1.1"" status: {status_code} len: {response_length} time: {response_time}",2,True
+86,Creating event network-vif-plugged:{} for instance {},2,True
+85,"<IP address>,<IP address> ""<HTTP method> <endpoint> HTTP/<version>"" status: <status code> len: <length> time: <response time>",2,True
+84,[instance: <instance_id>] <log_message>,2,True
+82,"%h,%h ""%r"" status: %s len: %b time: %T",2,True
+81,Auditing locally available compute resources for node {node_name},2,True
+80,[instance: <instance_id>] Claim successful,2,True
+79,"[instance: <instance_id>] Total disk: <total_disk>, used: <used_disk>",2,True
+78,[instance: {instance_id}] Took {time} seconds to {action} {resource} for instance.,2,True
+77,Successfully synced instances from host '{host}'.,2,True
+83,[instance: <instance_id>] Instance spawned successfully.,2,True
+107,"<IP> ""<HTTP_METHOD> <API_ENDPOINT> HTTP/1.1"" status: <STATUS_CODE> len: <RESPONSE_LENGTH> time: <RESPONSE_TIME>",1,True
+105,"%{IP:client} ""%{WORD:verb} %{URIPATHPARAM:path} %{WORD:http_version}"" status: %{NUMBER:status} len: %{NUMBER:len} time: %{NUMBER:response_time}",1,True
+106,"While synchronizing instance power states, found {} instances in the database and {} instances on the hypervisor.",1,True
+111,"{IP} ""{METHOD} {ENDPOINT} HTTP/{VERSION}"" status: {STATUS} len: {LENGTH} time: {TIME}",1,True
+108,"%{IP:client},%{IP:server} ""%{WORD:method} %{URIPATHPARAM:request} %{WORD:protocol}"" status: %{NUMBER:status} len: %{NUMBER:length} time: %{NUMBER:response_time}",1,True
+109,"{client_ip},{server_ip} ""{http_method} {resource} HTTP/{http_version}"" status: {status_code} len: {response_length} time: {response_time}",1,True
+110,"%{IP:client} ""%{WORD:method} %{URIPATHPARAM:request} %{GREEDYDATA:protocol}"" status: %{NUMBER:status} len: %{NUMBER:length} time: %{NUMBER:response_time}",1,True
+103,Creating event network-vif-plugged:{instance_id} for instance {event_id},1,True
+104,"%h,%h ""%r"" status: %s len: %b time: %D",1,True
+99,"%{IP:client} ""%{WORD:verb} %{URIPATHPARAM:path} HTTP/%{NUMBER:httpversion}"" status: %{NUMBER:status} len: %{NUMBER:length} time: %{NUMBER:response_time}",1,True
+102,[instance: {instance_id}] Took {time} seconds to deallocate network for instance.,1,True
+101,Running instance usage audit for host {hostname} from {start_time} to {end_time}. {num_instances} instances.,1,True
+100,"{client_ip},{server_ip} ""{http_method} {endpoint} HTTP/{http_version}"" status: {status_code} len: {content_length} time: {response_time}",1,True
+98,[instance: <instance_id>] <event_type> (Lifecycle Event),1,True
+97,Creating event network-vif-plugged:{network_id} for instance {instance_id},1,True
+96,"%{IP:client_ip},%{IP:server_ip} ""%{WORD:http_method} %{URIPATHPARAM:request_path} HTTP/%{NUMBER:http_version}"" status: %{NUMBER:status_code} len: %{NUMBER:response_length} time: %{NUMBER:request_time}",1,True
+95,"%{IP:client} ""%{WORD:verb} %{URIPATHPARAM:path} %{WORD:httpversion}"" status: %{NUMBER:status} len: %{NUMBER:len} time: %{NUMBER:time}",1,True
+94,Compute_service record updated for {compute_service_name},1,True
+112,[instance: <instance_id>] Terminating instance,1,True

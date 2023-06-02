@@ -1,0 +1,84 @@
+,EventTemplate,Occurrences
+0,Component State Change: Component \042{component}\042 is in the {state} state (HWID={hwid}),12
+1,clusterAddMember (command {command}),2
+2,risBoot (command {command}),1
+3,bootGenvmunix (command {command}),2
+4,boot (command {command}),67
+5,wait (command {command}),66
+6,halt (command {command}),3
+7,Command has completed successfully,10
+8,Targeting domains:node-D3 and nodes:node-[104-127] child of command {command},1
+9,Targeting domains:node-D4 and nodes:node-[136-159] child of command {command},1
+10,Targeting domains:node-{node} and nodes:node-[{nodes}],1
+11,Targeting domains:node-D4 and nodes:node-[128-135] child of command {command},1
+12,Targeting domains:node-D0 and nodes:node-[8-31] child of command {command},1
+13,Targeting domains:{domains} and nodes:{nodes},1
+14,Targeting domains:node-D[0\ {placeholder}] and nodes:node-[{placeholder}\ {placeholder}],1
+15,Targeting domains:node-D2 and nodes:node-[64-95] child of command {command},1
+16,Targeting domains:{domain} and nodes:{node},1
+17,psu failure\ ambient={ambient},5
+18,Temperature ({temp}) exceeds warning threshold,2
+19,ClusterFileSystem: There is no server for ServerFileSystem domain {domain},24
+20,ClusterFileSystem: There is no server for ServerFileSystem domain storage934,1
+21,ClusterFileSystem: There is no server for ServerFileSystem domain storage131,1
+22,ClusterFileSystem: There is no server for ServerFileSystem domain storage141,1
+23,ClusterFileSystem: There is no server for ServerFileSystem domain storage242,1
+24,ClusterFileSystem: There is no server for ServerFileSystem domain storage221,1
+25,ClusterFileSystem: There is no server for ServerFileSystem domain storage142,1
+26,ClusterFileSystem: There is no server for ServerFileSystem domain storage832,1
+27,ClusterFileSystem: There is no server for ServerFileSystem domain storage531,1
+28,NIFF: node node-{node} detected a failed network connection on network {network} via interface {interface},2
+29,ServerFileSystem: An ServerFileSystem domain panic has occurred on {storage},1
+30,Fan speeds ( {speed1} {speed2} {speed3} **** {speed4} {speed5} ),79
+31,Fan speeds ( {speed1} {speed2} {speed3} {speed4} {speed5} {speed6} ),11
+32,Command has been aborted,1
+33,power/control problem,1
+34,Link error,13
+35,Link in reset,9
+36,Link ok,13
+37,Link error on broadcast tree Interconnect-0T00:00:2:1,1
+38,Link error on broadcast tree {tree},3
+39,ServerFileSystem: ServerFileSystem domain {domain} is full,12
+40,ClusterFileSystem: ServerFileSystem domain {domain} is no longer served by node {node},36
+41,running,162
+42,blocked,15
+43,not responding,60
+44,configured out,91
+45,inconsistent nodesets {node1} {hex1} <ok> {node2} {hex2} <ok> {node3} {hex3} <ok> {node4} {hex4} <ok>,1
+46,active,5
+47,inconsistent nodesets {node1} {status1} {node2} {status2} {node3} {status3} {node4} {status4},1
+48,not-responding,1
+49,inconsistent nodesets node-1 {hex_code} <ok> node-2 {hex_code} <ok> node-7 {hex_code} <ok> node-4 {hex_code} <ok> node-6 {hex_code} <ok> node-5 {hex_code} <ok> node-3 {hex_code} <ok> node-14 {hex_code} <ok> node-13 {hex_code} <ok> node-12 {hex_code} <ok> node-10 {hex_code} <ok> node-16 {hex_code} <ok> node-15 {hex_code} <ok>,1
+50,starting,1
+51,closing,1
+52,inconsistent nodesets {node1} {node1_status} {node2} {node2_status} {node3} {node3_status} {node4} {node4_status} {node5} {node5_status},1
+53,normal,206
+54,warning,205
+55,ambient={value},292
+56,critical,20
+57,Linkerror event interval expired,394
+58,risBoot (command {command}) Error: Timed out while waiting for SRM prompt: <ABORT code completed>,1
+59,boot (command {command}) Error: HALT asserted\ cannot continue,1
+60,Failed subcommands 3406,1
+61,link errors remain current,56
+62,NIFF: node node-{node} has detected an available network connection on network {network} via interface {interface},71
+63,NIFF: node node-24 has detected an available network connection on network {network} via interface {interface},1
+64,NIFF: node node-17 has detected an available network connection on network {network} via interface {interface},1
+65,NIFF: node node-241 has detected an available network connection on network {network} via interface {interface},1
+66,NIFF: node node-120 has detected an available network connection on network {network} via interface {interface},1
+67,NIFF: node node-163 has detected an available network connection on network 0.0.0.0 via interface alt0,1
+68,NIFF: node node-202 has detected an available network connection on network 10.128.0.0 via interface ee0,1
+69,NIFF: node node-244 has detected an available network connection on network 10.128.0.0 via interface ee0,1
+70,NIFF: node node-30 has detected an available network connection on network 10.128.0.0 via interface ee0,1
+71,NIFF: node node-44 has detected an available network connection on network {network} via interface {interface},1
+72,NIFF: node node-255 has detected an available network connection on network 10.128.0.0 via interface ee0,1
+73,NIFF: node node-29 has detected an available network connection on network 0.0.0.0 via interface alt0,1
+74,NIFF: node node-72 has detected an available network connection on network 10.128.0.0 via interface ee0,1
+75,NIFF: node node-45 has detected an available network connection on network {network} via interface {interface},1
+76,NIFF: node node-29 has detected an available network connection on network 10.128.0.0 via interface ee0,1
+77,NIFF: node node-240 has detected an available network connection on network {network} via interface {interface},1
+78,NIFF: node node-42 has detected an available network connection on network 10.128.0.0 via interface ee0,1
+79,NIFF: node node-26 has detected an available network connection on network 10.128.0.0 via interface ee0,1
+80,NIFF: node node-202 has detected an available network connection on network 5.5.224.0 via interface alt0,1
+81,NIFF: node node-212 has detected an available network connection on network 10.128.0.0 via interface ee0,1
+82,NIFF: node node-161 has detected an available network connection on network 0.0.0.0 via interface alt0,1

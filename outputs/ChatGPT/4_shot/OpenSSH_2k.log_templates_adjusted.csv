@@ -1,0 +1,29 @@
+,EventTemplate,Occurrences
+0,Received disconnect from <*>: <*>: <*> [preauth],413
+1,Failed password for <*> from <*> port <*> ssh2,390
+2,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*> user=<*>,370
+3,pam_unix(sshd:auth): check pass; user unknown,135
+4,Failed password for invalid user <*> from <*> port <*> ssh2,128
+5,Invalid user <*> from <*>,113
+6,input_userauth_request: invalid user <*> [preauth],113
+7,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*>,110
+8,reverse mapping checking getaddrinfo for <*> [<*>] failed - POSSIBLE BREAK-IN ATTEMPT!,85
+9,error: Received disconnect from <*>: <*>: <*> [preauth],47
+10,Connection closed by <*> [preauth],34
+11,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>,14
+12,Did not receive identification string from <*>,10
+13,PAM service(<*>) ignoring max retries; <*> > <*>,7
+14,Received disconnect from <*>: <*>: <*>. [<*>],7
+15,PAM <*> more authentication failures; logname=<*> uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*>,6
+16,Failed none for invalid user <*> from <*> port <*> ssh2,4
+17,message repeated <*> times: [ Failed password for <*> from <*> port <*> ssh2],2
+18,Disconnecting: Too many authentication failures for <*> [<*>],2
+19,PAM <*> more authentication failure; logname= uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*>,2
+20,PAM <*> more authentication failures; logname=<*> uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*> user=<*>,1
+21,PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*> user=<*>,1
+22,Accepted password for <*> from <*> port <*> ssh2,1
+23,pam_unix(sshd:session): session opened for user <*> by (uid=<*>),1
+24,Received disconnect from <*>: <*>: <*>,1
+25,pam_unix(sshd:session): session closed for user <*>,1
+26,Disconnecting: Too many authentication failures for <*> [preauth],1
+27,fatal: Write failed: <*> [preauth],1

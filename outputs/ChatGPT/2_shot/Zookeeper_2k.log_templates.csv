@@ -1,0 +1,67 @@
+,EventTemplate,Occurrences
+0,Notification time out: {time_out},1
+1,Received connection request {ip_address},299
+2,Send worker leaving thread,262
+3,Interrupted while waiting for message on queue,314
+4,"Connection broken for id {id}, my id = {my_id}, error =",280
+5,Interrupting SendWorker,266
+6,Closed socket connection for client {ip_address} which had sessionid {session_id},39
+7,caught end of stream exception,37
+8,Client attempting to renew session {session_id} at {ip_address},1
+9,Client attempting to establish new session at {ip_address}:{port},25
+10,Established session {session_id} with negotiated timeout {timeout} for client {ip_address},50
+11,Accepted socket connection from {ip_address}:{port},39
+12,Unexpected Exception:,1
+13,Client attempting to establish new session at/{ip_address}:{port},8
+14,Client attempting to establish new session at {ip_address},8
+15,Connection request from old client {ip_address}; will be dropped if server is in r-o mode,24
+16,Connection request from old client {ip_address}; will be dropped if server is in {mode} mode,13
+17,Connection request from old client {ip_address}:{port}; will be dropped if server is in {mode} mode,1
+18,Closed socket connection for client {client_address} which had sessionid {session_id},5
+19,Server environment:user.dir={directory},1
+20,Cannot open channel to {channel} at election address {ip_address},86
+21,Processed session termination for sessionid: {session_id},47
+22,"Expiring session {session_id}, timeout of {timeout}ms exceeded",40
+23,******* GOODBYE {ip_address} ********,18
+24,LOOKING,4
+25,Notification time out: {timeout},36
+26,My election bind port: {ip_address}:{port},1
+27,"Have smaller server identifier, so dropping the connection: ({}, {})",1
+28,FOLLOWING,2
+29,"New election. My id = {id}, proposed zxid={zxid}",1
+30,Server environment:host.name={hostname},1
+31,FOLLOWING - LEADER ELECTION TOOK - {time_taken},2
+32,"Notification: {leader_sid} (n.leader), {zxid} (n.zxid), {round} (n.round), {state} (n.state), {sid} (n.sid), {peer_epoch} (n.peerEPoch), {my_state} (my state)",6
+33,autopurge.snapRetainCount set to {count},1
+34,Server environment:java.vendor={vendor},2
+35,Revalidating client: {client_id},3
+36,Client attempting to renew session {session_id} at {ip_address}:{port},2
+37,"Server environment:zookeeper.version={version}, built on {date}",1
+38,Server environment:user.name={username},2
+39,Server environment:os.name={os_name},2
+40,Closed socket connection for client {ip_address} (no session established for client),4
+41,Exception causing close of session {session_id} due to {exception},3
+42,"Notification: {leader} (n.leader), {zxid} (n.zxid), {round} (n.round), {state} (n.state), {sid} (n.sid), {peerEpoch} (n.peerEPoch), {myState} (my state)",2
+43,"Notification: {leader} (n.leader), {zxid} (n.zxid), {round} (n.round), {state} (n.state), {sid} (n.sid), {peer_epoch} (n.peerEPoch), {my_state} (my state)",4
+44,Accepted socket connection from/{ip_address}:{port},7
+45,tickTime set to {tick_time},1
+46,"Connection broken for id {id}, my id = {my_id}, error = {error}",11
+47,Unexpected exception causing shutdown while sock still open,12
+48,******* GOODBYE {ip_address}:{port} ********,1
+49,Got user-level KeeperException when processing sessionid:{session_id} type:{type} cxid:{cxid} zxid:{zxid} txntype:{txntype} reqpath:{reqpath} Error Path:{error_path} Error:KeeperErrorCode = {error_code} for {node},1
+50,Starting quorum peer,1
+51,Snapshotting: {hex_value} to {file_path},2
+52,autopurge.purgeInterval set to {interval},3
+53,Follower sid: {sid} : info : {class_name}@{hash},1
+54,maxSessionTimeout set to {-1},1
+55,Server environment:java.class.path={classpath},1
+56,Have quorum of supporters; starting up and setting last processed zxid: 0x{zxid},1
+57,shutdown of request processor complete,1
+58,First is 0x0,1
+59,Reading snapshot {snapshot_path},1
+60,Sending DIFF,1
+61,Getting a snapshot from leader,2
+62,Accepted socket connection from {ip_address},2
+63,minSessionTimeout set to {-1},2
+64,Connection request from old client {ip_address}; will be dropped if server is in r-o mode},1
+65,Server environment:java.home={java_home},1

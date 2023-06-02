@@ -1,0 +1,393 @@
+,EventTemplate,Occurrences
+0,Cocoa scripting error for '<*>': <*>.,71
+1,"com.apple.icloud.fmfd.heartbeat: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring.",45
+2,dnssd_clientstub ConnectToServer: connect()-> No of tries: <*>,44
+3,Thermal pressure state: <*> Memory pressure state: <*>,39
+4,<*>(<*>)::listenerCallback - Thunderbolt HPD packet for route = <*> port = <*> unplug = <*>,36
+5,AppleCamIn::systemWakeCall - messageType = 0xE0000340,36
+6,"com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring.",35
+7,"com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring.",32
+8,com.apple.Addres(<*>) deny network-outbound <*>,29
+9,Sandbox: <*>(<*>) deny(<*>) network-outbound <*>,29
+10,ARPT: <*>: AirPort_Brcm43xx::platformWoWEnable: WWEN[<*>],28
+11,ARPT: <*>: wl0: MDNS: IPV6 Addr: <*>,26
+12,send_datagram_available_ping: pid <*> failed to act on a ping it dequeued before timing out.,26
+13,"com.apple.EscrowSecurityAlert.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring.",24
+14,[<*>] <<<< Boss >>>> figPlaybackBossPrerollCompleted: unexpected preroll-complete notification,23
+15,CCFile::captureLogRun() Exiting CCFile::captureLogRun,22
+16,AppleThunderboltGenericHAL::earlyWake - complete - took <*> milliseconds,22
+17,AppleCamIn::wakeEventHandlerThread,20
+18,"CCFile::captureLog Received Capture notice id: <*>, reason = <*>",20
+19,button report: <*>,20
+20,Location icon should now be in state 'Inactive',20
+21,AppleCamIn::systemWakeCall - messageType = <*>,20
+22,"com.apple.suggestions.harvest: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring.",19
+23,-[ISGenerateImageOp generateImageWithCompletion:] Failed to composit image for descriptor <*>.,19
+24,tcp_connection_handle_connect_conditions_bad <*> failed: <*> - <*>,18
+25,FA||Url||taskID[<*>] dealloc,17
+26,Location icon should now be in state 'Active',17
+27,CCFile::captureLog,17
+28,"CCFile::captureLogRun Skipping current file Dir file [<*>]-<*>, Current File [<*>]-<*>",17
+29,ARPT: <*>: AirPort_Brcm43xx::powerChange: System Sleep,17
+30,__73-[NetworkAnalyticsEngine observeValueForKeyPath:ofObject:change:context:]_block_invoke unexpected switch value <*>,16
+31,en0: BSSID changed to <*>,16
+32,IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL,15
+33,nw_nat64_post_new_ifstate successfully changed NAT64 ifstate from <*> to <*>,15
+34,Previous sleep cause: <*>,15
+35,AppleThunderboltNHIType2::prePCIWake - power up complete - took <*> us,15
+36,Received Capture Event,15
+37,AppleCamIn::handleWakeEvent_gated,15
+38,en0: channel changed to <*>,14
+39,-[NetworkAnalyticsEngine _writeJournalRecord:fromCellFingerprint:key:atLOI:ofKind:lqm:isFaulty:] Hashing of the primary key failed. Dropping the journal record.,14
+40,KeychainGetICDPStatus: keychain: <*>,14
+41,-[NETClientConnection effectiveBundleID] using process name <*> as bundle ID (this is expected for daemons without bundle ID,13
+42,dnssd_clientstub ConnectToServer: connect() failed path:<*> Socket:<*> Err:<*> Errno:<*> <*>,13
+43,Error returned from iconservicesagent: (<*>),13
+44,ARPT: <*>: AirPort_Brcm43xx::syncPowerState: WWEN[<*>],12
+45,"ARPT: <*>: IOPMPowerSource Information: onSleep, SleepType: <*> Sleep, 'ExternalConnected': <*>, 'TimeRemaining': <*>,",12
+46,"SOSAccountThisDeviceCanSyncWithCircle sync with device failure: Error Domain=com.apple.security.sos.error Code=<*> ""<*>"" UserInfo={{NSDescription=<*>}}",12
+47,"USBMSC Identifier (non-unique): <*> <*> <*> <*>, <*>",12
+48,"Path not allowed in target domain: type = <*>, path = <*> error = <*>: <*>, origin = <*>",12
+49,ARPT: <*>: AirPort_Brcm43xx::powerChange: System Wake - Full Wake/ Dark Wake / Maintenance wake,12
+50,"PM response took <*> ms (<*>, <*>)",11
+51,"IO80211AWDLPeerManager::setAwdlSuspendedMode() Suspending AWDL, enterQuietMode(<*>)",11
+52,AppleThunderboltNHIType2::waitForOk2Go2Sx - retries = <*>,11
+53,IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from <*> to <*>,11
+54,RTC: PowerByCalendarDate setting ignored,11
+55,Bluetooth -- LE is supported - Disable LE meta event,11
+56,[<*>] FigAgglomeratorSetObjectForKey signalled err=<*> (<*>) (<*>) at <*> line <*>,11
+57,"NETWORK: requery, <*>, <*>, <*>, <*>, <*>, items, fQueryRetries, <*>, fLastRetryTimestamp, <*>",11
+58,"ARPT: <*>: wl0: wl_update_tcpkeep_seq: Updated seq/ack/win from UserClient Seq <*>, Ack <*>, Win size <*>",10
+59,en0::IO80211Interface::postMessage bssid changed,10
+60,"ARPT: <*>: wl0: setup_keepalive: interval <*>, retry_interval <*>, retry_count <*>",10
+61,############################## _getSysMsgList,10
+62,jemmytest,10
+63,"com.apple.SoftwareUpdate.Activity: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring.",10
+64,ARPT: <*>: ARPT: Wake Reason: Wake on Scan offload,9
+65,AirPort: Link Up on awdl0,9
+66,<*>-[NETClientConnection <*>]_block_invoke <*> - Hit by torpedo! QQ.<*> <*> <*>,9
+67,ASL Sender Statistics,9
+68,in6_unlink_ifa: IPv6 address <*> has no prefix,9
+69,"CCFile::captureLogRun Skipping current file Dir file [<*>]-CCIOReporter-<*>.xml, Current File [<*>]-CCIOReporter-<*>.xml",9
+70,CCIOReporterFormatter::refreshSubscriptionsFromStreamRegistry clearing out any previous subscriptions,9
+71,"ARPT: <*>: wl0: MDNS: <*> SRV Recs, <*> TXT Recs",8
+72,"ARPT: <*>: wl0: setup_keepalive: Local port: <*>, Remote port: <*>",8
+73,Unrecognized attribute value: <*>,8
+74,<*> : BTLE scanner Powered On,8
+75,[HID] [ATC] AppleDeviceManagementHIDEventService::processWakeReason Wake reason: Host (<*>),8
+76,tcp_connection_tls_session_error_callback_imp <*> __tcp_connection_tls_session_callback_write_block_invoke.<*> error <*>,8
+77,ARPT: <*>: framerdy <*> bmccmd <*> framecnt <*>,8
+78,ARPT: <*>: wl0: setup_keepalive: Remote IP: <*>,8
+79,KeychainGetICDPStatus: status: off,8
+80,"setting hostname to ""<*>""",7
+81,CCIOReporterFormatter::addRegistryChildToChannelDictionary streams <*>,7
+82,AirPort: Link Down on awdl0. Reason <*> (Unspecified).,7
+83,- [UABestAppSuggestionManager notifyBestAppChanged:type:options:bundleIdentifier:activityType:dynamicIdentifier:when:confidence:deviceName:deviceIdentifier:deviceType:] (<*>) UASuggestedActionType=<*> (<*>)/(<*>) opts=(<*>) when=<*> confidence=<*> from=(<*>)/(<*>) (UABestAppSuggestionManager.m #<*>),7
+84,ARPT: <*>: AQM agg results <*> len hi/lo: <*> <*> BAbitmap(<*>-<*>) <*> <*> <*> <*>,7
+85,"Setting BTCoex Config: enable_2G:<*>, profile_2g:<*>, enable_5G:<*>, profile_5G:<*>",7
+86,Captive: CNPluginHandler en0: Authenticated,7
+87,- [UABestAppSuggestionManager notifyBestAppChanged:type:options:bundleIdentifier:activityType:dynamicIdentifier:when:confidence:deviceName:deviceIdentifier:deviceType:] (<*>) UASuggestedActionType=<*> (<*>)/(<*>) opts=<*> when=<*> confidence=<*> from=<*>/<*> (UABestAppSuggestionManager.m #<*>),7
+88,ARPT: <*>: AQM agg params <*> maxlen hi/lo <*> <*> minlen <*> adjlen <*>,7
+89,<*> : Scanning mode Contacts Only,7
+90,"CCFile::copyFile fileName is [<*>]-io80211Family-<*>.pcapng, source path:<*>, dest path:<*>",7
+91,Wake reason: <*> (<*>),7
+92,"ARPT: <*>: <*>: <*>: <*>: Original Seq: <*>, Ack: <*>, Win size: <*>",6
+93,AppleThunderboltNHIType2::waitForOk2Go2Sx - intel_rp = <*> dlla_reporting_supported = <*>,6
+94,IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO,6
+95,"en0: channel changed to <*>,<*>",6
+96,QQ(<*>) deny mach-lookup <*>,6
+97,"NETWORK: requery, <*>, <*>, <*>, <*>, <*>, <*>, <*>, <*>, <*>, <*>",6
+98,ARPT: <*>: <*>: <*>: <*>: Wi-Fi will stay on.,6
+99,ARPT: <*>: wlc_dump_aggfifo:,6
+100,doSaveChannels@<*>: Will write to: <*>,6
+101,"RTC: Maintenance <*>, sleep <*>",5
+102,en0: <*>.11d country code set to '<*>'.,5
+103,[<*>] [<*>],5
+104,[<*>] <*> signalled err=<*> (<*>) at <*> line <*>,5
+105,"ARPT: <*>: IOPMPowerSource Information: onWake, SleepType: <*> Sleep, 'ExternalConnected': <*>, 'TimeRemaining': <*>,",5
+106,sigio_handler: sigio_handler_active != <*>,5
+107,"ARPT: <*>: <*>: setup_keepalive: Seq: <*>, Ack: <*>, Win size: <*>",5
+108,<IMMacNotificationCenterManager: <*>: NC Disabled: <*>,5
+109,mDNS_DeregisterInterface: Frequent transitions for interface <*> (<*>),4
+110,AirPort: Link Up on en0,4
+111,Captive: CNPluginHandler en0: Evaluating,4
+112,tcp_connection_destination_perform_socket_connect <*> connectx to <*>@<*> failed: [<*>] <*>,4
+113,AirPort: Link Down on en0. Reason <*> (Disassociated because station leaving).,4
+114,[<*>(<*>)] <*>,4
+115,Saw change in network reachability (isReachable=<*>),4
+116,"pages <*>, wire <*>, act <*>, inact <*>, cleaned <*> spec <*>, zf <*>, throt <*>, compr <*>, xpmapped <*>",4
+117,"SecOSStatusWith error:[<*>] Error Domain=NSOSStatusErrorDomain Code=<*> ""<*>"" (<*>: <*>) UserInfo={{NSDescription=<*>}}",4
+118,ARPT: <*>: wl0: setup_keepalive: Local IP: <*>,4
+119,TBT W (<*>): <*> [x],4
+120,Captive: CNPluginHandler en0: Inactive,4
+121,<*> : BTLE scanner Powered Off,4
+122,Sandbox: <*>(<*>) deny(<*>) mach-lookup <*>,4
+123,[<*>] <*> signalled err=<*> (<*>) (<*>) at <*> line <*>,4
+124,"NETWORK: no response from server, reachability, <*>, queryRetries, <*>",4
+125,en0: Supported channels <*>,4
+126,[<*>] <<<< CRABS >>>> crabsFlumeHostAvailable: [<*>] Byte flume reports host available again.,3
+127,mDNS_RegisterInterface: Frequent transitions for interface en0 (<*>),3
+128,"securityd_xpc_dictionary_handler cloudd[<*>] copy_matching Error Domain=NSOSStatusErrorDomain Code=<*> ""<*>"" (<*>: <*>) UserInfo={{NSDescription=<*>}}",3
+129,ARPT: <*>: wl0: MDNS: IPV4 Addr: <*>,3
+130,IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED,3
+131,Captive: [CNInfoNetworkActive:<*>] en0: SSID '<*>' making interface primary (cache indicates network not captive),3
+132,"ARPT: <*>: wl0: setup_keepalive: Seq: <*>, Ack: <*>, Win size: <*>",3
+133,[HID] [MT] AppleMultitouchDevice::willTerminate entered,3
+134,"device_generate_desktop_screenshot: authw <*>(<*>), shield <*>(<*>)",3
+135,network changed: DNS* Proxy,3
+136,- [NetworkAnalyticsEngine _writeJournalRecord:<*>:fromCellFingerprint:<*>:key:<*>:atLOI:<*>:ofKind:<*>:lqm:<*>:isFaulty:<*>] Hashing of the primary key failed. Dropping the journal record.,3
+137,<*>-<*>-<*> <*> ksfetch[<*>/<*>] [lvl=<*>] KSHelperReceiveAllData() KSHelperTool read <*> bytes from stdin.,3
+138,ARPT: <*>: <*>: leaveModulePoweredForOffloads: Wi-Fi will stay on.,3
+139,"IOPMrootDomain: idle cancel, state <*>",3
+140,[<*>] <<<< <*> >>>> <*>: (<*>) <*>,3
+141,"Opened file <*>, size <*>, extents <*>, maxio <*> ssd <*>",3
+142,<IMMacNotificationCenterManager: <*>: DND Enabled: <*>,3
+143,"CCLogTap::profileRemoved, Owner: <*>, Name: <*>",3
+144,"CCFile::captureLogRun Skipping current file Dir file [<*>]-<*>-<*>.pcapng, Current File [<*>]-<*>-<*>.pcapng",3
+145,"CCFile::copyFile fileName is [<*>]-CCIOReporter-<*>.xml, source path:<*>, dest path:<*>=AuthFail:sts:<*>/OneStats//<*>-CCIOReporter-<*>.xml",3
+146,ASSERTION FAILED: <*> -[DriverServices getDeviceAddress:] line: <*>,3
+147,assertion failed: <*>: <*>: <*> [<*>]: <*>,3
+148,"polled file major <*>, minor <*>, blocksize <*>, pollers <*>",3
+149,-[SOAPParser:<*> parser:didStartElement:namespaceURI:qualifiedName:attributes:] Type not found in EWSItemType for ExchangePersonIdGuid (t:ExchangePersonIdGuid),3
+150,CGXDisplayDidWakeNotification [<*>]: posting kCGSDisplayDidWake,3
+151,Peripheral manager is not powered on,3
+152,"Path not allowed in target domain: type = pid, path = <*> error = <*>: The specified service did not ship in the requestor's bundle, origin = <*>",3
+153,**** [<*>][<*>] -- <*> (<*> on <*>) -- <*> ****,3
+154,"DB Error: <*> ""<*>""",3
+155,-[NETClientConnection evaluateCrazyIvan46] CI46 - Perform CrazyIvan46! QQ.<*> <*> <*>,3
+156,[<*>] [Adding [<*>: <*>; <*>: <*>] to <*> <*>].,3
+157,"ARPT: <*>: wl0: Roamed or switched channel, reason #<*>, bssid <*>, last RSSI <*>",3
+158,"Service ""<*>"" tried to hijack endpoint ""<*>"" from owner: <*>",3
+159,"CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data",2
+160,CCXPCService::setStreamEventHandler Registered for notification callback.,2
+161,Wake reason: <*>,2
+162,network changed: v4(<*>-:<*>) v6(<*>) DNS! Proxy SMB,2
+163,hibernate_page_list_setall found pageCount <*>,2
+164,[HID] [ATC] [Error] AppleDeviceManagementHIDEventService::start Could not make a string from out connection notification key,2
+165,<*> : Discoverable mode changed to Off,2
+166,network changed: v4(<*>) v6(<*>+:<*>) DNS! Proxy SMB,2
+167,"PBRequester failed with Error Error Domain=NSURLErrorDomain Code=<*> ""The Internet connection appears to be offline."" UserInfo={NSUnderlyingError=<*> {Error Domain=kCFErrorDomainCFNetwork Code=<*> ""The Internet connection appears to be offline."" UserInfo={NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorCodeKey=<*>, _kCFStreamErrorDomainKey=<*>, NSLocalizedDescription=The Internet connection appears to be offline.}}, NSErrorFailingURLStringKey=<*>",2
+168,"Configuration Notice: ASL Module ""<*>"" claims selected messages. Those messages may not appear in standard system log files or in the ASL database.",2
+169,Wake reason: ?,2
+170,<*> : BTLE scanning stopped,2
+171,wake time set <*>,2
+172,<*> : Purged contact hashes,2
+173,<*> : BTLE scanning started,2
+174,ARPT: <*>: ARPT: Wake Reason: Wake on TCP Timeout,2
+175,"hibernate_alloc_pages act <*>, inact <*>, anon <*>, throt <*>, spec <*>, wire <*>, wireinit <*>",2
+176,hibernate_teardown_pmap_structs done: last_valid_compact_indx <*>,2
+177,"Unexpected payload found for message <*>, dataLen <*>",2
+178,"CCFile::copyFile fileName is [<*>]-AirPortBrcm4360_Logs-<*>.txt, source path:<*>, dest path:<*>",2
+179,"<<<< FigByteStream >>>> FigByteStreamStatsLogOneRead: ByteStream read of <*> bytes @ <*> took <*> sec. to complete, <*> reads >= <*> sec.",2
+180,network changed: v6(en0-:<*>) DNS- Proxy-,2
+181,[<*>] <<<< CRABS >>>> crabsFlumeHostUnavailable: [<*>] Byte flume reports host unavailable.,2
+182,hibernate image path: <*>,2
+183,hibernate_flush_memory: buffer_cache_gc freed up <*> wired pages,2
+184,"hibernate_machine_init pagesDone <*> sum2 <*>, time: <*> ms, disk(<*>) <*> Mb/s, comp bytes: <*> time: <*> ms <*> Mb/s, crypt bytes: <*> time: <*> ms <*> Mb/s",2
+185,hibernate_machine_init reading,2
+186,hibernate_setup(<*>) took <*> ms,2
+187,**** [IOBluetoothFamily][ProcessBluetoothTransportShowsUpActionWL] -- calling IOBluetoothFamily's registerService() -- <*> -- <*> -- <*> ****,2
+188,INIT -- Host controller is published,2
+189,BuildActDeviceEntry exit,2
+190,WARNING: hibernate_page_list_setall skipped <*> xpmapped pages,2
+191,[BluetoothHIDDeviceController] EventServiceConnectedCallback,2
+192,BuildActDeviceEntry enter,2
+193,ARPT: <*>: <*>: MDNS: IPV6 Addr: <*>,2
+194,"[Accounts] Current connection, <NSXPCConnection: <*> connection from pid <*>, doesn't have account access.",2
+195,"[Accounts] Failed to update account with identifier <*>, error: Error Domain=ABAddressBookErrorDomain Code=<*> ""(<*>)""",2
+196,"<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for URL: ""<*>""",2
+197,"device_generate_lock_screen_screenshot: authw <*>(<*>)[<*>, <*>, <*>, <*>] shield <*>(<*>), dev [<*>,<*>]",2
+198,objc[<*>]: Class <*> is implemented in both <*> and <*>. One of the two will be used. Which one is undefined.,2
+199,"hibernate_newruntime_map time: <*> ms, IOPolledFilePollersOpen(), ml_get_interrupts_enabled <*>",2
+200,"CCFile::copyFile fileName is [<*>]-CCIOReporter-<*>.xml, source path:<*>, dest path:<*>",2
+201,network changed: v4(<*>+:<*>) v6(<*>) DNS! Proxy SMB,2
+202,IOHibernatePollerOpen(<*>),2
+203,"bitmap_size <*>, previewSize <*>, writing <*> pages @ <*>",2
+204,could discard act <*> inact <*> purgeable <*> spec <*> cleaned <*>,2
+205,AppleActuatorHIDEventDriver: stop,2
+206,**** [IOBluetoothHostControllerUSBTransport][start] -- completed -- result = <*> -- <*> ****,2
+207,Unable to start NetBIOS name service:,2
+208,ChromeExistion main isUndetectWithCommand = <*>,2
+209,"Page bounds {{int, int} {int, int}}",2
+210,"CCDataTap::profileRemoved, Owner: <*>, Name: <*>",2
+211,Unrecognized XSSimpleTypeDefinition: OneOff,2
+212,Session <*> destroyed,2
+213,efi pagecount <*>,2
+214,[BluetoothHIDDeviceController]ERROR: Could not find the disconnected object,2
+215,"ARPT: <*>: <*>: Roamed or switched channel, reason #<*>, bssid <*>, last RSSI <*>",1
+216,"network_reachability_changed : network is not reachable, netbiosd is shutting down",1
+217,mDNS_DeregisterInterface: Frequent transitions for interface en0 (<*>),1
+218,<*> : BTLE discovered device with hash <*>,1
+219,<*> : Finished generating hashes,1
+220,AirPort: Link Down on <*>. Reason <*> (<*>).,1
+221,[BluetoothHIDDeviceController] EventServiceDisconnectedCallback,1
+222,PMStats: Hibernate read took <*> ms,1
+223,"VDCAssistant: Found a camera (0x1430000005ac8290) , but was not able to start it up (0x0 -- (os/kern) successful)",1
+224,handle_will_sleep_auth_and_shield_windows: Reordering authw <*>(<*>) (lock state: <*>),1
+225,"<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] Checking with local engine: <KSUpdateEngine:<*> ticketStore=<KSPersistentTicketStore:<*> store=<KSKeyedPersistentStore:<*> path=""<*>"" lockFile=<KSLockFile:<*> path=""<*>"" locked=<*> > >> processor=<KSActionProcessor:<*> delegate=<KSUpdateEngine:<*> isProces",1
+226,WARNING: Type1 font data isn't in the correct format required by the Adobe Type <*> Font Format specification.,1
+227,"com.apple.ical.sync.x-coredata://<*>/<*>/<*>: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring.",1
+228,[IOBluetoothFamily][staticBluetoothTransportShowsUp] -- Received Bluetooth Controller register service notification -- <*>,1
+229,"<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] -[KSAgentApp updateProductWithProductID:usingEngine:] Checking for updates for ""<*>"" using engine <KSUpdateEngine:<*> ticketStore=<KSPersistentTicketStore:<*> store=<KSKeyedPersistentStore:<*> path=""<*>"" lockFile=<KSLockFile:<*> path=""<*>"" locked=<*> > >> processor=<KSActionProcessor:<*> delegate=<KSUpdateE",1
+230,2017/07/02 <*> | I | VoipWrapper | DAVEngineImpl.cpp:<*>:Close | close video chat. llFriendUIN = <*>.,1
+231,"ARPT: <*>: IOPMPowerSource Information: onSleep, SleepType: Normal Sleep, 'ExternalConnected': <*>, 'TimeRemaining': <*>,",1
+232,mDNS_RegisterInterface: Frequent transitions for interface <*> (<*>),1
+233,<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] -[KSOutOfProcessFetcher(PrivateMethods) launchedHelperTaskForToolPath:error:] KSOutOfProcessFetcher launched '<*>' with process id: <*>,1
+234,"<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[32432/0x7000002a0000] [lvl=<*>] -[KSUpdateEngine updateAllExceptProduct:] KSUpdateEngine updating all installed products, except:'<*>'.",1
+235,<*>-<*>-<*> <*> ksfetch[<*>/<*>] [lvl=<*>] main() ksfetch fetching URL (<NSMutableURLRequest: <*> {{ URL: <*> }}) to folder:<*>,1
+236,[<*>] <<<< <*> >>>> <*>: (<*>) <*> - <*>,1
+237,host connection <NSXPCConnection: <*> connection from pid <*> invalidated,1
+238,Error in CoreDragRemoveReceiveHandler: <*>,1
+239,"ARPT: <*>: <*>: MDNS: <*> SRV Recs, <*> TXT Recs",1
+240,"PBRequester failed with Error Error Domain=NSURLErrorDomain Code=<*> ""The request timed out."" UserInfo={NSUnderlyingError=<*> {Error Domain=kCFErrorDomainCFNetwork Code=<*> ""The request timed out."" UserInfo={NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorCodeKey=<*>, _kCFStreamErrorDomainKey=<*>, NSLocalizedDescription=The request timed out.}}, NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>",1
+241,"device_generate_lock_screen_screenshot: authw 0x7fa823962400(<*>)[<*>, <*>, <*>, <*>] shield 0x7fa82d372000(<*>), dev [<*>,<*>]",1
+242,wake time set +<*> s,1
+243,[HID] [MT] MTActuatorManagement::getActuatorRef Calling MTActuatorOpen() outside of MTTrackpadHIDManager.,1
+244,enabling pid=<*> for plug-in <*>(<*>) <*> <*>,1
+245,"<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] -[KSAgentApp performSelfUpdateWithEngine:] Checking for self update with Engine: <KSUpdateEngine:<*> ticketStore=<KSPersistentTicketStore:<*> store=<KSKeyedPersistentStore:<*> path=""<*>"" lockFile=<KSLockFile:<*> path=""<*>"" locked=<*> > >> processor=<KSActionProcessor:<*> delegate=<KSUpdateEngine:<*> isProcessing=<*>",1
+246,<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] -[KSOmahaServer updateInfosForUpdateResponse:updateRequest:infoStore:upToDateTickets:updatedTickets:events:errors:] Response passed CUP validation.,1
+247,Internal name did not resolve to internal address!,1
+248,Service exited with abnormal code: <*>,1
+249,Central manager is not powered on,1
+250,<*> : Starting AirDrop server for user <*> on wake,1
+251,"<<<< FigByteStream >>>> FigByteStreamStatsLogOneRead: ByteStream read of <*> bytes @ <*> took <*> secs. to complete, <*> reads >= <*> sec.",1
+252,network changed: v4(en0:<*>) v6(en0!:<*>) DNS Proxy SMB,1
+253,"CCFile::copyFile fileName is [<*>]-CCIOReporter-<*>.xml, source path:<*>, dest path:<*>=<*>/OneStats//<*>-CCIOReporter-<*>.xml",1
+254,"CCFile::copyFile fileName is [<*>]-CCIOReporter-<*>.xml, source path:<*>, dest path:<*>=[<*>:sts:<*>/OneStats//<*>-CCIOReporter-<*>.xml]",1
+255,"CCFile::captureLogRun Skipping current file Dir file [<*>]-CCIOReporter-<*>.xml, Current File [<*>]-CCIOReporter-<*>.xml]",1
+256,"CCFile::copyFile fileName is <*>, source path:<*>, dest path:<*>",1
+257,<*>-[NETClientConnection <*>]_block_invoke <*> - Hit by torpedo! <*> <*> <*>,1
+258,"[CardDAVPlugin-ERROR] -getPrincipalInfo:[_controller supportsRequestCompressionAtURL:<*>] Error Domain=NSURLErrorDomain Code=<*> ""The request timed out."" UserInfo={{NSUnderlyingError=<*> {Error Domain=kCFErrorDomainCFNetwork Code=<*> ""The request timed out."" UserInfo={NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorCodeKey=<*>, _kCFStreamErrorD",1
+259,**** [IOBluetoothFamily][ProcessBluetoothTransportShowsUpActionWL] -- Connected to the transport successfully -- <*> -- <*> -- <*> ****,1
+260,hciControllerOnline; HID devices? <*>,1
+261,"ARPT: <*>: IOPMPowerSource Information: onSleep, SleepType: <*>, 'ExternalConnected': <*>, 'TimeRemaining': <*>,",1
+262,AppleActuatorHIDEventDriver: message service is terminated,1
+263,ASSERTION FAILED: dvcAddrRef != ((void *)<*>) -[DriverServices getDeviceAddress:] line: <*>,1
+264,payload Data <*> <*>,1
+265,"hibernate_teardown: wired_pages <*>, free_pages <*>, active_pages <*>, inactive_pages <*>, speculative_pages <*>, cleaned_pages <*>, compressor_pages <*>",1
+266,"CCFile::copyFile fileName is [<*>]-io80211Family-<*>.pcapng, source path:<*>, dest path:<*>=AuthFail:sts:<*>/IO80211AWDLPeerManager//<*>-io80211Family-<*>.pcapng",1
+267,hibernate_rebuild_pmap_structs done: last_valid_compact_indx <*>,1
+268,(ImportBailout.Error:<*>) Asked to exit for Diskarb,1
+269,<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] -[KSUpdateCheckAction performAction] KSUpdateCheckAction starting update check for ticket(s): {( <KSTicket:<*> productID=<*> version=<*> xc=<KSPathExistenceChecker:<*> path=<*> url=<*> creationDate=<*> ticketVersion=<*> > )} Using server: <KSOmahaServer:<*> engine=<KSUpdateEngine:<*> >,1
+270,tcp_connection_tls_session_error_callback_imp <*> tcp_connection_tls_session_handle_read_error.<*> error <*>,1
+271,Checking iCDP status for DSID <*> (checkWithServer=<*>),1
+272,"SecOSStatusWith error:[<*>] Error Domain=NSOSStatusErrorDomain Code=<*> ""query missing class name"" (paramErr: error in user parameter list) UserInfo={{NSDescription=<*>}}",1
+273,network changed: v4(en0-:<*>) v6(en0-:<*>) DNS- Proxy-,1
+274,network changed: DNS*,1
+275,<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] +[KSCodeSigningVerification verifyBundle:<*>:applicationId:error:] KSCodeSigningVerification verifying code signing for '<*>' with the requirement '<*>',1
+276,<*>-<*>-<*> <*> ksfetch[<*>/<*>] [lvl=<*>] main() ksfetch done fetching.,1
+277,network changed: v4(en0!:<*>) DNS+ Proxy+ SMB,1
+278,extension com.apple.ncplugin.WorldClock -> (<*>),1
+279,Session <*> created,1
+280,kern_open_file_for_direct_io took <*> ms,1
+281,<*> : Starting AirDrop server for user <*> on <*>,1
+282,.sdef warning for argument '<*>' of command '<*>' in suite '<*>': '<*>' is not a valid type name.,1
+283,Invalidating watch set.,1
+284,<*> : Started generating hashes,1
+285,-_continuousScroll is deprecated for NSScrollWheel. Please use -hasPreciseScrollingDeltas.,1
+286,-deviceDeltaY is deprecated for NSScrollWheel. Please use -scrollingDeltaY.,1
+287,[<*>] (<*>) signalled err=<*>,1
+288,[<*>] <<<< CRABS >>>> crabsWaitForLoad: [<*>] Wait time out - <*> (msRequestTimeout <*>),1
+289,"PBRequester failed with Error Error Domain=NSURLErrorDomain Code=<*> ""The request timed out."" UserInfo={NSUnderlyingError=<*> {Error Domain=kCFErrorDomainCFNetwork Code=<*> ""The request timed out."" UserInfo={NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorCodeKey=<*>, _kCFStreamErrorDomainKey=<*>, NSLocalizedDescription=The request timed out.}}, NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorDomainKey=<*>, _kCFStreamErrorCodeKey=<*>, NSLocalizedDescription=The request timed out.}",1
+290,Failed to stop a scan - central is not powered on: <*>,1
+291,vm_compressor_fastwake_warmup (<*> - <*>) - starting,1
+292,"<IMMacNotificationCenterManager: <*>: Updating enabled: <*> (Topics: ( ""<*>"", ""<*>"", ""<*>"", ""<*>"", ""<*>"", ""<*>"", ""<*>"", ""<*>"", ""<*>"", ""<*>"", ""<*>"", ""<*>"", ""<*>"", ""<*>"", ""<*>"", ""<*>""",1
+293,<*>-<*>-<*> <*> ksfetch[<*>/<*>] [lvl=<*>] main() Fetcher received a request: <NSMutableURLRequest: <*> {{ URL: <*> }},1
+294,<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[35861/0x700000323000] [lvl=<*>] -[KSPrefetchAction performAction] KSPrefetchAction no updates to prefetch.,1
+295,2017/07/05 <*> | I | VoipWrapper | DAVEngineImpl.cpp:<*>:Close | close video chat. llFriendUIN = <*>.,1
+296,<IMMacNotificationCenterManager: <*>: notification observer: <*> notification: __CFNotification <*> <*>,1
+297,CCProfileMonitor::freeResources done,1
+298,Daemon connection invalidated!,1
+299,"CCFile::copyFile fileName is [<*>]-AirPortBrcm4360_Logs-<*>.txt, source path:<*>, dest path:<*>=AuthFail:sts:<*>/DriverLogs//<*>",1
+300,"hibernate_machine_init: state <*>, image pages <*>, sum was <*>, imageSize <*>, image1Size <*>, conflictCount <*>, nextFree <*>",1
+301,hibernate_rebuild completed - took <*> msecs,1
+302,AppleActuatorDevice::stop Entered,1
+303,AppleActuatorDevice::start Entered,1
+304,en0: manual intervention required!,1
+305,"<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher fetching from URL: ""<*>""",1
+306,<IMMacNotificationCenterManager: <*>: Updating enabled: <*> (Topics: <*>),1
+307,"ARPT: <*>: <*>: setup_keepalive: interval <*>, retry_interval <*>, retry_count <*>",1
+308,ARPT: <*>: <*>: MDNS: IPV4 Addr: <*>,1
+309,"arp_client_transmit(en0) failed, Network is down (<*>)",1
+310,"booter start at <*> ms smc <*> ms, [<*>, <*>, <*>] total <*> ms, dsply <*>, <*> ms, tramp <*> ms",1
+311,"hostControllerOnline - Number of Paired devices = <*>, List of Paired devices = ( ""<*>"" )",1
+312,**** [<*>][<*>] -- <*> HCI Reset by <*> ****,1
+313,AppleActuatorDeviceUserClient::start Entered,1
+314,<*>-<*>-<*> <*> ksfetch[<*>/<*>] [lvl=<*>] main() Fetcher is exiting.,1
+315,"<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[36436/0x7000002a0000] [lvl=<*>] -[KSUpdateEngine updateAllExceptProduct:] KSUpdateEngine updating all installed products, except:'<*>'.",1
+316,"Google Chrome He[<*>] triggered unnest of range <*> of DYLD shared region in VM map <*>. While not abnormal for debuggers, this increases system memory footprint until the target exits.",1
+317,network changed: v4(en0+:<*>) v6(en0:<*>) DNS! Proxy SMB,1
+318,hibernate_page_list_setall(preflight <*>) start,1
+319,hibernate_page_list_setall time: <*> ms,1
+320,IOPolledFilePollersOpen(<*>) <*> ms,1
+321,hibernate_teardown completed - discarded <*>,1
+322,AppleActuatorDeviceUserClient::stop Entered,1
+323,[IOBluetoothHostController::setConfigState] calling registerService,1
+324,[HID] [MT] AppleMultitouchDevice::start entered,1
+325,"[CardDAVPlugin-ERROR] -getPrincipalInfo:[_controller supportsRequestCompressionAtURL:<*>] Error Domain=NSURLErrorDomain Code=<*> ""The Internet connection appears to be offline."" UserInfo={{NSUnderlyingError=<*> {Error Domain=kCFErrorDomainCFNetwork Code=<*> ""The Internet connection appears to be offline."" UserInfo={NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>",1
+326,Got an XPC error: Connection invalid,1
+327,-[SFLListManager(ServiceReplyProtocol) notifyChanges:toListWithIdentifier:] Notified of item changes to list with identifier <*>,1
+328,YYYY-MM-DD HH:MM:SS.sss ksfetch[<*>/0x<*>] [lvl=<*>] main() ksfetch fetching URL (<NSMutableURLRequest: <*> {{ URL: <*> }}) to folder:<*>,1
+329,<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] -[KSMultiUpdateAction performAction] KSPromptAction had no updates to apply.,1
+330,no sleep images for WillPowerOffWithImages,1
+331,after trim url = <*>,1
+332,ChromeExistion main strSendMsg = <*>,1
+333,url host = <*>,1
+334,the url = <*>,1
+335,hibernate_rebuild started,1
+336,"YYYY-MM-DD HH:MM:SS.### GoogleSoftwareUpdateAgent[<*>/0x7000002a0000] [lvl=<*>] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for URL: ""<*>""",1
+337,<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] -[KSAgentApp(KeystoneDelegate) updateEngineFinishedWithErrors:] Keystone finished: errors=<*>,1
+338,Sandbox: <*>(<*>) deny(<*>) file-read-data <*>,1
+339,<*>-<*>-<*> <*> PM [AirPlayUIAgent] BecomingInactive: NSWorkspaceWillSleepNotification,1
+340,2017/07/06 <*> | I | VoipWrapper | DAVEngineImpl.cpp:<*>:Close | close video chat. llFriendUIN = <*>.,1
+341,full wake request (reason <*>) <*> ms,1
+342,kern_open_file_for_direct_io(<*>),1
+343,"<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher start fetch from URL: ""<*>""",1
+344,Failed to connect (<*>) outlet from (<*>) to (<*>): <*>,1
+345,[com.apple.calendar.store.log.caldav.queue] [Account <*>@<*>/ timed out when executing operation: <CalDAVAccountRefreshQueueableOperation: <*>; Sequence: <*>],1
+346,"[<*>] [<*> failed with error: <*> Domain=<*> Code=<*> ""<*>"" UserInfo={<*>=<*>, <*>=<*>, <*>=<CFBasicHash <*> [<*>]>{{<*> = <*> <*> = <*> <*> = <*> <*> = <*> <*> = <*>}}}}]",1
+347,Sandbox: <*>(<*>) deny(<*>) <*> <*>: <*>,1
+348,"no application identifier provided, can't use provisioning profiles [pid=<*>]",1
+349,tcp_connection_destination_handle_tls_close_notify <*> closing socket due to TLS CLOSE_NOTIFY alert,1
+350,CFNetwork SSLHandshake failed (<*>),1
+351,"Unable to simultaneously satisfy constraints: ( ""<NSLayoutConstraint:<*> H:[NSImageView:<*>(<*>)]>"", ""<NSLayoutConstraint:<*> H:|-(<*>)-[NSImageView:<*>] (Names: <*>, '|':<*> )>"", ""<NSLayoutConstraint:<*> 'NSView-Encapsulated-Layout-Width' H:[<*>(<*>)] (Names: <*> )>"", ""<NSLayoutConstraint:<*> H:[NSImageView:<*>]-(<*>)-[NSTextField:<*>]>"", ""<NSLayoutConstraint:<*> H:[NSTextField:<*>]-(<*>)-| (Names: <*>",1
+352,"Unable to simultaneously satisfy constraints: ( ""<NSLayoutConstraint:<*> H:[NSImageView:<*>(<*>)]>"", ""<NSLayoutConstraint:<*> H:|-(<*>)-[NSImageView:<*>] (Names: PageItemCell:<*>, '|':PageItemCell:<*> )>"", ""<NSLayoutConstraint:<*> 'NSView-Encapsulated-Layout-Width' H:[PageItemCell(<*>)] (Names: PageItemCell:<*> )>"", ""<NSLayoutConstraint:<*> H:[NSImageView:<*>]-(<*>)-[NSTextField:<*>]>"", ""<NSLayoutConstraint:<*> H:[NSTextField:<*>]-(<*>)-| (Names: PageI",1
+353,"Configuration Notice: ASL Module ""<*>"" sharing output destination ""<*>"" with ASL Module ""<*>"". Output parameters from ASL Module ""<*>"" override any specified in ASL Module ""<*>"".",1
+354,(DiskStore.Normal:<*>) <*> <*>,1
+355,"<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[37644/0x7000002a0000] [lvl=<*>] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher start fetch from URL: ""<*>""",1
+356,DB Path: <*>,1
+357,Could not get event name for stream/token: <*>/<*>: <*>: Request for stale data,1
+358,<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] -[KSUpdateCheckAction performAction] KSUpdateCheckAction starting update check for ticket(s): {( <KSTicket:<*> productID=<*> version=<*> xc=<KSPathExistenceChecker:<*> path=<*> serverType=<*> url=<*> creationDate=<*> tagPath=<*> tagKey=<*> brandPath=<*> brandKey=<*> versionPath=<*>},1
+359,Error in CoreDragRemoveTrackingHandler: <*>,1
+360,- [ISGenerateImageOp generateImageWithCompletion:] Failed to composit image for descriptor <*>.,1
+361,-[SOAPParser:<*> parser:didStartElement:namespaceURI:qualifiedName:attributes:] Type not found in EWSItemType for <*> (<*>),1
+362,"CCFile::captureLogRun Skipping current file Dir file [<*>]-CCIOReporter-<*>.xml, Current File [<*>]-CCIOReporter-<*>.xml}",1
+363,-[NETClientConnection evaluateCrazyIvan46] CI46 - Perform CrazyIvan46! NeteaseMusic.<*> <*> <*>,1
+364,"CCFile::copyFile fileName is [<*>]-io80211Family-<*>.pcapng, source path:<*>, dest path:<*>=AuthFail:sts:<*>/IO80211AWDLPeerManager//[<*>]-io80211Family-<*>.pcapng",1
+365,-[NETClientConnection evaluateCrazyIvan46] CI46 - Perform CrazyIvan46! QQ.<*> <*>,1
+366,"PBRequester failed with Error Error Domain=NSURLErrorDomain Code=<*> ""The Internet connection appears to be offline."" UserInfo={NSUnderlyingError=<*> {Error Domain=kCFErrorDomainCFNetwork Code=<*> ""The Internet connection appears to be offline."" UserInfo={NSErrorFailingURLStringKey=<*>, NSErrorFailingURLKey=<*>, _kCFStreamErrorCodeKey=<*>, _kCFStreamErrorDomainKey=<*>, NSLocalizedDescription=The Internet connection appears to be offline.}}, NSErrorFailingURLStringKey=<*>, NSErrorFailingURLK",1
+367,"nw_path_evaluator_start_helper_connection net_helper_path_evaluation_start failed, dumping backtrace: <*> libnetcore-<*> <*> libsystem_network.dylib <*> __nw_create_backtrace_string + <*> <*> nw_path_evaluator_start_helper_connection + <*> libdispatch.dylib <*> _dispatch_call_block_and_release + <*> libdispatch.dylib <*> _dispatch_client_callout + <*> libdispatch.dylib <*> _dispatch_queue_drain +",1
+368,"CoreAnimation: warning, deleted thread with uncommitted CATransaction; set CA_DEBUG_TRANSACTIONS=<*> in environment to log backtraces.",1
+369,full wake promotion (reason <*>) <*> ms,1
+370,"NSURLSession/NSURLConnection HTTP load failed (kCFStreamErrorDomainSSL, <*>)",1
+371,"[QL] No sandbox token for request <*>, it will probably fail",1
+372,"schedule invalidation <DYTransport <*>, error: lost transport connection (<*>)>",1
+373,[<*>] mv_LowLevelCheckIfVideoPlayableUsingDecoder signalled err=<*> (kFigMediaValidatorError_VideoCodecNotSupported) (video codec <*>) at line <*>,1
+374,<<<< MediaValidator >>>> mv_LookupCodecSupport: <*>,1
+375,<<<< MediaValidator >>>> mv_ValidateRFC4281CodecId: Unrecognized codec <*>.(<*>). Failed codec specific check.,1
+376,CoreAnimation: timed out fence <*>,1
+377,Failed to connect (view) outlet from (<*>) to (<*>): <*>,1
+378,2017/07/07 <*> | <*> | VoipWrapper | DAVEngineImpl.cpp:<*>:Close | close video chat. llFriendUIN = <*>.,1
+379,<*> ERROR: <*>: timed out after <*> (<*> <*>); mMajorChangePending=<*>,1
+380,"CCFile::copyFile fileName is [<*>]-CCIOReporter-<*>.xml, source path:<*>, dest path:<*>=AssocFail:sts:<*>/OneStats//<*>-CCIOReporter-<*>.xml",1
+381,did discard act <*> inact <*> purgeable <*> spec <*> cleaned <*>,1
+382,Host controller terminated,1
+383,[HID] [MT] AppleActuatorHIDEventDriver::start entered,1
+384,vm_compressor_fastwake_warmup completed - took <*> msecs,1
+385,"securityd_xpc_dictionary_handler cloudd[<*>] copy_matching Error Domain=NSOSStatusErrorDomain Code=<*> ""query missing class name"" (paramErr: error in user parameter list) UserInfo={NSDescription=<*>}",1
+386,"Unable to simultaneously satisfy constraints: ( ""<NSAutoresizingMaskLayoutConstraint:<*> h=-&- v=-&- V:[NSScrollView:<*>]-(<*>)-| (Names: '|':NSView:<*> )>"", ""<NSAutoresizingMaskLayoutConstraint:<*> h=-&- v=-&- V:|-(<*>)-[NSScrollView:<*>] (Names: '|':NSView:<*> )>"", ""<NSAutoresizingMaskLayoutConstraint:<*> h=-&- v=--& V:[NSView:<*>(<*>)]>"", ""<NSAutoresizingMaskLayoutConstraint:<*> h=-&- v=-&- V:|-(<*>)-[NSView:<*>] (Names: '|':NSView:<*> )>"", ""<NSAutoresizingMaskLayoutConst",1
+387,<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[39159/0x7000002a0000] [lvl=<*>] -[KSAgentApp(KeystoneDelegate) updateEngineFinishedWithErrors:] Keystone finished: errors=<*>,1
+388,<*>-<*>-<*> <*> GoogleSoftwareUpdateAgent[39159/0x7000002a0000] [lvl=<*>] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] About to run checks for any other apps.,1
+389,"Arranged view frame: {<*>, {CGFloat, CGFloat}}}",1
+390,CCProfileMonitor::setStreamEventHandler,1
+391,Telling CSI to go low power.,1

@@ -1,0 +1,435 @@
+,EventTemplate,Occurrences
+0,proxy.cse.cuhk.edu.hk:5070 open through proxy {proxy_address} HTTPS,457
+1,"proxy.cse.cuhk.edu.hk:5070 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",110
+2,"proxy.cse.cuhk.edu.hk:5070 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime <{lifetime} sec>",56
+3,"proxy.cse.cuhk.edu.hk:5070 close, {bytes_sent} bytes sent, {bytes_received} bytes ({KB_received} KB) received, lifetime <{lifetime} sec>",7
+4,"proxy.cse.cuhk.edu.hk:5070 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kb_received} KB) received, lifetime <{lifetime} sec>",1
+5,"proxy.cse.cuhk.edu.hk:5070 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",103
+6,"proxy.cse.cuhk.edu.hk:5070 close, {bytes_sent} bytes ({KB_sent} KB) sent, {bytes_received} bytes received, lifetime <{lifetime} sec>",12
+7,"proxy.cse.cuhk.edu.hk:5070 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",27
+8,"proxy.cse.cuhk.edu.hk:5070 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes received, lifetime <{lifetime} sec>",17
+9,"proxy.cse.cuhk.edu.hk:5070 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes received, lifetime {lifetime}",37
+10,"proxy.cse.cuhk.edu.hk:5070 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime <{lifetime} sec>",15
+11,"proxy.cse.cuhk.edu.hk:5070 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime <{lifetime} sec>",24
+12,"proxy.cse.cuhk.edu.hk:5070 close, {sent_bytes} sent, {received_bytes} received, lifetime <{lifetime}> sec",1
+13,"proxy.cse.cuhk.edu.hk:5070 close, {bytes_sent} bytes sent, {bytes_received} bytes ({KB_received} KB) received, lifetime {lifetime}",8
+14,"proxy.cse.cuhk.edu.hk:5070 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime <{lifetime}> sec",8
+15,{IP}:22 open through proxy {proxy}:5070 SOCKS5,2
+16,"proxy.cse.cuhk.edu.hk:5070 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_mb} MB) received, lifetime {lifetime}",4
+17,"get.sogou.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime <{lifetime} sec>",10
+18,"tcpconn.{domain}:{port} close, {sent} bytes sent, {received} bytes received, lifetime <{lifetime} sec>",1
+19,tcpconn{num}.tencent.com:{port} error : {message},1
+20,tcpconn{num}.tencent.com:{port} error : Could not connect through proxy {proxy}:5070 - Proxy closed the connection unexpectedly.,1
+21,"proxy.cse.cuhk.edu.hk:5070 close, {bytes_sent} bytes ({KB_sent} KB) sent, {bytes_received} bytes received, lifetime {lifetime}",19
+22,"{ip_address}:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+23,{IP}:80 open through proxy {proxy}:5070 HTTPS,3
+24,{host}:{port} open through proxy {proxy_host}:{proxy_port} {protocol},218
+25,"tcpconn{conn_num}.tencent.com:{port} {status}, {sent} bytes sent, {received} bytes received, lifetime <{lifetime} sec>",1
+26,{IP}:443 open through proxy {proxy}:5070 HTTPS,5
+27,"tcpconn{num}.tencent.com:{port} close, {sent} bytes sent, {received} bytes received, lifetime <{time} sec>",2
+28,{host}:443 open through proxy {proxy_host}:{proxy_port} HTTPS,12
+29,"tcpconn{conn_num}.tencent.com:{port} {status}, {sent_bytes} bytes sent, {received_bytes} bytes received, lifetime <{lifetime} sec>",1
+30,"cgi.qqweb.qq.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime <{lifetime} sec>",1
+31,cgi.qqweb.qq.com:{port} open through proxy {proxy_host}:{proxy_port} {protocol},1
+32,"qqmail.tencent.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",1
+33,get.sogou.com:{port} open through proxy {proxy_host}:{proxy_port} {protocol},13
+34,"showxml.qq.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime <{lifetime} sec>",1
+35,"2052.flash2-http.qq.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime <{lifetime} sec>",1
+36,"impservice.dictapp.youdao.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1
+37,oimagec7.ydstatic.com:80 error : A connection request was canceled before the completion.,2
+38,"formi.baidu.com:843 error : Could not connect through proxy {proxy_address} - Proxy server cannot establish a connection with the target, status code {status_code}",1
+39,{server}:{port} open through proxy {proxy_server}:{proxy_port} {protocol},29
+40,"{ip_address}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",4
+41,"BAYMSGR{variable}.gateway.messenger.live.com:443 close, {variable} bytes ({variable} KB) sent, {variable} bytes ({variable} KB) received, lifetime {variable}",1
+42,"{ip}:443 close, {sent} bytes sent, {received} bytes received, lifetime {time}",1
+43,{ip}:443 error : Could not connect through proxy {proxy}:5070 - Proxy closed the connection unexpectedly.,1
+44,"proxy.cse.cuhk.edu.hk:5070 close, {bytes_sent} bytes sent, {bytes_received} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+45,oimagea5.ydstatic.com:80 error : A connection request was {action} before the {status}.,7
+46,oimagea5.ydstatic.com:80 error : A connection request was canceled before the completion.,4
+47,IP_ADDRESS:error : MESSAGE - REASON,2
+48,oimageb3.ydstatic.com:80 error : A connection request was canceled before the completion.,1
+49,oimageb1.ydstatic.com:80 error : A connection request was canceled before the completion.,1
+50,oimagea3.ydstatic.com:80 error : A connection request was {action} before the {status}.,1
+51,oimagec1.ydstatic.com:80 error : A connection request was canceled before the completion.,2
+52,oimageb{server}.ydstatic.com:{port} error : {message},1
+53,"oimageb7.ydstatic.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",1
+54,oimageb2.ydstatic.com:80 error : A connection request was canceled before the completion.,1
+55,oimageb4.ydstatic.com:80 error : A connection request was canceled before the completion.,1
+56,oimagec4.ydstatic.com:80 error : A connection request was canceled before the completion.,1
+57,oimageb8.ydstatic.com:80 error : A connection request was canceled before the completion.,2
+58,"oimageb6.ydstatic.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",1
+59,{server}:{port} open through proxy {proxy} {protocol},22
+60,"oimagea7.ydstatic.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",1
+61,"oimagec3.ydstatic.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",1
+62,www.{domain}:{port} open through proxy {proxy}:{proxy_port} {protocol},6
+63,c.{domain}:80 open through proxy {proxy}:{port} {protocol},2
+64,{source}:{port} open through proxy {proxy}:{proxy_port} {protocol},8
+65,"www.{domain}:80 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",3
+66,"get.sogou.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",2
+67,"ss.bdimg.com:80 close, {sent} bytes sent, {received} bytes received, lifetime {lifetime}",1
+68,"t{server_name}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1
+69,"sestat.baidu.com:{port} close, {sent} bytes sent, {received} bytes received, lifetime {lifetime}",1
+70,"ss.bdimg.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",3
+71,comment.{id}.com:{port} open through proxy {proxy}:{proxy_port} {protocol},3
+72,"b1.bdstatic.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",2
+73,"pos.baidu.com:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+74,"i{server}.baidu.com:{port} close, {sent} bytes sent, {received} bytes received, lifetime {lifetime}",4
+75,"xin.4399.cn:80 close, {sent} bytes sent, {received} bytes received, lifetime {lifetime}",1
+76,"newsimg.{server_id}.com:{port} close, {sent_bytes} bytes sent, {received_bytes} bytes received, lifetime {lifetime}",1
+77,"comment.{website}:{port} close, {sent} bytes sent, {received} bytes received, lifetime {time}",1
+78,"m.news.4399.com:80 close, {sent} bytes sent, {received} bytes received, lifetime {lifetime}",1
+79,"www.{domain}:{port} close, {sent} bytes sent, {received} bytes received, lifetime {time}",2
+80,api.share.baidu.com:{port} open through proxy {proxy_host}:{proxy_port} {protocol},1
+81,"timg.baidu.com:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+82,"www.googletagservices.com:443 close, {bytes_sent} bytes ({KB_sent} KB) sent, {bytes_received} bytes received, lifetime {lifetime}",1
+83,"{server}:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",2
+84,"www.google.com:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",7
+85,"dup.baidustatic.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",2
+86,{server}:443 open through proxy {proxy}:5070 HTTPS,2
+87,"odr.mookie1.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",1
+88,"safebrowsing.googleapis.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",5
+89,"clients{client_number}.google.com:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes received, lifetime {lifetime}",4
+90,"d.dropbox.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({KB_received} KB) received, lifetime {lifetime}",2
+91,"clients{client_number}.google.com:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",17
+92,"i.ytimg.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+93,"hostname:port close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_mb} MB) received, lifetime {lifetime}",4
+94,"odr.mookie1.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+95,static.doubleclick.net:443 open through proxy {proxy_address}:{proxy_port} HTTPS,2
+96,t{server}.baidu.com:{port} open through proxy {proxy_server}:{proxy_port} {protocol},8
+97,"c.baidu.com:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes received, lifetime <{lifetime} sec>",1
+98,"t{server}.baidu.com:{port} close, {sent} bytes sent, {received} bytes received, lifetime {lifetime}",3
+99,"t{server_name}.com:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",6
+100,"timg.baidu.com:{port} close, {sent} bytes sent, {received} bytes received, lifetime {lifetime}",1
+101,{host}:{port} open through proxy {proxy} {protocol},6
+102,"pos.baidu.com:80 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+103,"i{server}.com:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+104,"z13.cnzz.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1
+105,"f10.baidu.com:80 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+106,"suggestion.baidu.com:80 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+107,"eclick.baidu.com:80 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes received, lifetime {lifetime}",1
+108,"cm.g.doubleclick.net:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+109,news.4399.com:80 open through proxy {proxy_address}:{proxy_port} HTTPS,2
+110,app.{domain}:{port} open through proxy {proxy} HTTPS,2
+111,video.{server}:{port} open through proxy {proxy} {protocol},2
+112,"cpro.baidustatic.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",2
+113,"cnzz.mmstat.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime <{lifetime} sec>",1
+114,hm.baidu.com:{port} error : {error_message},1
+115,"app.4399.cn:80 close, {bytes_sent} bytes ({KB_sent} KB) sent, {bytes_received} bytes ({KB_received} KB) received, lifetime {lifetime}",1
+116,"www.youtube.com:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+117,"www.qulishi.com:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {duration}",1
+118,"{server}:80 close, {sent} bytes sent, {received} bytes received, lifetime {lifetime}",1
+119,"w.cnzz.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",1
+120,{client}:{port} open through proxy {proxy} {protocol},15
+121,"block.dropbox.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime <{lifetime} sec>",12
+122,"{hostname}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",9
+123,www.{domain}:443 open through proxy {proxy}:{port} {protocol},5
+124,"notifications.google.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",2
+125,apis.google.com:{port} open through proxy {proxy_host}:{proxy_port} {protocol},3
+126,csi.gstatic.com:443 open through proxy {proxy_address}:{proxy_port} HTTPS,5
+127,"get.sogou.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kb_received} KB) received, lifetime {lifetime}",1
+128,"clientservices.googleapis.com:443 close, {bytes_sent} bytes ({KB_sent} KB) sent, {bytes_received} bytes received, lifetime {lifetime}",1
+129,"{host}:{port} close, {sent_bytes} bytes sent, {received_bytes} bytes received, lifetime {lifetime}",3
+130,"short.weixin.qq.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime <{lifetime} sec>",7
+131,"info.pinyin.sogou.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",4
+132,IP_ADDRESS:PORT error : MESSAGE - {PROXY_HOST}:{PROXY_PORT} - {ERROR_DESCRIPTION},1
+133,"client-cf.dropbox.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",10
+134,"client-{server}:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+135,f-log-extension.grammarly.io:443 open through proxy {proxy_address}:{proxy_port} HTTPS,3
+136,"lh6.googleusercontent.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",1
+137,"www.google.com.hk:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",4
+138,"ocsp.digicert.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kb_received} KB) received, lifetime {lifetime}",1
+139,"static.adobelogin.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",1
+140,"block-edge.dropbox.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+141,{service}:{port} open through proxy {proxy} {protocol},1
+142,"capi.grammarly.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+143,ogs.google.com:{port} open through proxy {proxy_host}:{proxy_port} {protocol},1
+144,"cidian.youdao.com:80 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+145,"client-channel.google.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+146,www.google.com:{port} open through proxy {proxy_host}:{proxy_port} {protocol},11
+147,{domain}:443 open through proxy {proxy}:5070 HTTPS,2
+148,"hostname:port close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",5
+149,"www.{domain}:80 close, {sent} bytes sent, {received} bytes received, lifetime {time}",2
+150,"i{num}.baidu.com:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+151,newsapp.{server_id}.com:{port} open through proxy {proxy_server}:{proxy_port} {protocol},1
+152,"cbjs.baidu.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1
+153,"bdimg.share.baidu.com:80 close, {sent} bytes sent, {received} bytes received, lifetime {lifetime}",1
+154,"ubmcmm.baidustatic.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",2
+155,"s1.img{server_id}.com:{port} close, {sent_bytes} bytes sent, {received_bytes} bytes received, lifetime {lifetime}",1
+156,"c.cnzz.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1
+157,"www.evernote.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",9
+158,"mtalk.google.com:5228 error : Could not connect through proxy {proxy_address}:{proxy_port} - Proxy server cannot establish a connection with the target, status code {status_code}",5
+159,{server}:{port} open through proxy {proxy}:{proxy_port} {protocol},2
+160,"dj1.baidu.com:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes received, lifetime {lifetime}",1
+161,"client-lb.dropbox.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime <{lifetime} sec>",2
+162,{client}:{port} open through proxy {proxy}:{proxy_port} {protocol},8
+163,www.evernote.com:{port} open through proxy {proxy}:{proxy_port} {protocol},9
+164,"sclick.baidu.com:80 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes received, lifetime {lifetime}",1
+165,"s1.bdstatic.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1
+166,www.{var1}.com:{var2} open through proxy {var3}:{var4} {var5},1
+167,img.{var1}.com:{var2} open through proxy {var3}:{var4} HTTPS,1
+168,clients{client_number}.google.com:{port} open through proxy {proxy_address}:{proxy_port} {protocol},2
+169,"changyan.sohu.com:80 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+170,"t{server}.baidu.com:{port} close, {sent_bytes} bytes sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+171,"hostname:port close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",6
+172,"js.passport.qihucdn.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",2
+173,"www.{domain}:80 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes received, lifetime {lifetime}",1
+174,hm.baidu.com:443 error : A connection request was canceled before the completion.,2
+175,"upload.{server}:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+176,"long.open.weixin.qq.com:443 close, {bytes_sent} bytes ({KB_sent} KB) sent, {bytes_received} bytes received, lifetime {lifetime}",2
+177,"{:host}:443 close, {:sent_bytes} bytes ({:sent_kb} KB) sent, {:received_bytes} bytes ({:received_kb} KB) received, lifetime {:lifetime}",1
+178,"www.google.com:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {duration}",2
+179,"long.open.weixin.qq.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes received, lifetime {lifetime}",3
+180,"mtalk.google.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",3
+181,"update.googleapis.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime <{lifetime} sec>",1
+182,"dl-debug.dropbox.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+183,"www.google.com.hk:443 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime <{lifetime} sec>",1
+184,"lh4.googleusercontent.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",1
+185,api.github.com:{port} open through proxy {proxy}:{proxy_port} {protocol},14
+186,config.{domain}:{port} open through proxy {proxy} {protocol},2
+187,"ping.pinyin.sogou.com:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes received, lifetime {lifetime}",1
+188,"api.github.com:443 close, {sent} bytes sent, {received} bytes received, lifetime {time}",1
+189,"www.google.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+190,www.gstatic.com:{port} open through proxy {proxy_host}:{proxy_port} {protocol},2
+191,"www.google-analytics.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",2
+192,www.google-analytics.com:{port} open through proxy {proxy_host}:{proxy_port} {protocol},2
+193,"notifications.google.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1
+194,"live.github.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes received, lifetime {lifetime}",1
+195,"www.googleapis.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",5
+196,"play.google.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",5
+197,"hostname:port close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",2
+198,"www.gmail.com:{port} close, {sent_bytes} bytes sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+199,"{host}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",6
+200,"plus.google.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",1
+201,{num}.client-channel.google.com:{port} open through proxy {proxy_host}:{proxy_port} HTTPS,1
+202,"api.github.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",14
+203,"apis.google.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+204,www.zhihu.com:{port} open through proxy {proxy_host}:{proxy_port} {protocol},1
+205,{source}:443 open through proxy {proxy}:5070 HTTPS,1
+206,"pic{num}.zhimg.com:{port} close, {sent} bytes sent, {received} bytes ({size}) received, lifetime {time}",1
+207,"zhihu-web-analytics.zhihu.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",2
+208,"content.googleapis.com:443 close, {bytes_sent} bytes ({KB_sent} KB) sent, {bytes_received} bytes received, lifetime {lifetime}",1
+209,"pubads.g.doubleclick.net:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",2
+210,notifications.google.com:{port} open through proxy {proxy_host}:{proxy_port} {protocol},1
+211,"clients{client_number}.google.com:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",2
+212,"user-images.githubusercontent.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",4
+213,"clients{client_number}.google.com:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime <{lifetime} sec>",1
+214,"{client-channel}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime <{lifetime} sec>",1
+215,"csi.gstatic.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",2
+216,"fonts.gstatic.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",5
+217,api.weibo.com:80 open through proxy {proxy_address} HTTPS,1
+218,"www.zhihu.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+219,"d0.sina.com.cn:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime <{lifetime} sec>",1
+220,"contentrecommend-out.uve.weibo.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1
+221,"rs.sinajs.cn:80 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes received, lifetime {lifetime}",1
+222,"news.sina.com.cn:80 close, {sent} bytes sent, {received} bytes received, lifetime {lifetime}",1
+223,"{host}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1
+224,"strip.alicdn.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",1
+225,"hostname:port close, {bytes_sent} bytes sent, {bytes_received} bytes ({KB_received} KB) received, lifetime {lifetime}",1
+226,"strip.alicdn.com:80 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+227,"rm.api.weibo.com:80 close, {sent} bytes sent, {received} bytes received, lifetime {lifetime}",1
+228,www.weibo.com:{port} open through proxy {proxy_host}:{proxy_port} {protocol},1
+229,"www.weibo.com:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes received, lifetime {lifetime}",1
+230,"www.weibo.com:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+231,"people-pa.clients6.google.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",3
+232,"notifications.google.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+233,"collector.githubapp.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1
+234,live.github.com:{port} open through proxy {proxy_host}:{proxy_port} {protocol},2
+235,"data.grammarly.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+236,"github.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",2
+237,"github.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1
+238,"assets-cdn.github.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+239,"{host}:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+240,"icauh.youdao.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1
+241,"security.ie.sogou.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime <{lifetime} sec>",5
+242,"dict.youdao.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",1
+243,"p3p.sogou.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1
+244,"collector.githubapp.com:443 close, {sent} bytes sent, {received} bytes received, lifetime {lifetime}",1
+245,"assets-cdn.github.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",1
+246,notifications.google.com:{port} open through proxy {proxy}:{proxy_port} {protocol},3
+247,"apis.google.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime <{lifetime} sec>",1
+248,"live.github.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+249,assets-cdn.github.com:443 open through proxy {proxy_address}:{proxy_port} HTTPS,1
+250,"drive-thirdparty.googleusercontent.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",1
+251,"csi.gstatic.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+252,video-{server}-{number}.xx.fbcdn.net:{port} open through proxy {proxy} HTTPS,1
+253,"f-log-extension.grammarly.io:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",3
+254,"pixel.facebook.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+255,"proxy.cse.cuhk.edu.hk:5070 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kb_received} KB) received, lifetime {lifetime}",1
+256,"clients{client_number}.google.com:{port} close, {bytes_sent} bytes ({KB_sent} KB) sent, {bytes_received} bytes received, lifetime {lifetime}",5
+257,bolt.dropbox.com:443 open through proxy {proxy_address}:{proxy_port} HTTPS,1
+258,{website}:{port} open through proxy {proxy}:{proxy_port} {protocol},6
+259,"avatars{num}.githubusercontent.com:{port} close, {sent} bytes ({sent_kb} KB) sent, {received} bytes received, lifetime {time}",1
+260,"ssl.gstatic.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",2
+261,www.{website}:80 open through proxy {proxy}:{port} {protocol},1
+262,"dblp.uni-trier.de:80 close, {sent} bytes sent, {received} bytes received, lifetime {lifetime}",1
+263,"avatars{num}.githubusercontent.com:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {time}",1
+264,"accounts.google.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+265,"d.dropbox.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",4
+266,log.getdropbox.com:80 open through proxy {proxy_address}:{proxy_port} HTTPS,2
+267,security.ie.sogou.com:{port} open through proxy {proxy_host}:{proxy_port} {protocol},3
+268,avatars.githubusercontent.com:443 open through proxy {proxy_host}:{proxy_port} HTTPS,1
+269,"avatars.githubusercontent.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",1
+270,www.googletagmanager.com:{port} open through proxy {proxy_host}:{proxy_port} {protocol},1
+271,"secure.quantserve.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",1
+272,"c.trello.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",2
+273,server{server_id}.teamviewer.com:{port} open through proxy {proxy_host}:{proxy_port} {protocol},1
+274,"c.trello.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+275,c.{domain}:80 open through proxy {proxy}:5070 {protocol},1
+276,{IP_ADDRESS}:{PORT} error : {ERROR_MESSAGE} - Could not resolve {PROXY_ADDRESS} error {ERROR_CODE},1
+277,"mtalk.google.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",2
+278,mtalk.google.com:5228 error : Could not connect to proxy {proxy_address}:{proxy_port} - Could not resolve {proxy_address} error {error_code},1
+279,www.google.com:{port} error : Could not connect to proxy {proxy}:{proxy_port} - Could not resolve {proxy} error {error_code},1
+280,awqiizxequsixgr:80 error : Could not connect to proxy {proxy_address}:{proxy_port} - Could not resolve {proxy_address} error {error_code},1
+281,www.{domain}:{port} error : {error_message} - Could not resolve {proxy} error {error_code},1
+282,c.{domain}:80 error : Could not connect to proxy {proxy}:5070 - Could not resolve {proxy} error {error_code},1
+283,s1.bdstatic.com:80 error : Could not connect to proxy {proxy_address}:{proxy_port} - Could not resolve {proxy_address} error {error_code},2
+284,ss.bdimg.com:80 error : Could not connect to proxy {proxy_address}:{proxy_port} - Could not resolve {proxy_address} error {error_code},3
+285,clients{client_num}.google.com:{port} error : Could not connect to proxy {proxy_address}:{proxy_port} - Could not resolve {proxy_address} error {error_code},1
+286,bolt.dropbox.com:443 error : Could not connect to proxy {proxy_address}:{proxy_port} - Could not resolve {proxy_address} error {error_code},1
+287,wpad:{port} error : Could not connect to proxy {proxy_address}:{proxy_port} - Could not resolve {proxy_address} error {error_code},1
+288,www.qq.com:{port} error : Could not connect to proxy {proxy}:5070 - Could not resolve {proxy} error {error_code},1
+289,"dj1.baidu.com:{port} close, {sent} bytes sent, {received} bytes received, lifetime {lifetime}",1
+290,"t{server}.baidu.com:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+291,"update.hicloud.com:8180 error : Could not connect through proxy {proxy_address} - Proxy server cannot establish a connection with the target, status code {status_code}",1
+292,"suggestion.baidu.com:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+293,"f12.baidu.com:80 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",3
+294,"c.csdnimg.cn:80 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1
+295,"avatar.csdn.net:{port} close, {sent} bytes sent, {received} bytes received, lifetime {lifetime}",1
+296,csdnimg.cn:80 error : A connection request was canceled before the completion.,2
+297,"cpro.baidustatic.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1
+298,"intf.zsall.mobilem.360.cn:80 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kb_received} KB) received, lifetime {lifetime}",1
+299,"csdnimg.cn:80 close, {sent} bytes sent, {received} bytes received, lifetime {lifetime}",2
+300,"dc.csdn.net:80 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1
+301,beacon.tingyun.com:{port} open through proxy {proxy_host}:{proxy_port} {protocol},1
+302,"blog.csdn.net:{port} close, {sent_bytes} bytes sent, {received_bytes} bytes received, lifetime {lifetime}",1
+303,"static.blog.csdn.net:80 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+304,"dc.csdn.net:80 close, {bytes_sent} bytes ({KB_sent} KB) sent, {bytes_received} bytes received, lifetime {lifetime}",1
+305,"eclick.baidu.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",1
+306,"wn.pos.baidu.com:443 close, {sent} bytes sent, {received} bytes received, lifetime {lifetime}",1
+307,"beacon.tingyun.com:80 close, {bytes_sent} bytes ({kb_sent} KB) sent, {bytes_received} bytes received, lifetime {lifetime}",1
+308,"c.csdnimg.cn:80 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+309,"csdnimg.cn:80 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+310,"clients{client_number}.{domain}:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+311,"www.gstatic.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",3
+312,"engine.adzerk.net:443 close, {sent} bytes sent, {received} bytes received, lifetime {lifetime}",1
+313,"engine.adzerk.net:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",2
+314,"{server}:80 close, {sent} bytes sent, {received} bytes received, lifetime {time}",2
+315,"googleads.g.doubleclick.net:443 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1
+316,"ogs.google.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+317,"sb.scorecardresearch.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+318,"c.trello.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",1
+319,"www.google.com.hk:443 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1
+320,"play.google.com:443 close, {bytes_sent} bytes ({KB_sent} KB) sent, {bytes_received} bytes received, lifetime {lifetime}",1
+321,"trello.com:443 close, {bytes_sent} bytes ({KB_sent} KB) sent, {bytes_received} bytes received, lifetime {lifetime}",1
+322,"qa.sockets.stackexchange.com:443 close, {bytes_sent} bytes ({KB_sent} KB) sent, {bytes_received} bytes received, lifetime {lifetime}",1
+323,{ip_address}:{port} error : {error_message} - Could not resolve {proxy} error {error_code},1
+324,get.sogou.com:80 error : Could not connect to proxy {proxy_address}:{proxy_port} - Could not resolve {proxy_address} error {error_code},1
+325,{ip_address} error : Could not connect to proxy {proxy_address} - Could not resolve {proxy_address} error {error_code},2
+326,"short.weixin.qq.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime <{lifetime} sec>",1
+327,info.{service}.{domain}:{port} open through proxy {proxy_protocol}://{proxy_domain}:{proxy_port} {protocol},5
+328,"ping.pinyin.sogou.com:80 close, {sent_bytes} bytes sent, {received_bytes} bytes received, lifetime {lifetime}",1
+329,"securepubads.g.doubleclick.net:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",1
+330,{host}:{port} open through proxy {proxy_type} {proxy_host}:{proxy_port} {protocol},4
+331,"d.agkn.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",1
+332,"log.getdropbox.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime <{lifetime} sec>",1
+333,"hangouts.google.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+334,"fs-conn-doctor.qq.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime <{lifetime} sec>",1
+335,"puui.qpic.cn:80 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime <{lifetime} sec>",3
+336,"puui.qpic.cn:80 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",2
+337,"fs-conn-doctor.qq.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1
+338,"pubads.g.doubleclick.net:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",2
+339,"local-p2p.qq.com:443 error : Could not connect through proxy {proxy_address} - Proxy server cannot establish a connection with the target, status code {status_code}",2
+340,"suggestion.baidu.com:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes received, lifetime {lifetime}",1
+341,"security.ie.sogou.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",2
+342,"eclick.baidu.com:80 close, {bytes_sent} bytes ({KB_sent} KB) sent, {bytes_received} bytes received, lifetime {lifetime}",1
+343,safebrowsing.googleapis.com:443 open through proxy {proxy_address}:{proxy_port} HTTPS,3
+344,www.googleadservices.com:{port} open through proxy {proxy_host}:{proxy_port} {protocol},1
+345,"f-log-extension.grammarly.io:443 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1
+346,"s.youtube.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1
+347,{hostname}:{port} open through proxy {proxy_hostname}:{proxy_port} {protocol},3
+348,"tc.dl.pinyin.sogoucdn.com:80 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+349,"tc.dl.pinyin.sogoucdn.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1
+350,"p3p.sogou.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime <{lifetime} sec>",1
+351,"g.msn.com:{port} close, {sent} bytes sent, {received} bytes received, lifetime {lifetime}",1
+352,"mtalk.google.com:5228 error : Could not connect through proxy {proxy}:5070 - Proxy server cannot establish a connection with the target, status code {status_code}",1
+353,"ogs.google.com:{port} close, {sent_bytes} bytes sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+354,"www.googletagservices.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",1
+355,"static.doubleclick.net:443 close, {bytes_sent} bytes ({KB_sent} KB) sent, {bytes_received} bytes received, lifetime {lifetime}",1
+356,"pagead2.googlesyndication.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",2
+357,securepubads.g.doubleclick.net:{port} open through proxy {proxy_host}:{proxy_port} {protocol},1
+358,"plus.google.com:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+359,static.zhihu.com:443 open through proxy {proxy_address}:{proxy_port} HTTPS,1
+360,"fonts.gstatic.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1
+361,"www.zhihu.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",1
+362,"server:port close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+363,"video-{server}.fbcdn.net:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_mb} MB) received, lifetime {duration}",1
+364,"ssl.google-analytics.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",1
+365,"avatars{num}.githubusercontent.com:{port} close, {sent} bytes sent, {received} bytes ({size}) received, lifetime {time}",1
+366,"avatars{num}.githubusercontent.com:{port} close, {sent} bytes sent, {received} bytes received, lifetime {time}",1
+367,"{ip_address}:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime <{lifetime} sec>",1
+368,go.microsoft.com:{port} open through proxy {proxy_host}:{proxy_port} {protocol},1
+369,"go.microsoft.com:{port} close, {sent} bytes sent, {received} bytes received, lifetime {lifetime}",1
+370,"qd-update.qq.com:8080 error : Could not connect through proxy {proxy_address} - Proxy server cannot establish a connection with the target, status code {status_code}",3
+371,"play.google.com:443 close, {bytes_sent} bytes ({KB_sent} KB) sent, {bytes_received} bytes ({KB_received} KB) received, lifetime {lifetime}",2
+372,"info.pinyin.sogou.com:80 close, {bytes_sent} bytes ({KB_sent} KB) sent, {bytes_received} bytes received, lifetime {lifetime}",1
+373,config.pinyin.sogou.com:80 error : Could not connect through proxy {proxy_address}:{proxy_port} - Proxy closed the connection unexpectedly.,1
+374,client.dropbox.com:443 error : Could not connect to proxy {proxy_address}:{proxy_port} - Could not resolve {proxy_address} error {error_code},1
+375,client-{server}:{port} error : {error_message},1
+376,hangouts.google.com:{port} open through proxy {proxy_host}:{proxy_port} {protocol},1
+377,clientservices.googleapis.com:443 open through proxy {proxy_address}:{proxy_port} HTTPS,2
+378,"bolt.dropbox.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime <{lifetime} sec>",2
+379,"client-lb.dropbox.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+380,"dict.youdao.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1
+381,"clients{client_number}.google.com:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",2
+382,"client-cf.dropbox.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime <{lifetime} sec>",2
+383,"config.pinyin.sogou.com:{port} close, {sent_bytes} bytes sent, {received_bytes} bytes received, lifetime {lifetime}",1
+384,"www.googleadservices.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+385,"tc.dl.pinyin.sogoucdn.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime <{lifetime} sec>",2
+386,"qa.sockets.stackexchange.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+387,"client-channel.google.com:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+388,qa.sockets.stackexchange.com:443 error : Could not connect to proxy {proxy_address}:{proxy_port} - connection attempt failed with error {error_code},2
+389,13.client-channel.google.com:443 error : Could not connect to proxy {proxy_address} - connection attempt failed with error {error_code},3
+390,www.google.com:443 error : Could not connect to proxy {proxy_address}:{proxy_port} - connection attempt failed with error {error_code},4
+391,client-{server}:{port} error : {error_message} - connection attempt failed with error {error_code},1
+392,16.client-channel.google.com:443 error : Could not connect to proxy {proxy_address} - connection attempt failed with error {error_code},2
+393,bolt.dropbox.com:443 error : Could not connect to proxy {proxy_address} - connection attempt failed with error {error_code},7
+394,{}.client-channel.google.com:443 error : Could not connect to proxy {}:{} - connection attempt failed with error {},2
+395,mtalk.google.com:5228 error : Could not connect to proxy {proxy_address}:{proxy_port} - connection attempt failed with error {error_code},1
+396,client-lb.dropbox.com:443 error : Could not connect to proxy {proxy_address} - connection attempt failed with error {error_code},1
+397,bolt.dropbox.com:443 error : Could not connect to proxy {proxy_address}:{proxy_port} - connection attempt failed with error {error_code},3
+398,"bolt.dropbox.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+399,"client-cf.dropbox.com:443 close, {sent} bytes sent, {received} bytes received, lifetime <{lifetime} sec>",1
+400,"clients{client_num}.google.com:{port} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+401,"info.pinyin.sogou.com:80 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+402,"client-cf.dropbox.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",1
+403,"p2.qhimg.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",1
+404,"{client-channel} close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+405,www.googleapis.com:443 open through proxy {proxy_address}:{proxy_port} HTTPS,1
+406,"www.evernote.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1
+407,src.{var1}.cn:{var2} open through proxy {var3}:{var4} {var5},1
+408,"pv.mini.sohu.com:80 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",2
+409,"pv.mini.sohu.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kb_received} KB) received, lifetime {lifetime}",1
+410,"pv.mini.sohu.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1
+411,"css.sohu.com:80 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+412,"p.inte.sogou.com:80 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+413,"i2.itc.cn:80 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+414,crl.microsoft.com:{port} open through proxy {proxy_host}:{proxy_port} {protocol},1
+415,"cdn.{domain}:{port} close, {sent} bytes sent, {received} bytes received, lifetime {lifetime}",1
+416,"i2.itc.cn:{port} error : Could not connect through proxy {proxy}:5070 - Proxy server cannot establish a connection with the target, status code {status_code}",1
+417,"v.admaster.com.cn:80 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+418,"ping.pinyin.sogou.com:{port} close, {sent_bytes} bytes sent, {received_bytes} bytes received, lifetime {lifetime}",1
+419,"s2.googleusercontent.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",1
+420,"{domain}:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",1
+421,"cidian.youdao.com:80 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1
+422,"qdun-data.qq.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime <{lifetime} sec>",1
+423,"www.gstatic.com:443 close, {sent_bytes} bytes ({sent_kb} KB) sent, {received_bytes} bytes ({received_kb} KB) received, lifetime {lifetime}",1
+424,r8---sn-{server}.googlevideo.com:{port} open through proxy {proxy_host}:{proxy_port} HTTPS,1
+425,"yt3.ggpht.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime <{lifetime} sec>",1
+426,drive-thirdparty.googleusercontent.com:{port} open through proxy {proxy_host}:{proxy_port} {protocol},1
+427,"f-log-extension.grammarly.io:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",1
+428,"www.zhihu.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1
+429,"zhstatic.zhihu.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",1
+430,"imgsrc.baidu.com:{port} close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",1
+431,"googleads.g.doubleclick.net:80 close, {bytes_sent} bytes sent, {bytes_received} bytes received, lifetime {lifetime}",1
+432,{server}:80 open through proxy {proxy}:5070 HTTPS,2
+433,"wn.pos.baidu.com:443 close, {bytes_sent} bytes sent, {bytes_received} bytes ({kilobytes_received} KB) received, lifetime {lifetime}",1

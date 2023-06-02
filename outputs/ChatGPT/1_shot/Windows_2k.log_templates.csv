@@ -1,0 +1,79 @@
+,EventTemplate,Occurrences
+0,Loaded Servicing Stack v{version} with Core: {core_path},2
+1,00000001@2016/9/27:20:30:31.455 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @0x7fed806eb5d @0x7fef9fb9b6d @0x7fef9f8358f @0xff83e97c @0xff83d799 @0xff83db2f),1
+2,00000002@2016/9/27:20:30:31.458 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @{placeholder} @{placeholder} @{placeholder} @{placeholder} @{placeholder} @{placeholder}),1
+3,00000003@2016/9/27:20:30:31.458 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @0x7fed806eb5d @0x7fefa1c8728 @0x7fefa1c8856 @0xff83e474 @0xff83d7de @0xff83db2f),1
+4,Ending TrustedInstaller initialization.,2
+5,Starting the TrustedInstaller main loop.,2
+6,TrustedInstaller service starts successfully.,2
+7,SQM: Initializing online with Windows opt-in: {boolean},2
+8,SQM: Cleaning up report files older than 10 days.,2
+9,SQM: Requesting upload of all unsent reports.,2
+10,"SQM: Failed to start upload with file pattern: {file_pattern}, flags: {flags} [HRESULT = {HRESULT} - {error_message}]",2
+11,SQM: Failed to start standard sample upload. [HRESULT = {HRESULT} - E_FAIL],2
+12,"SQM: Queued {number} file(s) for upload with pattern: {path}, flags: {flags}",2
+13,SQM: Warning: Failed to upload all unsent reports. [HRESULT = {HRESULT} - E_FAIL],2
+14,"No startup processing required, TrustedInstaller service was not set as autostart, or else a reboot is still pending.",2
+15,NonStart: Checking to ensure startup processing was not required.,2
+16,"00000004 IAdvancedInstallerAwareStore_ResolvePendingTransactions (call 1) (flags = {flags}, progress = {progress}, phase = {phase}, pdwDisposition = {pdwDisposition}",2
+17,"00000005 Creating NT transaction (seq {seq}), objectname [{length}]""{objectname}""",2
+18,"00000006 Created NT transaction (seq {seq}) result {result}, handle @{handle}",1
+19,00000007@2016/9/27:20:30:31.462 CSI perf trace:,1
+20,"NonStart: Success, startup processing not required as expected.",2
+21,Startup processing thread terminated normally,2
+22,00000008 CSI Store {number} ({hex}) initialized,1
+23,Session: {session_id} initialized by client {client_name}.,521
+24,Warning: Unrecognized packageExtended attribute.,280
+25,Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM],70
+26,Failed to get next element [HRESULT = {HRESULT} - CBS_E_MANIFEST_INVALID_ITEM],224
+27,Expecting attribute name [HRESULT = 0x{HRESULT} - CBS_E_MANIFEST_INVALID_ITEM],154
+28,Failed to internally open package. [HRESULT = {HRESULT} - CBS_E_INVALID_PACKAGE],18
+29,Session: {sessionId} initialized by client {clientName}.,88
+30,"Read out cached package applicability for package: {PackageID}, ApplicableState: {ApplicableState}, CurrentState:{CurrentState}",556
+31,"Read out cached package applicability for package: {Package}, ApplicableState: {ApplicableState}, CurrentState:{CurrentState}",2
+32,Failed to create backup log cab. [HRESULT = {HRESULT} - ERROR_INVALID_FUNCTION],2
+33,Reboot mark refs incremented to: 1,1
+34,Scavenge: Starts,1
+35,"00000009@2016/9/27:20:40:53.744 CSI Transaction @0x47e9e0 initialized for deployment engine {placeholder} with flags {placeholder} and client id [10]""TI6.0_0:0/""",1
+36,Scavenge: Begin CSI Store,1
+37,0000000a Performing {number} operations; {number} are not lock/unlock and follow:,1
+38,"0000000b Store coherency cookie matches last scavenge cookie, skipping scavenge.",1
+39,0000000c ICSITransaction::Commit calling IStorePendingTransaction::Apply - coldpatching={BOOL} applyflags={INT},1
+40,"0000000d Creating NT transaction (seq {seq}), objectname [{length}]""{objectname}""",1
+41,"0000000e Created NT transaction (seq {seq}) result {result}, handle @{handle}",1
+42,0000000f@2016/9/27:20:40:54.786 CSI perf trace:,1
+43,"Scavenge: Completed, disposition: 0X1",1
+44,00000010@{date} CSI Transaction @{address} destroyed,1
+45,Reboot mark refs: 0,1
+46,Idle processing thread terminated normally,1
+47,Ending the TrustedInstaller main loop.,1
+48,Starting TrustedInstaller finalization.,1
+49,Ending TrustedInstaller finalization.,1
+50,Starting TrustedInstaller initialization.,1
+51,00000001@2016/9/28:16:00:46.160 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @0x7fed875eb5d @0x7fee5c39b6d @0x7fee5c0358f @0xffeee97c @0xffeed799 @0xffeedb2f),1
+52,00000002@2016/9/28:16:00:46.200 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @0x7fed875eb5d @0x7fee5c86ade @0x7fee5c52984 @0x7fee5c03665 @0xffeee97c @0xffeed799),1
+53,00000003@2016/9/28:16:00:46.213 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @0x7fed875eb5d @0x7fef9d98728 @0x7fef9d98856 @0xffeee474 @0xffeed7de @0xffeedb2f),1
+54,"00000006 Created NT transaction (seq 1) result 0x00000000, handle @0x218",1
+55,00000007@2016/9/28:16:00:46.260 CSI perf trace:,1
+56,"Loading offline registry hive: SOFTWARE, into registry key '{placeholder}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SOFTWARE' from path '{placeholder}GLOBALROOT\Device\HarddiskVolumeShadowCopy2\Windows\System32\config\SOFTWARE'.",1
+57,"Loading offline registry hive: SYSTEM, into registry key '{placeholder}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SYSTEM' from path '{placeholder}GLOBALROOT\Device\HarddiskVolumeShadowCopy2\Windows\System32\config\SYSTEM'.",1
+58,"Loading offline registry hive: SECURITY, into registry key '{placeholder}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SECURITY' from path '{placeholder}GLOBALROOT\Device\HarddiskVolumeShadowCopy2\Windows\System32\config\SECURITY'.",1
+59,"Loading offline registry hive: SAM, into registry key '{placeholder}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SAM' from path '{placeholder}GLOBALROOT\Device\HarddiskVolumeShadowCopy2\Windows\System32\config\SAM'.",1
+60,"Loading offline registry hive: COMPONENTS, into registry key '{placeholder}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/COMPONENTS' from path '{placeholder}GLOBALROOT\Device\HarddiskVolumeShadowCopy2\Windows\System32\config\COMPONENTS'.",1
+61,"Loading offline registry hive: DEFAULT, into registry key '{placeholder}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/DEFAULT' from path '{placeholder}GLOBALROOT\Device\HarddiskVolumeShadowCopy2\Windows\System32\config\DEFAULT'.",1
+62,"Loading offline registry hive: ntuser.dat, into registry key '{placeholder}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Users/default/ntuser.dat' from path '{placeholder}GLOBALROOT\Device\HarddiskVolumeShadowCopy2\Users\default\ntuser.dat'.",1
+63,"Loading offline registry hive: schema.dat, into registry key '{placeholder}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/system32/smi/store/Machine/schema.dat' from path '{placeholder}GLOBALROOT\Device\HarddiskVolumeShadowCopy2\Windows\system32\smi\store\Machine\schema.dat'.",1
+64,Offline image is: read-only,1
+65,"Disabling manifest caching, because the image is not writeable.",1
+66,00000008@{date} PopulateComponentFamiliesKey - Begin,1
+67,00000009@2016/9/28:16:01:03.072 PopulateComponentFamiliesKey - End,1
+68,0000000a CSI Store {storeId} ({storeAddress}) initialized,1
+69,Unloading offline registry hive: {GUID}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SOFTWARE,1
+70,Unloading offline registry hive: {GUID}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SYSTEM,1
+71,Unloading offline registry hive: {GUID}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SECURITY,1
+72,Unloading offline registry hive: {placeholder}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SAM,1
+73,Unloading offline registry hive: {GUID}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/COMPONENTS,1
+74,Unloading offline registry hive: {GUID}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/DEFAULT,1
+75,Unloading offline registry hive: {GUID}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Users/default/ntuser.dat,1
+76,Unloading offline registry hive: {placeholder}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/system32/smi/store/Machine/schema.dat,1
+77,0000000b CSI Store {int1} ({hex1}) initialized,1

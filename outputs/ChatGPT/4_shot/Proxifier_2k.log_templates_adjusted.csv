@@ -1,0 +1,21 @@
+,EventTemplate,Occurrences
+0,<*> open through proxy <*> HTTPS,821
+1,"<*> close, <*> sent, <*> received, lifetime <*>",641
+2,"<*> close, <*> bytes sent, <*> bytes received, lifetime <*>",298
+3,<*> open through proxy <*> <*>,121
+4,<*> error : A connection request was canceled before the completion.,31
+5,<*> error : Could not connect to proxy <*> - connection attempt failed with error <*>,26
+6,<*> error : Could not connect to proxy <*> - Could not resolve <*> error <*>,20
+7,"<*> error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code <*>",17
+8,"<*> close, <*> bytes sent, <*> received, lifetime <*>",5
+9,<*> error : Could not connect through proxy <*> - Proxy closed the connection unexpectedly.,3
+10,"<*> close, <*> bytes sent, <*> bytes (<*> KB) received, lifetime <*>",3
+11,github.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,3
+12,<*> open through proxy <*> SOCKS5,2
+13,live.github.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,2
+14,clientservices.googleapis.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,2
+15,www.ieeeconfpublishing.org:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+16,protocol,1
+17,www.youtube.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+18,f-log-extension.grammarly.io:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1
+19,drive.google.com:<*> open through proxy proxy.cse.cuhk.edu.hk:<*> HTTPS,1

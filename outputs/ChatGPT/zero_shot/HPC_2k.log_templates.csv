@@ -1,0 +1,64 @@
+,EventTemplate,Occurrences
+0,Component State Change: Component {component} is in the {state} state (HWID={hwid}),2
+1,Component State Change: Component {component_name} is in the {state} state (HWID={hwid}),10
+2,clusterAddMember (command {command_id}),2
+3,risBoot (command {command_id}),1
+4,bootGenvmunix (command {command_number}),1
+5,boot (command {command_id}),44
+6,boot (command {number}),3
+7,wait (command {id}),15
+8,halt (command {command_number}),1
+9,wait (command {command_id}),6
+10,wait (command {var}),45
+11,boot (command {process_id}),6
+12,halt (command {command_id}),2
+13,boot (command {var}),5
+14,boot (command {variable}),3
+15,boot (command {id}),4
+16,boot (command {pid}),2
+17,bootGenvmunix (command {command_id}),1
+18,Command has completed {status},8
+19,Command has completed successfully,2
+20,Targeting domains:{domain} and nodes:{nodes} child of command {command},5
+21,Targeting domains:{domain} and nodes:{nodes},1
+22,Targeting domains:{domain} and nodes:{node},2
+23,Targeting domains:node-{node_range} and nodes:node-{node_range},1
+24,psu failure\ ambient={ambient},5
+25,Temperature ({temp}) exceeds warning threshold,2
+26,ClusterFileSystem: There is no server for ServerFileSystem domain {domain},30
+27,ClusterFileSystem: There is no server for {domain},2
+28,NIFF: node {node_name} detected a failed network connection on network {network_address} via interface {interface_name},2
+29,ServerFileSystem: An ServerFileSystem domain panic has occurred on {storage},1
+30,Fan speeds ( {number} {number} {number} **** {number} {number} ),79
+31,Fan speeds ( {speed1} {speed2} {speed3} {speed4} {speed5} {speed6} ),10
+32,Fan speeds ( {var1} {var2} {var3} {var4} {var5} {var6} ),1
+33,Command has been {status},1
+34,power/{issue} problem,1
+35,Link error,13
+36,Link in {action},9
+37,Link {status},13
+38,Link error on broadcast tree {tree},4
+39,ServerFileSystem: ServerFileSystem domain {domain} is full,12
+40,ClusterFileSystem: ServerFileSystem domain {domain} is no longer served by node {node},36
+41,running,162
+42,{},240
+43,{} not responding,60
+44,configured {out},91
+45,inconsistent nodesets {node} {hex_code} <ok> {node} {hex_code} <ok> {node} {hex_code} <ok> {node} {hex_code} <ok>,2
+46,{}active{},5
+47,{}-responding,1
+48,inconsistent nodesets {node} {address} <ok>,1
+49,starting,1
+50,{}closing{},1
+51,inconsistent nodesets {node} {hex_value} <ok> {node} {hex_value} <ok> {node} {hex_value} <ok> {node} {hex_value} <ok> {node} {hex_value} <ok>,1
+52,normal,206
+53,ambient={ambient},132
+54,ambient={ambient_value},160
+55,Linkerror event {variable} expired,394
+56,risBoot (command {command}) Error: Timed out while waiting for SRM prompt: {error_message},1
+57,boot (command {command_id}) Error: {error_message} cannot continue,1
+58,Failed subcommands {subcommand_id},1
+59,{} errors remain {},56
+60,NIFF: node {node_name} has detected an available network connection on network {network_address} via interface {interface_name},85
+61,NIFF: node {node_id} has detected an available network connection on network {network_address} via interface {interface_name},2
+62,NIFF: node {node} has detected an available network connection on network {network} via interface {interface},4

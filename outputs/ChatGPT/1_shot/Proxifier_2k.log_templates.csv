@@ -1,0 +1,41 @@
+,EventTemplate,Occurrences
+0,{host} open through proxy {proxy} {protocol},818
+1,"{host} close, {sent_size} bytes sent, {received_size} bytes received, lifetime {time}",285
+2,"{host} close, {sent_size} sent, {received_size} received, lifetime {time}",644
+3,{host} open through proxy {proxy} {proxy_type},2
+4,{host} error : {message},29
+5,{host} error : {error_message},7
+6,{host}:{port} open through proxy {proxy} {protocol},136
+7,"formi.baidu.com:843 error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - Proxy server cannot establish a connection with the target, status code 403",1
+8,"{host} close, {sent_size} bytes sent, {received_size} bytes ({received_size_kb} KB) received, lifetime {time}",1
+9,"{host} error : {message} - Proxy server cannot establish a connection with the target, status code {status_code}",11
+10,"{host}:{port} close, {sent_size} bytes sent, {received_size} bytes received, lifetime {time}",5
+11,"{host}:{port} close, {sent_size} sent, {received_size} received, lifetime {time}",4
+12,"{host}:80 close, {sent_size} bytes sent, {received_size} bytes received, lifetime {time}",1
+13,223.167.104.147:80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,1
+14,mtalk.google.com:5228 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,1
+15,www.google.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,1
+16,awqiizxequsixgr:80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,1
+17,www.baidu.com:80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,1
+18,c.baidu.com:80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,1
+19,s1.bdstatic.com:80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,2
+20,{host}:{port} {error_type} : {error_message},3
+21,clients4.google.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,1
+22,bolt.dropbox.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,1
+23,wpad:80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,1
+24,{host}:{port} {message},2
+25,"{host}:80 close, {sent_size} sent, {received_size} received, lifetime {time}",2
+26,get.sogou.com:80 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,1
+27,120.204.0.139:8080 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,1
+28,"{host} error : {error_message} - Proxy server cannot establish a connection with the target, status code {status_code}",4
+29,"{host}:443 close, {sent_size} sent, {received_size} received, lifetime {time}",4
+30,{host}:{port} error : {message},1
+31,client.dropbox.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001,1
+32,client-cf.dropbox.com:443 error : A connection request was canceled before the completion.,1
+33,{host}:{port} {status} : {message} {proxy_host}:{proxy_port} - {proxy_message} {error_code},3
+34,{host} error : Could not connect to proxy {proxy} - connection attempt failed with error {error_code},4
+35,{host}:{port} {status} : {message} {proxy_host}:{proxy_port} - {proxy_message} with error {error_code},11
+36,16.client-channel.google.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - connection attempt failed with error 10061,4
+37,{host} error : {error_message} - connection attempt failed with error {error_code},1
+38,"{host}:{port} error : {error_message} - Proxy server cannot establish a connection with the target, status code {status_code}",1
+39,"{host}:443 close, {sent_size} bytes ({sent_kb} KB) sent, {received_size} bytes ({received_kb} KB) received, lifetime {time}",1

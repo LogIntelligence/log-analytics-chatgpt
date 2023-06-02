@@ -1,0 +1,55 @@
+,EventTemplate,Occurrences
+0,ambient=<*>,292
+1,<*>,241
+2,<*> event interval expired,218
+3,normal,206
+4,warning,205
+5,<*> event <*> expired,176
+6,running,162
+7,Fan speeds ( <*> <*> <*> **** <*> <*> ),79
+8,boot (command <*>),67
+9,wait (command <*>),66
+10,NIFF: node node-<*> has detected an available network connection on network <*> via interface <*>,66
+11,ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*>,34
+12,ClusterFileSystem: There is no server for ServerFileSystem domain <*>,32
+13,NIFF: node {<*>} has detected an available network connection on network {<*>} via interface {<*>},21
+14,critical,20
+15,<*> error,12
+16,ServerFileSystem: ServerFileSystem domain <*> is full,12
+17,"Component State Change: Component ""<*>"" is in the <*> state (HWID=<*>)",11
+18,<*> in reset,9
+19,Fan speeds ( <*> <*> <*> <*> <*> <*> ),8
+20,psu failure\ ambient=<*>,5
+21,active,5
+22,Link <*>,5
+23,Link error on broadcast tree <*>,4
+24,NIFF: node node-{<*>} has detected an available network connection on network {<*>} via interface {<*>},4
+25,halt (command <*>),3
+26,Targeting domains:node-<*> and nodes:node-[<*>] child of command <*>,3
+27,Fan speeds ( <*> ),3
+28,clusterAddMember (command <*>),2
+29,bootGenvmunix (command <*>),2
+30,Targeting domains:<*> and nodes:<*>,2
+31,Temperature (<*>) exceeds warning threshold,2
+32,ClusterFileSystem: ServerFileSystem domain root_domain is no longer served by node <*>,2
+33,Component State Change: Component <*> is in the <*> state (HWID=<*>),1
+34,risBoot (command <*>),1
+35,Targeting domains:node-<*> and nodes:node-[<*>],1
+36,Targeting domains:node-D0 and nodes:node-[<*>-<*>] child of command <*>,1
+37,Targeting domains:node-D[0\ <*>] and nodes:node-[27\ <*>],1
+38,Targeting domains:node-D2 and nodes:node-[<*>-<*>] child of command <*>,1
+39,NIFF: node {<*>} detected a failed network connection on network {<*>} via interface {<*>},1
+40,NIFF: node node-<*> detected a failed network connection on network <*> via interface <*>,1
+41,ServerFileSystem: An ServerFileSystem domain panic has occurred on <*>,1
+42,<*> has been aborted,1
+43,<*>/<*> problem,1
+44,inconsistent nodesets node-<*> <*> <*> node-<*> <*> <*> node-<*> <*> <*> node-<*> <*> <*>,1
+45,inconsistent nodesets <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,1
+46,not-responding,1
+47,inconsistent nodesets node-# # <*>,1
+48,starting,1
+49,closing,1
+50,inconsistent nodesets node-# # <*> node-# # <*> node-# # <*> node-# # <*> node-# # <*>,1
+51,risBoot (command <*>) Error: Timed out while waiting for SRM prompt: <ABORT code completed>,1
+52,boot (command <*>) Error: <*>,1
+53,Failed subcommands <*>,1

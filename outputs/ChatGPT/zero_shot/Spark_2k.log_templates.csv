@@ -1,0 +1,74 @@
+,EventTemplate,Occurrences
+0,Registered signal handlers for [{signals}],1
+1,Changing view acls to: {view_acls},2
+2,"Changing modify acls to: {user1},{user2}",2
+3,SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set({view_users}); users with modify permissions: Set({modify_users}),2
+4,{} started,1
+5,Starting {process},1
+6,Remoting started; listening on addresses :[{address}],1
+7,Successfully started service '{service}' on port {port}.,1
+8,Created local directory at {directory_path},1
+9,MemoryStore started with capacity {capacity},1
+10,Connecting to driver: spark://{scheduler}@{ip}:{port},1
+11,Successfully registered with {driver},1
+12,Starting executor ID {executor_id} on host {host_name},1
+13,Successfully started service '{service_name}' on port {port_number}.,1
+14,Server created on {port},1
+15,Trying to register {module},1
+16,Registered {string},1
+17,Got assigned task {task_number},304
+18,Running task {task} in stage {stage} (TID {tid}),263
+19,Started reading broadcast variable {variable},34
+20,"Block {block_name} stored as bytes in memory (estimated size {size}, free {free_size})",1
+21,Reading broadcast variable {var} took {time} ms,34
+22,"Block {block_name} stored as values in memory (estimated size {size}, free {free_size})",1
+23,"Partition {rdd_name} not found, computing it",34
+24,Input split: {input_path}:{start_line}+{num_lines},10
+25,Input split: {input_path}:{start}+{end},10
+26,"Block {block_name} stored as bytes in memory (estimated size {size}, free {free_space})",11
+27,"Block {block_name} stored as values in memory (estimated size {size}, free {free_space})",23
+28,"mapred.tip.id is deprecated. Instead, use mapreduce.task.id",1
+29,"mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id",1
+30,"mapred.task.{task_type} is deprecated. Instead, use mapreduce.task.{task_type}",1
+31,"mapred.job.id is deprecated. Instead, use mapreduce.job.id",1
+32,"mapred.task.partition is deprecated. Instead, use mapreduce.task.partition",1
+33,Started reading broadcast variable {variable_number},3
+34,"Block {block_name} stored as values in memory (estimated size {size}, free {free_memory})",11
+35,"Block {block_name} stored as bytes in memory (estimated size {size}, free {free_memory})",27
+36,"Times: total = {total}, boot = {boot}, init = {init}, finish = {finish}",375
+37,"Block {block_name} stored as bytes in memory (estimated size {size} B, free {free_memory} KB)",6
+38,Finished task {task} in stage {stage} (TID {tid}). {bytes} bytes result sent to driver,262
+39,Finished task {task_id} in stage {stage_id} (TID {tid}). {result_size} bytes result sent to driver,38
+40,Running task {task_number} in stage {stage_number} (TID {tid}),41
+41,Found block {block_name} locally,257
+42,"Block {block_name}_piece{piece_number} stored as bytes in memory (estimated size {size}, free {free_memory})",6
+43,"Block {block_name}_piece{piece_number} stored as bytes in memory (estimated size {size}, free {free_space})",6
+44,"Block {rdd_name} stored as bytes in memory (estimated size {size}, free {memory})",17
+45,"Block {rdd_name} stored as bytes in memory (estimated size {size}, free {free_memory})",9
+46,Reading broadcast variable {var1} took {var2} ms,3
+47,Got assigned task {task_id},1
+48,"Partition {rdd_name}_{partition_number} not found, computing it",1
+49,"Block {block_name} stored as values in memory (estimated size {size} KB, free {free_memory} KB)",1
+50,File Output Committer Algorithm version is {version},30
+51,Saved output of task '{task_id}' to {output_path},30
+52,attempt_{date}_{job_id}_{task_type}_{task_id}_{attempt_id}: {message},17
+53,attempt_{date}_{task}_m_{task_id}_{attempt}: {status},3
+54,attempt_{date}_{job_id}_{task_type}_{task_id}_{status}: {message},1
+55,attempt_{date}_{attempt}_m_{task}_000000_970: {message},1
+56,attempt_{date}_{attempt_num}_m_{task_num}_{task_attempt}: {message},1
+57,Running task {task_id} in stage {stage_id} (TID {tid}),1
+58,attempt_{date}_{task}_m_{task_id}_{time}: {status},1
+59,attempt_{date}_{attempt}_m_{task}_000123_1150: {status},1
+60,attempt_{date}_{job_id}_m_{task_id}_{attempt}: {message},1
+61,attempt_{date}_{job_id}_m_{task_id}_{attempt_id}: {message},3
+62,attempt_{date}_{attempt}_m_{task}_000000_{id}: {status},1
+63,"Partition {rdd}_{num} not found, computing it",40
+64,"Block {block_name} stored as values in memory (estimated size {size}, free {free})",1
+65,"Block {rdd}_{num} stored as bytes in memory (estimated size {size} B, free {free} KB)",16
+66,"Block {rdd}_{num} stored as bytes in memory (estimated size {size}, free {free})",1
+67,Input split: {input_path}:{start}+{length},8
+68,"Block {rdd}_{num} stored as bytes in memory (estimated size {size} B, free {memory} KB)",3
+69,Input split: {input_path}:{start_position}+{length},8
+70,"Block {rdd}_{num1}_{num2} stored as bytes in memory (estimated size {size} B, free {free} KB)",9
+71,Input split: {input_path}:{start_offset}+{split_length},3
+72,Input split: {input_path}:{line_number}+{byte_offset},6

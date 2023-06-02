@@ -1,0 +1,33 @@
+,EventTemplate,Occurrences
+0,Received disconnect from <*>: <*>: <*> [preauth],413
+1,pam_unix(sshd:auth): authentication failure; logname= <*> uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*> user=<*>,384
+2,Failed password for <*> from <*> port <*> <*>,381
+3,pam_unix(sshd:auth): check pass; user <*>,135
+4,Invalid user <*> from <*>,113
+5,input_userauth_request: invalid user <*> [preauth],113
+6,pam_unix(sshd:auth): authentication failure; logname= <*> uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*>,110
+7,reverse mapping checking getaddrinfo for <*> [<*>] failed - <*>,72
+8,Failed password for <*> user <*> from <*> port <*> <*>,64
+9,Failed password for invalid user <*> from <*> port <*> ssh2,53
+10,Connection closed by <*> [preauth],31
+11,error: Received disconnect from <*>: <*>: <*>. [preauth],23
+12,error: Received disconnect from <*>: <*>: <*>. [<*>],22
+13,Failed password for invalid user <*> from <*> port <*> <*>,18
+14,reverse mapping checking getaddrinfo for <*> [<*>] failed - POSSIBLE BREAK-IN ATTEMPT!,13
+15,Did not receive identification string from <*>,10
+16,PAM service(<*>) ignoring max retries; <*> > <*>,7
+17,Received disconnect from <*>: <*>: <*>. [<*>],7
+18,PAM <*> more authentication failures; logname= <*> uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*>,6
+19,Failed <*> for <*> user <*> from <*> port <*> <*>,4
+20,Connection closed by <*> [<*>],3
+21,Disconnecting: Too many authentication failures for <*> [preauth],3
+22,message repeated <*> times: [ Failed password for <*> from <*> port <*> <*>],2
+23,PAM <*> more authentication failures; logname= <*> uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*> user=<*>,2
+24,error: Received disconnect from <*>: <*>: <*>,2
+25,PAM <*> more authentication failure; logname= <*> uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*>,2
+26,Failed password for sshd from <*> port <*> ssh2,2
+27,Accepted password for <*> from <*> port <*> ssh2,1
+28,pam_unix(sshd:session): session opened for user <*> by (uid=<*>),1
+29,Received disconnect from <*>: <*>: disconnected by user,1
+30,pam_unix(sshd:session): session closed for user <*>,1
+31,fatal: Write failed: <*> [preauth],1

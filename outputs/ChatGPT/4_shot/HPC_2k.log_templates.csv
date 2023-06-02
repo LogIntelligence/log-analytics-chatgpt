@@ -1,0 +1,70 @@
+,EventTemplate,Occurrences
+0,Component State Change: Component \042{string}\042 is in the {string} state (HWID={int}),1
+1,Component State Change: Component \042{component}\042 is in the {state} state (HWID={hwid}),11
+2,clusterAddMember (command {command}),2
+3,risBoot (command {command}),1
+4,bootGenvmunix (command {command}),2
+5,boot (command {command}),67
+6,wait (command {command}),66
+7,halt (command {command}),3
+8,Command has completed successfully,10
+9,Targeting domains:node-D3 and nodes:node-[104-127] child of command {int},1
+10,Targeting domains:node-{node} and nodes:node-[{range}] child of command {command},1
+11,Targeting domains:node-{node} and nodes:node-[{int}\ {int}\ {int}],1
+12,Targeting domains:node-D{int} and nodes:node-[{int}-{int}] child of command {int},1
+13,Targeting domains:node-D0 and nodes:node-[8-31] child of command {int},1
+14,Targeting domains:{domain} and nodes:{node},2
+15,Targeting domains:node-D[{int}\ {int}] and nodes:node-[{int}\ {int}],1
+16,Targeting domains:node-D2 and nodes:node-[64-95] child of command {int},1
+17,psu failure\ ambient={int},5
+18,Temperature ({temp}) exceeds warning threshold,2
+19,ClusterFileSystem: There is no server for ServerFileSystem domain {domain},29
+20,ClusterFileSystem: There is no server for ServerFileSystem domain storage1144,1
+21,ClusterFileSystem: There is no server for ServerFileSystem domain storage1542,1
+22,ClusterFileSystem: There is no server for ServerFileSystem domain storage1432,1
+23,NIFF: node {node} detected a failed network connection on network {network} via interface {interface},2
+24,ServerFileSystem: An ServerFileSystem domain panic has occurred on {storage},1
+25,Fan speeds ( {int} {int} {int} **** {int} {int} ),79
+26,Fan speeds ( {int} {int} {int} {int} {int} {int} ),11
+27,Command has been aborted,1
+28,power/control problem,1
+29,Link error,13
+30,Link in reset,9
+31,Link ok,13
+32,Link error on broadcast tree {string},4
+33,ServerFileSystem: ServerFileSystem domain {domain} is full,12
+34,ClusterFileSystem: ServerFileSystem domain {domain} is no longer served by node {node},36
+35,running,162
+36,blocked,15
+37,not responding,60
+38,configured out,91
+39,inconsistent nodesets {node} {hex} <ok> {node} {hex} <ok> {node} {hex} <ok>,1
+40,active,5
+41,inconsistent nodesets {node} {hex} <ok> {node} {hex} <ok> {node} {hex} <ok> {node} {hex} <ok>,1
+42,not-responding,1
+43,inconsistent nodesets node-{int} {hex} <ok> node-{int} {hex} <ok> node-{int} {hex} <ok> node-{int} {hex} <ok> node-{int} {hex} <ok> node-{int} {hex} <ok> node-{int} {hex} <ok> node-{int} {hex} <ok> node-{int} {hex} <ok> node-{int} {hex} <ok> node-{int} {hex} <ok> node-{int} {hex} <ok>,1
+44,starting,1
+45,closing,1
+46,inconsistent nodesets {string} {hex} <ok> {string} {hex} <ok> {string} {hex} <ok> {string} {hex} <ok> {string} {hex} <ok>,1
+47,normal,206
+48,warning,205
+49,ambient={int},292
+50,critical,20
+51,Linkerror event interval expired,394
+52,risBoot (command {command}) Error: Timed out while waiting for SRM prompt: <ABORT code completed>,1
+53,boot (command {command}) Error: HALT asserted\ cannot continue,1
+54,Failed subcommands {int},1
+55,link errors remain current,56
+56,NIFF: node node-129 has detected an available network connection on network 10.128.0.0 via interface ee0,1
+57,NIFF: node {node} has detected an available network connection on network {network} via interface {interface},77
+58,NIFF: node node-17 has detected an available network connection on network 10.128.0.0 via interface ee0,1
+59,NIFF: node node-142 has detected an available network connection on network 0.0.0.0 via interface alt0,1
+60,NIFF: node node-{node} has detected an available network connection on network {network} via interface {interface},3
+61,NIFF: node node-152 has detected an available network connection on network 10.128.0.0 via interface ee0,1
+62,NIFF: node node-142 has detected an available network connection on network 10.128.0.0 via interface ee0,1
+63,NIFF: node node-106 has detected an available network connection on network 0.0.0.0 via interface alt0,1
+64,NIFF: node node-{int} has detected an available network connection on network {float} via interface {str},1
+65,NIFF: node node-29 has detected an available network connection on network 10.128.0.0 via interface ee0,1
+66,NIFF: node node-{int} has detected an available network connection on network {ip} via interface {interface},1
+67,NIFF: node node-69 has detected an available network connection on network 10.128.0.0 via interface ee0,1
+68,NIFF: node node-212 has detected an available network connection on network 10.128.0.0 via interface ee0,1

@@ -1,0 +1,165 @@
+,EventTemplate,Occurrences
+0,data_thread() got not answer from any [<*>] datasource,819
+1,"synchronized to <*>, stratum <*>",567
+2,[<*>]: <*>,186
+3,Warning: we failed to resolve data source name <*>,31
+4,session closed for user <*>,24
+5,session opened for user <*> by (uid=<*>),19
+6,Reading included configuration file: <*> [file=<*>] [line=<*>],17
+7,DHCPDISCOVER from <*> via <*>: network <*>: no free leases,15
+8,removing <*>,15
+9,(<*>) CMD (<*>),14
+10,RRD_update (<*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step),11
+11,unable to qualify my own domain name (<*>) -- using short name,10
+12,PCI Interrupt Routing Table [<*>],10
+13,"PCI interrupt <*>[<*>] -> GSI <*> (<*>, <*>) -> IRQ <*>",10
+14,DHCPREQUEST for <*> (<*>) from <*> via <*>: unknown lease <*>.,9
+15,"<*>: to=<*>, ctladdr=<*> (<*>), delay=<*>, xdelay=<*>, mailer=<*>, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>",6
+16,Wait for <*> failed before <*> !,6
+17,DHCPDISCOVER from <*> via <*>,5
+18,DHCPOFFER on <*> to <*> via <*>,5
+19,My unqualified host name (<*>) unknown; sleeping for retry,5
+20,L2 cache: <*>,5
+21,Physical Processor ID: <*>,5
+22,"Trace cache: <*> uops, L1 D cache: <*>",5
+23,Registered protocol family <*>,5
+24,<*>,4
+25,LAPIC (acpi_id[<*>] lapic_id[<*>] enabled),4
+26,LAPIC_NMI (acpi_id[<*>] high edge lint[<*>]),4
+27,Processor [<*>] (supports <*>),4
+28,(<*>) <*>-<*> <*> <*> <*>,4
+29,<*> startup succeeded,4
+30,"<*> from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>",4
+31,Local disconnected: <*>.,3
+32,connection lost: '<*>',3
+33,"<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>",3
+34,"<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>@<*>",3
+35,"<*>: to=<*>, ctladdr=<*> (<*>/<*>), delay=<*>, xdelay=<*>, mailer=<*>, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>",3
+36,DHCPACK on <*> to <*> via <*>,3
+37,DHCPREQUEST for <*> (<*>) from <*> via <*>,3
+38,IOAPIC (id[<*>] address[<*>] gsi_base[<*>]),3
+39,<*> used by <*>.,3
+40,mounted filesystem with <*> data mode.,3
+41,"apic_id <*>, version <*>, address <*>, GSI <*>",3
+42,registered new driver <*>,3
+43,(<*>) CMD (<*> <*>),2
+44,"PCI Interrupt Link [<*>] (IRQs <*>) <*>, disabled.",2
+45,allocating divert_blk for <*>,2
+46,not allocating divert_blk for non-<*> device <*>,2
+47,<*>: <*>: <*>,2
+48,... autorun <*>.,2
+49,Autodetecting RAID arrays.,2
+50,autorun ...,2
+51,"connection from ""<*>""",2
+52,"User <*>, coming from <*>, authenticated.",2
+53,Now running on <*>'s privileges.,2
+54,START: tftp pid=<*> from=<*>,1
+55,kernel time sync disabled <*>,1
+56,time reset <*> s,1
+57,Received SNMP packet(s) from <*>,1
+58,"synchronized to LOCAL(<*>), stratum <*>",1
+59,kernel time sync enabled <*>,1
+60,(<*>) CMD (<*> a),1
+61,CentOS-<*> (Kernel Module <*> key),1
+62,(supports <*> <*> <*>),1
+63,DSDT (v001 <*> <*> <*> <*> <*>) @ <*>,1
+64,FADT (<*> <*> <*> <*> <*> <*>) @ <*>,1
+65,HPET (<*> <*> <*> <*> <*> <*>) @ <*>,1
+66,HPET id: <*> base: <*>,1
+67,INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> dfl dfl),1
+68,INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> <*>),1
+69,Interpreter enabled,1
+70,Local APIC address <*>,1
+71,MADT (<*> <*> <*> <*> <*> <*>) @ <*>,1
+72,MCFG (<*> <*> <*> <*> <*> <*>) @ <*>,1
+73,PCI Interrupt Link [<*>] (IRQs <*>) <*>,1
+74,PCI Interrupt Link [<*>] (IRQs <*>),1
+75,PCI Interrupt Link [LNKC] (IRQs <*>) <*>,1
+76,"PCI Interrupt Link [LNKD] (IRQs <*>) <*>, <*>.",1
+77,"PCI Interrupt Link [LNKG] (IRQs <*>) <*>, <*>.",1
+78,"PCI Interrupt Link [LNKH] (IRQs <*>) <*>, <*>.",1
+79,PCI <*> Bridge [<*>] (<*>),1
+80,"PCI interrupt <*>[A] -> GSI <*> (<*>, <*>) -> IRQ <*>",1
+81,Power Button (<*>) [<*>],1
+82,RSDP (<*> <*> ) @ <*>,1
+83,RSDT (<*> <*> <*> <*> <*> <*>) @ <*>,1
+84,SPCR (<*> <*> <*> <*> <*> <*>) @ <*>,1
+85,Subsystem revision <*>,1
+86,Using <*> for interrupt routing,1
+87,Intel(R) Xeon(TM) CPU <*> stepping <*>,1
+88,colour <*> <*>,1
+89,"sys_ia32.c,v <*> <*> <*> ak Exp $",1
+90,"routing cache hash table of <*> buckets, <*>",1
+91,PCI Hot Plug PCI Core version: <*>,1
+92,<*>=<*> initrd=<*> console=<*> console=<*> fastboot BOOT_IMAGE=<*>,1
+93,Using software <*> for IO (<*>),1
+94,Probing PCI hardware (bus <*>),1
+95,Transparent bridge - <*>,1
+96,Using <*> for IRQ routing,1
+97,Using MMCONFIG at <*>,1
+98,Using configuration type <*>,1
+99,Compressed image found at block <*>,1
+100,<*> at runtime.,1
+101,<*>.,1
+102,Registering <*> hooks,1
+103,Starting in <*> mode,1
+104,Unregistering netfilter hooks,1
+105,Hash tables configured (established <*> bind <*>),1
+106,Direct-Access <*> revision: <*>,1
+107,Processor ANSI SCSI revision: <*>,1
+108,Disk quotas <*>,1
+109,Mounted <*> (<*> filesystem).,1
+110,MegaRAID Model: LD <*> RAID1 <*> Rev: <*>,1
+111,PE/PV Model: <*> SCSI BP Rev: <*>,1
+112,initialized,1
+113,initializing netlink socket (<*>),1
+114,passed.,1
+115,<*>-<*> (<*>) initialised: <*>@<*>,1
+116,<*>:USB HID core driver,1
+117,<*>: <*>: NIC Link is <*> <*> <*>,1
+118,no <*> controllers found,1
+119,<*> not detected,1
+120,Assuming <*> system bus speed for PIO modes; override with idebus=<*>,1
+121,Unknown cmd fd(<*>) cmd(<*>){<*>} arg(<*>) on <*>,1
+122,Installing <*>,1
+123,"md driver <*> MAX_MD_DEVS=<*>, MD_SB_DISKS=<*>",1
+124,<*>-rh1 (Release Date: <*> <*> <*> <*> <*> <*>),1
+125,<*> (Release Date: <*> <*> <*> <*> <*> <*>),1
+126,fw version:[<*>] bios version:[<*>],1
+127,probe new device <*>: bus <*>:slot <*>:func <*>,1
+128,PS/<*> <*> device common for all <*>,1
+129,<*> (<*>),1
+130,rpc.statd <*> succeeded,1
+131,Starting <*>: <*>,1
+132,Version <*> Starting,1
+133,<*> driver,1
+134,scanning scsi channel <*> [Phy <*>] for non-raid devices,1
+135,scanning scsi channel <*> [<*>] for logical drives,1
+136,asking for <*> failed,1
+137,assuming drive cache: <*>,1
+138,<*> <*> <*> <*>,1
+139,Registering <*> module capability,1
+140,"i8042 AUX port at <*>,<*> irq <*>",1
+141,"i8042 KBD port at <*>,<*> irq <*>",1
+142,syslog-ng version <*> starting,1
+143,Detected <*> MHz processor.,1
+144,Using <*> MHz HPET timer.,1
+145,Using <*> based timekeeping.,1
+146,Creating Topspin <*> entries:,1
+147,registered new <*> <*>,1
+148,probe of <*> failed with error <*>,1
+149,Mounting NFS filesystems: <*>,1
+150,Mounting <*> filesystems: <*>,1
+151,Warning: we failed to resolve data source name <*> <*> <*>,1
+152,Warning: we failed to resolve data source name <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,1
+153,Warning: we failed to resolve data source name <*>...,1
+154,Warning: we failed to resolve trusted host name <*> <*>,1
+155,Server listening on :: port <*>.,1
+156,error: Bind to port <*> on <*> failed: <*>.,1
+157,Cannot open file <*> for writing (<*>),1
+158,Changing permissions on special file <*>,1
+159,Started working: <*> available service,1
+160,removing printer,1
+161,xinetd Version <*> started with <*> options compiled in.,1
+162,"jA9JBXVI027337: to=<*>, ctladdr=<*> (<*>/<*>), delay=<*>, xdelay=<*>, mailer=<*>, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=<*>",1
+163,"Device: <*>, Temperature changed <*> Celsius to <*> Celsius since last report",1

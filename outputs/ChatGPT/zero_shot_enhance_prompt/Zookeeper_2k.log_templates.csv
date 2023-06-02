@@ -1,0 +1,72 @@
+,EventTemplate,Occurrences
+0,Notification time out: {timeout},37
+1,Received connection request {ip}:{port},236
+2,Send worker {action} thread,65
+3,Interrupted while waiting for message on {queue},314
+4,Send worker leaving thread,197
+5,"Connection broken for id {id}, my id = {my_id}, error = {error}",96
+6,Received connection request {IP}:{port},11
+7,Interrupting {workerType},242
+8,Interrupting {worker},24
+9,Received connection request {ip_address},6
+10,Received connection request /{ip}:{port},15
+11,Received connection request {ip_address}:{port},29
+12,Closed socket connection for client /{ip_address}:{port} which had sessionid {session_id},44
+13,caught {exception_type} exception,37
+14,Client attempting to renew session {session_id} at {ip_address}:{port},3
+15,Client attempting to establish new session at/{ip}:{port},40
+16,Established session {session_id} with negotiated timeout {timeout} for client {client_address},50
+17,Accepted socket connection from /{ip_address}:{port},19
+18,Unexpected Exception: {},1
+19,Accepted socket connection from /{ip_address}:{port_number},10
+20,Accepted socket connection from/{ip}:{port},11
+21,Connection request from old client /{client_ip}:{client_port}; will be dropped if server is in {mode} mode,21
+22,Connection request from old client /{client_ip}:{client_port}; will be dropped if server is in r-o mode,18
+23,Server environment:user.dir={directory},1
+24,Cannot open channel to {channel_number} at election address {address},48
+25,Processed session termination for sessionid: {sessionid},47
+26,"Expiring session {session_id}, timeout of {timeout}ms exceeded",40
+27,******* GOODBYE /{ip}:{port} ********,11
+28,LOOKING,4
+29,Cannot open channel to {variable} at election address {variable},16
+30,My election bind port: {ip_address}:{port_number},1
+31,"Have smaller server identifier, so dropping the connection: ({}, {})",1
+32,FOLLOWING,2
+33,"New election. My id = {id}, proposed zxid={zxid}",1
+34,Server environment:host.name={hostname},1
+35,FOLLOWING - LEADER ELECTION TOOK - {time},2
+36,"Notification: {int} (n.leader), {hex} (n.zxid), {int} (n.round), {string} (n.state), {int} (n.sid), {hex} (n.peerEPoch), {string} (my state)",7
+37,autopurge.snapRetainCount set to {value},1
+38,Server environment:java.vendor={vendor},2
+39,Revalidating client: {client_id},3
+40,"Server environment:zookeeper.version={version}, built on {date} GMT",1
+41,Server environment:user.name={username},2
+42,Server environment:os.name={os_name},2
+43,Closed socket connection for client /{client_ip}:{client_port} (no session established for client),4
+44,Exception causing close of session {session_id} due to {exception_message},2
+45,Accepted socket connection from {ip_address}:{port},8
+46,tickTime set to {tickTime},1
+47,Cannot open channel to {variable1} at election address {variable2},22
+48,Unexpected exception causing shutdown while {variable1} still open,12
+49,******* GOODBYE /{ip_address}:{port} ********,8
+50,"Connection broken for id {id}, my id = {my_id}, error =",195
+51,Received connection request {connection},2
+52,Got user-level KeeperException when processing sessionid:{sessionid} type:create cxid:{cxid} zxid:{zxid} txntype:{txntype} reqpath:{reqpath} Error Path:{error_path} Error:{error_message},1
+53,Starting quorum peer,1
+54,Snapshotting: {hex_value} to {file_path},2
+55,autopurge.purgeInterval set to {value},3
+56,Follower sid: {sid} : {info} : {class},1
+57,maxSessionTimeout set to {value},1
+58,Server environment:java.class.path={classpath},1
+59,Have quorum of supporters; starting up and setting last processed zxid: {zxid},1
+60,"Notification: {int} (n.leader), {hex} (n.zxid), {int} (n.round), {string} (n.state), {int} (n.sid), {int} (n.peerEPoch), {string} (my state)",3
+61,shutdown of request processor complete,1
+62,Exception causing close of session {sessionId} due to {exception},1
+63,First is {var},1
+64,Reading snapshot {file_path},1
+65,Sending {TYPE},1
+66,Getting a snapshot from leader,2
+67,"Notification: {int} (n.leader), {hex} (n.zxid), {hex} (n.round), {string} (n.state), {int} (n.sid), {hex} (n.peerEPoch), {string} (my state)",2
+68,Client attempting to establish new session at /{ip_address}:{port},1
+69,minSessionTimeout set to {value},2
+70,Server environment:java.home={java_home},1

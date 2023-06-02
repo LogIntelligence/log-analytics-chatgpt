@@ -1,0 +1,72 @@
+,EventTemplate,Occurrences
+0,Session: <*> initialized by client <*>.,609
+1,"Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState:<*>",552
+2,Warning: Unrecognized <*> attribute.,280
+3,Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM],224
+4,Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM],224
+5,Failed to internally open package. [HRESULT = <*> - CBS_E_INVALID_PACKAGE],18
+6,<*>@<*> WcpInitialize (wcp.dll version <*>) called (stack @<*> @<*> @<*> @<*> @<*> @<*>),4
+7,"Creating NT transaction (seq <*>), objectname [<*>]""<*>""",3
+8,"Created NT transaction (seq <*>) result <*>, handle @<*>",3
+9,Loaded Servicing Stack <*> with Core: <*>,2
+10,Ending TrustedInstaller initialization.,2
+11,Starting the TrustedInstaller main loop.,2
+12,TrustedInstaller service starts <*>.,2
+13,SQM: Initializing online with Windows opt-in: <*>,2
+14,SQM: Cleaning up report files older than <*> days.,2
+15,SQM: Requesting upload of all unsent reports.,2
+16,"SQM: Failed to start upload with file pattern: <*>, flags: <*> [HRESULT = <*>]",2
+17,SQM: Failed to start standard sample upload. [HRESULT = <*> - E_FAIL],2
+18,"SQM: Queued <*> file(s) for upload with pattern: <*>, flags: <*>",2
+19,SQM: Warning: Failed to upload all unsent reports. [HRESULT = <*> - E_FAIL],2
+20,"No startup processing required, TrustedInstaller service was not set as autostart, or else a reboot is still pending.",2
+21,NonStart: Checking to ensure <*> processing was not required.,2
+22,"<*> IAdvancedInstallerAwareStore_ResolvePendingTransactions (call <*>) (flags = <*>, progress = <*>, phase = <*>, pdwDisposition = <*>",2
+23,"NonStart: <*>, startup processing <*> as <*>.",2
+24,Startup processing thread terminated normally,2
+25,"Read out cached package applicability for package: Microsoft-Windows-PlatformUpdate-Win7-SRV08R2-Package-<*>, ApplicableState: <*>, CurrentState:<*>",2
+26,"Read out cached package applicability for package: Microsoft-Windows-RDP-BlueIP-Package-<*>, ApplicableState: <*>, CurrentState:<*>",2
+27,"Read out cached package applicability for package: Microsoft-Windows-Embedded-EmbeddedLockdown-Package-<*>, ApplicableState: <*>, CurrentState:<*>",2
+28,Failed to create backup log cab. [HRESULT = <*> - <*>],2
+29,<*>@<*> CSI perf trace:,2
+30,<*>@<*> WcpInitialize (wcp.dll version <*>) called (stack @<*>),1
+31,<*>@<*>:CSI perf trace:,1
+32,<*> CSI Store <*> (<*>) initialized,1
+33,Reboot mark refs incremented to: <*>,1
+34,Scavenge: <*>,1
+35,"<*>@<*>:CSI Transaction @0x47e9e0 initialized for deployment engine <*> with flags <*> and client id [<*>]""<*>""",1
+36,Scavenge: Begin CSI Store,1
+37,Performing <*> operations; <*> are not lock/unlock and follow:,1
+38,"Store coherency cookie matches last scavenge cookie, skipping scavenge.",1
+39,ICSITransaction::Commit calling IStorePendingTransaction::Apply coldpatching=<*> applyflags=<*>,1
+40,"Scavenge: Completed, disposition: <*>",1
+41,<*>@<*>:CSI Transaction @<*> destroyed,1
+42,Reboot mark refs: <*>,1
+43,Idle processing thread terminated normally,1
+44,Ending the TrustedInstaller main loop.,1
+45,Starting TrustedInstaller finalization.,1
+46,Ending TrustedInstaller finalization.,1
+47,Starting TrustedInstaller initialization.,1
+48,<*>@<*>:WcpInitialize (wcp.dll version <*>) called (stack @<*>),1
+49,"Loading offline registry hive: SOFTWARE, into registry key '<*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SOFTWARE' from path '<*>'.",1
+50,"Loading offline registry hive: SYSTEM, into registry key '<*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SYSTEM' from path '<*>'.",1
+51,"Loading offline registry hive: SECURITY, into registry key '<*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SECURITY' from path '<*>'.",1
+52,"Loading offline registry hive: SAM, into registry key '<*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SAM' from path '<*>'.",1
+53,"Loading offline registry hive: COMPONENTS, into registry key '<*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/COMPONENTS' from path '<*>'.",1
+54,"Loading offline registry hive: DEFAULT, into registry key '<*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/DEFAULT' from path '<*>'.",1
+55,"Loading offline registry hive: ntuser.dat, into registry key '<*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Users/default/ntuser.dat' from path '<*>.dat'.",1
+56,"Loading offline registry hive: schema.dat, into registry key '<*>' from path '<*>'.",1
+57,Offline image is: <*>,1
+58,"Disabling manifest caching, because the image is not writeable.",1
+59,<*>@<*>:PopulateComponentFamiliesKey - Begin,1
+60,<*>@<*> PopulateComponentFamiliesKey - End,1
+61,0000000a CSI Store <*> (<*>) initialized,1
+62,Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy<*>/Windows/System32/config/SOFTWARE,1
+63,Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy<*>/Windows/System32/config/SYSTEM,1
+64,Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy<*>/Windows/System32/config/SECURITY,1
+65,Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy<*>/Windows/System32/config/<*>,1
+66,Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy<*>/Windows/System32/config/COMPONENTS,1
+67,Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy<*>/Windows/System32/config/DEFAULT,1
+68,Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy<*>/Users/default/ntuser.dat,1
+69,Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy<*>/Windows/system32/smi/store/Machine/schema.dat,1
+70,0000000b CSI Store <*> (<*>) initialized,1

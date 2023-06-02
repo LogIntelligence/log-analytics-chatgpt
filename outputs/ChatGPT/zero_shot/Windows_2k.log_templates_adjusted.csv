@@ -1,0 +1,60 @@
+,EventTemplate,Occurrences
+0,Session: <*> initialized by client <*>.,609
+1,"Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState:<*>",558
+2,Warning: <*>.,280
+3,Expecting attribute name [HRESULT = <*> - <*>],224
+4,Failed to get next element [HRESULT = <*> - <*>],224
+5,Failed to internally open package. [HRESULT = <*> - CBS_E_INVALID_PACKAGE],18
+6,"Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'.",8
+7,<*>@<*> WcpInitialize (wcp.dll version <*>) called (stack @<*> @<*> @<*> @<*> @<*> @<*>),5
+8,"Creating NT transaction (seq <*>), objectname [<*>]""<*>""",3
+9,"Created NT transaction (seq <*>) result <*>, handle @<*>",3
+10,Loaded Servicing Stack <*> with Core: <*>,2
+11,Ending <*> initialization.,2
+12,Starting the <*> main loop.,2
+13,<*> service starts successfully.,2
+14,SQM: Initializing online with Windows opt-in: <*>,2
+15,SQM: Cleaning up report files older than <*> days.,2
+16,SQM: Requesting upload of all unsent reports.,2
+17,"SQM: Failed to start upload with file pattern: <*>, flags: <*> [HRESULT = <*>]",2
+18,SQM: Failed to start <*> upload. [HRESULT = <*> - E_FAIL],2
+19,"SQM: Queued <*> file(s) for upload with pattern: <*>, flags: <*>",2
+20,SQM: Warning: Failed to upload all unsent reports. [HRESULT = <*> - E_FAIL],2
+21,"No startup processing required, <*> service was not set as autostart, or else <*>.",2
+22,NonStart: Checking to ensure <*> processing was not required.,2
+23,"<*> IAdvancedInstallerAwareStore_ResolvePendingTransactions (call <*>) (flags = <*>, progress = <*>, phase = <*>, pdwDisposition = @<*>",2
+24,<*>@<*> CSI perf trace:,2
+25,"NonStart: <*>, <*>.",2
+26,Startup processing thread terminated <*>,2
+27,Failed to create backup log cab. [HRESULT = <*> - <*>],2
+28,Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy<*>/Windows/System32/config/<*>,2
+29,<*>@<*>:WcpInitialize (wcp.dll version <*>) called (stack @<*> @<*> @<*> @<*> @<*> @<*>),1
+30,<*> CSI Store <*> (<*>) initialized,1
+31,Reboot mark refs incremented to: <*>,1
+32,Scavenge: <*>,1
+33,"<*>@<*> CSI Transaction @0x47e9e0 initialized for deployment engine <*> with flags <*> and client id [<*>]""<*>""",1
+34,Scavenge: Begin <*>,1
+35,0000000a Performing <*> operations; <*> are not lock/unlock and follow:,1
+36,"XXXXXXXX Store coherency cookie matches last scavenge cookie, skipping scavenge.",1
+37,<*> ICSITransaction::Commit calling IStorePendingTransaction::Apply - coldpatching=<*> applyflags=<*>,1
+38,0000000f@<*> CSI perf trace:,1
+39,"Scavenge: Completed, disposition: <*>",1
+40,<*>@<*> CSI Transaction @<*> destroyed,1
+41,Reboot mark refs: <*>,1
+42,Idle processing thread terminated <*>,1
+43,Ending the <*> main loop.,1
+44,Starting <*> finalization.,1
+45,Ending <*> finalization.,1
+46,Starting <*> initialization.,1
+47,Offline image is: <*>,1
+48,"Disabling manifest caching, because the image is not <*>.",1
+49,<*>@<*> PopulateComponentFamiliesKey - Begin,1
+50,<*>@<*> PopulateComponentFamiliesKey - End,1
+51,0000000a CSI Store <*> (<*>) initialized,1
+52,Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SOFTWARE,1
+53,Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/SYSTEM,1
+54,Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy<*>/Windows/System32/config/COMPONENTS,1
+55,Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/System32/config/DEFAULT,1
+56,Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Users/default/ntuser.dat,1
+57,Unloading offline registry hive: <*>GLOBALROOT/Device/HarddiskVolumeShadowCopy<*>/Windows/system32/smi/store/Machine/schema.dat,1
+58,0000000b CSI Store <*> (<*>) initialized,1
