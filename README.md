@@ -1,6 +1,6 @@
-## Log Parsing: How Far Can ChatGPT Go?
+## Log Parsing with ChatGPT
 
-Artifact for the ASE 2023 - NIER Track #180: "Log Parsing: How Far Can ChatGPT Go?"
+[//]: # (Artifact for the ASE 2023 - NIER Track #180: "Log Parsing: How Far Can ChatGPT Go?")
 
 **Introduction**:  In this paper, we conduct a preliminary evaluation of 
 ChatGPT for log parsing. We design appropriate prompts to guide
