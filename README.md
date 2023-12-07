@@ -1,4 +1,4 @@
-## Log Parsing with ChatGPT
+## [Repository](https://github.com/LogIntelligence/log-analytics-chatgpt) for the paper Log Parsing: How Far Can ChatGPT Go? (ASE 2023 - NIER Track)
 
 [//]: # (Artifact for the ASE 2023 - NIER Track #180: "Log Parsing: How Far Can ChatGPT Go?")
 
@@ -17,7 +17,7 @@ log event/template from the input log messages.
 
 We provide a basic definition of log parsing (i.e., abstracting the dynamic 
 variables in logs) and ask ChatGPT to extract the log template for one log 
-message using prompt:
+message using the prompt:
 
 ```text
 You will be provided with a log message delimited by backticks. You must abstract variables with `{placeholders}` to extract the corresponding template.
@@ -101,3 +101,13 @@ and an [empirical study](https://figshare.com/articles/software/Artifact_for_Gui
 1. Tools and Benchmarks for Automated Log Parsing. International Conference on Software Engineering (ICSE), 2019.
 2. Guidelines for assessing the accuracy of log message template identification techniques. International Conference on Software Engineering (ICSE), 2022.
 3. Log Parsing with Prompt-based Few-shot Learning. International Conference on Software Engineering (ICSE), 2023.
+
+### Citation:
+If you find the code and models useful for your research, please cite the following paper:
+@INPROCEEDINGS{10298390,
+  author={Le, Van-Hoang and Zhang, Hongyu},
+  booktitle={2023 38th IEEE/ACM International Conference on Automated Software Engineering (ASE)}, 
+  title={Log Parsing: How Far Can ChatGPT Go?}, 
+  year={2023},
+  pages={1699-1704},
+  doi={10.1109/ASE56229.2023.00206}}
